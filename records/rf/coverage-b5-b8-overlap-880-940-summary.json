@@ -1,0 +1,106 @@
+{
+  "status": "comparison_completed",
+  "recorded_at": "2026-10-29T19:26:41.299195+08:00",
+  "range_hz": [
+    880000000,
+    940000000
+  ],
+  "step_hz": 10000000,
+  "points": [
+    {
+      "frequency_hz": 880000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 63.46332606305446,
+        "retune_shift_hz": 99843.75
+      },
+      "b8": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 12.86661613800904,
+        "retune_shift_hz": 99843.75
+      }
+    },
+    {
+      "frequency_hz": 890000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 66.57842529204827,
+        "retune_shift_hz": 99843.75
+      },
+      "b8": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 12.010393186267383,
+        "retune_shift_hz": 99843.75
+      }
+    },
+    {
+      "frequency_hz": 900000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 66.02354260799555,
+        "retune_shift_hz": 99843.75
+      },
+      "b8": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 14.743259408733095,
+        "retune_shift_hz": 99843.75
+      }
+    },
+    {
+      "frequency_hz": 910000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 50.63810718568904,
+        "retune_shift_hz": 99843.75
+      },
+      "b8": {
+        "status": "reference_not_identified",
+        "tone150_vs_off_db": 9.228389364599941,
+        "retune_shift_hz": 99843.75
+      }
+    },
+    {
+      "frequency_hz": 920000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 16.13124313590226,
+        "retune_shift_hz": 100078.125
+      },
+      "b8": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 56.57711856072859,
+        "retune_shift_hz": 99843.75
+      }
+    },
+    {
+      "frequency_hz": 930000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 21.308209293687,
+        "retune_shift_hz": 100078.125
+      },
+      "b8": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 68.34890854306441,
+        "retune_shift_hz": 100078.125
+      }
+    },
+    {
+      "frequency_hz": 940000000,
+      "b5": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 24.537463945426182,
+        "retune_shift_hz": 100078.125
+      },
+      "b8": {
+        "status": "reference_verified",
+        "tone150_vs_off_db": 53.130734335481485,
+        "retune_shift_hz": 100078.125
+      }
+    }
+  ],
+  "conclusion": "B5 is materially stronger at880?910MHz. B8 is materially stronger at920?940MHz. The existing Auto hysteresis keeps B5 below915MHz, B8 above920MHz, and uses the transition interval as designed; no policy change.",
+  "scope": "Same finite B210 TX, RX gain40, TX gain55, BW0, 8192B analysis; uncalibrated route comparison, not sensitivity or chip limit.",
+  "source": "records/rf-coverage-v1/b5-b8-overlap-880-940-step10-g55.json",
+  "source_sha256": "697df84b1426cad66b5c6ab518c6a58d7b37236f24af23bcdf7a5842dcae8666"
+}

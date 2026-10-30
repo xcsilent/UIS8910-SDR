@@ -1,0 +1,2841 @@
+{
+  "scope": "Retained original IQ, no sample transformation. Resolve saved historical paths with tools.sdr.artifacts.recorded_file; size is not an integrity hash.",
+  "relocations": {
+    "work/bw0-v2-b5-batched-10s-20261026.raw": {
+      "path": "records/iq/original-work/bw0-v2-b5-batched-10s-20261026.raw",
+      "bytes": 75144000
+    },
+    "work/bw1-v3-control-owned-read-10s-20261026.raw": {
+      "path": "records/iq/original-work/bw1-v3-control-owned-read-10s-20261026.raw",
+      "bytes": 153576000
+    },
+    "work/continuous-v4-explicit-stop5s-20261026.raw": {
+      "path": "records/iq/original-work/continuous-v4-explicit-stop5s-20261026.raw",
+      "bytes": 72664000
+    },
+    "work/fixed-pattern-file-500ms.raw": {
+      "path": "records/iq/original-work/fixed-pattern-file-500ms.raw",
+      "bytes": 18677760
+    },
+    "work/pre-selector6-first.raw": {
+      "path": "records/iq/original-work/pre-selector6-first.raw",
+      "bytes": 1912000
+    },
+    "work/shared-auto-bw2.raw": {
+      "path": "records/iq/original-work/shared-auto-bw2.raw",
+      "bytes": 4824000
+    },
+    "work/tail-v20-65536.raw": {
+      "path": "records/iq/original-work/tail-v20-65536.raw",
+      "bytes": 26017792
+    },
+    "work/tail-v20-65536b.raw": {
+      "path": "records/iq/original-work/tail-v20-65536b.raw",
+      "bytes": 26017792
+    },
+    "work/tail-v20-8192.raw": {
+      "path": "records/iq/original-work/tail-v20-8192.raw",
+      "bytes": 25763840
+    },
+    "work/tail-v20-8192b.raw": {
+      "path": "records/iq/original-work/tail-v20-8192b.raw",
+      "bytes": 25886720
+    },
+    "work/b40-bandwidth/aba-bw3-before-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/aba-bw3-before-off.raw",
+      "bytes": 4488000
+    },
+    "work/b40-bandwidth/aba-bw3-before-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/aba-bw3-before-rx-plus100.raw",
+      "bytes": 4712000
+    },
+    "work/b40-bandwidth/aba-bw3-before-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/aba-bw3-before-tone150.raw",
+      "bytes": 4736000
+    },
+    "work/b40-bandwidth/aba-bw3-before-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/aba-bw3-before-tone350.raw",
+      "bytes": 4760000
+    },
+    "work/b40-bandwidth/b40-2000-bw5-reference-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-bw5-reference-off.raw",
+      "bytes": 4376000
+    },
+    "work/b40-bandwidth/b40-2000-bw5-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-bw5-reference-rx-plus100.raw",
+      "bytes": 4656000
+    },
+    "work/b40-bandwidth/b40-2000-bw5-reference-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-bw5-reference-tone150.raw",
+      "bytes": 4536000
+    },
+    "work/b40-bandwidth/b40-2000-bw5-reference-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-bw5-reference-tone350.raw",
+      "bytes": 4712000
+    },
+    "work/b40-bandwidth/b40-2000-pre5-reference-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre5-reference-off.raw",
+      "bytes": 4480000
+    },
+    "work/b40-bandwidth/b40-2000-pre5-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre5-reference-rx-plus100.raw",
+      "bytes": 4992000
+    },
+    "work/b40-bandwidth/b40-2000-pre5-reference-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre5-reference-tone150.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/b40-2000-pre5-reference-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre5-reference-tone350.raw",
+      "bytes": 4768000
+    },
+    "work/b40-bandwidth/b40-2000-pre6-reference-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre6-reference-off.raw",
+      "bytes": 4816000
+    },
+    "work/b40-bandwidth/b40-2000-pre6-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre6-reference-rx-plus100.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/b40-2000-pre6-reference-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre6-reference-tone150.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/b40-2000-pre6-reference-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre6-reference-tone350.raw",
+      "bytes": 4984000
+    },
+    "work/b40-bandwidth/b40-2000-pre7-reference-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre7-reference-off.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/b40-2000-pre7-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre7-reference-rx-plus100.raw",
+      "bytes": 4928000
+    },
+    "work/b40-bandwidth/b40-2000-pre7-reference-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre7-reference-tone150.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/b40-2000-pre7-reference-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-pre7-reference-tone350.raw",
+      "bytes": 4816000
+    },
+    "work/b40-bandwidth/b40-2000-reference-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-reference-off.raw",
+      "bytes": 3648000
+    },
+    "work/b40-bandwidth/b40-2000-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-reference-rx-plus100.raw",
+      "bytes": 3928000
+    },
+    "work/b40-bandwidth/b40-2000-reference-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-reference-tone150.raw",
+      "bytes": 3928000
+    },
+    "work/b40-bandwidth/b40-2000-reference-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/b40-2000-reference-tone350.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-coarse-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-off.raw",
+      "bytes": 3640000
+    },
+    "work/b40-bandwidth/passband-coarse-point0.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point0.raw",
+      "bytes": 3872000
+    },
+    "work/b40-bandwidth/passband-coarse-point1.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point1.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-coarse-point2.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point2.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-coarse-point3.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point3.raw",
+      "bytes": 3928000
+    },
+    "work/b40-bandwidth/passband-coarse-point4.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point4.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-coarse-point5.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point5.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-coarse-point6.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point6.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-coarse-point7.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-coarse-point7.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-refined-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-off.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-refined-point0.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point0.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-refined-point1.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point1.raw",
+      "bytes": 3920000
+    },
+    "work/b40-bandwidth/passband-refined-point2.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point2.raw",
+      "bytes": 3920000
+    },
+    "work/b40-bandwidth/passband-refined-point3.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point3.raw",
+      "bytes": 3872000
+    },
+    "work/b40-bandwidth/passband-refined-point4.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point4.raw",
+      "bytes": 3864000
+    },
+    "work/b40-bandwidth/passband-refined-point5.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point5.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/passband-refined-point6.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point6.raw",
+      "bytes": 3864000
+    },
+    "work/b40-bandwidth/passband-refined-point7.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/passband-refined-point7.raw",
+      "bytes": 3816000
+    },
+    "work/b40-bandwidth/pre5-boundary-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-off.raw",
+      "bytes": 4768000
+    },
+    "work/b40-bandwidth/pre5-boundary-point0.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point0.raw",
+      "bytes": 4768000
+    },
+    "work/b40-bandwidth/pre5-boundary-point1.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point1.raw",
+      "bytes": 4872000
+    },
+    "work/b40-bandwidth/pre5-boundary-point2.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point2.raw",
+      "bytes": 4984000
+    },
+    "work/b40-bandwidth/pre5-boundary-point3.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point3.raw",
+      "bytes": 5040000
+    },
+    "work/b40-bandwidth/pre5-boundary-point4.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point4.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/pre5-boundary-point5.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point5.raw",
+      "bytes": 4816000
+    },
+    "work/b40-bandwidth/pre5-boundary-point6.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point6.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/pre5-boundary-point7.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-boundary-point7.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/pre5-passband-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-off.raw",
+      "bytes": 4536000
+    },
+    "work/b40-bandwidth/pre5-passband-point0.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point0.raw",
+      "bytes": 4816000
+    },
+    "work/b40-bandwidth/pre5-passband-point1.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point1.raw",
+      "bytes": 4936000
+    },
+    "work/b40-bandwidth/pre5-passband-point2.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point2.raw",
+      "bytes": 5048000
+    },
+    "work/b40-bandwidth/pre5-passband-point3.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point3.raw",
+      "bytes": 4928000
+    },
+    "work/b40-bandwidth/pre5-passband-point4.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point4.raw",
+      "bytes": 4992000
+    },
+    "work/b40-bandwidth/pre5-passband-point5.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point5.raw",
+      "bytes": 4992000
+    },
+    "work/b40-bandwidth/pre5-passband-point6.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point6.raw",
+      "bytes": 5040000
+    },
+    "work/b40-bandwidth/pre5-passband-point7.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre5-passband-point7.raw",
+      "bytes": 4992000
+    },
+    "work/b40-bandwidth/pre6-passband-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-off.raw",
+      "bytes": 4936000
+    },
+    "work/b40-bandwidth/pre6-passband-point0.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point0.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/pre6-passband-point1.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point1.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/pre6-passband-point2.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point2.raw",
+      "bytes": 4984000
+    },
+    "work/b40-bandwidth/pre6-passband-point3.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point3.raw",
+      "bytes": 4936000
+    },
+    "work/b40-bandwidth/pre6-passband-point4.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point4.raw",
+      "bytes": 4816000
+    },
+    "work/b40-bandwidth/pre6-passband-point5.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point5.raw",
+      "bytes": 4872000
+    },
+    "work/b40-bandwidth/pre6-passband-point6.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point6.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/pre6-passband-point7.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre6-passband-point7.raw",
+      "bytes": 4768000
+    },
+    "work/b40-bandwidth/pre7-passband-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-off.raw",
+      "bytes": 4768000
+    },
+    "work/b40-bandwidth/pre7-passband-point0.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point0.raw",
+      "bytes": 4928000
+    },
+    "work/b40-bandwidth/pre7-passband-point1.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point1.raw",
+      "bytes": 5040000
+    },
+    "work/b40-bandwidth/pre7-passband-point2.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point2.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/pre7-passband-point3.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point3.raw",
+      "bytes": 4928000
+    },
+    "work/b40-bandwidth/pre7-passband-point4.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point4.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/pre7-passband-point5.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point5.raw",
+      "bytes": 4880000
+    },
+    "work/b40-bandwidth/pre7-passband-point6.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point6.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/pre7-passband-point7.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/pre7-passband-point7.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/v11-2000-bw2-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw2-off.raw",
+      "bytes": 13384000
+    },
+    "work/b40-bandwidth/v11-2000-bw2-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw2-rx-plus100.raw",
+      "bytes": 14544000
+    },
+    "work/b40-bandwidth/v11-2000-bw2-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw2-tone150.raw",
+      "bytes": 23048000
+    },
+    "work/b40-bandwidth/v11-2000-bw2-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw2-tone350.raw",
+      "bytes": 16728000
+    },
+    "work/b40-bandwidth/v11-2000-bw3-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw3-off.raw",
+      "bytes": 4544000
+    },
+    "work/b40-bandwidth/v11-2000-bw3-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw3-rx-plus100.raw",
+      "bytes": 4768000
+    },
+    "work/b40-bandwidth/v11-2000-bw3-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw3-tone150.raw",
+      "bytes": 4600000
+    },
+    "work/b40-bandwidth/v11-2000-bw3-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw3-tone350.raw",
+      "bytes": 4656000
+    },
+    "work/b40-bandwidth/v11-2000-bw4-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw4-off.raw",
+      "bytes": 4488000
+    },
+    "work/b40-bandwidth/v11-2000-bw4-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw4-rx-plus100.raw",
+      "bytes": 4656000
+    },
+    "work/b40-bandwidth/v11-2000-bw4-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw4-tone150.raw",
+      "bytes": 4600000
+    },
+    "work/b40-bandwidth/v11-2000-bw4-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2000-bw4-tone350.raw",
+      "bytes": 4760000
+    },
+    "work/b40-bandwidth/v11-2330-bw0-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw0-off.raw",
+      "bytes": 7664000
+    },
+    "work/b40-bandwidth/v11-2330-bw0-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw0-rx-plus100.raw",
+      "bytes": 7664000
+    },
+    "work/b40-bandwidth/v11-2330-bw0-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw0-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/b40-bandwidth/v11-2330-bw0-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw0-tone350.raw",
+      "bytes": 7664000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-g60-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-g60-off.raw",
+      "bytes": 15336000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-g60-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-g60-rx-plus100.raw",
+      "bytes": 15352000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-g60-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-g60-tone150.raw",
+      "bytes": 15344000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-g60-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-g60-tone350.raw",
+      "bytes": 15352000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-off.raw",
+      "bytes": 15336000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-rx-plus100.raw",
+      "bytes": 15328000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-tone150.raw",
+      "bytes": 15352000
+    },
+    "work/b40-bandwidth/v11-2330-bw1-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw1-tone350.raw",
+      "bytes": 15336000
+    },
+    "work/b40-bandwidth/v11-2330-bw2-g60-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw2-g60-off.raw",
+      "bytes": 14928000
+    },
+    "work/b40-bandwidth/v11-2330-bw2-g60-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw2-g60-rx-plus100.raw",
+      "bytes": 14216000
+    },
+    "work/b40-bandwidth/v11-2330-bw2-g60-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw2-g60-tone150.raw",
+      "bytes": 19784000
+    },
+    "work/b40-bandwidth/v11-2330-bw2-g60-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2330-bw2-g60-tone350.raw",
+      "bytes": 18960000
+    },
+    "work/b40-bandwidth/v11-2600-bw0-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw0-off.raw",
+      "bytes": 7680000
+    },
+    "work/b40-bandwidth/v11-2600-bw0-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw0-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/b40-bandwidth/v11-2600-bw0-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw0-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/b40-bandwidth/v11-2600-bw0-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw0-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/b40-bandwidth/v11-2600-bw1-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw1-off.raw",
+      "bytes": 15344000
+    },
+    "work/b40-bandwidth/v11-2600-bw1-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw1-rx-plus100.raw",
+      "bytes": 15328000
+    },
+    "work/b40-bandwidth/v11-2600-bw1-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw1-tone150.raw",
+      "bytes": 15344000
+    },
+    "work/b40-bandwidth/v11-2600-bw1-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw1-tone350.raw",
+      "bytes": 15328000
+    },
+    "work/b40-bandwidth/v11-2600-bw2-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw2-off.raw",
+      "bytes": 12296000
+    },
+    "work/b40-bandwidth/v11-2600-bw2-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw2-rx-plus100.raw",
+      "bytes": 18960000
+    },
+    "work/b40-bandwidth/v11-2600-bw2-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw2-tone150.raw",
+      "bytes": 13480000
+    },
+    "work/b40-bandwidth/v11-2600-bw2-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw2-tone350.raw",
+      "bytes": 15944000
+    },
+    "work/b40-bandwidth/v11-2600-bw3-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw3-off.raw",
+      "bytes": 4200000
+    },
+    "work/b40-bandwidth/v11-2600-bw3-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw3-rx-plus100.raw",
+      "bytes": 4712000
+    },
+    "work/b40-bandwidth/v11-2600-bw3-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw3-tone150.raw",
+      "bytes": 4824000
+    },
+    "work/b40-bandwidth/v11-2600-bw3-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw3-tone350.raw",
+      "bytes": 4656000
+    },
+    "work/b40-bandwidth/v11-2600-bw4-off.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw4-off.raw",
+      "bytes": 4544000
+    },
+    "work/b40-bandwidth/v11-2600-bw4-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw4-rx-plus100.raw",
+      "bytes": 4712000
+    },
+    "work/b40-bandwidth/v11-2600-bw4-tone150.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw4-tone150.raw",
+      "bytes": 4592000
+    },
+    "work/b40-bandwidth/v11-2600-bw4-tone350.raw": {
+      "path": "records/iq/original-work/b40-bandwidth/v11-2600-bw4-tone350.raw",
+      "bytes": 4544000
+    },
+    "work/b40-bw5-v21/v21-2600-bw4-off.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw4-off.raw",
+      "bytes": 27623424
+    },
+    "work/b40-bw5-v21/v21-2600-bw4-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw4-rx-plus100.raw",
+      "bytes": 27443200
+    },
+    "work/b40-bw5-v21/v21-2600-bw4-tone150.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw4-tone150.raw",
+      "bytes": 27402240
+    },
+    "work/b40-bw5-v21/v21-2600-bw4-tone350.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw4-tone350.raw",
+      "bytes": 27049984
+    },
+    "work/b40-bw5-v21/v21-2600-bw5-off.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw5-off.raw",
+      "bytes": 27451392
+    },
+    "work/b40-bw5-v21/v21-2600-bw5-rx-plus100.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw5-rx-plus100.raw",
+      "bytes": 27688960
+    },
+    "work/b40-bw5-v21/v21-2600-bw5-tone150.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw5-tone150.raw",
+      "bytes": 27574272
+    },
+    "work/b40-bw5-v21/v21-2600-bw5-tone350.raw": {
+      "path": "records/iq/original-work/b40-bw5-v21/v21-2600-bw5-tone350.raw",
+      "bytes": 27361280
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-off.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-off.raw",
+      "bytes": 8736000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point0.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point0.raw",
+      "bytes": 8152000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point1.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point1.raw",
+      "bytes": 22424000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point10.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point10.raw",
+      "bytes": 28216000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point11.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point11.raw",
+      "bytes": 25136000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point2.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point2.raw",
+      "bytes": 11272000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point3.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point3.raw",
+      "bytes": 8136000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point4.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point4.raw",
+      "bytes": 11440000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point5.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point5.raw",
+      "bytes": 12160000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point6.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point6.raw",
+      "bytes": 9168000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point7.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point7.raw",
+      "bytes": 8256000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point8.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point8.raw",
+      "bytes": 9952000
+    },
+    "work/mainline-v10-passband/bw2-passband-coarse-point9.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-coarse-point9.raw",
+      "bytes": 9144000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-off.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-off.raw",
+      "bytes": 26072000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point0.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point0.raw",
+      "bytes": 26384000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point1.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point1.raw",
+      "bytes": 25832000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point10.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point10.raw",
+      "bytes": 25096000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point11.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point11.raw",
+      "bytes": 24192000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point2.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point2.raw",
+      "bytes": 18304000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point3.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point3.raw",
+      "bytes": 17480000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point4.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point4.raw",
+      "bytes": 26936000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point5.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point5.raw",
+      "bytes": 29440000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point6.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point6.raw",
+      "bytes": 27008000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point7.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point7.raw",
+      "bytes": 24224000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point8.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point8.raw",
+      "bytes": 22824000
+    },
+    "work/mainline-v10-passband/bw2-passband-refined-point9.raw": {
+      "path": "records/iq/original-work/mainline-v10-passband/bw2-passband-refined-point9.raw",
+      "bytes": 20832000
+    },
+    "work/mainline-v10-rf/bw2-reference-off.raw": {
+      "path": "records/iq/original-work/mainline-v10-rf/bw2-reference-off.raw",
+      "bytes": 11776000
+    },
+    "work/mainline-v10-rf/bw2-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/mainline-v10-rf/bw2-reference-rx-plus100.raw",
+      "bytes": 22968000
+    },
+    "work/mainline-v10-rf/bw2-reference-tone150.raw": {
+      "path": "records/iq/original-work/mainline-v10-rf/bw2-reference-tone150.raw",
+      "bytes": 9328000
+    },
+    "work/mainline-v10-rf/bw2-reference-tone350.raw": {
+      "path": "records/iq/original-work/mainline-v10-rf/bw2-reference-tone350.raw",
+      "bytes": 22744000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-off.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-off.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point0.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point0.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point1.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point1.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point2.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point2.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point3.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point3.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point4.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point4.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point5.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point5.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point6.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point6.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point7.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point7.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b34-bw0-path-check-point8.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b34-bw0-path-check-point8.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-off.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-off.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point0.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point0.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point1.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point1.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point2.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point2.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point3.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point3.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point4.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point4.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point5.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point5.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point6.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point6.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point7.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point7.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-edge-point8.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-edge-point8.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-off.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-off.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point0.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point0.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point1.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point1.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point10.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point10.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point11.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point11.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point12.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point12.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point2.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point2.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point3.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point3.raw",
+      "bytes": 7680000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point4.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point4.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point5.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point5.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point6.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point6.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point7.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point7.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point8.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point8.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw0-point9.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw0-point9.raw",
+      "bytes": 7672000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-off.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-off.raw",
+      "bytes": 15344000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point0.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point0.raw",
+      "bytes": 15344000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point1.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point1.raw",
+      "bytes": 15336000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point2.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point2.raw",
+      "bytes": 15336000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point3.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point3.raw",
+      "bytes": 15336000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point4.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point4.raw",
+      "bytes": 15344000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point5.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point5.raw",
+      "bytes": 15336000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point6.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point6.raw",
+      "bytes": 15336000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point7.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point7.raw",
+      "bytes": 15344000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-edge-point8.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-edge-point8.raw",
+      "bytes": 15344000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-off.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-off.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point0.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point0.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point1.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point1.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point10.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point10.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point11.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point11.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point12.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point12.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point2.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point2.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point3.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point3.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point4.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point4.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point5.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point5.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point6.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point6.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point7.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point7.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point8.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point8.raw",
+      "bytes": 15352000
+    },
+    "work/passband-fixed-rf-v1/b5-bw1-point9.raw": {
+      "path": "records/iq/original-work/passband-fixed-rf-v1/b5-bw1-point9.raw",
+      "bytes": 15344000
+    },
+    "work/rf-auto-reference/b40-2330-reconnected-off.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-2330-reconnected-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-auto-reference/b40-2330-reconnected-tone150.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-2330-reconnected-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-auto-reference/b40-2330-txgain55-off.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-2330-txgain55-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-auto-reference/b40-2330-txgain55-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-2330-txgain55-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-auto-reference/b40-2330-txgain55-tone150.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-2330-txgain55-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-auto-reference/b40-2330-txgain55-tone350.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-2330-txgain55-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-auto-reference/b40-baseline-2000-off.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-baseline-2000-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-auto-reference/b40-baseline-2000-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-baseline-2000-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-auto-reference/b40-baseline-2000-tone150.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-baseline-2000-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-auto-reference/b40-baseline-2000-tone350.raw": {
+      "path": "records/iq/original-work/rf-auto-reference/b40-baseline-2000-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b26-859-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b26-859-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b26-859-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b26-859-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b26-859-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b26-859-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b26-859-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b26-859-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2000-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2000-return-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-return-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2000-return-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-return-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2000-return-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-return-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2000-return-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-return-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2000-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2000-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2000-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2000-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2330-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2330-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2330-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2330-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2330-txgain40-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-txgain40-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2330-txgain40-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-txgain40-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2330-txgain40-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-txgain40-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2330-txgain40-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2330-txgain40-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2600-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2600-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2600-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2600-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-coverage-v1/b40-2600-txgain40-off.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-txgain40-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2600-txgain40-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-txgain40-rx-plus100.raw",
+      "bytes": 7664000
+    },
+    "work/rf-coverage-v1/b40-2600-txgain40-tone150.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-txgain40-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-coverage-v1/b40-2600-txgain40-tone350.raw": {
+      "path": "records/iq/original-work/rf-coverage-v1/b40-2600-txgain40-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-off.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-off.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-off.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-off.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-rx-plus100.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-tone150.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-route8-tone350.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-rx-plus100.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-tone150.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband-shared-tx-900/v21-b5-b8-shared-tx-900-tone350.raw",
+      "bytes": 7675904
+    },
+    "work/rf-lowband-v20/b5-68125-v20-reference-off.raw": {
+      "path": "records/iq/original-work/rf-lowband-v20/b5-68125-v20-reference-off.raw",
+      "bytes": 7667712
+    },
+    "work/rf-lowband-v20/b5-68125-v20-reference-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband-v20/b5-68125-v20-reference-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/rf-lowband-v20/b5-6875-v20-reference-off.raw": {
+      "path": "records/iq/original-work/rf-lowband-v20/b5-6875-v20-reference-off.raw",
+      "bytes": 7667712
+    },
+    "work/rf-lowband-v20/b5-6875-v20-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband-v20/b5-6875-v20-reference-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/rf-lowband-v20/b5-6875-v20-reference-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband-v20/b5-6875-v20-reference-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/rf-lowband-v20/b5-6875-v20-reference-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband-v20/b5-6875-v20-reference-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/rf-reference-v2-20261026/b3-high-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-high-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-high-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-high-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-low-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-low-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-low-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-low-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-off.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-retune-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-retune-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b3-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b3-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b40-off.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b40-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b40-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b40-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b40-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b40-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-high-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-high-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-high-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-high-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-low-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-low-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-low-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-low-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-off.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-m150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-m150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-m500.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-m500.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-m750.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-m750.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-m900.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-m900.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-p150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-p150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-p500.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-p500.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-p750.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-p750.raw",
+      "bytes": 7680000
+    },
+    "work/rf-reference-v2-20261026/b5-passband-p900.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-passband-p900.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-retune-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-retune-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b5-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b5-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-gain20.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-gain20.raw",
+      "bytes": 7680000
+    },
+    "work/rf-reference-v2-20261026/b8-high-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-high-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-high-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-high-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-low-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-low-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-low-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-low-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-off.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-reference-v2-20261026/b8-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-reference-v2-20261026/b8-tone350.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/b8-tone350.raw",
+      "bytes": 7664000
+    },
+    "work/rf-reference-v2-20261026/v3-bw0-after-bw1.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw0-after-bw1.raw",
+      "bytes": 7664000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-off.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-off.raw",
+      "bytes": 15328000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-tone1000.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-tone1000.raw",
+      "bytes": 15328000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-tone1250.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-tone1250.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-tone150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-tone150.raw",
+      "bytes": 15328000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-tone1500.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-tone1500.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-tone1750.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-tone1750.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v3-bw1-tone650.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v3-bw1-tone650.raw",
+      "bytes": 15328000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-m1000.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-m1000.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-m1250.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-m1250.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-m150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-m150.raw",
+      "bytes": 15328000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-m1500.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-m1500.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-m1750.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-m1750.raw",
+      "bytes": 15336000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-p150.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-p150.raw",
+      "bytes": 15328000
+    },
+    "work/rf-reference-v2-20261026/v4-bw1-p650.raw": {
+      "path": "records/iq/original-work/rf-reference-v2-20261026/v4-bw1-p650.raw",
+      "bytes": 15328000
+    },
+    "work/rf-status-v10-reference/reference-b40-2000-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2000-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b40-2000-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2000-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2000-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2000-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2000-tone350.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2000-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-reconnected-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-reconnected-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-reconnected-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-reconnected-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-subdev-a-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-subdev-a-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-subdev-a-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-subdev-a-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-subdev-a-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-subdev-a-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-subdev-a-tone350.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-subdev-a-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b40-2330-tone350.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2330-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b40-2790-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2790-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b40-2790-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b40-2790-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-a-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-a-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-tone350.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-a-reconnected-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-b-off.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-b-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-status-v10-reference/reference-b5-881500-subdev-b-tone150.raw": {
+      "path": "records/iq/original-work/rf-status-v10-reference/reference-b5-881500-subdev-b-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/rf-v5-v1/b1-2140-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b1-2140-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b1-2140-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b1-2140-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b1-2140-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b1-2140-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b1-2140-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b1-2140-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1710-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b3-1710-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b3-1710-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b3-1710-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b3-1710-txgain40-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-txgain40-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1710-txgain40-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-txgain40-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1710-txgain40-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-txgain40-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1710-txgain40-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1710-txgain40-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-txgain40-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-txgain40-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-txgain40-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-txgain40-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-txgain40-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-txgain40-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b3-1842p5-control-txgain40-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b3-1842p5-control-txgain40-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b34-2017p5-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b34-2017p5-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b34-2017p5-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b34-2017p5-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b34-2017p5-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b34-2017p5-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b34-2017p5-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b34-2017p5-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b38-2595-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b38-2595-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b38-2595-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b38-2595-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b38-2595-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b38-2595-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b38-2595-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b38-2595-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b39-1900-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b39-1900-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b39-1900-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b39-1900-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b39-1900-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b39-1900-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b39-1900-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b39-1900-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b40-2017p5-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b40-2017p5-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b40-2017p5-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b40-2017p5-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b40-2017p5-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b40-2017p5-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b40-2017p5-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b40-2017p5-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b41-2595-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b41-2595-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b41-2595-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b41-2595-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b41-2595-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b41-2595-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b41-2595-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b41-2595-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-824-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-824-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-824-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b5-824-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b5-824-txgain40-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-txgain40-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b5-824-txgain40-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-txgain40-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-824-txgain40-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-txgain40-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-824-txgain40-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-824-txgain40-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-880-route-compare-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-880-route-compare-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-880-route-compare-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-880-route-compare-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-880-route-compare-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-880-route-compare-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b5-880-route-compare-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b5-880-route-compare-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-880-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-880-reconnected-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-reconnected-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b8-880-reconnected-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-reconnected-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b8-880-reconnected-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-reconnected-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b8-880-reconnected-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-reconnected-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-v5-v1/b8-880-resumed-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-resumed-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-880-txgain40-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-txgain40-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-880-txgain40-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-txgain40-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-880-txgain40-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-txgain40-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-880-txgain40-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-880-txgain40-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-942p5-control-off.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-942p5-control-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-942p5-control-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-942p5-control-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-942p5-control-tone150.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-942p5-control-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-v5-v1/b8-942p5-control-tone350.raw": {
+      "path": "records/iq/original-work/rf-v5-v1/b8-942p5-control-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-off.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-off.raw",
+      "bytes": 25845760
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point0.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point0.raw",
+      "bytes": 25681920
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point1.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point1.raw",
+      "bytes": 25960448
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point2.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point2.raw",
+      "bytes": 25837568
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point3.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point3.raw",
+      "bytes": 25804800
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point4.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point4.raw",
+      "bytes": 25665536
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point5.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point5.raw",
+      "bytes": 25640960
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-coarse-point6.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-coarse-point6.raw",
+      "bytes": 25649152
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-off.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-off.raw",
+      "bytes": 25591808
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point0.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point0.raw",
+      "bytes": 25698304
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point1.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point1.raw",
+      "bytes": 25862144
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point2.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point2.raw",
+      "bytes": 25837568
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point3.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point3.raw",
+      "bytes": 26001408
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point4.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point4.raw",
+      "bytes": 25681920
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point5.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point5.raw",
+      "bytes": 25591808
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point6.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point6.raw",
+      "bytes": 25681920
+    },
+    "work/v20-bw5-passband/v20-bw5-passband-edge-point7.raw": {
+      "path": "records/iq/original-work/v20-bw5-passband/v20-bw5-passband-edge-point7.raw",
+      "bytes": 25624576
+    },
+    "work/v20-rf-reference/v20-bw5-reference-off.raw": {
+      "path": "records/iq/original-work/v20-rf-reference/v20-bw5-reference-off.raw",
+      "bytes": 25755648
+    },
+    "work/v20-rf-reference/v20-bw5-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/v20-rf-reference/v20-bw5-reference-rx-plus100.raw",
+      "bytes": 25952256
+    },
+    "work/v20-rf-reference/v20-bw5-reference-tone150.raw": {
+      "path": "records/iq/original-work/v20-rf-reference/v20-bw5-reference-tone150.raw",
+      "bytes": 25821184
+    },
+    "work/v20-rf-reference/v20-bw5-reference-tone350.raw": {
+      "path": "records/iq/original-work/v20-rf-reference/v20-bw5-reference-tone350.raw",
+      "bytes": 25755648
+    },
+    "work/v21-lowband-reference/b5-68125-v21-reference-off.raw": {
+      "path": "records/iq/original-work/v21-lowband-reference/b5-68125-v21-reference-off.raw",
+      "bytes": 7675904
+    },
+    "work/v21-lowband-reference/b5-68125-v21-reference-tone150.raw": {
+      "path": "records/iq/original-work/v21-lowband-reference/b5-68125-v21-reference-tone150.raw",
+      "bytes": 7675904
+    },
+    "work/v21-lowband-reference/b5-6875-v21-reference-off.raw": {
+      "path": "records/iq/original-work/v21-lowband-reference/b5-6875-v21-reference-off.raw",
+      "bytes": 7675904
+    },
+    "work/v21-lowband-reference/b5-6875-v21-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/v21-lowband-reference/b5-6875-v21-reference-rx-plus100.raw",
+      "bytes": 7675904
+    },
+    "work/v21-lowband-reference/b5-6875-v21-reference-tone150.raw": {
+      "path": "records/iq/original-work/v21-lowband-reference/b5-6875-v21-reference-tone150.raw",
+      "bytes": 7675904
+    },
+    "work/v21-lowband-reference/b5-6875-v21-reference-tone350.raw": {
+      "path": "records/iq/original-work/v21-lowband-reference/b5-6875-v21-reference-tone350.raw",
+      "bytes": 7675904
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-off.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point0.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point0.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point1.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point1.raw",
+      "bytes": 4544000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point2.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point2.raw",
+      "bytes": 4704000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point3.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point3.raw",
+      "bytes": 4704000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point4.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point4.raw",
+      "bytes": 4600000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point5.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point5.raw",
+      "bytes": 4376000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point6.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point6.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point7.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point7.raw",
+      "bytes": 4488000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point8.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point8.raw",
+      "bytes": 4600000
+    },
+    "work/wideband-v11-passband/bw3-passband-coarse-point9.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-coarse-point9.raw",
+      "bytes": 4704000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-off.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point0.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point0.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point1.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point1.raw",
+      "bytes": 4600000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point10.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point10.raw",
+      "bytes": 4816000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point11.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point11.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point2.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point2.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point3.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point3.raw",
+      "bytes": 4600000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point4.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point4.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point5.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point5.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point6.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point6.raw",
+      "bytes": 4816000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point7.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point7.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point8.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point8.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw3-passband-refined-point9.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw3-passband-refined-point9.raw",
+      "bytes": 4816000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-off.raw",
+      "bytes": 4648000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point0.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point0.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point1.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point1.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point2.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point2.raw",
+      "bytes": 4656000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point3.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point3.raw",
+      "bytes": 4656000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point4.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point4.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point5.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point5.raw",
+      "bytes": 4656000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point6.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point6.raw",
+      "bytes": 4648000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point7.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point7.raw",
+      "bytes": 4704000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point8.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point8.raw",
+      "bytes": 4656000
+    },
+    "work/wideband-v11-passband/bw4-passband-coarse-point9.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-coarse-point9.raw",
+      "bytes": 4648000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-off.raw",
+      "bytes": 4320000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point0.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point0.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point1.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point1.raw",
+      "bytes": 4648000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point10.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point10.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point11.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point11.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point12.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point12.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point2.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point2.raw",
+      "bytes": 4600000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point3.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point3.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point4.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point4.raw",
+      "bytes": 4816000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point5.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point5.raw",
+      "bytes": 4816000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point6.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point6.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point7.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point7.raw",
+      "bytes": 4824000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point8.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point8.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-inner-point9.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-inner-point9.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-off.raw",
+      "bytes": 4592000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point0.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point0.raw",
+      "bytes": 4776000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point1.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point1.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point10.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point10.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point11.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point11.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point12.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point12.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point13.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point13.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point2.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point2.raw",
+      "bytes": 4704000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point3.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point3.raw",
+      "bytes": 4600000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point4.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point4.raw",
+      "bytes": 4712000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point5.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point5.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point6.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point6.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point7.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point7.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point8.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point8.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-passband/bw4-passband-refined-point9.raw": {
+      "path": "records/iq/original-work/wideband-v11-passband/bw4-passband-refined-point9.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-reference/bw3-reference-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw3-reference-off.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-reference/bw3-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw3-reference-rx-plus100.raw",
+      "bytes": 4656000
+    },
+    "work/wideband-v11-reference/bw3-reference-tone150.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw3-reference-tone150.raw",
+      "bytes": 4760000
+    },
+    "work/wideband-v11-reference/bw3-reference-tone350.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw3-reference-tone350.raw",
+      "bytes": 4656000
+    },
+    "work/wideband-v11-reference/bw4-reference-off.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw4-reference-off.raw",
+      "bytes": 4704000
+    },
+    "work/wideband-v11-reference/bw4-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw4-reference-rx-plus100.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-reference/bw4-reference-tone150.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw4-reference-tone150.raw",
+      "bytes": 4768000
+    },
+    "work/wideband-v11-reference/bw4-reference-tone350.raw": {
+      "path": "records/iq/original-work/wideband-v11-reference/bw4-reference-tone350.raw",
+      "bytes": 4824000
+    },
+    "work/rf-lowband/b5-824/b5-824-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-824/b5-824-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b5-824/b5-824-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-824/b5-824-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b5-824/b5-824-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-824/b5-824-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b5-824/b5-824-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-824/b5-824-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b5-900/b5-900-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-900/b5-900-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b5-900/b5-900-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-900/b5-900-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b5-900/b5-900-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-900/b5-900-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b5-900/b5-900-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b5-900/b5-900-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-900/b8-900-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-900/b8-900-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-900/b8-900-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-900/b8-900-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-900/b8-900-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-900/b8-900-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-900/b8-900-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-900/b8-900-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-970/b8-970-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-970/b8-970-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-970/b8-970-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-970/b8-970-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-970/b8-970-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-970/b8-970-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-970/b8-970-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-970/b8-970-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-985/b8-985-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-985/b8-985-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b8-985/b8-985-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-985/b8-985-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-985/b8-985-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-985/b8-985-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-985/b8-985-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-985/b8-985-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990/b8-990-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990/b8-990-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990/b8-990-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990/b8-990-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990/b8-990-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990/b8-990-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990/b8-990-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990/b8-990-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990-gain50/b8-990-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990-gain50/b8-990-gain50-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990-gain50/b8-990-gain50-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990-gain50/b8-990-gain50-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990-gain50/b8-990-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990-gain50/b8-990-gain50-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-990-gain50/b8-990-gain50-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-990-gain50/b8-990-gain50-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-995-gain50/b8-995-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-995-gain50/b8-995-gain50-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-995-gain50/b8-995-gain50-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-995-gain50/b8-995-gain50-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-995-gain50/b8-995-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-995-gain50/b8-995-gain50-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-995-gain50/b8-995-gain50-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-995-gain50/b8-995-gain50-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-9999/b8-9999-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-9999/b8-9999-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-9999/b8-9999-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-9999/b8-9999-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/b8-9999-gain50/b8-9999-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-9999-gain50/b8-9999-gain50-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/b8-9999-gain50/b8-9999-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/b8-9999-gain50/b8-9999-gain50-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-700-gain50/v15-b5-700-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-700-gain50/v15-b5-700-gain50-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-700-gain50/v15-b5-700-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-700-gain50/v15-b5-700-gain50-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-700-gain60/v15-b5-700-gain60-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain50/v15-b5-7125-gain50-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-7125-gain60/v15-b5-7125-gain60-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-725-gain50/v15-b5-725-gain50-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-750/v15-b5-750-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-750/v15-b5-750-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-750/v15-b5-750-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-750/v15-b5-750-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-750-gain50/v15-b5-750-gain50-tone350.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-800/v15-b5-800-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-800/v15-b5-800-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v15-b5-800/v15-b5-800-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-800/v15-b5-800-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-800/v15-b5-800-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-800/v15-b5-800-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-800/v15-b5-800-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-800/v15-b5-800-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-824/v15-b5-824-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-824/v15-b5-824-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v15-b5-824/v15-b5-824-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-824/v15-b5-824-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-824/v15-b5-824-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-824/v15-b5-824-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v15-b5-824/v15-b5-824-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v15-b5-824/v15-b5-824-tone350.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b3-1710/v16-b3-1710-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1710/v16-b3-1710-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b3-1710/v16-b3-1710-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1710/v16-b3-1710-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-rx-plus100.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1710-gain60/v16-b3-1710-gain60-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b3-1900/v16-b3-1900-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1900/v16-b3-1900-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b3-1900/v16-b3-1900-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1900/v16-b3-1900-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b3-1900/v16-b3-1900-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1900/v16-b3-1900-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b3-1900/v16-b3-1900-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b3-1900/v16-b3-1900-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b39-1900/v16-b39-1900-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b39-1900/v16-b39-1900-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b39-1900/v16-b39-1900-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b39-1900/v16-b39-1900-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b39-1900/v16-b39-1900-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b39-1900/v16-b39-1900-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b39-1900/v16-b39-1900-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b39-1900/v16-b39-1900-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-600/v16-b5-600-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-600/v16-b5-600-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-600/v16-b5-600-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-600/v16-b5-600-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-650/v16-b5-650-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-650/v16-b5-650-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-650/v16-b5-650-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-650/v16-b5-650-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-675/v16-b5-675-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-675/v16-b5-675-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-675/v16-b5-675-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-675/v16-b5-675-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b5-675-rx80/v16-b5-675-rx80-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-675-rx80/v16-b5-675-rx80-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b5-675-rx80/v16-b5-675-rx80-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-675-rx80/v16-b5-675-rx80-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-700/v16-b5-700-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-700/v16-b5-700-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b5-700/v16-b5-700-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-700/v16-b5-700-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-700/v16-b5-700-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-700/v16-b5-700-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b5-700/v16-b5-700-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-700/v16-b5-700-tone350.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b5-915/v16-b5-915-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-915/v16-b5-915-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-915/v16-b5-915-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-915/v16-b5-915-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-915/v16-b5-915-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-915/v16-b5-915-tone150.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b5-915/v16-b5-915-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-915/v16-b5-915-tone350.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b5-920/v16-b5-920-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-920/v16-b5-920-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b5-920/v16-b5-920-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-920/v16-b5-920-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-920/v16-b5-920-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-920/v16-b5-920-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-920/v16-b5-920-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-920/v16-b5-920-tone350.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b5-9249/v16-b5-9249-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-9249/v16-b5-9249-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b5-9249/v16-b5-9249-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-9249/v16-b5-9249-rx-plus100.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b5-9249/v16-b5-9249-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-9249/v16-b5-9249-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b5-9249/v16-b5-9249-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b5-9249/v16-b5-9249-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-915/v16-b8-915-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-915/v16-b8-915-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b8-915/v16-b8-915-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-915/v16-b8-915-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-915/v16-b8-915-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-915/v16-b8-915-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b8-915/v16-b8-915-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-915/v16-b8-915-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-920/v16-b8-920-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-920/v16-b8-920-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-920/v16-b8-920-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-920/v16-b8-920-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-920/v16-b8-920-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-920/v16-b8-920-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-920/v16-b8-920-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-920/v16-b8-920-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-lowband/v16-b8-9249/v16-b8-9249-off.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-9249/v16-b8-9249-off.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b8-9249/v16-b8-9249-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-9249/v16-b8-9249-rx-plus100.raw",
+      "bytes": 7664000
+    },
+    "work/rf-lowband/v16-b8-9249/v16-b8-9249-tone150.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-9249/v16-b8-9249-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-lowband/v16-b8-9249/v16-b8-9249-tone350.raw": {
+      "path": "records/iq/original-work/rf-lowband/v16-b8-9249/v16-b8-9249-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-675/b5-675-reference-off.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-675/b5-675-reference-off.raw",
+      "bytes": 7680000
+    },
+    "work/rf-dual-v17/b5-675/b5-675-reference-tone150.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-675/b5-675-reference-tone150.raw",
+      "bytes": 7680000
+    },
+    "work/rf-dual-v17/b5-700/b5-700-reference-off.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-700/b5-700-reference-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-700/b5-700-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-700/b5-700-reference-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-700/b5-700-reference-tone150.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-700/b5-700-reference-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-700/b5-700-reference-tone350.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-700/b5-700-reference-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-8815/b5-8815-reference-off.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-8815/b5-8815-reference-off.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-8815/b5-8815-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-8815/b5-8815-reference-rx-plus100.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-8815/b5-8815-reference-tone150.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-8815/b5-8815-reference-tone150.raw",
+      "bytes": 7672000
+    },
+    "work/rf-dual-v17/b5-8815/b5-8815-reference-tone350.raw": {
+      "path": "records/iq/original-work/rf-dual-v17/b5-8815/b5-8815-reference-tone350.raw",
+      "bytes": 7672000
+    },
+    "work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1884375-g60/b3-1884375-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1900/b3-1900-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1900/b3-1900-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1900/b3-1900-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1900/b3-1900-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1900/b3-1900-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1900/b3-1900-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-1900/b3-1900-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-1900/b3-1900-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-19199/b3-19199-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-19199/b3-19199-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-19199/b3-19199-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-19199/b3-19199-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-19199/b3-19199-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-19199/b3-19199-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b3-19199/b3-19199-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b3-19199/b3-19199-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1884375/b40-1884375-reference-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1884375/b40-1884375-reference-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1884375/b40-1884375-reference-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1884375/b40-1884375-reference-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1884375-g60/b40-1884375-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1884375-g60/b40-1884375-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1884375-g60/b40-1884375-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1884375-g60/b40-1884375-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1885/b40-1885-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1885/b40-1885-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1885/b40-1885-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1885/b40-1885-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1888/b40-1888-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1888/b40-1888-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1888/b40-1888-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1888/b40-1888-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1888/b40-1888-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1888/b40-1888-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1888/b40-1888-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1888/b40-1888-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1892/b40-1892-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1892/b40-1892-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1892/b40-1892-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1892/b40-1892-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1892/b40-1892-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1892/b40-1892-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1892/b40-1892-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1892/b40-1892-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1900/b40-1900-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1900/b40-1900-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1900/b40-1900-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1900/b40-1900-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1900/b40-1900-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1900/b40-1900-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-1900/b40-1900-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-1900/b40-1900-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19200001/b40-19200001-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19425/b40-19425-gain60-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19425/b40-19425-gain60-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19425/b40-19425-gain60-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19425/b40-19425-gain60-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19425/b40-19425-gain60-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19425/b40-19425-gain60-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-19425/b40-19425-gain60-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-19425/b40-19425-gain60-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-off.raw",
+      "bytes": 4980736
+    },
+    "work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-rx-plus100.raw",
+      "bytes": 4915200
+    },
+    "work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-tone150.raw",
+      "bytes": 4980736
+    },
+    "work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b40-bw5/b40-bw5-reference-tone350.raw",
+      "bytes": 4980736
+    },
+    "work/geometry-bridge/v19-b5-reference/b5-8815-reference-off.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b5-reference/b5-8815-reference-off.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b5-reference/b5-8815-reference-rx-plus100.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b5-reference/b5-8815-reference-rx-plus100.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b5-reference/b5-8815-reference-tone150.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b5-reference/b5-8815-reference-tone150.raw",
+      "bytes": 7667712
+    },
+    "work/geometry-bridge/v19-b5-reference/b5-8815-reference-tone350.raw": {
+      "path": "records/iq/original-work/geometry-bridge/v19-b5-reference/b5-8815-reference-tone350.raw",
+      "bytes": 7667712
+    },
+    "work/comm-ofdm-1375-tx65-rx60-diagnostic.raw": {
+      "path": "records/iq/communication/comm-ofdm-1375-tx65-rx60-diagnostic.raw",
+      "bytes": 113049600,
+      "evidence": "records/communication-realtime-ofdm-1375-diagnostic-tx65-rx60-10s-v1.json"
+    },
+    "work/comm-ofdm-1375-tx75-rx60-diagnostic.raw": {
+      "path": "records/iq/communication/comm-ofdm-1375-tx75-rx60-diagnostic.raw",
+      "bytes": 113115136,
+      "evidence": "records/communication-realtime-ofdm-1375-diagnostic-tx75-rx60-10s-v1.json"
+    },
+    "work/comm-qpsk-2786-tx75-rx40-scale4.raw": {
+      "path": "records/iq/communication/comm-qpsk-2786-tx75-rx40-scale4.raw",
+      "bytes": 113377280,
+      "evidence": "records/communication-realtime-qpsk-2786-tx75-rx40-scale4-10s-v1.json"
+    },
+    "work/comm-qpsk-2786-tx65-rx30-scale4.raw": {
+      "path": "records/iq/communication/comm-qpsk-2786-tx65-rx30-scale4.raw",
+      "bytes": 112001024,
+      "evidence": "records/communication-realtime-qpsk-2786-tx65-rx30-scale4-10s-v1.json"
+    },
+    "work/comm-qpsk-2700-tx65-rx30-scale4.raw": {
+      "path": "records/iq/communication/comm-qpsk-2700-tx65-rx30-scale4.raw",
+      "bytes": 112787456,
+      "evidence": "records/communication-realtime-qpsk-2700-tx65-rx30-scale4-10s-v1.json"
+    },
+    "work/comm-qpsk-2775-tx65-rx30-scale4.raw": {
+      "path": "records/iq/communication/comm-qpsk-2775-tx65-rx30-scale4.raw",
+      "bytes": 113573888,
+      "evidence": "records/communication-realtime-qpsk-2775-tx65-rx30-scale4-10s-v1.json"
+    },
+    "work/comm-qpsk-2786-tx65-rx20-scale4.raw": {
+      "path": "records/iq/communication/comm-qpsk-2786-tx65-rx20-scale4.raw",
+      "bytes": 112001024,
+      "evidence": "records/communication-realtime-qpsk-2786-tx65-rx20-scale4-10s-v1.json"
+    },
+    "work/comm-qpsk-2775-tx65-rx20-scale4.raw": {
+      "path": "records/iq/communication/comm-qpsk-2775-tx65-rx20-scale4.raw",
+      "bytes": 112263168,
+      "evidence": "records/communication-realtime-qpsk-2775-tx65-rx20-scale4-10s-v1.json"
+    },
+    "work/comm-ofdm-1500-tx75-rx30-gate05.raw": {
+      "path": "records/iq/communication/comm-ofdm-1500-tx75-rx30-gate05.raw",
+      "bytes": 113311744
+    },
+    "work/comm-ofdm-1900-bw1-tx65-rx30-filter.raw": {
+      "path": "records/iq/communication/comm-ofdm-1900-bw1-tx65-rx30-filter.raw",
+      "bytes": 221970432
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "status": "filter_hypothesis_tested_with_existing_bandwidths",
+  "device_accessed": true,
+  "firmware_changed": false,
+  "chip_reset": false,
+  "cases": [
+    {
+      "frequency_hz": 1350000000,
+      "bandwidth_index": 0,
+      "status": "reference_not_identified",
+      "reference": false,
+      "record": "records/rf-coverage-v1/v32-b3-1350-reference.json",
+      "tone150_vs_off_db": null,
+      "vco_code": 4,
+      "ready": true
+    },
+    {
+      "frequency_hz": 1375000000,
+      "bandwidth_index": 0,
+      "status": "reference_verified",
+      "reference": true,
+      "record": "records/rf-coverage-v1/v32-b3-1375-reference.json",
+      "tone150_vs_off_db": 42.94973043882689,
+      "vco_code": 1,
+      "ready": true
+    },
+    {
+      "frequency_hz": 1350000000,
+      "bandwidth_index": 5,
+      "status": "reference_not_identified",
+      "reference": false,
+      "record": "records/rf-coverage-v1/v32-b3-1350-bw5-reference.json",
+      "tone150_vs_off_db": null,
+      "vco_code": 2,
+      "ready": true
+    },
+    {
+      "frequency_hz": 1375000000,
+      "bandwidth_index": 5,
+      "status": "reference_verified",
+      "reference": true,
+      "record": "records/rf-coverage-v1/v32-b3-1375-bw5-reference.json",
+      "tone150_vs_off_db": 33.032840536255605,
+      "vco_code": 1,
+      "ready": true
+    }
+  ],
+  "conclusions": [
+    "1375MHz passes complete reference underBW0 andBW5;1350MHz first tone missing underboth. Wide bandwidth did not restore reception underthese conditions.",
+    "Changing BW changes multiple analog/digital settings, not an isolated filter bypass. Fixed filters, frontend routing and LO failure remain possible.",
+    "1375MHz BW0 succeeds with VCO code1: low VCO code is not a standalone lock/failure criterion; withdraw that inference.",
+    "Retained B3 pair across modes0..5 produces93 same-order MMIO writes, only30360/302c4/302c8 differ; current PAC B body and port tables match SDK, native mode writes match. This is no frequency-dependent filter switch in that tested body, not exclusion of fixed analog filters or LO failure."
+  ],
+  "controls": {
+    "rx_fir": {
+      "native_entry": "0x80abc3",
+      "destination": "0x25017000",
+      "bytes": 340,
+      "selection": "NV+0x176.bit14 chooses EESF or normal coefficient image; not an established bypass",
+      "evidence": "records/usb/rx-fir-native-verification.json"
+    },
+    "dlpf": {
+      "rf_local": "0x31040",
+      "fields": {
+        "0": "dlpf_rstn",
+        "1": "dlpf_iir3_rstn",
+        "2": "dlpf_vco_band_bit_sel"
+      },
+      "meaning": "Reset and band selection per reference; reset assertion is not transparent bypass; signal-path role unproven."
+    },
+    "pll_filter_ibit_rx": "PLL control name, not proof of an IQ passband filter",
+    "external_frontend": "No confirmed Air724UG external digital HPF/LPF/BPF bypass found; RFFE switches can select fixed paths without bypassing physical filters.",
+    "rx_pre_fir": {
+      "register": "0x25000038",
+      "field": "FIR_EN",
+      "bit": 6,
+      "field_source": "SDK CP AXF DWARF",
+      "current_prepare_value": "(bandwidth_index << 8) | 8",
+      "fir_en": 0,
+      "freq_en": 0,
+      "implementation": "firmware/capture/rxcapt_rx_pre_profile.h",
+      "caller": "firmware/capture/generated/terminal_rxcapt_core.inc:configure_rx_profile",
+      "native_evidence": "records/rf/coverage-v32-filter-rx-pre-native.json",
+      "bandwidth_chain_evidence": "records/usb/bandwidth-cp-preprocessor-verification.json",
+      "scope": "DWARF and offline native instructions plus current source; not a new live readback or proof of every digital filter being bypassed",
+      "conclusion": "FIR table loading alone does not establish activation. Do not repeat clearing a bit already clear in the direct prepare profile. Native DAGC only changes bits4:0 and preserves FIR_EN."
+    }
+  },
+  "next": "No defined independent filter bypass found. Trace LO/analog consumers; do not flash unnamed reset toggles or repeat identical boundary/BW experiments. Integrate verified lower B3 points into shared host capabilities and Auto while retaining discrete-evidence labels.",
+  "boundary_control_comparison": "records/rf/coverage-v32-boundary-controls.json"
+}

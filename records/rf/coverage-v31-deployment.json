@@ -1,0 +1,32 @@
+{
+  "status": "verified_runtime_and_discrete_rf_points",
+  "user_confirmed_flashed": true,
+  "device_accessed": true,
+  "pac": "outputs\\firmware\\b3-lower-v31\\Air724U_UIS8910_SDR_BW0_USB_v31.pac",
+  "sha256": "432840a38207e4c529241942cfaee80672f0449ca602a916b29edbd90fec52fe",
+  "generation": "0x526e0501",
+  "generation_evidence": "records/rf-coverage-v1/v31-b3-1710-reference-off-rf-status.json",
+  "points": [
+    {
+      "frequency_hz": 1710000000,
+      "record": "records/rf-coverage-v1/v31-b3-1710-reference.json",
+      "tone150_vs_off_db": 11.166521056506342,
+      "retune_shift_hz": 99843.75
+    },
+    {
+      "frequency_hz": 1680000000,
+      "record": "records/rf-coverage-v1/v31-b3-1680-reference.json",
+      "tone150_vs_off_db": 10.70314754220228,
+      "retune_shift_hz": 99843.75
+    },
+    {
+      "frequency_hz": 1650000000,
+      "record": "records/rf-coverage-v1/v31-b3-1650-reference.json",
+      "tone150_vs_off_db": 35.69055309344328,
+      "retune_shift_hz": 100078.125
+    }
+  ],
+  "physical_limit_verified": false,
+  "continuous_interval_verified": false,
+  "scope": "User flash confirmation plus runtime CP generation and finite RF reception, not full flash readback."
+}

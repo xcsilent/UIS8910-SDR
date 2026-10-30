@@ -1,0 +1,282 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "cases": [
+    {
+      "case": "linked_begin_end",
+      "row": 4,
+      "mode": 0,
+      "RF_writes": []
+    },
+    {
+      "case": "linked_begin_end",
+      "row": 4,
+      "mode": 1,
+      "RF_writes": [
+        [
+          1342216176,
+          1,
+          2
+        ],
+        [
+          1342216176,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "case": "linked_begin_end",
+      "row": 4,
+      "mode": 2,
+      "RF_writes": [
+        [
+          1342216176,
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "case": "linked_begin_end",
+      "row": 6,
+      "mode": 0,
+      "RF_writes": []
+    },
+    {
+      "case": "linked_begin_end",
+      "row": 6,
+      "mode": 1,
+      "RF_writes": [
+        [
+          1342216208,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "linked_begin_end",
+      "row": 6,
+      "mode": 2,
+      "RF_writes": [
+        [
+          1342216208,
+          1,
+          5
+        ],
+        [
+          1342216208,
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "case": "active",
+      "result": "0xffffffff"
+    },
+    {
+      "case": "bad_signature",
+      "result": "0xfffffffe"
+    },
+    {
+      "case": "bad_mode",
+      "result": "0xffffffff"
+    },
+    {
+      "case": "bad_row",
+      "result": "0xffffffff"
+    },
+    {
+      "case": "restore_conflict",
+      "result": "0xfffffffc"
+    },
+    {
+      "case": "linked_stop_continuation",
+      "scenario": "idle_failed",
+      "terminal_event": [
+        [
+          "failure",
+          2565
+        ]
+      ],
+      "active": 1,
+      "result": "0x0"
+    },
+    {
+      "case": "linked_stop_continuation",
+      "scenario": "inactive",
+      "terminal_event": [
+        [
+          "trace",
+          5
+        ]
+      ],
+      "active": 0,
+      "result": "0x0"
+    },
+    {
+      "case": "linked_stop_continuation",
+      "scenario": "restore_ok",
+      "terminal_event": [
+        [
+          "trace",
+          5
+        ]
+      ],
+      "active": 0,
+      "result": "0x0"
+    },
+    {
+      "case": "linked_stop_continuation",
+      "scenario": "conflict",
+      "terminal_event": [
+        [
+          "failure",
+          2573
+        ]
+      ],
+      "active": 1,
+      "result": "0xfffffffc"
+    },
+    {
+      "case": "linked_stop_continuation",
+      "scenario": "bad_state",
+      "terminal_event": [
+        [
+          "failure",
+          2573
+        ]
+      ],
+      "active": 1,
+      "result": "0xffffffff"
+    },
+    {
+      "case": "linked_stop_continuation",
+      "scenario": "restore_readback_failed",
+      "terminal_event": [
+        [
+          "failure",
+          2573
+        ]
+      ],
+      "active": 1,
+      "result": "0xfffffffd"
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 0,
+      "phase": 30,
+      "active": 0,
+      "error": 0
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 1,
+      "phase": 30,
+      "active": 0,
+      "error": 0
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 2,
+      "phase": 30,
+      "active": 0,
+      "error": 0
+    },
+    {
+      "case": "CONFIG",
+      "channel": 3625,
+      "mode": 1,
+      "phase": 30,
+      "active": 0,
+      "error": 0
+    },
+    {
+      "case": "CONFIG",
+      "channel": 3625,
+      "mode": 2,
+      "phase": 30,
+      "active": 0,
+      "error": 0
+    },
+    {
+      "case": "CONFIG",
+      "channel": 38950,
+      "mode": 1,
+      "phase": 30,
+      "active": 0,
+      "error": 3095
+    },
+    {
+      "case": "CONFIG",
+      "channel": 1575,
+      "mode": 2,
+      "phase": 30,
+      "active": 0,
+      "error": 3095
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 3,
+      "phase": 30,
+      "active": 0,
+      "error": 3095
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 1,
+      "phase": 27,
+      "active": 0,
+      "error": 3095
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 0,
+      "phase": 30,
+      "active": 1,
+      "error": 3095
+    },
+    {
+      "case": "CONFIG",
+      "channel": 2525,
+      "mode": 1,
+      "phase": 30,
+      "active": 1,
+      "error": 3095
+    }
+  ],
+  "linked_calls": {
+    "force_idle": [
+      2157428272,
+      2157431098
+    ],
+    "terminal_fem_begin": [
+      2157430332
+    ],
+    "terminal_fem_end": [
+      2157431592
+    ]
+  },
+  "restore_reachable_only_on_successful_RF_stop": true,
+  "scope": "Linked wrappers, stopped CONFIG and post-force_idle transaction continuation executed through real restore to failure/stage5 trace entry. No vendor init/idle, complete teardown/HELD, cache or peripheral timing modeled. AP integration covered separately.",
+  "dependencies": {
+    "tools/verify/verify_fem_lifecycle_arm.py": "65a52e4a0b4fd3390c1c34ab6e9918f23f7549acf6a1d2476b6f970fa9cb8417",
+    "work/cp-fem-override/build.json": "3c5b90e222e29dd8fd0786bdc991fbdc02063649c09c2a4bbb239539ebdc85e2",
+    "work/cp-fem-override/resident.elf": "a3df1e6c4b1d2b38c90b6158d0a951bcbadbf146fbcac2ae344384e8812d9c39",
+    "firmware/capture/rxcapt_fem_override.h": "68071d13ba1cc85e501c6b414fc12687a77e04c0c91ff42596912f87280e8f5e",
+    "firmware/capture/rf_terminal_rx.c": "9cc1bfcb6e58615c334651b4f1576d51f3652e8677fb71344a1a0b2172e01666",
+    "firmware/capture/rf_terminal_service.c": "9f6bd33fffdd818c50f0ee3f0e4a29aa0958a9726336c83a8382dfe1d31ce38d",
+    "firmware/capture/rf_terminal_control.c": "4e24b3b7a36298c2079070442633ce5cfd9f181ef084b2dd7671b7c5704c16a1",
+    "firmware/rf_rebuild/rf_frontend_override.c": "3768ec9e6d979e347504227842e5c513a98b7b259c0fa737caa8faab0e6a8384",
+    "firmware/rf_rebuild/rf_frontend_override.h": "8eacad1170a27ebf1e2982643fa9717d45600115c619500e0460354615c40397"
+  }
+}

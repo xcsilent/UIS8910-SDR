@@ -1,0 +1,74 @@
+{
+  "status": "built",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "toolchain": {
+    "root": "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr",
+    "target": "x86_64-w64-mingw32",
+    "versions": {
+      "cc": "x86_64-w64-mingw32-gcc-posix (GCC) 13-posix",
+      "cxx": "x86_64-w64-mingw32-g++-posix (GCC) 13-posix"
+    }
+  },
+  "soapy_source": {
+    "repository": "https://github.com/pothosware/SoapySDR.git",
+    "tag": "soapy-sdr-0.8.1",
+    "commit": "1cf5a539a21414ff509ff7d0eedfc5fa8edb90c6",
+    "archive_sha256": "a92e82af9d6ec29590c8f9142199c00aa22f0881b72651bf37c011dc4abeeb29"
+  },
+  "dependencies": {
+    "tools/build_soapy.py": "053bf5084642302fbd365fd7175c9a68dea75fb6e9c772460b1e2eb1f3334f80",
+    "host/soapy/UIS8910.cpp": "c96596357e796b9e21bb86cdc3f7890bebd7f6f822dc3bf1ea61858495bf1f8a",
+    "host/soapy/RxQueue.hpp": "0cb6ef2f84a49fc2d4facf4493070e0b79ed3e9118614a3b3271ebc959a37545",
+    "host/common/RfAuto.hpp": "f730b94caaaa6c689d12f799f9a21885e82ef5255f11b8197debed772566703c",
+    "host/common/rf_auto.h": "a345b68b76528b38c331e75f9448ee763c978bcc0bd66f7b5e788c32facf9cc8",
+    "firmware/sdr_receiver/sample_rate.h": "5c8d2e37b2c895f1174c5236c2e0447fdab0b95a59c4a7331f03652ed10505c7",
+    "tools/verify/soapy_queue_harness.cpp": "2a1a5951fc7e56580c39d9fed9d9e09210fc86e1e05ba6a0e9fb35fcb3349bd4",
+    "tools/verify/soapy_hardware_probe.cpp": "4d16fc339eb7139a9e815b88f00239dcf5435536a809318bc20258626926be3d",
+    "tools/usb/prepare_soapy_sdk.py": "2cc0dd9ec24a2f4028a32b54807a6f125d55f4452b2ac041c96d329470ce81b6",
+    "work/wsl-host-verified/soapysdr/install/bin/libSoapySDR.dll": "a17597469785218b10573d275a06895eb8bb064cebe5cdfc078fcb4d708dff3d",
+    "firmware/capture/rxcapt_profile.c": "d0e3abf11162258d6b180cfc5c85e96f78307df8cea9f0570ec93bc0e365d3af",
+    "tools/sdr/rf_catalog.py": "1e8c4580497fbf218c7b9a5c8bf154195b256cec9e9e57d3d68d694e84c492f3",
+    "work/wsl-host-verified/soapy-module/routes.hpp": "7780263a120088533353c59a8281a64cf032b8226c7aabafc5494abbbd6d1bb2",
+    "outputs/host/verified-v0.1/windows/sdr_usb.dll": "cef3c163ffdf62cbed746a8b0c50be0675f9d0a38f3ac0d9aa8ede1390c47226",
+    "work/wsl-host-verified/soapysdr/source.json": "cdb6dd31f2b030837db3ef0b8b9ef785fadfd82dcfbaa63256f804d9a3e447ba",
+    "tools/sdr/host_toolchain.py": "1ed24c382658dd35a8a90c8f851c8898af539d68652aa5dcba9dfd07fbbc638f"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/host/verified-v0.1/soapy/libSoapySDR.dll",
+      "bytes": 3059931,
+      "sha256": "a17597469785218b10573d275a06895eb8bb064cebe5cdfc078fcb4d708dff3d"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/soapy/libwinpthread-1.dll",
+      "bytes": 349064,
+      "sha256": "db1a0fc43ab2f0f8d9c87712567f79601b5f868b9bed514d3335f9016de692ec"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/soapy/sdr_usb.dll",
+      "bytes": 312866,
+      "sha256": "cef3c163ffdf62cbed746a8b0c50be0675f9d0a38f3ac0d9aa8ede1390c47226"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/soapy/SoapySDR-LICENSE.txt",
+      "bytes": 1361,
+      "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/soapy/SoapySDRUtil.exe",
+      "bytes": 2599213,
+      "sha256": "9692c5f90c136fded13ccf919c80655167d790030a3d87d594b0def9bfdcd6ef"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/soapy/soapy_receive_probe.exe",
+      "bytes": 2363551,
+      "sha256": "0daf2f17a68fb7b440efdb900b609a439e78ea3a3732e390a094d368c6970891"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/soapy/uis8910Support.dll",
+      "bytes": 720839,
+      "sha256": "eda9c998473d85314c8ebfb27e083f1177fd3eeb679e29d46da22b66fec899e7"
+    }
+  ]
+}

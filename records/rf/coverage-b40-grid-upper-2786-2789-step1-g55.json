@@ -1,0 +1,52 @@
+{
+  "status": "sweep_completed",
+  "started_at": "2026-10-29T17:34:44.146630+08:00",
+  "first_hz": 2786000000,
+  "last_hz": 2789000000,
+  "step_hz": 1000000,
+  "requested_points": 4,
+  "points": [
+    {
+      "frequency_hz": 2786000000,
+      "status": "reference_verified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2786000000.json",
+      "tone150_vs_off_db": 43.27636266671756,
+      "failed_checks": [],
+      "error": null
+    },
+    {
+      "frequency_hz": 2787000000,
+      "status": "reference_not_identified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2787000000.json",
+      "tone150_vs_off_db": 43.10348868343795,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null
+    },
+    {
+      "frequency_hz": 2788000000,
+      "status": "reference_not_identified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2788000000.json",
+      "tone150_vs_off_db": 40.944043065346335,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null
+    },
+    {
+      "frequency_hz": 2789000000,
+      "status": "reference_not_identified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2789000000.json",
+      "tone150_vs_off_db": 39.88088091381671,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null
+    }
+  ],
+  "physical_receive_interval_hz": null,
+  "scope": "Complete TX-off/two-tone/retune checks at grid points; gaps between points and chip limits remain unproven.",
+  "finished_at": "2026-10-29T17:36:21.466876+08:00",
+  "verified_points": 1
+}

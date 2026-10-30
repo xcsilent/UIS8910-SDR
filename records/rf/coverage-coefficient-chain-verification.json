@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "firmware_changed": false,
+  "scope": "Offline chain consistency: coefficient producer, B RXON coefficient commit, and filter-control evidence.",
+  "producer": {
+    "dispatch": "0x6122",
+    "call": "0x6134 ->0x37f0",
+    "working_source": "0xb53c",
+    "output": "0xb520",
+    "interpretation": "software coefficient generation; no physical divider claim"
+  },
+  "consumer": {
+    "entry": "0x4ecc",
+    "coefficient_registers": {
+      "0x30360": "0xb520 (Q8)",
+      "0x302c4": "0xb524 (low word)",
+      "0x302c8": "0xb522 (high word)"
+    },
+    "source_order_checked": true,
+    "native_body_sample_checked": true
+  },
+  "filter_boundary": {
+    "tested_pair": "B3 1350/1375 MHz, modes 0..5",
+    "same_mmio_order": true,
+    "frequency_dependent_writes": [
+      "0x30360",
+      "0x302c4",
+      "0x302c8"
+    ],
+    "independent_filter_bypass": false,
+    "dlpf_control": "0x31040 reset/control fields; reset is not a transparent bypass",
+    "fir_control": "RX_PRE_CFG bit6 is FIR_EN and is clear in the direct raw profile; this does not prove all DFE filters are bypassed"
+  },
+  "conclusion": [
+    "The retained evidence closes coefficient production through the B RXON commit.",
+    "It does not identify the physical LO output divider, PLL loop filter, or external FEM filter switch.",
+    "Do not change the 0x37f0 threshold, MDLL factor, or anonymous reset bits without a new named control and a single-variable experiment."
+  ],
+  "inputs": [
+    "records/rf/reference-b-gap-request-chain.json",
+    "records/rf/coverage-v32-filter-assessment.json",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c"
+  ]
+}

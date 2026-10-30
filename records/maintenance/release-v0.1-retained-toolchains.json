@@ -1,0 +1,31 @@
+{
+  "status": "present",
+  "device_accessed": false,
+  "toolchains": [
+    {
+      "path": "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi",
+      "files": 2292,
+      "bytes": 392691419
+    },
+    {
+      "path": "work/windows-toolchain",
+      "files": 4176,
+      "bytes": 583915876
+    },
+    {
+      "path": "work/soapysdr",
+      "files": 240,
+      "bytes": 18641520
+    },
+    {
+      "path": "work/sdrpp/msvc",
+      "files": 10940,
+      "bytes": 3213974418
+    },
+    {
+      "path": "work/host-test-deps",
+      "files": 63,
+      "bytes": 60169201
+    }
+  ]
+}

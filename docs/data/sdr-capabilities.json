@@ -1,0 +1,1037 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-30",
+  "scope": "Derived from final historical records, not a new device measurement or continuous RF specification.",
+  "hardware": "Air724UG / UIS8910DM; one RX channel; receive only",
+  "firmware_generation": "0x526f0501",
+  "numeric_format": {
+    "raw_order": "lane0,lane1",
+    "container": "little_endian_signed_int16",
+    "native_bits_per_lane": 12,
+    "valid_container_bits": "15:4",
+    "bytes_per_complex_sample": 4,
+    "host_cf32": "(lane0-j*lane1)/2048 after arithmetic int16>>4",
+    "physical_iq_labels_verified": false,
+    "enob": null
+  },
+  "frequency": {
+    "engineering_envelopes_hz": [
+      [
+        687500000,
+        1000000000
+      ],
+      [
+        1375000000,
+        2786000000
+      ]
+    ],
+    "continuous_coverage_verified": false,
+    "chip_physical_limits_hz": null,
+    "lowband_caveat": "1000 MHz is a software envelope. References at970/985/990 MHz;995 weak;999.9 not identified;1000 communication failed.",
+    "grid_points": [
+      {
+        "frequency_hz": 2000000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2010000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2020000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2030000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2040000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2050000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2060000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2070000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2080000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2090000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2100000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2110000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2120000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2130000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2140000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2150000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2160000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2170000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2180000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2190000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2200000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2210000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2220000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2230000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2240000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2250000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2260000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2270000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2280000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2290000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2300000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2310000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2320000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2330000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2340000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2350000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2360000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2370000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2380000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2390000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2000-2390-summary.json"
+      },
+      {
+        "frequency_hz": 2400000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2405000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2410000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2415000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2420000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2425000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2430000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2435000000,
+        "acceptance": "user_accepted_environment_affected",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2440000000,
+        "acceptance": "user_accepted_environment_affected",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2445000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2450000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2455000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2460000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2465000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2470000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2475000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2480000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2485000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2490000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2495000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2500000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2505000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2510000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2515000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2520000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2525000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2530000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2535000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2540000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2545000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2550000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2555000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2560000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2565000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2570000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2575000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2580000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2585000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2590000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2595000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2600000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2605000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2610000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2615000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2620000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2625000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2630000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2635000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2640000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2645000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2650000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2655000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2660000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2665000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2670000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2675000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2680000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2685000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2690000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2695000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2700000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2705000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2710000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2715000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2720000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2725000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2730000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2735000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2740000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2745000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2750000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2755000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2760000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2765000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2770000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2775000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2780000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2785000000,
+        "acceptance": "complete_reference",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2790000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2795000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      },
+      {
+        "frequency_hz": 2800000000,
+        "acceptance": "incomplete_reference_evidence",
+        "source": "records/rf/coverage-b40-grid-2400-2800-summary.json"
+      }
+    ],
+    "upper_boundary": [
+      {
+        "frequency_hz": 2786000000,
+        "status": "reference_verified",
+        "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2786000000.json",
+        "tone150_vs_off_db": 43.27636266671756,
+        "failed_checks": [],
+        "error": null
+      },
+      {
+        "frequency_hz": 2787000000,
+        "status": "reference_not_identified",
+        "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2787000000.json",
+        "tone150_vs_off_db": 43.10348868343795,
+        "failed_checks": [
+          "tone_prominence"
+        ],
+        "error": null
+      },
+      {
+        "frequency_hz": 2788000000,
+        "status": "reference_not_identified",
+        "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2788000000.json",
+        "tone150_vs_off_db": 40.944043065346335,
+        "failed_checks": [
+          "tone_prominence"
+        ],
+        "error": null
+      },
+      {
+        "frequency_hz": 2789000000,
+        "status": "reference_not_identified",
+        "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2789000000.json",
+        "tone150_vs_off_db": 39.88088091381671,
+        "failed_checks": [
+          "tone_prominence"
+        ],
+        "error": null
+      }
+    ],
+    "highest_complete_upper_reference_center_hz": 2786000000
+  },
+  "bandwidth_modes": [
+    {
+      "bandwidth_index": 0,
+      "nominal_complex_sample_rate_hz": 1920000,
+      "full_raw_bytes_per_second": 7680000,
+      "historical_relative_minus3db_total_width_hz": [
+        1050000,
+        1100000
+      ],
+      "passband_route": 5,
+      "passband_source": "records/rf/bw01-summary.json",
+      "passband_rf_signal_hz": 881650000,
+      "passband_rx_gain_index": 40,
+      "passband_tx_gain_setting": 20,
+      "steady_device_bytes_per_second": 7680230.112,
+      "usb_measurement_duration_ms": 10000,
+      "usb_host_received_bytes": 76742656,
+      "usb_device_completed_bytes": 76791808,
+      "usb_device_minus_host_bytes": 49152,
+      "usb_drained": true,
+      "usb_source": "records/usb/b8-880-bw0-10s-v29-20261029.json",
+      "streaming_scope": "budget_sustainable_not_proven_gap_free"
+    },
+    {
+      "bandwidth_index": 1,
+      "nominal_complex_sample_rate_hz": 3840000,
+      "full_raw_bytes_per_second": 15360000,
+      "historical_relative_minus3db_total_width_hz": [
+        2750000,
+        2800000
+      ],
+      "passband_route": 5,
+      "passband_source": "records/rf/bw01-summary.json",
+      "passband_rf_signal_hz": 881650000,
+      "passband_rx_gain_index": 40,
+      "passband_tx_gain_setting": 20,
+      "steady_device_bytes_per_second": 15359539.775,
+      "usb_measurement_duration_ms": 10000,
+      "usb_host_received_bytes": 153550848,
+      "usb_device_completed_bytes": 153583616,
+      "usb_device_minus_host_bytes": 32768,
+      "usb_drained": true,
+      "usb_source": "records/usb/b8-880-bw1-10s-v29-20261029.json",
+      "streaming_scope": "budget_sustainable_not_proven_gap_free"
+    },
+    {
+      "bandwidth_index": 2,
+      "nominal_complex_sample_rate_hz": 7680000,
+      "full_raw_bytes_per_second": 30720000,
+      "historical_relative_minus3db_total_width_hz": [
+        4550000,
+        4650000
+      ],
+      "passband_route": 5,
+      "passband_source": "records/rf/mainline-bw2-passband-refined.json",
+      "passband_rf_signal_hz": 881650000,
+      "passband_rx_gain_index": 40,
+      "passband_tx_gain_setting": 40,
+      "steady_device_bytes_per_second": 30349366.372,
+      "usb_measurement_duration_ms": 10000,
+      "usb_host_received_bytes": 303693824,
+      "usb_device_completed_bytes": 303726592,
+      "usb_device_minus_host_bytes": 32768,
+      "usb_drained": true,
+      "usb_source": "records/usb/b8-880-bw2-10s-v29-20261029.json",
+      "streaming_scope": "borderline_no_sustained_margin"
+    },
+    {
+      "bandwidth_index": 3,
+      "nominal_complex_sample_rate_hz": 15360000,
+      "full_raw_bytes_per_second": 61440000,
+      "historical_relative_minus3db_total_width_hz": [
+        9200000,
+        9400000
+      ],
+      "passband_route": 5,
+      "passband_source": "records/rf/wideband-passband-fft-summary.json",
+      "passband_rf_signal_hz": 881650000,
+      "passband_rx_gain_index": 40,
+      "passband_tx_gain_setting": 40,
+      "steady_device_bytes_per_second": 31551130.097,
+      "usb_measurement_duration_ms": 3000,
+      "usb_host_received_bytes": 94961664,
+      "usb_device_completed_bytes": 94978048,
+      "usb_device_minus_host_bytes": 16384,
+      "usb_drained": true,
+      "usb_source": "records/usb/b8-880-bw3-3s-v29-20261029.json",
+      "streaming_scope": "partial_output_with_unlocated_gaps"
+    },
+    {
+      "bandwidth_index": 4,
+      "nominal_complex_sample_rate_hz": 30720000,
+      "full_raw_bytes_per_second": 122880000,
+      "historical_relative_minus3db_total_width_hz": [
+        13600000,
+        13800000
+      ],
+      "passband_route": 5,
+      "passband_source": "records/rf/wideband-passband-fft-summary.json",
+      "passband_rf_signal_hz": 881650000,
+      "passband_rx_gain_index": 40,
+      "passband_tx_gain_setting": 40,
+      "steady_device_bytes_per_second": 31598933.333,
+      "usb_measurement_duration_ms": 3000,
+      "usb_host_received_bytes": 94568448,
+      "usb_device_completed_bytes": 94576640,
+      "usb_device_minus_host_bytes": 8192,
+      "usb_drained": true,
+      "usb_source": "records/usb/b8-880-bw4-3s-v29-20261029.json",
+      "streaming_scope": "partial_output_with_unlocated_gaps"
+    },
+    {
+      "bandwidth_index": 5,
+      "nominal_complex_sample_rate_hz": 30720000,
+      "full_raw_bytes_per_second": 122880000,
+      "historical_relative_minus3db_total_width_hz": [
+        17500000,
+        18500000
+      ],
+      "passband_route": 40,
+      "passband_source": "records/usb/geometry-v20-bw5-passband-summary.json",
+      "passband_rf_signal_hz": 2000150000,
+      "passband_rx_gain_index": 40,
+      "passband_tx_gain_setting": 40,
+      "steady_device_bytes_per_second": 31940998.095,
+      "usb_measurement_duration_ms": 3000,
+      "usb_host_received_bytes": 95748096,
+      "usb_device_completed_bytes": 95789056,
+      "usb_device_minus_host_bytes": 40960,
+      "usb_drained": true,
+      "usb_source": "records/usb/b8-880-bw5-3s-v29-20261029.json",
+      "streaming_scope": "partial_output_with_unlocated_gaps"
+    }
+  ],
+  "communication_10s": [
+    {
+      "record": "records/communication/realtime-qpsk-2700-bw0-tx65-rx30-current-10s-v1.json",
+      "frequency_hz": 2700000000,
+      "modulation": "qpsk",
+      "bandwidth_index": 0,
+      "duration_s": 10,
+      "sample_rate_hz": 1920000,
+      "frames": 2022,
+      "ber": 0.0,
+      "evm_rms": 0.04684572755076773,
+      "realtime_host_passed": true,
+      "pipe_dropped_bytes": 0,
+      "pipe_gap_events": 0,
+      "host_cpu_seconds": 4.296875,
+      "native_receiver_cpu_seconds": 0.09375,
+      "receiver_elapsed_seconds": 14.887315,
+      "device_minus_host_bytes": 24576,
+      "tx_gain_setting_db": 65.0,
+      "rx_gain_index": 30,
+      "source_peak": 0.6203211545944214,
+      "iq_amplitude": {
+        "sampled_complex_samples": 1785856,
+        "max_abs_lane_native12": 26,
+        "near_rail_lane_fraction": 0.0,
+        "max_sampled_block_near_rail_fraction": 0.0,
+        "lane_rms_native12": 8.480867975764511,
+        "scope": "Every16th decoded host block, including startup/TX-off; near rail >=2040/2048. No digital clipping does not rule out analog compression."
+      },
+      "source_file_accounting": {
+        "available": true,
+        "complete_source_frames": 2027,
+        "validated_unique_source_frames": 2022,
+        "error_free_unique_source_frames": 2022,
+        "source_file_frame_yield": 0.9975333004440059,
+        "error_free_source_file_frame_yield": 0.9975333004440059,
+        "unvalidated_source_frames": 5,
+        "leading_unvalidated_frames": 2,
+        "trailing_unvalidated_frames": 3,
+        "internal_unvalidated_frames": 0,
+        "out_of_source_range_headers": 0,
+        "scope": "Acquisition relative to complete frames in the finite source file, including leading/trailing and host gaps. Not measured physical transmitted-frame count, RF start/end timing or precise sample loss."
+      },
+      "device_drained": true,
+      "all_children_released": true
+    },
+    {
+      "record": "records/communication/realtime-ofdm-1900-bw0-tx65-rx30-single-10s-v1.json",
+      "frequency_hz": 1900000000,
+      "modulation": "ofdm",
+      "bandwidth_index": 0,
+      "duration_s": 10,
+      "sample_rate_hz": 1920000,
+      "frames": 4157,
+      "ber": 0.0,
+      "evm_rms": 0.031529760724870674,
+      "realtime_host_passed": true,
+      "pipe_dropped_bytes": 0,
+      "pipe_gap_events": 0,
+      "host_cpu_seconds": 7.109375,
+      "native_receiver_cpu_seconds": 0.109375,
+      "receiver_elapsed_seconds": 14.798603,
+      "device_minus_host_bytes": 57344,
+      "tx_gain_setting_db": 65.0,
+      "rx_gain_index": 30,
+      "source_peak": 0.41649329662323,
+      "iq_amplitude": {
+        "sampled_complex_samples": 1769472,
+        "max_abs_lane_native12": 110,
+        "near_rail_lane_fraction": 0.0,
+        "max_sampled_block_near_rail_fraction": 0.0,
+        "lane_rms_native12": 12.244883500304736,
+        "scope": "Every16th decoded host block, including startup/TX-off; near rail >=2040/2048. No digital clipping does not rule out analog compression."
+      },
+      "source_file_accounting": {
+        "available": true,
+        "complete_source_frames": 4166,
+        "validated_unique_source_frames": 4157,
+        "error_free_unique_source_frames": 4157,
+        "source_file_frame_yield": 0.9978396543446951,
+        "error_free_source_file_frame_yield": 0.9978396543446951,
+        "unvalidated_source_frames": 9,
+        "leading_unvalidated_frames": 3,
+        "trailing_unvalidated_frames": 6,
+        "internal_unvalidated_frames": 0,
+        "out_of_source_range_headers": 0,
+        "scope": "Acquisition relative to complete frames in the finite source file, including leading/trailing and host gaps. Not measured physical transmitted-frame count, RF start/end timing or precise sample loss."
+      },
+      "device_drained": true,
+      "all_children_released": true
+    },
+    {
+      "record": "records/communication/realtime-ofdm-1900-bw1-tx65-rx30-single-10s-v1.json",
+      "frequency_hz": 1900000000,
+      "modulation": "ofdm",
+      "bandwidth_index": 1,
+      "duration_s": 10,
+      "sample_rate_hz": 3840000,
+      "frames": 8320,
+      "ber": 1.5593130827505826e-05,
+      "evm_rms": 0.030440065301884638,
+      "realtime_host_passed": true,
+      "pipe_dropped_bytes": 0,
+      "pipe_gap_events": 0,
+      "host_cpu_seconds": 6.546875,
+      "native_receiver_cpu_seconds": 0.125,
+      "receiver_elapsed_seconds": 14.955251,
+      "device_minus_host_bytes": 49152,
+      "tx_gain_setting_db": 65.0,
+      "rx_gain_index": 30,
+      "source_peak": 0.41649329662323,
+      "iq_amplitude": {
+        "sampled_complex_samples": 3538944,
+        "max_abs_lane_native12": 109,
+        "near_rail_lane_fraction": 0.0,
+        "max_sampled_block_near_rail_fraction": 0.0,
+        "lane_rms_native12": 11.875434965678123,
+        "scope": "Every16th decoded host block, including startup/TX-off; near rail >=2040/2048. No digital clipping does not rule out analog compression."
+      },
+      "source_file_accounting": {
+        "available": true,
+        "complete_source_frames": 8333,
+        "validated_unique_source_frames": 8320,
+        "error_free_unique_source_frames": 8319,
+        "source_file_frame_yield": 0.9984399375975039,
+        "error_free_source_file_frame_yield": 0.9983199327973119,
+        "unvalidated_source_frames": 13,
+        "leading_unvalidated_frames": 7,
+        "trailing_unvalidated_frames": 6,
+        "internal_unvalidated_frames": 0,
+        "out_of_source_range_headers": 0,
+        "scope": "Acquisition relative to complete frames in the finite source file, including leading/trailing and host gaps. Not measured physical transmitted-frame count, RF start/end timing or precise sample loss."
+      },
+      "device_drained": true,
+      "all_children_released": true
+    },
+    {
+      "record": "records/communication/realtime-qpsk-1900-bw1-tx65-rx30-current-10s-v1.json",
+      "frequency_hz": 1900000000,
+      "modulation": "qpsk",
+      "bandwidth_index": 1,
+      "duration_s": 10,
+      "sample_rate_hz": 3840000,
+      "frames": 2866,
+      "ber": 0.0,
+      "evm_rms": 0.10342525374267955,
+      "realtime_host_passed": false,
+      "pipe_dropped_bytes": 59179008,
+      "pipe_gap_events": 7,
+      "host_cpu_seconds": 14.4375,
+      "native_receiver_cpu_seconds": 0.515625,
+      "receiver_elapsed_seconds": 15.056764,
+      "device_minus_host_bytes": 49152,
+      "tx_gain_setting_db": 65.0,
+      "rx_gain_index": 30,
+      "source_peak": 0.15508028864860535,
+      "iq_amplitude": {
+        "sampled_complex_samples": 2473984,
+        "max_abs_lane_native12": 68,
+        "near_rail_lane_fraction": 0.0,
+        "max_sampled_block_near_rail_fraction": 0.0,
+        "lane_rms_native12": 21.9382289550089,
+        "scope": "Every16th decoded host block, including startup/TX-off; near rail >=2040/2048. No digital clipping does not rule out analog compression."
+      },
+      "source_file_accounting": {
+        "available": true,
+        "complete_source_frames": 4054,
+        "validated_unique_source_frames": 2866,
+        "error_free_unique_source_frames": 2866,
+        "source_file_frame_yield": 0.7069560927479033,
+        "error_free_source_file_frame_yield": 0.7069560927479033,
+        "unvalidated_source_frames": 1188,
+        "leading_unvalidated_frames": 86,
+        "trailing_unvalidated_frames": 206,
+        "internal_unvalidated_frames": 896,
+        "out_of_source_range_headers": 0,
+        "scope": "Acquisition relative to complete frames in the finite source file, including leading/trailing and host gaps. Not measured physical transmitted-frame count, RF start/end timing or precise sample loss."
+      },
+      "device_drained": true,
+      "all_children_released": true
+    }
+  ],
+  "register_crosswalk_counts": {
+    "crosswalk_entries": 129,
+    "named_reference_entries": 51,
+    "arm_bitfield_values_per_view": 172,
+    "address_views_compiled": 2
+  },
+  "exported_named_field_rows": 100,
+  "unknowns": [
+    "continuous_frequency_coverage",
+    "chip_physical_frequency_limits",
+    "RF_LO_lock_field",
+    "exact_external_frontend_part_and_board_wiring",
+    "ENOB",
+    "calibrated_absolute_power",
+    "noise_figure",
+    "IIP3",
+    "SFDR",
+    "sample_clock_ppm",
+    "exact_lost_samples",
+    "absolute_sample_timestamps",
+    "phase_continuity"
+  ],
+  "sources": {
+    "passband_bw01": "records/rf/bw01-summary.json",
+    "passband_bw2": "records/rf/mainline-bw2-passband-refined.json",
+    "passband_bw34": "records/rf/wideband-passband-fft-summary.json",
+    "passband_bw5": "records/usb/geometry-v20-bw5-passband-summary.json",
+    "rf_grid_upper": "records/rf/coverage-b40-grid-2400-2800-summary.json",
+    "rf_grid_lower": "records/rf/coverage-b40-grid-2000-2390-summary.json",
+    "communication": "records/communication/functional-acceptance.json",
+    "registers": "records/rf/reference-rf-register-crosswalk.json",
+    "firmware": "outputs/firmware/current/manifest.json",
+    "host": "outputs/host/manifest.json",
+    "usb_bw0": "records/usb/b8-880-bw0-10s-v29-20261029.json",
+    "usb_bw1": "records/usb/b8-880-bw1-10s-v29-20261029.json",
+    "usb_bw2": "records/usb/b8-880-bw2-10s-v29-20261029.json",
+    "usb_bw3": "records/usb/b8-880-bw3-3s-v29-20261029.json",
+    "usb_bw4": "records/usb/b8-880-bw4-3s-v29-20261029.json",
+    "usb_bw5": "records/usb/b8-880-bw5-3s-v29-20261029.json"
+  },
+  "raw_payload_read_or_hashed": false
+}

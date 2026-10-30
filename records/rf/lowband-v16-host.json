@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "scope": "candidate Windows DLL boundary route offline",
+  "cases": [
+    {
+      "hz": 499999900,
+      "error": 50,
+      "route": 0
+    },
+    {
+      "hz": 500000000,
+      "error": 0,
+      "route": 5
+    },
+    {
+      "hz": 600000000,
+      "error": 0,
+      "route": 5
+    },
+    {
+      "hz": 700000000,
+      "error": 0,
+      "route": 5
+    },
+    {
+      "hz": 824000000,
+      "error": 0,
+      "route": 5
+    }
+  ],
+  "dependencies": {
+    "outputs/host/lowband-v16/sdr_usb.dll": "dd6071d6211cc069c3d167af48f6329db9435e933a4a2b32e3ebdf9ed38ae44a",
+    "firmware/capture/rxcapt_profile.c": "1fe14ca40d36763103ea3a4ed0c3a6974a77fd764372fb7537f141e2d5530f71",
+    "records/rf/mainline-resume-identity.json": "15e789e00b0c2486cd6e8c960656d0d28ea67345a0cccf57d5443c39f2514cdd"
+  }
+}

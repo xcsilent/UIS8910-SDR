@@ -1,0 +1,11 @@
+{
+  "status": "passed_retention_metadata_only",
+  "device_accessed": false,
+  "payload_hashed": false,
+  "payload_available": false,
+  "spectra_recomputed": false,
+  "removed_files": 1675,
+  "removed_bytes": 34852574208,
+  "scope": "Authorized deletion and no substitute resolution checked. Old spectra are not replayable.",
+  "retention": "records/retention/retention.json"
+}

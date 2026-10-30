@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-29T09:56:00+08:00",
+  "status": "passed_with_device_host_tail_difference",
+  "band": 8,
+  "frequency_hz": 880000000,
+  "bandwidth_index": 0,
+  "duration_ms": 10000,
+  "requests": 32,
+  "request_bytes": 65536,
+  "host_bytes": 76742656,
+  "device_completed_bytes": 76791808,
+  "device_minus_host_bytes": 49152,
+  "completions": 1171,
+  "steady_device_bytes_per_second": 7680230.112,
+  "minimum_device_window_bytes_per_second": 7659520.0,
+  "maximum_device_window_bytes_per_second": 7707927.273,
+  "session_error": 0,
+  "control_error": 0,
+  "cleanup_error": 0,
+  "device_drained": true,
+  "lost_samples_known": false,
+  "scope": "Live BW0 sustained source/USB measurement; RF signal presence and physical B8 limit are outside this record."
+}

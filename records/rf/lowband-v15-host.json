@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-27T13:01:37.284238+08:00",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "scope": "Windows candidate DLL automatic route boundary calls with recorded INFO, no device or runtime NV",
+  "cases": [
+    {
+      "hz": 699999900,
+      "result": 50,
+      "band": 0
+    },
+    {
+      "hz": 700000000,
+      "result": 0,
+      "band": 5
+    },
+    {
+      "hz": 800000000,
+      "result": 0,
+      "band": 5
+    },
+    {
+      "hz": 824000000,
+      "result": 0,
+      "band": 5
+    },
+    {
+      "hz": 900000000,
+      "result": 0,
+      "band": 5
+    }
+  ],
+  "dependencies": {
+    "outputs/host/lowband-v15/sdr_usb.dll": "f5e5ad10fc176957f02582b9a2b6eb266bebbfcc6727cabd2800e6e0dd93f85b",
+    "firmware/capture/rxcapt_profile.c": "b9b732cd6d36554db39ce3a8e50917d4ac7b58ccc65efd1737b7ddd6a230ed72",
+    "host/common/rf_auto.h": "35e969d155e56ce34690758cb681f3955413bbea80a23e9f3f67a964d4b33851",
+    "records/rf/mainline-resume-identity.json": "15e789e00b0c2486cd6e8c960656d0d28ea67345a0cccf57d5443c39f2514cdd"
+  }
+}

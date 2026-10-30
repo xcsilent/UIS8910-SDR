@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "observations": [
+    {
+      "report": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "epoch": 11,
+      "phases": [
+        {
+          "stage": "after_prepare",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "before_rx_request",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "after_rx_request",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "before_rf_stop",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "after_rf_stop",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        }
+      ]
+    },
+    {
+      "report": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "epoch": 15,
+      "phases": [
+        {
+          "stage": "after_prepare",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "before_rx_request",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "after_rx_request",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "before_rf_stop",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "after_rf_stop",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        }
+      ]
+    },
+    {
+      "report": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "epoch": 19,
+      "phases": [
+        {
+          "stage": "after_prepare",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "before_rx_request",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "after_rx_request",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "before_rf_stop",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        },
+        {
+          "stage": "after_rf_stop",
+          "b4e0": 0,
+          "b52a": 0,
+          "route_30468": 490,
+          "route_30480": 2
+        }
+      ]
+    }
+  ],
+  "interpretation": "In these three retained v17 BW0 capture checkpoints both software flags are zero. Snapshots are not continuous; this does not prove absence of transient writes, all producer paths, hardware bit meanings, PLL lock, or that these flags cause 675 MHz weak response.",
+  "dependencies": {
+    "tools/verify/verify_rf_runtime_flags.py": "19545e54fa8666b83c65223d01784222026fb68cf08218eea183e052d4ed0f1e",
+    "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json": "4481f35df2f2f596bb7e2be7477006fc1439e0fc04b789a2e0d7bfd956786293",
+    "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json": "143a66e027c01c95e11f9fb31fa7ea9743b84536d263cdf5b0b7ad93c9269117",
+    "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json": "f0997d38cdadf9761058e920cfd140417d2a9683ef481d0ca641f0ccb02db621"
+  }
+}

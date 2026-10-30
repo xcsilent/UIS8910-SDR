@@ -1,0 +1,464 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "direct_references": [
+    {
+      "address": "0x10d6",
+      "opcode": "sh",
+      "operands": "zero, 0x78(a5)",
+      "base_producer": "0x10c2"
+    },
+    {
+      "address": "0x5128",
+      "opcode": "lhu",
+      "operands": "a4, 0x78(a4)",
+      "base_producer": "0x5120"
+    }
+  ],
+  "bounded_constant_pointer_references": {
+    "accesses": [
+      {
+        "pc": "0x10d6",
+        "kind": "write",
+        "address": "0xb4e0",
+        "width": 2,
+        "value": 0
+      },
+      {
+        "pc": "0x5128",
+        "kind": "read",
+        "address": "0xb4e0",
+        "width": 2,
+        "value": null
+      }
+    ],
+    "unknown_or_control_boundaries": 2778,
+    "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+  },
+  "caller_state_references": {
+    "0xb4d2": {
+      "accesses": [
+        {
+          "pc": "0x34c8",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x34f8",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x3678",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x36a8",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x618a",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x61ba",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6e66",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6e96",
+          "kind": "read",
+          "address": "0xb4d2",
+          "width": 2,
+          "value": null
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    },
+    "0xb4d8": {
+      "accesses": [
+        {
+          "pc": "0x61ec",
+          "kind": "write",
+          "address": "0xb4d8",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6916",
+          "kind": "write",
+          "address": "0xb4d8",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x7108",
+          "kind": "write",
+          "address": "0xb4d8",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x7586",
+          "kind": "write",
+          "address": "0xb4d8",
+          "width": 2,
+          "value": 0
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    },
+    "0xb4dc": {
+      "accesses": [
+        {
+          "pc": "0x61fc",
+          "kind": "write",
+          "address": "0xb4dc",
+          "width": 2,
+          "value": null
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    },
+    "0xb4ee": {
+      "accesses": [
+        {
+          "pc": "0x36c4",
+          "kind": "read",
+          "address": "0xb4ee",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x36f2",
+          "kind": "write",
+          "address": "0xb4ee",
+          "width": 2,
+          "value": 1
+        },
+        {
+          "pc": "0x374e",
+          "kind": "read",
+          "address": "0xb4ee",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x3778",
+          "kind": "write",
+          "address": "0xb4ee",
+          "width": 2,
+          "value": 0
+        },
+        {
+          "pc": "0x6176",
+          "kind": "read",
+          "address": "0xb4ee",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6e52",
+          "kind": "read",
+          "address": "0xb4ee",
+          "width": 2,
+          "value": null
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    },
+    "0xb4f2": {
+      "accesses": [
+        {
+          "pc": "0x3514",
+          "kind": "read",
+          "address": "0xb4f2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x3542",
+          "kind": "write",
+          "address": "0xb4f2",
+          "width": 2,
+          "value": 1
+        },
+        {
+          "pc": "0x35a6",
+          "kind": "read",
+          "address": "0xb4f2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x35d0",
+          "kind": "write",
+          "address": "0xb4f2",
+          "width": 2,
+          "value": 0
+        },
+        {
+          "pc": "0x61a6",
+          "kind": "read",
+          "address": "0xb4f2",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6e82",
+          "kind": "read",
+          "address": "0xb4f2",
+          "width": 2,
+          "value": null
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    },
+    "0xb52c": {
+      "accesses": [
+        {
+          "pc": "0x34e4",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x3694",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x5378",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x5bc4",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x5bd8",
+          "kind": "write",
+          "address": "0xb52c",
+          "width": 2,
+          "value": 0
+        },
+        {
+          "pc": "0x61d8",
+          "kind": "write",
+          "address": "0xb52c",
+          "width": 2,
+          "value": 1
+        },
+        {
+          "pc": "0x61dc",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6902",
+          "kind": "write",
+          "address": "0xb52c",
+          "width": 2,
+          "value": 0
+        },
+        {
+          "pc": "0x6906",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6962",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6b5a",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6c28",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6f1a",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x7064",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x70f4",
+          "kind": "write",
+          "address": "0xb52c",
+          "width": 2,
+          "value": 0
+        },
+        {
+          "pc": "0x70f8",
+          "kind": "read",
+          "address": "0xb52c",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x75d4",
+          "kind": "write",
+          "address": "0xb52c",
+          "width": 2,
+          "value": 2
+        },
+        {
+          "pc": "0x7648",
+          "kind": "write",
+          "address": "0xb52c",
+          "width": 2,
+          "value": 1
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    },
+    "0xb550": {
+      "accesses": [
+        {
+          "pc": "0x1a6a",
+          "kind": "write",
+          "address": "0xb550",
+          "width": 2,
+          "value": 2
+        },
+        {
+          "pc": "0x3c1e",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x60e2",
+          "kind": "write",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x60fc",
+          "kind": "write",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6108",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x61f8",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x64e2",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6524",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6636",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        },
+        {
+          "pc": "0x6678",
+          "kind": "read",
+          "address": "0xb550",
+          "width": 2,
+          "value": null
+        }
+      ],
+      "unknown_or_control_boundaries": 2778,
+      "scope": "Instruction-width scan, conservative constant pointers within blocks only; unknown/PULP/control instructions reset facts. No indirect alias, interprocedural or write-absence proof."
+    }
+  },
+  "scanner_tests": [
+    "pointer copy and offset",
+    "unknown/control boundary invalidation",
+    "overlapping wide store"
+  ],
+  "scope": "Linear Capstone decoding of first 0x7bc0 bytes, only immediately adjacent AUIPC/ADDI base and next bounded straight-line accesses. Legacy PULP instructions and other pointer production are not modeled; missing matches do not prove absent reads or writes.",
+  "dependencies": {
+    "tools/verify/verify_rf_flag_references.py": "080a30cb4c5aff350653a9b37815602aa410486438facd4d928042bfd5967ab5",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca"
+  }
+}

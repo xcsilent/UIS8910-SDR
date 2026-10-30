@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "firmware_changed": false,
+  "deployed": false,
+  "scope": "Original RF mode helper vs compiled ARM C; exact45 halfword writes and immediate bus-failure stop. Synthetic register states, seven legacy PULP operations modeled.",
+  "native_entry": "0x3a7c",
+  "builds": [
+    {
+      "optimization": "-O0",
+      "native_comparisons": 264,
+      "invalid_modes": 3,
+      "invalid_mode0_indices_after_writes": 2,
+      "fail_stop_cases": 584
+    },
+    {
+      "optimization": "-O2",
+      "native_comparisons": 264,
+      "invalid_modes": 3,
+      "invalid_mode0_indices_after_writes": 2,
+      "fail_stop_cases": 584
+    }
+  ],
+  "digital_flag_condition": "exactly1 preserves32000 upperbyte and masks32004; other values use native fallback",
+  "physical_sample_rate_proved": false,
+  "filter_response_proved": false,
+  "dependencies": {
+    "tools/verify/verify_rf_mode_rebuild.py": "4a0ab1432fc31cfa138f3e9230b8c8b06f5c68410b8e2c630ea430bb65f5de0b",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "tools/verify/verify_rf_frequency_native.py": "91d4f66d2ccb067d61a496755718a03cf5542f21f8f0e91f6c68ea1d5e566868",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "firmware/rf_rebuild/rf_core_mode.h": "eac07d5a7702f4538ac86bbb452f38fb799387d5e19e5d314fe51305c13b00c7",
+    "firmware/rf_rebuild/rf_core_mode.c": "788c1efc32bc3f095bd8fc2fc660eecc862d9ced004c7a5baf8828e9d4098162",
+    "tools/verify/rf_mode_harness.c": "4f08552e482dd8811337836b4167187a0891ebc7e1ae8eca98f5b05889f23392",
+    "work/rf-mode-rebuild/O0.elf": "98e2e400409558a8a033d066610d0e3a17b0c182aa4e7e843396a4d29996d5d2",
+    "work/rf-mode-rebuild/O2.elf": "7329861296b4549db33d62cf6b1e6505875e98a76d7344fed5500700f56ab748"
+  }
+}

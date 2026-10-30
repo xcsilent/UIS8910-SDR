@@ -1,0 +1,27 @@
+{
+  "scope": "Read-only postflight; not future availability",
+  "phase": 4,
+  "error": 0,
+  "epoch": 22,
+  "busy": 0,
+  "published": 60679,
+  "released": 60679,
+  "uhd_exit": 3221225477,
+  "uhd_output": "[INFO] [UHD] Win32; Microsoft Visual C++ version 1951; Boost_109000; UHD_4.11.0.0-release\n",
+  "restricted_discovery_exit_hex": "0xc0000005",
+  "live_serial_tx_processes": [],
+  "windows_pnp": {
+    "status": "OK/Started",
+    "friendly_name": "Ettus Research LLC B200/B210",
+    "instance_id": "DEVICE_ID_REDACTED",
+    "driver": "oem98.inf"
+  },
+  "changed_execution_context_discovery": {
+    "scope": "Read-only command with sandbox_permissions=require_escalated; no TX/reset",
+    "exit_code": 0,
+    "serial": "DEVICE_ID_REDACTED",
+    "product": "B210",
+    "name": "Custom_SDR_B210"
+  },
+  "result": "UIS8910 drained/error0. B210 present in PnP and discovered in less restricted context; restricted process access violation alone is not device disappearance. Execution-context cause supported, exact failing API not isolated."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "verified_runtime_and_discrete_rf_points",
+  "user_confirmed_flashed": true,
+  "pac": "outputs\\firmware\\unrestricted-v32\\Air724U_UIS8910_SDR_BW0_USB_v32.pac",
+  "sha256": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b",
+  "generation": "0x526f0501",
+  "generation_evidence": "records/rf/coverage-v32-b3-1600-reference-off-rf-status.json",
+  "points": [
+    {
+      "frequency_hz": 1600000000,
+      "record": "records/rf-coverage-v1/v32-b3-1600-reference.json",
+      "tone150_vs_off_db": 45.71493884761536,
+      "retune_shift_hz": 100078.125
+    },
+    {
+      "frequency_hz": 1500000000,
+      "record": "records/rf-coverage-v1/v32-b3-1500-reference.json",
+      "tone150_vs_off_db": 44.824086426930336,
+      "retune_shift_hz": 99843.75
+    },
+    {
+      "frequency_hz": 1447000000,
+      "record": "records/rf-coverage-v1/v32-b3-1447-reference.json",
+      "tone150_vs_off_db": 48.635421735007505,
+      "retune_shift_hz": 100078.125
+    },
+    {
+      "frequency_hz": 1400000000,
+      "record": "records/rf-coverage-v1/v32-b3-1400-reference.json",
+      "tone150_vs_off_db": 47.18186476538904,
+      "retune_shift_hz": 100078.125
+    }
+  ],
+  "physical_limit_verified": false,
+  "continuous_interval_verified": false,
+  "scope": "User flash confirmation, matching live CP generation and finite RF/drain; no full flash readback."
+}

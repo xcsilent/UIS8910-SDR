@@ -1,0 +1,42 @@
+{
+  "portable-checks.json": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "documentation-links.json": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "derived-tables.json": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "retention-verification.json": {
+    "status": "passed_retention_metadata_only",
+    "exit_code": 0
+  },
+  "project-verification.json": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "review_export": {
+    "status": "local_review_only_not_publication_ready",
+    "directory": "work/github-source-review",
+    "files": 565,
+    "bytes": 6904043,
+    "external_local_references": 14
+  },
+  "review-portable-checks.json": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "review-derived-tables.json": {
+    "status": "passed",
+    "exit_code": 0
+  },
+  "recorded_at": "2026-10-30T08:53:35.439062+00:00",
+  "device_accessed": false,
+  "release_binaries_changed": false,
+  "github_uploaded": false,
+  "code_evidence_freshness": "stale"
+}

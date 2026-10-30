@@ -1,0 +1,369 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-28T18:42:11.565245+08:00",
+  "device_accessed": true,
+  "user_confirmed_flashed": true,
+  "generation": "0x526c0501",
+  "trace_abi": 5,
+  "rf_observer_signature_matched": true,
+  "rf_transmitted": false,
+  "chip_reset_between_captures": false,
+  "rows": [
+    {
+      "band": 5,
+      "epoch": 1,
+      "capture_status": "passed",
+      "bytes": 7667712,
+      "byte_accounting": {
+        "device_completed_bytes": 7667712,
+        "host_consumed_bytes": 7667712,
+        "device_minus_host_bytes": 0,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": false,
+        "shortfall_cause": null
+      },
+      "device_drained": true,
+      "phases": [
+        {
+          "stage": "after_prepare",
+          "selector": 0,
+          "rx_port": 0,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8403,
+          "delta_modulo32": null,
+          "counter_change_observed": null,
+          "last_pointer": "0x9930",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 0,
+            "entry": 0,
+            "aligned": true
+          }
+        },
+        {
+          "stage": "before_rx_request",
+          "selector": 0,
+          "rx_port": 0,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8403,
+          "delta_modulo32": 0,
+          "counter_change_observed": false,
+          "last_pointer": "0x9930",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 0,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "after_prepare"
+        },
+        {
+          "stage": "after_rx_request",
+          "selector": 0,
+          "rx_port": 0,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8403,
+          "delta_modulo32": 0,
+          "counter_change_observed": false,
+          "last_pointer": "0x9930",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 0,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "before_rx_request"
+        },
+        {
+          "stage": "before_rf_stop",
+          "selector": 4,
+          "rx_port": 2,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8404,
+          "delta_modulo32": 1,
+          "counter_change_observed": true,
+          "last_pointer": "0x97f0",
+          "last_pointer_layout": {
+            "region": "switch_open",
+            "nv_row": 4,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "after_rx_request"
+        },
+        {
+          "stage": "after_rf_stop",
+          "selector": 4,
+          "rx_port": 2,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8408,
+          "delta_modulo32": 4,
+          "counter_change_observed": true,
+          "last_pointer": "0x9970",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 4,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "before_rf_stop"
+        }
+      ],
+      "last_open_command_from_stopped_nv": {
+        "reg_value": 5,
+        "reg_addr": 0,
+        "slave_id": 13,
+        "reserved": 0
+      },
+      "nv_read_epoch": 3,
+      "nv_not_atomic_with_earlier_capture": true
+    },
+    {
+      "band": 8,
+      "epoch": 2,
+      "capture_status": "completed_with_loss",
+      "bytes": 7667712,
+      "byte_accounting": {
+        "device_completed_bytes": 7675904,
+        "host_consumed_bytes": 7667712,
+        "device_minus_host_bytes": 8192,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": true,
+        "shortfall_cause": "unknown"
+      },
+      "device_drained": true,
+      "phases": [
+        {
+          "stage": "after_prepare",
+          "selector": 4,
+          "rx_port": 2,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8412,
+          "delta_modulo32": null,
+          "counter_change_observed": null,
+          "last_pointer": "0x9970",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 4,
+            "entry": 0,
+            "aligned": true
+          }
+        },
+        {
+          "stage": "before_rx_request",
+          "selector": 4,
+          "rx_port": 2,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8412,
+          "delta_modulo32": 0,
+          "counter_change_observed": false,
+          "last_pointer": "0x9970",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 4,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "after_prepare"
+        },
+        {
+          "stage": "after_rx_request",
+          "selector": 4,
+          "rx_port": 2,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8412,
+          "delta_modulo32": 0,
+          "counter_change_observed": false,
+          "last_pointer": "0x9970",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 4,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "before_rx_request"
+        },
+        {
+          "stage": "before_rf_stop",
+          "selector": 6,
+          "rx_port": 3,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8413,
+          "delta_modulo32": 1,
+          "counter_change_observed": true,
+          "last_pointer": "0x9810",
+          "last_pointer_layout": {
+            "region": "switch_open",
+            "nv_row": 6,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "after_rx_request"
+        },
+        {
+          "stage": "after_rf_stop",
+          "selector": 6,
+          "rx_port": 3,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8417,
+          "delta_modulo32": 4,
+          "counter_change_observed": true,
+          "last_pointer": "0x9990",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 6,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "before_rf_stop"
+        }
+      ],
+      "last_open_command_from_stopped_nv": {
+        "reg_value": 2,
+        "reg_addr": 0,
+        "slave_id": 13,
+        "reserved": 0
+      },
+      "nv_read_epoch": 3,
+      "nv_not_atomic_with_earlier_capture": true
+    },
+    {
+      "band": 40,
+      "epoch": 3,
+      "capture_status": "completed_with_loss",
+      "bytes": 7667712,
+      "byte_accounting": {
+        "device_completed_bytes": 7675904,
+        "host_consumed_bytes": 7667712,
+        "device_minus_host_bytes": 8192,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": true,
+        "shortfall_cause": "unknown"
+      },
+      "device_drained": true,
+      "phases": [
+        {
+          "stage": "after_prepare",
+          "selector": 6,
+          "rx_port": 3,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8421,
+          "delta_modulo32": null,
+          "counter_change_observed": null,
+          "last_pointer": "0x9990",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 6,
+            "entry": 0,
+            "aligned": true
+          }
+        },
+        {
+          "stage": "before_rx_request",
+          "selector": 6,
+          "rx_port": 3,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8421,
+          "delta_modulo32": 0,
+          "counter_change_observed": false,
+          "last_pointer": "0x9990",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 6,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "after_prepare"
+        },
+        {
+          "stage": "after_rx_request",
+          "selector": 6,
+          "rx_port": 3,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8421,
+          "delta_modulo32": 0,
+          "counter_change_observed": false,
+          "last_pointer": "0x9990",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 6,
+            "entry": 0,
+            "aligned": true
+          },
+          "previous_stage": "before_rx_request"
+        },
+        {
+          "stage": "before_rf_stop",
+          "selector": 15,
+          "rx_port": 0,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8423,
+          "delta_modulo32": 2,
+          "counter_change_observed": true,
+          "last_pointer": "0x9914",
+          "last_pointer_layout": {
+            "region": "switch_open",
+            "nv_row": 22,
+            "entry": 1,
+            "aligned": true
+          },
+          "previous_stage": "after_rx_request"
+        },
+        {
+          "stage": "after_rf_stop",
+          "selector": 15,
+          "rx_port": 0,
+          "matching_observer": true,
+          "stable_double_read": true,
+          "count": 8426,
+          "delta_modulo32": 3,
+          "counter_change_observed": true,
+          "last_pointer": "0x9a94",
+          "last_pointer_layout": {
+            "region": "switch_close",
+            "nv_row": 22,
+            "entry": 1,
+            "aligned": true
+          },
+          "previous_stage": "before_rf_stop"
+        }
+      ],
+      "last_open_command_from_stopped_nv": {
+        "reg_value": 1,
+        "reg_addr": 2,
+        "slave_id": 15,
+        "reserved": 0
+      },
+      "nv_read_epoch": 3,
+      "nv_not_atomic_with_earlier_capture": true
+    }
+  ],
+  "scope": "Finite real IQ transport and matching RF helper counter checkpoint changes; last command decoded from subsequent stopped NV. No ACK, physical identity, RF reference or improved sensitivity proof.",
+  "dependencies": {
+    "records/rf-frontend/observer-v28-b5-capture.json": "b277ed7c6832515345c5ee0f76a8f67f00840a1ce78b56ae6b65341d052e52c5",
+    "records/rf/frontend-observer-v28-b5-trace.json": "0c27a839ad3dc581e967c60b00afc83f640ba33a69c515838b97925ab69b5c39",
+    "records/rf-frontend/observer-v28-b5-execution.json": "dca7c57728b510f842bba38c013f6d920d06101943c74290020e39c33761c4ab",
+    "records/rf-frontend/observer-v28-b8-capture.json": "84dcde5752188f09df9ec057c22c45acdf09e36c308b1ff2d16e0ffa8d47277b",
+    "records/rf-frontend/observer-v28-b8-trace.json": "1628b5b19fd487da292f8f0c1c6e09c24cfe9691cfe1c0d4786d914715b376d4",
+    "records/rf-frontend/observer-v28-b8-execution.json": "5f98f4d8c59459779e722bbdfba8c5fcb1466d867c4cac087af418b4a44d0ec4",
+    "records/rf-frontend/observer-v28-b40-capture.json": "84784de38379936bb28166462e3b3ef094f97ca5bca7c28a4456d220f81eb539",
+    "records/rf-frontend/observer-v28-b40-trace.json": "79676e0fc3156f9dfff09d9b60a79f3c87f3533693a40752fc248cb9967093cc",
+    "records/rf-frontend/observer-v28-b40-execution.json": "10ba84e7e167e9e459d7f0963e0f35862e543e1d7a4a8f8209b58178db466033",
+    "records/rf-frontend/observer-v28-runtime-nv.json": "5c1d6cd66657c2e8bfd70320a0e898a5786dca1deadd650e99337f71985e0c8b",
+    "outputs/firmware/rf-observer-v28/build.json": "9e7e4c0eeb4dc97c17a748616e4b7f5490ecfae8260257834dab8bdcb7857242"
+  }
+}

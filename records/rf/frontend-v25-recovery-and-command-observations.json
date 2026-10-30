@@ -1,0 +1,138 @@
+{
+  "status": "observed_inconclusive_frontend_execution",
+  "recorded_at": "2026-10-28T16:52:06.924443+08:00",
+  "device_accessed": true,
+  "power_cycle_recovered_preclaim": true,
+  "reset_required_between_captures": false,
+  "generation": "0x526b0501",
+  "trace_abi": 4,
+  "sessions": [
+    {
+      "band": 5,
+      "frequency_hz": 881500000,
+      "epoch": 1,
+      "transport_completed": true,
+      "device_drained": true,
+      "device_bytes": 11509760,
+      "host_bytes": 11468800,
+      "shortfall_bytes": 40960,
+      "slot_values": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rf_phases": [
+        {
+          "stage": "after_prepare",
+          "selector": 15,
+          "rx_port": 0,
+          "working_raw": 23300000
+        },
+        {
+          "stage": "before_rx_request",
+          "selector": 15,
+          "rx_port": 0,
+          "working_raw": 23300000
+        },
+        {
+          "stage": "after_rx_request",
+          "selector": 15,
+          "rx_port": 0,
+          "working_raw": 23300000
+        },
+        {
+          "stage": "before_rf_stop",
+          "selector": 4,
+          "rx_port": 2,
+          "working_raw": 8822000
+        },
+        {
+          "stage": "after_rf_stop",
+          "selector": 4,
+          "rx_port": 2,
+          "working_raw": 8822000
+        }
+      ]
+    },
+    {
+      "band": 8,
+      "frequency_hz": 942500000,
+      "epoch": 2,
+      "transport_completed": true,
+      "device_drained": true,
+      "device_bytes": 11501568,
+      "host_bytes": 11468800,
+      "shortfall_bytes": 32768,
+      "slot_values": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rf_phases": [
+        {
+          "stage": "after_prepare",
+          "selector": 4,
+          "rx_port": 2,
+          "working_raw": 8822000
+        },
+        {
+          "stage": "before_rx_request",
+          "selector": 4,
+          "rx_port": 2,
+          "working_raw": 8822000
+        },
+        {
+          "stage": "after_rx_request",
+          "selector": 4,
+          "rx_port": 2,
+          "working_raw": 8822000
+        },
+        {
+          "stage": "before_rf_stop",
+          "selector": 6,
+          "rx_port": 3,
+          "working_raw": 9432000
+        },
+        {
+          "stage": "after_rf_stop",
+          "selector": 6,
+          "rx_port": 3,
+          "working_raw": 9432000
+        }
+      ]
+    }
+  ],
+  "hardware_identity_verified": false,
+  "rffe_bus_execution_verified": false,
+  "lost_samples_known": false,
+  "conclusion": "B5 then B8 BW0 captures drain normally without a chip reset between them. All five candidate slot readbacks remain zero before/after RX request; same-value/readback semantics and dispatch timing remain unresolved. Live RF selector/port change later before stop. Do not infer absent frontend, absent write or hardware fault.",
+  "next_action": "Trace native RX dispatch timing and RFAD readback semantics before adding probes or attempting frontend switch writes; no repeated zero-slot captures.",
+  "dependencies": {
+    "records/rf-frontend/v25-powercycle-trace.json": "100bd03edf61c19f344fdedab6e6651594fae48245145be9d1452c5417932188",
+    "records/rf-frontend/v25-b8-rearm-trace.json": "62642ae7bc1ccd8ffe3ba3351d9851679bd6924cdffba9836eb685d73478cdf4",
+    "records/rf-frontend/v25-powercycle-bw0-short.json": "adf8aa66225f2c19e4460844c73b80137851f8e91d96227434b225ebd6dadb3e",
+    "records/rf-frontend/v25-b8-rearm-short.json": "9489921a12f8c6a2e1b575bd70645c6ee507a3c68d9c26b74d7925e3a4bb0a80"
+  }
+}

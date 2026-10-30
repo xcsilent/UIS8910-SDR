@@ -1,0 +1,207 @@
+{
+  "profile": "native B5 881.5MHz BW0; rebuild only, no deploy",
+  "commands": [
+    [
+      {
+        "prefix": "",
+        "path": "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+      },
+      "-mcpu=cortex-a5",
+      "-mthumb",
+      "-mfloat-abi=soft",
+      "-Os",
+      "-ffreestanding",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fno-jump-tables",
+      "-fno-tree-switch-conversion",
+      "-fno-strict-aliasing",
+      "-nostdlib",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Wl,--build-id=none",
+      "-Wno-unused-function",
+      "-Wl,--gc-sections",
+      "-Wl,--emit-relocs",
+      {
+        "prefix": "-I",
+        "path": "firmware/capture/generated"
+      },
+      {
+        "prefix": "-I",
+        "path": "firmware/capture"
+      },
+      {
+        "prefix": "-I",
+        "path": "firmware/rf_rebuild"
+      },
+      "-DRXCAPT_RING_BLOCKS=7u",
+      "-DRXCAPT_CONTINUOUS_STREAM=1",
+      "-DRXCAPT_STREAM_STATE_ADDRESS=0x8096e300u",
+      "-DRXCAPT_STREAM_EXPORT_ADDRESS=0x8096fa40u",
+      "-DRXCAPT_STREAM_FAST_MAILBOX_POLL=1",
+      "-DRXCAPT_ALLOW_ZERO_BANDWIDTH=1",
+      "-DRXCAPT_RAW_FREQUENCY_SWEEP=1",
+      "-DRXCAPT_RAW_SWEEP_MIN=8815000u",
+      "-DRXCAPT_RAW_SWEEP_MAX=8815000u",
+      "-DRXCAPT_RF_CORE_SNAPSHOT=1",
+      "-DRXCAPT_RF_PHASE_LOG=1",
+      "-DRXCAPT_RF_CODE_SNAPSHOT=1",
+      "-DRXCAPT_RF_CALIBRATION_SNAPSHOT=1",
+      "-DRXCAPT_RF_SFR_SNAPSHOT=1",
+      {
+        "prefix": "-Wl,-T,",
+        "path": "firmware/capture/generated/resident.ld"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/capture/rf_terminal_rx.S"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/capture/rf_terminal_rx.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/capture/rf_terminal_service.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/capture/rxcapt_ring_resident.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/rf_rebuild/rfad_off_immediate.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/rf_rebuild/rfad_spi.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/rf_rebuild/rfad_frame_time.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/rf_rebuild/rfad_rx_request.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/rf_rebuild/rfad_stop.c"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/capture/rxcapt_stream_publish.c"
+      },
+      "-lgcc",
+      "-o",
+      {
+        "prefix": "",
+        "path": "work/capture-build/resident.elf"
+      }
+    ],
+    [
+      {
+        "prefix": "",
+        "path": "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy.exe"
+      },
+      "-O",
+      "binary",
+      {
+        "prefix": "",
+        "path": "work/capture-build/resident.elf"
+      },
+      {
+        "prefix": "",
+        "path": "work/capture-build/resident.bin"
+      }
+    ],
+    [
+      {
+        "prefix": "",
+        "path": "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe"
+      },
+      "-mcpu=cortex-a5",
+      "-mthumb",
+      "-mfloat-abi=soft",
+      "-Os",
+      "-ffreestanding",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fno-jump-tables",
+      "-fno-tree-switch-conversion",
+      "-fno-strict-aliasing",
+      "-nostdlib",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-Wl,--build-id=none",
+      "-Wno-unused-function",
+      "-Wl,--gc-sections",
+      "-Wl,--emit-relocs",
+      {
+        "prefix": "-I",
+        "path": "firmware/capture/generated"
+      },
+      {
+        "prefix": "-I",
+        "path": "firmware/capture"
+      },
+      {
+        "prefix": "-I",
+        "path": "firmware/rf_rebuild"
+      },
+      "-DRXCAPT_RING_BLOCKS=7u",
+      "-DRXCAPT_CONTINUOUS_STREAM=1",
+      "-DRXCAPT_STREAM_STATE_ADDRESS=0x8096e300u",
+      "-DRXCAPT_STREAM_EXPORT_ADDRESS=0x8096fa40u",
+      "-DRXCAPT_STREAM_FAST_MAILBOX_POLL=1",
+      "-DRXCAPT_ALLOW_ZERO_BANDWIDTH=1",
+      "-DRXCAPT_RAW_FREQUENCY_SWEEP=1",
+      "-DRXCAPT_RAW_SWEEP_MIN=8815000u",
+      "-DRXCAPT_RAW_SWEEP_MAX=8815000u",
+      "-DRXCAPT_RF_CORE_SNAPSHOT=1",
+      "-DRXCAPT_RF_PHASE_LOG=1",
+      "-DRXCAPT_RF_CODE_SNAPSHOT=1",
+      "-DRXCAPT_RF_CALIBRATION_SNAPSHOT=1",
+      "-DRXCAPT_RF_SFR_SNAPSHOT=1",
+      "-fpie",
+      {
+        "prefix": "-Wl,-T,",
+        "path": "firmware/capture/generated/control.ld"
+      },
+      {
+        "prefix": "",
+        "path": "firmware/capture/rf_terminal_control.c"
+      },
+      "-o",
+      {
+        "prefix": "",
+        "path": "work/capture-build/control.elf"
+      }
+    ],
+    [
+      {
+        "prefix": "",
+        "path": "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy.exe"
+      },
+      "-O",
+      "binary",
+      {
+        "prefix": "",
+        "path": "work/capture-build/control.elf"
+      },
+      {
+        "prefix": "",
+        "path": "work/capture-build/control.bin"
+      }
+    ]
+  ],
+  "expected_resident_sha256": "a99fbb5a53e8cd549de08c2bdbbdf261aa1308dc3c84408c87d31c6c7d24f5af",
+  "expected_control_sha256": "e5290a0787148968cf4c331c2566dd48e180ffbc8378fd937939e13b86c1903b"
+}

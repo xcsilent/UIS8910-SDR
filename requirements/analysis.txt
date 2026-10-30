@@ -1,0 +1,4 @@
+# Additional packages used by focused SDK/ARM analysis, not portable CI.
+-r host.txt
+pyelftools
+unicorn

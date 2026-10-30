@@ -1,0 +1,540 @@
+{
+  "recorded_at": "2026-10-29T11:18:12.081340+08:00",
+  "status": "passed",
+  "device_accessed": true,
+  "read_only": true,
+  "configuration_requested": false,
+  "profile_operation_sent": true,
+  "configuration_attempted": false,
+  "configuration_readback_verified": false,
+  "firmware_changed": false,
+  "RF_settings_changed": false,
+  "reset_performed": false,
+  "firmware": {
+    "protocol": 1,
+    "firmware": "uis8910-sdr-bw0-usb-v1",
+    "cp_baseline_sha256": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "cp_agent_ready": true,
+    "cp_debug_base": 2157379584,
+    "cp_slot_size": 8192,
+    "ap_test_ram": 2163361664,
+    "ap_test_size": 4096,
+    "cp_test_ram": 2157424640,
+    "bcpu_rom_cp_address": 1074397184,
+    "bcpu_rom_size": 163840,
+    "max_transfer": 1024,
+    "vendor_text_patch": false,
+    "iq_capture": false,
+    "cp_reload": false,
+    "ap_precise_abort_recovery": true,
+    "bus_stall_recovery": false,
+    "cp_call_async": true,
+    "bulk_read": true,
+    "bulk_max_bytes": 65536,
+    "bulk_chunk_bytes": 4080,
+    "raw_usb": true,
+    "raw_usb_abi": 1,
+    "raw_usb_status_operation": 40,
+    "raw_usb_start_operation": 41,
+    "raw_usb_stop_operation": 42,
+    "raw_usb_source": "fixed_ap_buffer_benchmark",
+    "bw0_usb": true,
+    "bw0_status_operation": 44,
+    "bw0_start_operation": 45,
+    "bw0_stop_operation": 46,
+    "bw0_config_operation": 47,
+    "bw0_recovery_status_operation": 48,
+    "bw0_rf_profiles": [
+      1,
+      3,
+      5,
+      7,
+      8,
+      18,
+      19,
+      26,
+      34,
+      38,
+      39,
+      40,
+      41
+    ],
+    "bw0_wait_policy": "notification_or_high_precision_sleep",
+    "bw0_wait_us": 250,
+    "bw0_bandwidth_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "bw0_config_abi": 2,
+    "bw0_sample_rate_is_nominal": true,
+    "bw0_scheduler_operation": 50,
+    "bw0_scheduler_abi": 1,
+    "bw0_scheduler_policy_abi": 2,
+    "bw0_scheduler_auto_wait_min_bw": 2,
+    "bw0_wait_us_is_default": true,
+    "bw0_segment_profile_operation": 51,
+    "bw0_segment_profile_abi": 1,
+    "bw0_queue_profile_abi": 1,
+    "bw0_refill_profile_abi": 1,
+    "bw0_scratch_drops_operation": 52,
+    "bw0_scratch_drops_abi": 1,
+    "bw0_until_stop": true,
+    "bw0_keepalive_operation": 49,
+    "bw0_lease_timeout_ms": 5000,
+    "bw0_cp_exchange_operation": 14,
+    "bw0_fem_override_operation": 53,
+    "bw0_fem_override_abi": 1
+  },
+  "refill": {
+    "abi": 1,
+    "enabled": true,
+    "epoch": 1,
+    "phase": 4,
+    "opened": 1403,
+    "refilled": 1401,
+    "aborted": 2,
+    "active": false,
+    "retained": 24,
+    "episodes": [
+      {
+        "sequence": 1380,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 58,
+          "release_request_observed": null,
+          "release_ack_observed": 68,
+          "published_hint_observed": 58
+        },
+        "end_us": 95,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1381,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 36,
+          "release_request_observed": null,
+          "release_ack_observed": 48,
+          "published_hint_observed": 36
+        },
+        "end_us": 78,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1382,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 38,
+          "release_request_observed": null,
+          "release_ack_observed": 203,
+          "published_hint_observed": 38
+        },
+        "end_us": 234,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1383,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 73,
+          "release_request_observed": null,
+          "release_ack_observed": 86,
+          "published_hint_observed": 73
+        },
+        "end_us": 117,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1384,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 26,
+          "release_request_observed": null,
+          "release_ack_observed": 41,
+          "published_hint_observed": 26
+        },
+        "end_us": 71,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1385,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": null,
+          "release_request_observed": null,
+          "release_ack_observed": null,
+          "published_hint_observed": null
+        },
+        "end_us": 37,
+        "first_worker_context": null
+      },
+      {
+        "sequence": 1386,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 59,
+          "release_request_observed": null,
+          "release_ack_observed": 72,
+          "published_hint_observed": 59
+        },
+        "end_us": 99,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1387,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 35,
+          "release_request_observed": null,
+          "release_ack_observed": 46,
+          "published_hint_observed": 35
+        },
+        "end_us": 75,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1388,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 53,
+          "release_request_observed": null,
+          "release_ack_observed": 65,
+          "published_hint_observed": 53
+        },
+        "end_us": 96,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1389,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 59,
+          "release_request_observed": null,
+          "release_ack_observed": 75,
+          "published_hint_observed": 59
+        },
+        "end_us": 107,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1390,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 66,
+          "release_request_observed": null,
+          "release_ack_observed": 78,
+          "published_hint_observed": 66
+        },
+        "end_us": 107,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1391,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 73,
+          "release_request_observed": null,
+          "release_ack_observed": 86,
+          "published_hint_observed": 73
+        },
+        "end_us": 115,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1392,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 37,
+          "release_request_observed": null,
+          "release_ack_observed": 54,
+          "published_hint_observed": 37
+        },
+        "end_us": 83,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1393,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 42,
+          "release_request_observed": null,
+          "release_ack_observed": 53,
+          "published_hint_observed": 42
+        },
+        "end_us": 82,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1394,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": null,
+          "release_request_observed": null,
+          "release_ack_observed": null,
+          "published_hint_observed": null
+        },
+        "end_us": 38,
+        "first_worker_context": null
+      },
+      {
+        "sequence": 1395,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 35,
+          "release_request_observed": null,
+          "release_ack_observed": 47,
+          "published_hint_observed": 35
+        },
+        "end_us": 78,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1396,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 61,
+          "release_request_observed": null,
+          "release_ack_observed": 74,
+          "published_hint_observed": 61
+        },
+        "end_us": 106,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1397,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 52,
+          "release_request_observed": null,
+          "release_ack_observed": 66,
+          "published_hint_observed": 52
+        },
+        "end_us": 98,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1398,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 53,
+          "release_request_observed": null,
+          "release_ack_observed": 67,
+          "published_hint_observed": 53
+        },
+        "end_us": 104,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1399,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 53,
+          "release_request_observed": null,
+          "release_ack_observed": 62,
+          "published_hint_observed": 53
+        },
+        "end_us": 90,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1400,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 57,
+          "release_request_observed": null,
+          "release_ack_observed": 70,
+          "published_hint_observed": 57
+        },
+        "end_us": 102,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1401,
+        "state": "refilled",
+        "observations_us": {
+          "first_worker": 53,
+          "release_request_observed": null,
+          "release_ack_observed": 65,
+          "published_hint_observed": 53
+        },
+        "end_us": 94,
+        "first_worker_context": {
+          "mailbox_pending": true,
+          "published_hint_available": true,
+          "mailbox_operation": 14
+        }
+      },
+      {
+        "sequence": 1402,
+        "state": "aborted",
+        "observations_us": {
+          "first_worker": null,
+          "release_request_observed": null,
+          "release_ack_observed": null,
+          "published_hint_observed": null
+        },
+        "end_us": 50,
+        "first_worker_context": null
+      },
+      {
+        "sequence": 1403,
+        "state": "aborted",
+        "observations_us": {
+          "first_worker": null,
+          "release_request_observed": null,
+          "release_ack_observed": null,
+          "published_hint_observed": null
+        },
+        "end_us": 77,
+        "first_worker_context": null
+      }
+    ],
+    "summary": {
+      "retained_refilled_episodes": 22,
+      "retained_aborted_episodes": 2,
+      "retained_open_episodes": 0,
+      "intervals": {
+        "empty_to_worker": {
+          "count": 20,
+          "missing": 2,
+          "reversed_order": 0,
+          "saturated": 0,
+          "median_us": 53.0,
+          "mean_us": 50.95,
+          "maximum_us": 73
+        },
+        "worker_to_release_request": {
+          "count": 0,
+          "missing": 22,
+          "reversed_order": 0,
+          "saturated": 0,
+          "median_us": null,
+          "mean_us": null,
+          "maximum_us": null
+        },
+        "release_request_to_ack": {
+          "count": 0,
+          "missing": 22,
+          "reversed_order": 0,
+          "saturated": 0,
+          "median_us": null,
+          "mean_us": null,
+          "maximum_us": null
+        },
+        "ack_to_published_hint": {
+          "count": 0,
+          "missing": 2,
+          "reversed_order": 20,
+          "saturated": 0,
+          "median_us": null,
+          "mean_us": null,
+          "maximum_us": null
+        },
+        "published_hint_to_refill": {
+          "count": 20,
+          "missing": 2,
+          "reversed_order": 0,
+          "saturated": 0,
+          "median_us": 43.0,
+          "mean_us": 50.6,
+          "maximum_us": 196
+        },
+        "empty_to_refill": {
+          "count": 22,
+          "missing": 0,
+          "reversed_order": 0,
+          "saturated": 0,
+          "median_us": 95.5,
+          "mean_us": 95.72727272727273,
+          "maximum_us": 234
+        }
+      },
+      "scope": "Only retained successful episodes. Each interval has its own eligible population; medians are not additive. Published data may be observed before release ACK, so reversed pairs are counted, not treated as corruption or negative latency. Missing observations can predate the episode. Last24 episodes do not estimate session-wide prevalence or physical idle time."
+    },
+    "scope": "Last24 application-observed empty-queue episodes, not representative sampling. Offsets start at the empty completion and overlap; do not add. Request/ACK/publication observations are AP timestamps, not CP event times. End is enqueue return or abort. Missing observations may precede the episode. UINT32_MAX offsets are saturated. No payload, CPU, physical USB idle or sample-loss measurement."
+  },
+  "dependencies": {
+    "tools/sdr/segments.py": "c0690c6f9a4762837d3043c781e6fb2a51a41905ebbaf5f3b256abcf647ed8d8",
+    "tools/debug/uis_debug.py": "bba399b7487936fdc6ab0a1e1c339b84f5c0315914657ea8d5066390cf8b4632"
+  }
+}

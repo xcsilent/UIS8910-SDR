@@ -1,0 +1,403 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "cases": [
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "normal",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "same_value",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "busy",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_row",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_value",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "active",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_signature",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_pointer",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_band",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_source",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "bad_copy",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "write_ignored",
+      "result": -3
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "restore_ignored",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "restore_conflict",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "restore_busy",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 4,
+      "scenario": "corrupt_state",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "normal",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "same_value",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "busy",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_row",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_value",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "active",
+      "result": -1
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_signature",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_pointer",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_band",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_source",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "bad_copy",
+      "result": -2
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "write_ignored",
+      "result": -3
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "restore_ignored",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "restore_conflict",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "restore_busy",
+      "result": 0
+    },
+    {
+      "optimization": "O0",
+      "row": 6,
+      "scenario": "corrupt_state",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "normal",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "same_value",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "busy",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_row",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_value",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "active",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_signature",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_pointer",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_band",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_source",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "bad_copy",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "write_ignored",
+      "result": -3
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "restore_ignored",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "restore_conflict",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "restore_busy",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 4,
+      "scenario": "corrupt_state",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "normal",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "same_value",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "busy",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_row",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_value",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "active",
+      "result": -1
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_signature",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_pointer",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_band",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_source",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "bad_copy",
+      "result": -2
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "write_ignored",
+      "result": -3
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "restore_ignored",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "restore_conflict",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "restore_busy",
+      "result": 0
+    },
+    {
+      "optimization": "O2",
+      "row": 6,
+      "scenario": "corrupt_state",
+      "result": 0
+    }
+  ],
+  "enabled_in_current_firmware": false,
+  "scope": "Compiled ARM O0/O2 control flow with synthetic ordered bus callbacks and injected rejection/readback/recovery failures. No RF/cache/ownership/ACK or integration proof.",
+  "dependencies": {
+    "tools/verify/verify_rf_frontend_override.py": "64d53285a70f4c9eae2bfb836c95973a30ec4e8aacb2da45498f4a1cb2ab7e03",
+    "firmware/rf_rebuild/rf_frontend_override.c": "3768ec9e6d979e347504227842e5c513a98b7b259c0fa737caa8faab0e6a8384",
+    "firmware/rf_rebuild/rf_frontend_override.h": "8eacad1170a27ebf1e2982643fa9717d45600115c619500e0460354615c40397",
+    "firmware/rf_rebuild/rf_bus.h": "751975e648ac2c54e77c963464c5f4abd1c27e6c0ca273a301128e7b5acf53ca",
+    "work/rf-frontend-override-check/bus.c": "6c81c668b6e07e26d11f2f6b2d70de2d7858d26981ce2c4e7484a54af6db155a",
+    "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe": "01294637b48631922e972a0dbc9c57107ab7c96d0e37a79d109f6fa204403137",
+    "work/rf-frontend-override-check/O0.elf": "9cd9d5de579a48093215ba6e8b7143f5aa38d79e6650e4683c4c2cbd3bbc95ad",
+    "work/rf-frontend-override-check/O2.elf": "10cae84fe9df979dad6228091575e3017f1a0aee72315ebd1eee5fc9fe5e5d10"
+  }
+}

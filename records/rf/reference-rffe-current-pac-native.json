@@ -1,0 +1,1607 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "image_source": "current PAC decoded payload",
+  "image_sha256": "5df483f4435d11ed0a7e66918a5bce00e322097c57bbc4a1138b9940f1dc6ab8",
+  "observer_verification": null,
+  "scope": "Native helper/init-loop execution plus synthetic ID-read control flow and DWARF target mapping. No actual RFFE peripheral, bus transaction, USID change or hardware identity verified.",
+  "original_init_loop_matches": true,
+  "zero_first_entry_bypasses_init_list": true,
+  "synthetic_id_read_cases": [
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        13,
+        154,
+        150
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        13,
+        154,
+        150
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        13,
+        0,
+        150
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        13,
+        154,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        13,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        13,
+        32,
+        0
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        13,
+        32,
+        0
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        13,
+        0,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        13,
+        32,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        13,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        13,
+        65535,
+        65535
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        13,
+        65535,
+        65535
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        13,
+        0,
+        65535
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        13,
+        65535,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 13,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        13,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        14,
+        154,
+        150
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        14,
+        154,
+        150
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        14,
+        0,
+        150
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        14,
+        154,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        14,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        14,
+        32,
+        0
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        14,
+        32,
+        0
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        14,
+        0,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        14,
+        32,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        14,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        14,
+        65535,
+        65535
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        14,
+        65535,
+        65535
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        14,
+        0,
+        65535
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        14,
+        65535,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 14,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        14,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        15,
+        154,
+        150
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        15,
+        154,
+        150
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        15,
+        0,
+        150
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        15,
+        154,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        154,
+        150
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        15,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        15,
+        32,
+        0
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        15,
+        32,
+        0
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        15,
+        0,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        15,
+        32,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        32,
+        0
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        15,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        0,
+        0
+      ],
+      "saved_config_halfwords": [
+        15,
+        65535,
+        65535
+      ],
+      "instructions": 36,
+      "omitted_delay_calls": 0
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        2,
+        3
+      ],
+      "saved_config_halfwords": [
+        15,
+        65535,
+        65535
+      ],
+      "instructions": 76,
+      "omitted_delay_calls": 5
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        null,
+        0
+      ],
+      "saved_config_halfwords": [
+        15,
+        0,
+        65535
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        0,
+        null
+      ],
+      "saved_config_halfwords": [
+        15,
+        65535,
+        0
+      ],
+      "instructions": 110,
+      "omitted_delay_calls": 10
+    },
+    {
+      "synthetic_slave": 15,
+      "supplied_ids": [
+        65535,
+        65535
+      ],
+      "ready_after_polls": [
+        null,
+        null
+      ],
+      "saved_config_halfwords": [
+        15,
+        0,
+        0
+      ],
+      "instructions": 184,
+      "omitted_delay_calls": 20
+    }
+  ],
+  "id_target_field": {
+    "dwarf_type": "rf_lte_nv_fem_mipi_tag",
+    "field": "gsm_tx_mipi_sw_open[0].byte2",
+    "member_offsets": {
+      "mipi_init": 0,
+      "rx_mipi_sw_open": 100,
+      "gsm_tx_mipi_sw_open": 4268
+    },
+    "rf_local_address": "0xa7fa",
+    "nv_offset": "0x135a",
+    "retained_snapshot_value": 13,
+    "scope": "Read target comes from the first GSM TX-switch NV entry, not the LTE request selector. This names a config byte, not live bus traffic or GSM decoding."
+  },
+  "reference_image_loader": {
+    "platform": "ZW217 uix8910",
+    "function": "LOAD_modem",
+    "entry_name": "riscV.bin",
+    "compressed_entry": "LZMA_BZP_EX04",
+    "pre_load_register": "0x50035008",
+    "pre_load_clear_mask": "0x10",
+    "destination": "memory-index entry addr/len, not a hardcoded destination inferred here",
+    "source_checks": [
+      "8-byte destination alignment",
+      "decompressed length <= destination length"
+    ],
+    "active_reference_branch": "Under #if0 alternative, load_use_lzma true decodes EX01/EX02 only; EX04 follows memcpy. EX04 accessor representation and current SDK loader remain unresolved.",
+    "scope": "Reference source text relation only; not compiled control-flow proof or current UIS8910 SDK/AP identity. Reset meaning comes from source comment; no hardware writes."
+  },
+  "retained_board_rx_switch_cases": [
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 0,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 0,
+      "synthetic_enable": 1,
+      "command_count": 1,
+      "command_helper_arguments": [
+        "0x97d0"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x4",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 1,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 1,
+      "synthetic_enable": 1,
+      "command_count": 1,
+      "command_helper_arguments": [
+        "0x9950"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 2,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 2,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 3,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 3,
+      "selector": 2,
+      "nv_row": 2,
+      "operation": 3,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 0,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 0,
+      "synthetic_enable": 1,
+      "command_count": 1,
+      "command_helper_arguments": [
+        "0x97f0"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x5",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 1,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 1,
+      "synthetic_enable": 1,
+      "command_count": 1,
+      "command_helper_arguments": [
+        "0x9970"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 2,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 2,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 3,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 5,
+      "selector": 4,
+      "nv_row": 4,
+      "operation": 3,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 0,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 0,
+      "synthetic_enable": 1,
+      "command_count": 1,
+      "command_helper_arguments": [
+        "0x9810"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x2",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 1,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 1,
+      "synthetic_enable": 1,
+      "command_count": 1,
+      "command_helper_arguments": [
+        "0x9990"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 2,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 2,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 3,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 8,
+      "selector": 6,
+      "nv_row": 6,
+      "operation": 3,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 0,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 0,
+      "synthetic_enable": 1,
+      "command_count": 2,
+      "command_helper_arguments": [
+        "0x9910",
+        "0x9914"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x8",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c008",
+          "value": "0x1",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x2",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3c72",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 1,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 1,
+      "synthetic_enable": 1,
+      "command_count": 2,
+      "command_helper_arguments": [
+        "0x9a90",
+        "0x9a94"
+      ],
+      "retained_rf_ram_writes": [],
+      "controller_writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c008",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x2",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3c72",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 2,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 2,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 3,
+      "synthetic_enable": 0,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    },
+    {
+      "band": 40,
+      "selector": 15,
+      "nv_row": 22,
+      "operation": 3,
+      "synthetic_enable": 1,
+      "command_count": 0,
+      "command_helper_arguments": [],
+      "retained_rf_ram_writes": [],
+      "controller_writes": []
+    }
+  ],
+  "rx_switch_scope": "Native 0x7140 dispatcher, selector map940c and four-entry helper6712 to helper10e8. Retained board NV and injected selector map/enable; observer builds additionally write their declared count/pointer. No other retained RAM writes in these cases; not actual RF RAM, RFAD delivery or wire/port/reception proof.",
+  "id_read_scope": "Native 0x185c..0x190e with synthetic ready/result MMIO; delay wrapper calls omitted, no physical timing/ACK modeled. Reads 1e then1d, ctrl=(slave<<10)|0x70; timeout saves zero, no ID acceptance comparison in this slice.",
+  "rows": [
+    {
+      "index": 0,
+      "nv_word": "0xe1d96",
+      "value": 150,
+      "register": 29,
+      "slave": 14,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x96",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1d",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3872",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "nv_word": "0xe1e9a",
+      "value": 154,
+      "register": 30,
+      "slave": 14,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x9a",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1e",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3872",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "nv_word": "0xe1f2d",
+      "value": 45,
+      "register": 31,
+      "slave": 14,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x2d",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1f",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3872",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "nv_word": "0xd1c38",
+      "value": 56,
+      "register": 28,
+      "slave": 13,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x38",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1c",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3472",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "nv_word": "0xf1d00",
+      "value": 0,
+      "register": 29,
+      "slave": 15,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x0",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1d",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3c72",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "nv_word": "0xf1e20",
+      "value": 32,
+      "register": 30,
+      "slave": 15,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x20",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1e",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3c72",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "nv_word": "0xf1f0f",
+      "value": 15,
+      "register": 31,
+      "slave": 15,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0xf",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1f",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3c72",
+          "bytes": 2
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "nv_word": "0xf1c38",
+      "value": 56,
+      "register": 28,
+      "slave": 15,
+      "reserved": 0,
+      "writes": [
+        {
+          "address": "0x3c008",
+          "value": "0x38",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c000",
+          "value": "0x1c",
+          "bytes": 2
+        },
+        {
+          "address": "0x3c004",
+          "value": "0x3c72",
+          "bytes": 2
+        }
+      ]
+    }
+  ],
+  "dependencies": {
+    "tools/verify/verify_rffe_init_native.py": "fcca1ca25bf9aa2bd69bea407acc14c12b134bf6aee24864e139916774e730f4",
+    "work/rf-cache/current-rf-decoded.bin": "5df483f4435d11ed0a7e66918a5bce00e322097c57bbc4a1138b9940f1dc6ab8",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf": "0ab9571c93d72ad6669e70a7872cf5998c312256ddbe450b55d1cc4a860d17c2",
+    "records/rf/runtime-frontend-current.rfnv.bin": "a8394c46eedcd72d56559dd3785ae29891c464b4e2e53869e724c871a0d5feb8",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "tools/verify/verify_rf_frequency_native.py": "ea157c16df8a02d1fb68b1bbc847f63280a03838d814c8c61d308e9deda30fd9",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/chip_drv/chip_module/chip/uix8910/load_modem.c": "e836e38e5faf53aa6cb35aa9bf5bab1f6750cfefaeee68201119cc7e84980d87",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/chip_drv/chip_module/chip/uix8910/load_modem.h": "7eb46500a7feb675161b97c12f9674353d7d33c4f48a2093bcf01ec73d8acbd2",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/chip_drv/chip_plf/uix8910/uix8910_reg_base.h": "0de166da0e0f2c070dd6141ed0e4a03e20b4e241349e6afa1b78c2505a7c0489",
+    "tools/verify/rf_image.py": "34be385865e1836fec111ed47e1565e4e46a6ccd17f40ff302d61544bf5dad47",
+    "records/rf/reference-rf-pac-payload.json": "6fd9f469e405294cd6a0fb3fe1733551e9bdb0cdfab4f3f061bdbf5ac4cabb8f",
+    "outputs/firmware/current/manifest.json": "4607714b156d07bf48a2043e4e741094c2c5ce68bf68a61522cad6c8acfe6e44",
+    "outputs/firmware/scheduler-wide-v27/Air724U_UIS8910_SDR_BW0_USB_v27.pac": "944142e3fa907372120011a8c539f5350863a9517039b0a1848b892fe12707d2",
+    "tools/verify/verify_rf_pac_payload.py": "018d8184190e9ff75ab5bc31d0065c7ad20d9e93da5ae4680bf7ea11bd08c6aa",
+    "tools/usb/pac.py": "c890401edb5063c0cc625001ae79aefcb98ec1cb20b12ca87032c46e67ffcdd2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/CSDK_RDA8910.elf": "a4e2e388549948b69a3059239656ee8daa171bc2b59f275bee79f00a32286886",
+    "inputs/repositories/rda8910-csdk-hotelec/tools/win32/lzmar.exe": "f2b46166f8de5dd5596da508c93e28e3b4a7ddf2ab77a5dbc089afb2ff0ebaad",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca"
+  }
+}

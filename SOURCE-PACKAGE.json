@@ -1,0 +1,27 @@
+{
+  "project": "UIS8910-SDR",
+  "version": "0.1.0",
+  "original_license": "GPL-3.0-or-later",
+  "distribution_state": "prepared_for_initial_publication",
+  "git_history_included": false,
+  "iq_payloads_included": false,
+  "personal_identifiers_redacted": true,
+  "third_party_distribution_items": [
+    {
+      "component": "vendor PAC and SDK objects",
+      "scope": "Source build inputs and firmware ZIP",
+      "remaining": "Establish redistribution terms for modem/RF/boot/NV and vendor objects; SDK root GPL text is insufficient."
+    },
+    {
+      "component": "ARM GCC 7.2.1 / binutils bundle",
+      "scope": "Source build inputs",
+      "remaining": "Recover original distribution notices, provenance and applicable corresponding source before public upload."
+    }
+  ],
+  "firmware_snapshot_files": 133,
+  "active_source_differs_from_snapshot": [
+    "firmware/capture/rxcapt_profile.c",
+    "firmware/capture/rxcapt_profile.h"
+  ],
+  "measurement_scope": "Final numerical summaries; original IQ intentionally removed, no spectral replay available."
+}

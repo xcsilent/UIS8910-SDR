@@ -1,0 +1,103 @@
+{
+  "status": "observed_transition",
+  "points": [
+    {
+      "frequency_hz": 1600000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/v32-b3-1600-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": 45.71493884761536,
+      "tone_prominence_db": 50.56875577762465,
+      "working_raw": 16007000,
+      "selector": 2,
+      "rx_port": 1,
+      "configured_divider": 7,
+      "rxpll_cal_ready_reference": true,
+      "rxpll_vco_bits_reference": 813
+    },
+    {
+      "frequency_hz": 1500000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/v32-b3-1500-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": 44.824086426930336,
+      "tone_prominence_db": 50.25866642649827,
+      "working_raw": 15007000,
+      "selector": 2,
+      "rx_port": 1,
+      "configured_divider": 7,
+      "rxpll_cal_ready_reference": true,
+      "rxpll_vco_bits_reference": 466
+    },
+    {
+      "frequency_hz": 1447000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/v32-b3-1447-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": 48.635421735007505,
+      "tone_prominence_db": 54.441681757411885,
+      "working_raw": 14477000,
+      "selector": 2,
+      "rx_port": 1,
+      "configured_divider": 7,
+      "rxpll_cal_ready_reference": true,
+      "rxpll_vco_bits_reference": 276
+    },
+    {
+      "frequency_hz": 1400000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/v32-b3-1400-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": 47.18186476538904,
+      "tone_prominence_db": 52.59269153338522,
+      "working_raw": 14007000,
+      "selector": 2,
+      "rx_port": 1,
+      "configured_divider": 7,
+      "rxpll_cal_ready_reference": true,
+      "rxpll_vco_bits_reference": 76
+    },
+    {
+      "frequency_hz": 1350000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/v32-b3-1350-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": null,
+      "tone_prominence_db": 0.8869379373179678,
+      "working_raw": 13507000,
+      "selector": 2,
+      "rx_port": 1,
+      "configured_divider": 7,
+      "rxpll_cal_ready_reference": true,
+      "rxpll_vco_bits_reference": 4
+    },
+    {
+      "frequency_hz": 1300000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/v32-b3-1300-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": null,
+      "tone_prominence_db": 1.0051547666884915,
+      "working_raw": 13007000,
+      "selector": 2,
+      "rx_port": 1,
+      "configured_divider": 7,
+      "rxpll_cal_ready_reference": true,
+      "rxpll_vco_bits_reference": 2
+    },
+    {
+      "frequency_hz": 1375000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/v32-b3-1375-reference.json",
+      "all_tx_processes_ended": true,
+      "tone150_vs_off_db": 42.94973043882689,
+      "rxpll_vco_bits_reference": 1,
+      "rxpll_cal_ready_reference": true
+    }
+  ],
+  "continuous_interval_verified": false,
+  "chip_limit_verified": false,
+  "conclusion": "1375MHz complete reception with VCO code1 disproves low-code-alone failure inference.1350MHz missing underBW0/BW5. Current transition bracket1350-1375MHz is conditional; PLL, analog routing and fixed filters unresolved.",
+  "next": "Compare1375MHz positive/1350MHz missing underBW0/BW5, then trace PLL/LO controls and filter enables; no dense sweep.",
+  "filter_comparison": "records/rf/coverage-v32-filter-assessment.json"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "reference_detected_after_auto_switch",
+  "frequency_hz": 1885000000,
+  "auto_applied_band": 3,
+  "peak_hz": 146250.0,
+  "on_off_db": 76.48147082124535,
+  "peak_to_local_median_db": 68.73820922399743,
+  "tx_process_ended": true,
+  "tx_terminated_after_test": true,
+  "tx_exit": 1,
+  "scope": "SDR++ server-mode float IQ after B40-to-B3 switch; no independent RF retune test in this run; USB IQ payload remains raw",
+  "records": [
+    "records/geometry-v19/auto-1885-off.json",
+    "records/geometry-v19/auto-1885-on.json",
+    "records/geometry-v19/auto-1885-tx.json"
+  ]
+}

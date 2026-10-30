@@ -1,0 +1,1597 @@
+{
+  "status": "observations_recorded_hardware_semantics_unresolved",
+  "recorded_at": "2026-10-27T08:47:43.725638+08:00",
+  "device_accessed": true,
+  "hardware_tested": true,
+  "firmware_generation": "0x525c0201",
+  "flashed_by_user": true,
+  "firmware_identity_scope": "User flash confirmation plus INFO and actual CP generation/trace; not whole-flash readback",
+  "RF_transmitted": true,
+  "connector_user_confirmed": "B210 TRX1 and both antennas attached",
+  "antenna_distance_user_reported_cm": 30,
+  "setup_note": "Per-capture tool strings retained historical25cm wording; latest user-confirmed setup is30cm, not calibrated.",
+  "b210_serial": "DEVICE_ID_REDACTED",
+  "b210_frontend_probe_labels": {
+    "A": "FE-TX2",
+    "B": "FE-TX1"
+  },
+  "tested_reference_configuration": {
+    "subdev": "A:A A:B",
+    "channel": 0,
+    "antenna": "TX/RX",
+    "TX_gain_db": 40
+  },
+  "physical_connector_mapping_uniquely_proved": false,
+  "verified_reference_centers_hz": [
+    881500000,
+    2000000000
+  ],
+  "reference_not_identified_centers_hz": [
+    2330000000,
+    2790000000
+  ],
+  "lock_field_formally_identified": false,
+  "status_bit11_all_observed_high": true,
+  "low11_interpretation": "Frequency-dependent tuning/calibration/result numeric field candidate; not a proven VCO capacitor or voltage ADC field",
+  "bit0_independent_lock_label_rejected": true,
+  "selected_A_route_points": [
+    {
+      "requested_hz": 1884375000,
+      "working_raw": 18850750,
+      "status": "0x801",
+      "bit11": true,
+      "low11_candidate_value": 1,
+      "record": "records/rf-status-v10/b40-lower-code-trace.json"
+    },
+    {
+      "requested_hz": 2000000000,
+      "working_raw": 20007000,
+      "status": "0x958",
+      "bit11": true,
+      "low11_candidate_value": 344,
+      "record": "records/rf-status-v10/final-b40-2000-trace.json"
+    },
+    {
+      "requested_hz": 2330000000,
+      "working_raw": 23307000,
+      "status": "0xcc9",
+      "bit11": true,
+      "low11_candidate_value": 1225,
+      "record": "records/rf-status-v10/b40-2330-trace.json"
+    },
+    {
+      "requested_hz": 2790000000,
+      "working_raw": 27907000,
+      "status": "0xfa0",
+      "bit11": true,
+      "low11_candidate_value": 1952,
+      "record": "records/rf-status-v10/reference-b40-2790-tone150-rf-status.json"
+    }
+  ],
+  "phase_traces": [
+    {
+      "record": "records/rf-status-v10/reference-b40-2000-off-rf-status.json",
+      "epoch": 20,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc9",
+        "0xcc9",
+        "0xcc9",
+        "0x958",
+        "0x958"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        20007000,
+        20007000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2000-rx-plus100-rf-status.json",
+      "epoch": 22,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x958"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        20007000,
+        20007000,
+        20007000,
+        20008000,
+        20008000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2000-tone150-rf-status.json",
+      "epoch": 21,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x958"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        20007000,
+        20007000,
+        20007000,
+        20007000,
+        20007000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2000-tone350-rf-status.json",
+      "epoch": 23,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x958"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        20008000,
+        20008000,
+        20008000,
+        20007000,
+        20007000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-off-rf-status.json",
+      "epoch": 3,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc9",
+        "0xcc9",
+        "0xcc9",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-reconnected-off-rf-status.json",
+      "epoch": 18,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcc9",
+        "0xcc9"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-reconnected-tone150-rf-status.json",
+      "epoch": 19,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc9",
+        "0xcc9",
+        "0xcc9",
+        "0xcc9",
+        "0xcc9"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-rx-plus100-rf-status.json",
+      "epoch": 5,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcc8"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        23308000,
+        23308000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-subdev-a-off-rf-status.json",
+      "epoch": 7,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-subdev-a-rx-plus100-rf-status.json",
+      "epoch": 9,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        23308000,
+        23308000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-subdev-a-tone150-rf-status.json",
+      "epoch": 8,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcc8",
+        "0xcc8"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-subdev-a-tone350-rf-status.json",
+      "epoch": 10,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23308000,
+        23308000,
+        23308000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-tone150-rf-status.json",
+      "epoch": 4,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcc8",
+        "0xcc8"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-tone350-rf-status.json",
+      "epoch": 6,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcc8"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23308000,
+        23308000,
+        23308000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2790-off-rf-status.json",
+      "epoch": 24,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0x958",
+        "0x958",
+        "0x958",
+        "0xfa0",
+        "0xfa0"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        20007000,
+        20007000,
+        20007000,
+        27907000,
+        27907000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2790-tone150-rf-status.json",
+      "epoch": 25,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xfa0",
+        "0xfa0",
+        "0xfa0",
+        "0xfa0",
+        "0xfa0"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        27907000,
+        27907000,
+        27907000,
+        27907000,
+        27907000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a-off-rf-status.json",
+      "epoch": 13,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-off-rf-status.json",
+      "epoch": 14,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-rx-plus100-rf-status.json",
+      "epoch": 16,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        8823000,
+        8823000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-tone150-rf-status.json",
+      "epoch": 15,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-tone350-rf-status.json",
+      "epoch": 17,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8823000,
+        8823000,
+        8823000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-b-off-rf-status.json",
+      "epoch": 11,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-b-tone150-rf-status.json",
+      "epoch": 12,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/b40-2330-trace.json",
+      "epoch": 1,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc8",
+        "0xcc8",
+        "0xcc8",
+        "0xcc9",
+        "0xcc9"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23300000,
+        23300000,
+        23300000,
+        23307000,
+        23307000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/b40-lower-code-trace.json",
+      "epoch": 27,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0x958",
+        "0x958",
+        "0x958",
+        "0x801",
+        "0x801"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        20007000,
+        20007000,
+        20007000,
+        18850750,
+        18850750
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/b5-881500-trace.json",
+      "epoch": 2,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcc9",
+        "0xcc9",
+        "0xcc9",
+        "0xcc9",
+        "0xcc9"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        23307000,
+        23307000,
+        23307000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/final-b40-2000-trace.json",
+      "epoch": 28,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0x801",
+        "0x801",
+        "0x801",
+        "0x958",
+        "0x958"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        18850750,
+        18850750,
+        18850750,
+        20007000,
+        20007000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/return-b40-2000-trace.json",
+      "epoch": 26,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xfa0",
+        "0xfa0",
+        "0xfa0",
+        "0x958",
+        "0x958"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        27907000,
+        27907000,
+        27907000,
+        20007000,
+        20007000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x9007",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    },
+    {
+      "record": "records/rf-status-v10/terminal-trace.json",
+      "epoch": 13,
+      "generation": "0x525c0201",
+      "status_words": [
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca",
+        "0xcca"
+      ],
+      "status_bit11": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "working_raw": [
+        8822000,
+        8822000,
+        8822000,
+        8822000,
+        8822000
+      ],
+      "mdll_dividers": [
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "mdll_32a00": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "cp_phases": [
+        23,
+        26,
+        26,
+        28,
+        28
+      ]
+    }
+  ],
+  "reference_runs": [
+    {
+      "record": "records/rf-status-v10/reference-b40-2000.json",
+      "center_hz": 2000000000,
+      "band": 40,
+      "status": "reference_verified",
+      "reference_identified": true,
+      "tx_subdev": "A:A A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 57.56421060867236,
+      "wide_search_on_off_db": 53.55990094761064,
+      "retune_shift_hz": 99843.75,
+      "tone_separation_hz": 200156.25,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-reconnected.json",
+      "center_hz": 2330000000,
+      "band": 40,
+      "status": "reference_not_identified",
+      "reference_identified": false,
+      "tx_subdev": "A:A A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 6.284546731542501,
+      "wide_search_on_off_db": 0.4348447805069358,
+      "retune_shift_hz": null,
+      "tone_separation_hz": null,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330-subdev-a.json",
+      "center_hz": 2330000000,
+      "band": 40,
+      "status": "reference_not_identified",
+      "reference_identified": false,
+      "tx_subdev": "A:A A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 6.173014297761371,
+      "wide_search_on_off_db": -0.7789466634705268,
+      "retune_shift_hz": 99843.75,
+      "tone_separation_hz": 183046.875,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2330.json",
+      "center_hz": 2330000000,
+      "band": 40,
+      "status": "reference_not_identified",
+      "reference_identified": false,
+      "tx_subdev": "A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 4.731217414490231,
+      "wide_search_on_off_db": -0.33635238789586086,
+      "retune_shift_hz": 103593.75,
+      "tone_separation_hz": 183046.875,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b40-2790.json",
+      "center_hz": 2790000000,
+      "band": 40,
+      "status": "reference_not_identified",
+      "reference_identified": false,
+      "tx_subdev": "A:A A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 7.0068800742645525,
+      "wide_search_on_off_db": 25.74140718295108,
+      "retune_shift_hz": null,
+      "tone_separation_hz": null,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected.json",
+      "center_hz": 881500000,
+      "band": 5,
+      "status": "reference_verified",
+      "reference_identified": true,
+      "tx_subdev": "A:A A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 54.957612824414916,
+      "wide_search_on_off_db": 55.85815296144746,
+      "retune_shift_hz": 99843.75,
+      "tone_separation_hz": 199921.875,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-a.json",
+      "center_hz": 881500000,
+      "band": 5,
+      "status": "failed",
+      "reference_identified": false,
+      "tx_subdev": "A:A A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": null,
+      "wide_search_on_off_db": null,
+      "retune_shift_hz": null,
+      "tone_separation_hz": null,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    },
+    {
+      "record": "records/rf-status-v10/reference-b5-881500-subdev-b.json",
+      "center_hz": 881500000,
+      "band": 5,
+      "status": "reference_not_identified",
+      "reference_identified": false,
+      "tx_subdev": "A:B",
+      "all_processes_ended": true,
+      "first_tone_peak_to_local_median_db": 4.10954179187489,
+      "wide_search_on_off_db": 0.9748688428884277,
+      "retune_shift_hz": null,
+      "tone_separation_hz": null,
+      "note": "negative first-tone gate means follow-up skipped; no physical frequency-limit conclusion"
+    }
+  ],
+  "b210_recovery": "Abrupt first-tone abort left device unavailable; user reconnected. Subsequent finite bursts exited0; graceful finite completion used after missing first tone.",
+  "ending_RF_transmit_active": false,
+  "ending_receiver": "B40/2000MHz/BW0/gain40, stopped/drained",
+  "next_step": "Observe within RF tune control transition or obtain independent analog bit definition; do not treat bit11 high as successful RF reception, or negative antenna tests as chip limits.",
+  "dependencies": {
+    "records/rf-status-v10/reference-b40-2000-off-rf-status.json": "34f04704105952dcddbf0a6dd8e1bc5d77577bb7bbad314a33781e7d98725519",
+    "records/rf-status-v10/reference-b40-2000-rx-plus100-rf-status.json": "ae522647c2f83e2f6deba7244e9c8fd33c33708bf26110b5557f9dc8af720874",
+    "records/rf-status-v10/reference-b40-2000-tone150-rf-status.json": "0e8860615b76c8656820f2d666465541a2ed02e7bc5dd5a26c3319dc45649adc",
+    "records/rf-status-v10/reference-b40-2000-tone350-rf-status.json": "6f74d5ae22b72c809aaae5c80a3e75ab516d43a8a309d28af249162a2a5ba277",
+    "records/rf-status-v10/reference-b40-2330-off-rf-status.json": "04e25faee19c14b3d8fc3f52fc64df540036a7389153b62da2ba3dbd4d15ec46",
+    "records/rf-status-v10/reference-b40-2330-reconnected-off-rf-status.json": "473b9e2ea2ae14d57fa849628c2b3b4feff0836a55889d498b7a39f4b3ae302e",
+    "records/rf-status-v10/reference-b40-2330-reconnected-tone150-rf-status.json": "2c03beb97527fcf7e8723d56886c18df34fc366b8e285ec7e59f42bcb90bef2f",
+    "records/rf-status-v10/reference-b40-2330-rx-plus100-rf-status.json": "e294e864100a0930452d4ca83861417d855aa023ab58653ad440675da066296b",
+    "records/rf-status-v10/reference-b40-2330-subdev-a-off-rf-status.json": "58002677bfaa8383a88d7e92f610867c155bc7ffbf81ec2ce0c5b8f309cccaaa",
+    "records/rf-status-v10/reference-b40-2330-subdev-a-rx-plus100-rf-status.json": "276416b9af44cbf882217c7cf1dae94e50f73af4909a5e3ceca13b1805c131ee",
+    "records/rf-status-v10/reference-b40-2330-subdev-a-tone150-rf-status.json": "4214b60846298117fe442e276ebe0654ad3ae6939009d31e98d22d9bd954d29e",
+    "records/rf-status-v10/reference-b40-2330-subdev-a-tone350-rf-status.json": "6b2fbfeeeb276979e80f70dfeb701fb4fe2e18f702c2573eb5ae862825235ce3",
+    "records/rf-status-v10/reference-b40-2330-tone150-rf-status.json": "9b1cb4643c32c8803f9b93d1b3cede0c9d00d02d8a023d393399d07b268ee321",
+    "records/rf-status-v10/reference-b40-2330-tone350-rf-status.json": "eea3ffbb779733c80d4a1446749bf9f6e762d4720d5fba222b72e4b0e15df61b",
+    "records/rf-status-v10/reference-b40-2790-off-rf-status.json": "4555716fc34c21f88cb75e54079c3ef3c454d08c64483f2a3f1c6d1fb0bc056a",
+    "records/rf-status-v10/reference-b40-2790-tone150-rf-status.json": "4aea08b93694e45f31774715cea2573bf4bbf2164bf141f74103943b4698e948",
+    "records/rf-status-v10/reference-b5-881500-subdev-a-off-rf-status.json": "9f1851b21369b2474f7a1b6fa0ca7991b094c8d155a162bcb5689a2a9821a9bf",
+    "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-off-rf-status.json": "e31cd6e499835ec4dacb09a6a6548efc0a124f00768d5814b80cfeb0b5efa2f6",
+    "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-rx-plus100-rf-status.json": "77917bf16a721f251cd8b06cc40aa5503b542308ff1b47137cacd928f4449acf",
+    "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-tone150-rf-status.json": "b787368c57197b82dd1864c9a62c1f3ffe01cd39899f39bbf5635bd3b52dc2dd",
+    "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected-tone350-rf-status.json": "6c69203942af1063528f989558277c3dafc3026e621263a316a70e47ad74e95d",
+    "records/rf-status-v10/reference-b5-881500-subdev-b-off-rf-status.json": "c163fd6b831088610f2e7ca881f035a79cc9cf3665867630f6119ec1edadf2b7",
+    "records/rf-status-v10/reference-b5-881500-subdev-b-tone150-rf-status.json": "017fefb39f5295950e3b37d9fca1fc0a755a12d402f575a39e2ead14b9f070b9",
+    "records/rf-status-v10/b40-2330-trace.json": "ddef92e32a33a9cda8acedf68ff6c7ab2dc6720be203644fe552b1215e271916",
+    "records/rf-status-v10/b40-lower-code-trace.json": "8c08a77aedd40cf1ce854bf46ff4d635465f87d696a22a4cf961974ba2fc1014",
+    "records/rf-status-v10/b5-881500-trace.json": "5631348575624e9ec0260f1d7d626b601f2699a29c47ac8cab7ba0862ca7d412",
+    "records/rf-status-v10/final-b40-2000-trace.json": "6cfeff67cc03263f92692b9a98c0af3aaf95b054a09d1e048ea9f28b57752010",
+    "records/rf-status-v10/return-b40-2000-trace.json": "dc17ff0359fc80330377694f0eb21804975d42bb46c66f062127b5850118fc2c",
+    "records/rf-status-v10/terminal-trace.json": "f931820559bbb52ee18203f95d6587a6ef066932e0fe9be18a523d6eaa7a03b7",
+    "records/rf-status-v10/reference-b40-2000.json": "910e685e0c7d48db07ebc25d5d2789c383e5ef3748b0d152a2e0a500ddb5204f",
+    "records/rf-status-v10/reference-b40-2330-reconnected.json": "029cac7b6e3f5cab6e3c68be9b5ae082da6d421d904db023f01c1e176a8c9a80",
+    "records/rf-status-v10/reference-b40-2330-subdev-a.json": "be52df2b9adff076391c718fe6ceec3941595598fdf38bccf5e904ad1bf3a5da",
+    "records/rf-status-v10/reference-b40-2330.json": "2ebe3c5702a6b3751769a1cd067670e6910671d9796f5d55b624c10760cf08c4",
+    "records/rf-status-v10/reference-b40-2790.json": "80116a08cdcc41085f69aad8961553500e9a82636384999911c29a09c5b68a37",
+    "records/rf-status-v10/reference-b5-881500-subdev-a-reconnected.json": "0eedfd58cecd7c762f1ba996efcdd06664efbe98a5f1ed8d99713ae726cdbefa",
+    "records/rf-status-v10/reference-b5-881500-subdev-a.json": "2385fcbdccb03681093077ee7375e09059609fffed6fea4ccee745b0ae2f2d86",
+    "records/rf-status-v10/reference-b5-881500-subdev-b.json": "086c4faa8496618547c2ea8941891524624981aa15c9312334753ef4c0ce294d",
+    "records/rf-status-v10/final-b40-2000-rx.json": "57a1dc11c2536f41d6739eceb1ed45eb434d2eee1d174e29f1ad5f6171612785",
+    "tools/rf_reference.py": "af538f72c09c9908e66b56d539bacbb1594db6622604e66b65d9acd6990495c9",
+    "tools/sdr/rf_status.py": "3bf0a35a4ff6c83ab71298bb2618bd37a611344be498b749af3d120fb1f146f1",
+    "records/rf/coverage-analysis-verification.json": "0d8ab2a5be08fc59e03a5c516547b91a568ecc894eb35a40815d367d015bc36f"
+  }
+}

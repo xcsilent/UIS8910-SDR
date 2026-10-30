@@ -1,0 +1,784 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "image_source": "SDK reference RF binary",
+  "image_sha256": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+  "frequency_witness_verified": false,
+  "scope": "Original native RF correction slice, coefficient helper incl standard division code, and first7 retune writes vs compiled current C; synthetic contexts, no analog/lock proof",
+  "native_entries": {
+    "coefficients": "0x37f0",
+    "correction": "0x63c0..0x6404",
+    "prefix": "0x6420..0x64c4 or0x6618"
+  },
+  "modeled_legacy_operations": [
+    "EXTHZ",
+    "BCLR",
+    "BNEM1"
+  ],
+  "coefficient_cases": [
+    {
+      "working_raw": 8240000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 16226,
+      "fraction": 2430668304,
+      "selected_factor": 7,
+      "effective_raw": 16480000
+    },
+    {
+      "working_raw": 8240000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 16226,
+      "fraction": 2430668304,
+      "selected_factor": 7,
+      "effective_raw": 16480000
+    },
+    {
+      "working_raw": 8240000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 16226,
+      "fraction": 2126834766,
+      "selected_factor": 8,
+      "effective_raw": 16480000
+    },
+    {
+      "working_raw": 8690000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 17112,
+      "fraction": 2563411112,
+      "selected_factor": 7,
+      "effective_raw": 17380000
+    },
+    {
+      "working_raw": 8690000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 17112,
+      "fraction": 2563411112,
+      "selected_factor": 7,
+      "effective_raw": 17380000
+    },
+    {
+      "working_raw": 8690000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 17112,
+      "fraction": 2242984723,
+      "selected_factor": 8,
+      "effective_raw": 17380000
+    },
+    {
+      "working_raw": 8800000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 17329,
+      "fraction": 2595859354,
+      "selected_factor": 7,
+      "effective_raw": 17600000
+    },
+    {
+      "working_raw": 8800000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 17329,
+      "fraction": 2595859354,
+      "selected_factor": 7,
+      "effective_raw": 17600000
+    },
+    {
+      "working_raw": 8800000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 17329,
+      "fraction": 2271376935,
+      "selected_factor": 8,
+      "effective_raw": 17600000
+    },
+    {
+      "working_raw": 9425000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 18560,
+      "fraction": 2780224365,
+      "selected_factor": 7,
+      "effective_raw": 18850000
+    },
+    {
+      "working_raw": 9425000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 18560,
+      "fraction": 2780224365,
+      "selected_factor": 7,
+      "effective_raw": 18850000
+    },
+    {
+      "working_raw": 9425000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 18560,
+      "fraction": 2432696320,
+      "selected_factor": 8,
+      "effective_raw": 18850000
+    },
+    {
+      "working_raw": 9700000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19101,
+      "fraction": 2861344970,
+      "selected_factor": 7,
+      "effective_raw": 19400000
+    },
+    {
+      "working_raw": 9700000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19101,
+      "fraction": 2861344970,
+      "selected_factor": 7,
+      "effective_raw": 19400000
+    },
+    {
+      "working_raw": 9700000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19101,
+      "fraction": 2503676849,
+      "selected_factor": 8,
+      "effective_raw": 19400000
+    },
+    {
+      "working_raw": 9800000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19298,
+      "fraction": 2890843372,
+      "selected_factor": 7,
+      "effective_raw": 19600000
+    },
+    {
+      "working_raw": 9800000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19298,
+      "fraction": 2890843372,
+      "selected_factor": 7,
+      "effective_raw": 19600000
+    },
+    {
+      "working_raw": 9800000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19298,
+      "fraction": 2529487950,
+      "selected_factor": 8,
+      "effective_raw": 19600000
+    },
+    {
+      "working_raw": 9992999,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2947774992,
+      "selected_factor": 7,
+      "effective_raw": 19985998
+    },
+    {
+      "working_raw": 9992999,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19678,
+      "fraction": 2947774992,
+      "selected_factor": 7,
+      "effective_raw": 19985998
+    },
+    {
+      "working_raw": 9992999,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2579303118,
+      "selected_factor": 8,
+      "effective_raw": 19985998
+    },
+    {
+      "working_raw": 9993000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2947775287,
+      "selected_factor": 7,
+      "effective_raw": 19986000
+    },
+    {
+      "working_raw": 9993000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19678,
+      "fraction": 2947775287,
+      "selected_factor": 7,
+      "effective_raw": 19986000
+    },
+    {
+      "working_raw": 9993000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2579303376,
+      "selected_factor": 8,
+      "effective_raw": 19986000
+    },
+    {
+      "working_raw": 9999999,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2949839880,
+      "selected_factor": 7,
+      "effective_raw": 19999998
+    },
+    {
+      "working_raw": 9999999,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19692,
+      "fraction": 2949839880,
+      "selected_factor": 7,
+      "effective_raw": 19999998
+    },
+    {
+      "working_raw": 9999999,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2581109895,
+      "selected_factor": 8,
+      "effective_raw": 19999998
+    },
+    {
+      "working_raw": 10000000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7,
+      "effective_raw": 10000000
+    },
+    {
+      "working_raw": 10000000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7,
+      "effective_raw": 10000000
+    },
+    {
+      "working_raw": 10000000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1290555076,
+      "selected_factor": 8,
+      "effective_raw": 10000000
+    },
+    {
+      "working_raw": 10000001,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1474920235,
+      "selected_factor": 7,
+      "effective_raw": 10000001
+    },
+    {
+      "working_raw": 10000001,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 9846,
+      "fraction": 1474920235,
+      "selected_factor": 7,
+      "effective_raw": 10000001
+    },
+    {
+      "working_raw": 10000001,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1290555205,
+      "selected_factor": 8,
+      "effective_raw": 10000001
+    },
+    {
+      "working_raw": 17100000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 16836,
+      "fraction": 2522113350,
+      "selected_factor": 7,
+      "effective_raw": 17100000
+    },
+    {
+      "working_raw": 17100000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 16836,
+      "fraction": 2522113350,
+      "selected_factor": 7,
+      "effective_raw": 17100000
+    },
+    {
+      "working_raw": 17100000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 16836,
+      "fraction": 2206849181,
+      "selected_factor": 8,
+      "effective_raw": 17100000
+    },
+    {
+      "working_raw": 18425000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 18141,
+      "fraction": 2717540261,
+      "selected_factor": 7,
+      "effective_raw": 18425000
+    },
+    {
+      "working_raw": 18425000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 18141,
+      "fraction": 2717540261,
+      "selected_factor": 7,
+      "effective_raw": 18425000
+    },
+    {
+      "working_raw": 18425000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 18141,
+      "fraction": 2377847729,
+      "selected_factor": 8,
+      "effective_raw": 18425000
+    },
+    {
+      "working_raw": 20000000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2949840175,
+      "selected_factor": 7,
+      "effective_raw": 20000000
+    },
+    {
+      "working_raw": 20000000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19692,
+      "fraction": 2949840175,
+      "selected_factor": 7,
+      "effective_raw": 20000000
+    },
+    {
+      "working_raw": 20000000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2581110153,
+      "selected_factor": 8,
+      "effective_raw": 20000000
+    },
+    {
+      "working_raw": 23300000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 22941,
+      "fraction": 3436563804,
+      "selected_factor": 7,
+      "effective_raw": 23300000
+    },
+    {
+      "working_raw": 23300000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 22941,
+      "fraction": 3436563804,
+      "selected_factor": 7,
+      "effective_raw": 23300000
+    },
+    {
+      "working_raw": 23300000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 22941,
+      "fraction": 3006993329,
+      "selected_factor": 8,
+      "effective_raw": 23300000
+    },
+    {
+      "working_raw": 26000000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 25600,
+      "fraction": 3834792228,
+      "selected_factor": 7,
+      "effective_raw": 26000000
+    },
+    {
+      "working_raw": 26000000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 25600,
+      "fraction": 3834792228,
+      "selected_factor": 7,
+      "effective_raw": 26000000
+    },
+    {
+      "working_raw": 26000000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 25600,
+      "fraction": 3355443200,
+      "selected_factor": 8,
+      "effective_raw": 26000000
+    },
+    {
+      "working_raw": 27812500,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 27384,
+      "fraction": 4102121494,
+      "selected_factor": 7,
+      "effective_raw": 27812500
+    },
+    {
+      "working_raw": 27812500,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 27384,
+      "fraction": 4102121494,
+      "selected_factor": 7,
+      "effective_raw": 27812500
+    },
+    {
+      "working_raw": 27812500,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 27384,
+      "fraction": 3589356307,
+      "selected_factor": 8,
+      "effective_raw": 27812500
+    }
+  ],
+  "correction_cases": [
+    {
+      "mode": 0,
+      "index": 0,
+      "requested_raw": 9992999,
+      "working_raw": 9999999,
+      "correction": 7000,
+      "effective_raw": 19999998
+    },
+    {
+      "mode": 0,
+      "index": 0,
+      "requested_raw": 9993000,
+      "working_raw": 10000000,
+      "correction": 7000,
+      "effective_raw": 10000000
+    },
+    {
+      "mode": 0,
+      "index": 0,
+      "requested_raw": 10000000,
+      "working_raw": 10007000,
+      "correction": 7000,
+      "effective_raw": 10007000
+    },
+    {
+      "mode": 0,
+      "index": 1,
+      "requested_raw": 9992999,
+      "working_raw": 9985999,
+      "correction": -7000,
+      "effective_raw": 19971998
+    },
+    {
+      "mode": 0,
+      "index": 1,
+      "requested_raw": 9993000,
+      "working_raw": 9986000,
+      "correction": -7000,
+      "effective_raw": 19972000
+    },
+    {
+      "mode": 0,
+      "index": 1,
+      "requested_raw": 10000000,
+      "working_raw": 9993000,
+      "correction": -7000,
+      "effective_raw": 19986000
+    },
+    {
+      "mode": 6,
+      "index": 0,
+      "requested_raw": 9992999,
+      "working_raw": 9990999,
+      "correction": -2000,
+      "effective_raw": 19981998
+    },
+    {
+      "mode": 6,
+      "index": 0,
+      "requested_raw": 9993000,
+      "working_raw": 9991000,
+      "correction": -2000,
+      "effective_raw": 19982000
+    },
+    {
+      "mode": 6,
+      "index": 0,
+      "requested_raw": 10000000,
+      "working_raw": 9998000,
+      "correction": -2000,
+      "effective_raw": 19996000
+    },
+    {
+      "mode": 6,
+      "index": 1,
+      "requested_raw": 9992999,
+      "working_raw": 9991999,
+      "correction": -1000,
+      "effective_raw": 19983998
+    },
+    {
+      "mode": 6,
+      "index": 1,
+      "requested_raw": 9993000,
+      "working_raw": 9992000,
+      "correction": -1000,
+      "effective_raw": 19984000
+    },
+    {
+      "mode": 6,
+      "index": 1,
+      "requested_raw": 10000000,
+      "working_raw": 9999000,
+      "correction": -1000,
+      "effective_raw": 19998000
+    }
+  ],
+  "register_groups": [
+    {
+      "selector": 0,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 1,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 2,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 3,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 4,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 5,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 6,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 7,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 8,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 9,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 10,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 11,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 12,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 13,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    },
+    {
+      "selector": 14,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    },
+    {
+      "selector": 15,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    },
+    {
+      "selector": 16,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    },
+    {
+      "selector": 17,
+      "register_group": "B",
+      "coefficient_addresses": [
+        "0x30360",
+        "0x302c4",
+        "0x302c8"
+      ]
+    },
+    {
+      "selector": 18,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    },
+    {
+      "selector": 19,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    },
+    {
+      "selector": 20,
+      "register_group": "A",
+      "coefficient_addresses": [
+        "0x30370",
+        "0x32228",
+        "0x3222c"
+      ]
+    }
+  ],
+  "conclusion": "Working raw<10000000 doubles arithmetic input. Request threshold depends on signed correction;999.3MHz applies to mode0/index0 only. Register groups follow selector, not frequency alone. Physical LO divider and lock remain unproven.",
+  "dependencies": {
+    "tools/verify/verify_rf_frequency_native.py": "ea157c16df8a02d1fb68b1bbc847f63280a03838d814c8c61d308e9deda30fd9",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "work/rf-frequency-native/replica.elf": "e5317d2f6d6df489d857550ffc045d595bf45c43dcf73e025feee0a25962859b",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_frequency.h": "dc0c15cc462a8a2322017a83f7f6f2db47583817e6d26631004e15ec54fb575e",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "f546e38732e83b7223274972a238a57f22ba888abcff4ddd5acb309d4f962f92",
+    "firmware/rf_rebuild/rf_core_tune_flow.h": "d850c5d0785a661ee2dbdf04d5482a50db8b15bfd22ce7237fe18d91a851ba25",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3",
+    "firmware/rf_rebuild/rf_core_tune_plan.h": "dedefd2b49823e2e84ee191a237db652bae0bfb05abc620f169afd79a7390eaf"
+  }
+}

@@ -1,0 +1,2 @@
+ENTRY(terminal_native_entry)
+SECTIONS { . = 0x8097b000; .text : { KEEP(*(.text.entry)) KEEP(*(.text.callback)) *(.text*) *(.rodata*) } .data : { *(.data*) } .bss : { *(.bss*) *(COMMON) } ASSERT(SIZEOF(.data)==0,"resident data") ASSERT(SIZEOF(.bss)==0,"resident bss") ASSERT(.<=0x8097f000,"resident exceeds reserved terminal code area") /DISCARD/ : { *(.ARM.exidx*) *(.ARM.extab*) *(.comment*) *(.note*) } }

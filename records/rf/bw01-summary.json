@@ -1,0 +1,598 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-26T15:07:33.539690+08:00",
+  "device_accessed": false,
+  "scope": "Current offline numerical reanalysis of retained fixed-RF-tone hardware captures; not a new live query",
+  "hardware_acquisition_performed": true,
+  "band": 5,
+  "all_finite_TX_ended": true,
+  "sample_rates_nominal_hz": [
+    1920000,
+    3840000
+  ],
+  "calibrated_sample_clock": false,
+  "calibrated_passband": false,
+  "analyses": [
+    {
+      "record": "records/passband-fixed-rf-v1/b5-bw0.json",
+      "band": 5,
+      "bandwidth_index": 0,
+      "signal_RF_hz": 881650000,
+      "TX_gain_db": 20,
+      "RX_gain_index": 40,
+      "result": {
+        "status": "response_measured",
+        "reference_repeat_drift_db": -0.01961731817250826,
+        "reference_drift_limit_db": 1.0,
+        "relative_minus3db_edges": {
+          "negative": {
+            "offset_magnitude_bracket_hz": [
+              150000,
+              450000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          },
+          "positive": {
+            "offset_magnitude_bracket_hz": [
+              600000,
+              650000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          }
+        },
+        "total_minus3db_width_bracket_hz": [
+          750000,
+          1100000
+        ],
+        "scope": "sparse fixed-RF-tone end-to-end relative response; includes RX tuning/calibration/analog/DFE path, not calibrated filter specification or every intermediate frequency"
+      },
+      "points": [
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.0,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 168
+        },
+        {
+          "offset_hz": -150000,
+          "RX_center_hz": 881800000,
+          "relative_db": -0.2721874541644193,
+          "peak_hz": -152812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 169
+        },
+        {
+          "offset_hz": -450000,
+          "RX_center_hz": 882100000,
+          "relative_db": -3.088050445207737,
+          "peak_hz": -452812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 170
+        },
+        {
+          "offset_hz": -500000,
+          "RX_center_hz": 882150000,
+          "relative_db": -3.890088015930073,
+          "peak_hz": -502734.375,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 171
+        },
+        {
+          "offset_hz": -550000,
+          "RX_center_hz": 882200000,
+          "relative_db": -4.993321959242355,
+          "peak_hz": -552890.625,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 172
+        },
+        {
+          "offset_hz": -600000,
+          "RX_center_hz": 882250000,
+          "relative_db": -7.323094938187458,
+          "peak_hz": -602812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 173
+        },
+        {
+          "offset_hz": -650000,
+          "RX_center_hz": 882300000,
+          "relative_db": -11.877252100909653,
+          "peak_hz": -652734.375,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 174
+        },
+        {
+          "offset_hz": 450000,
+          "RX_center_hz": 881200000,
+          "relative_db": -0.09986960009160287,
+          "peak_hz": 447187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 175
+        },
+        {
+          "offset_hz": 500000,
+          "RX_center_hz": 881150000,
+          "relative_db": -0.08557934996527126,
+          "peak_hz": 497343.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 176
+        },
+        {
+          "offset_hz": 550000,
+          "RX_center_hz": 881100000,
+          "relative_db": -0.16197087689095988,
+          "peak_hz": 547265.625,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 177
+        },
+        {
+          "offset_hz": 600000,
+          "RX_center_hz": 881050000,
+          "relative_db": -1.263982239196306,
+          "peak_hz": 597187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 178
+        },
+        {
+          "offset_hz": 650000,
+          "RX_center_hz": 881000000,
+          "relative_db": -4.337801170535033,
+          "peak_hz": 647343.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 179
+        },
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": -0.01961731817250826,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 180
+        }
+      ]
+    },
+    {
+      "record": "records/passband-fixed-rf-v1/b5-bw1.json",
+      "band": 5,
+      "bandwidth_index": 1,
+      "signal_RF_hz": 881650000,
+      "TX_gain_db": 20,
+      "RX_gain_index": 40,
+      "result": {
+        "status": "response_measured",
+        "reference_repeat_drift_db": 0.1515356837169957,
+        "reference_drift_limit_db": 1.0,
+        "relative_minus3db_edges": {
+          "negative": {
+            "offset_magnitude_bracket_hz": [
+              1350000,
+              1400000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          },
+          "positive": {
+            "offset_magnitude_bracket_hz": [
+              1350000,
+              1400000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          }
+        },
+        "total_minus3db_width_bracket_hz": [
+          2700000,
+          2800000
+        ],
+        "scope": "sparse fixed-RF-tone end-to-end relative response; includes RX tuning/calibration/analog/DFE path, not calibrated filter specification or every intermediate frequency"
+      },
+      "points": [
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.0,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 182
+        },
+        {
+          "offset_hz": -150000,
+          "RX_center_hz": 881800000,
+          "relative_db": 0.04465318593128182,
+          "peak_hz": -152812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 183
+        },
+        {
+          "offset_hz": -1200000,
+          "RX_center_hz": 882850000,
+          "relative_db": -0.8645463244352148,
+          "peak_hz": -1202812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 184
+        },
+        {
+          "offset_hz": -1250000,
+          "RX_center_hz": 882900000,
+          "relative_db": -0.8140031336526934,
+          "peak_hz": -1252968.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 185
+        },
+        {
+          "offset_hz": -1300000,
+          "RX_center_hz": 882950000,
+          "relative_db": -1.078319729931907,
+          "peak_hz": -1302656.25,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 186
+        },
+        {
+          "offset_hz": -1350000,
+          "RX_center_hz": 883000000,
+          "relative_db": -1.971716424035298,
+          "peak_hz": -1352812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 187
+        },
+        {
+          "offset_hz": -1400000,
+          "RX_center_hz": 883050000,
+          "relative_db": -3.9088969467454553,
+          "peak_hz": -1402968.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 188
+        },
+        {
+          "offset_hz": 1200000,
+          "RX_center_hz": 880450000,
+          "relative_db": -0.8052067956414283,
+          "peak_hz": 1197187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 189
+        },
+        {
+          "offset_hz": 1250000,
+          "RX_center_hz": 880400000,
+          "relative_db": -0.689532426930745,
+          "peak_hz": 1247343.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 190
+        },
+        {
+          "offset_hz": 1300000,
+          "RX_center_hz": 880350000,
+          "relative_db": -0.8683191443402052,
+          "peak_hz": 1297031.25,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 191
+        },
+        {
+          "offset_hz": 1350000,
+          "RX_center_hz": 880300000,
+          "relative_db": -1.759748178136472,
+          "peak_hz": 1347187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 192
+        },
+        {
+          "offset_hz": 1400000,
+          "RX_center_hz": 880250000,
+          "relative_db": -3.552232905376345,
+          "peak_hz": 1397343.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 193
+        },
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.1515356837169957,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 194
+        }
+      ]
+    },
+    {
+      "record": "records/passband-fixed-rf-v1/b5-bw0-edge.json",
+      "band": 5,
+      "bandwidth_index": 0,
+      "signal_RF_hz": 881650000,
+      "TX_gain_db": 20,
+      "RX_gain_index": 40,
+      "result": {
+        "status": "response_measured",
+        "reference_repeat_drift_db": 0.0075958362591866365,
+        "reference_drift_limit_db": 1.0,
+        "relative_minus3db_edges": {
+          "negative": {
+            "offset_magnitude_bracket_hz": [
+              425000,
+              450000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          },
+          "positive": {
+            "offset_magnitude_bracket_hz": [
+              625000,
+              650000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          }
+        },
+        "total_minus3db_width_bracket_hz": [
+          1050000,
+          1100000
+        ],
+        "scope": "sparse fixed-RF-tone end-to-end relative response; includes RX tuning/calibration/analog/DFE path, not calibrated filter specification or every intermediate frequency"
+      },
+      "points": [
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.0,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 196
+        },
+        {
+          "offset_hz": -150000,
+          "RX_center_hz": 881800000,
+          "relative_db": -0.25248235127757285,
+          "peak_hz": -152812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 197
+        },
+        {
+          "offset_hz": -400000,
+          "RX_center_hz": 882050000,
+          "relative_db": -2.264771060884299,
+          "peak_hz": -402890.625,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 198
+        },
+        {
+          "offset_hz": -425000,
+          "RX_center_hz": 882075000,
+          "relative_db": -2.6779645501957923,
+          "peak_hz": -427734.375,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 199
+        },
+        {
+          "offset_hz": -450000,
+          "RX_center_hz": 882100000,
+          "relative_db": -3.0875878849337375,
+          "peak_hz": -452812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 200
+        },
+        {
+          "offset_hz": 600000,
+          "RX_center_hz": 881050000,
+          "relative_db": -1.25436772585756,
+          "peak_hz": 597187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 201
+        },
+        {
+          "offset_hz": 625000,
+          "RX_center_hz": 881025000,
+          "relative_db": -2.473923624624698,
+          "peak_hz": 622265.625,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 202
+        },
+        {
+          "offset_hz": 650000,
+          "RX_center_hz": 881000000,
+          "relative_db": -4.3305722853242035,
+          "peak_hz": 647343.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 203
+        },
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.0075958362591866365,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 204
+        }
+      ]
+    },
+    {
+      "record": "records/passband-fixed-rf-v1/b5-bw1-edge.json",
+      "band": 5,
+      "bandwidth_index": 1,
+      "signal_RF_hz": 881650000,
+      "TX_gain_db": 20,
+      "RX_gain_index": 40,
+      "result": {
+        "status": "response_measured",
+        "reference_repeat_drift_db": 0.041991987506051445,
+        "reference_drift_limit_db": 1.0,
+        "relative_minus3db_edges": {
+          "negative": {
+            "offset_magnitude_bracket_hz": [
+              1375000,
+              1400000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          },
+          "positive": {
+            "offset_magnitude_bracket_hz": [
+              1375000,
+              1400000
+            ],
+            "nonmonotonic_after_crossing": false,
+            "reference_drift_passed": true
+          }
+        },
+        "total_minus3db_width_bracket_hz": [
+          2750000,
+          2800000
+        ],
+        "scope": "sparse fixed-RF-tone end-to-end relative response; includes RX tuning/calibration/analog/DFE path, not calibrated filter specification or every intermediate frequency"
+      },
+      "points": [
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.0,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 206
+        },
+        {
+          "offset_hz": -150000,
+          "RX_center_hz": 881800000,
+          "relative_db": 0.027887074620940696,
+          "peak_hz": -152812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 207
+        },
+        {
+          "offset_hz": -1350000,
+          "RX_center_hz": 883000000,
+          "relative_db": -2.02827873402922,
+          "peak_hz": -1352812.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 208
+        },
+        {
+          "offset_hz": -1375000,
+          "RX_center_hz": 883025000,
+          "relative_db": -2.8750818247892758,
+          "peak_hz": -1377656.25,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 209
+        },
+        {
+          "offset_hz": -1400000,
+          "RX_center_hz": 883050000,
+          "relative_db": -4.010396442063447,
+          "peak_hz": -1402968.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 210
+        },
+        {
+          "offset_hz": 1350000,
+          "RX_center_hz": 880300000,
+          "relative_db": -1.8412266150767198,
+          "peak_hz": 1347187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 211
+        },
+        {
+          "offset_hz": 1375000,
+          "RX_center_hz": 880275000,
+          "relative_db": -2.5639071640422832,
+          "peak_hz": 1372031.25,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 212
+        },
+        {
+          "offset_hz": 1400000,
+          "RX_center_hz": 880250000,
+          "relative_db": -3.608569192961717,
+          "peak_hz": 1397343.75,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 213
+        },
+        {
+          "offset_hz": 150000,
+          "RX_center_hz": 881500000,
+          "relative_db": 0.041991987506051445,
+          "peak_hz": 147187.5,
+          "tone_identified": true,
+          "observed_gap_ms": 0,
+          "epoch": 214
+        }
+      ]
+    }
+  ],
+  "final_width_brackets_hz": {
+    "0": [
+      1050000,
+      1100000
+    ],
+    "1": [
+      2750000,
+      2800000
+    ]
+  },
+  "dependencies": {
+    "records/passband-fixed-rf-v1/b5-bw0.json": "bb63f160b614e65b5a0d508219b6760ec6e9d786b5868aec11a3f47cae5ee7bd",
+    "records/passband-fixed-rf-v1/b5-bw1.json": "570d286cd3afdc8426d49721f2d871792a835c9b6ec3282a7c10e658ccf0c114",
+    "records/passband-fixed-rf-v1/b5-bw0-edge.json": "dcfe10640c52e91388afa23983f3240d08537c2535967eeebbe99c7c0177cfb6",
+    "records/passband-fixed-rf-v1/b5-bw1-edge.json": "08ff21563fae5a75afe913f26774be629795e635b0a1269eb777139bacd084fa",
+    "tools/rf_response.py": "a726d9656164a3a81e41cbbe70225c6195c82678dba29de6e1d5f9ce785d97e7",
+    "tools/rf_reference.py": "ea0a1ab835ef236917dc8420ae655e585a321797e3352f4dde6d96c7ef30ebc8",
+    "records/rf/bw01-verification.json": "1cdd54089ee6589f3ec92c2fab3661a1f353f4c2d4c4696a20a1defa06fab194",
+    "outputs/host/windows/sdr_usb.dll": "78b0411b62bd70341edc4ec095f29691db06a8505e0941dc48365e64654fd6ff",
+    "outputs/host/windows/sdr_receive.exe": "3d1ee8712d0e4fa5129efa76c9ec9836fd1bd268d4044bc4bf78f47e262b29c6",
+    "records/passband-fixed-rf-v1/b34-bw0-path-check.json": "bb6a7c799ffb2447ddef605a7ac2a431f9d125dffb1ea40ef3a81dbbbbceac02"
+  },
+  "path_comparison": {
+    "record": "records/passband-fixed-rf-v1/b34-bw0-path-check.json",
+    "band": 34,
+    "bandwidth_index": 0,
+    "width_bracket_hz": [
+      1050000,
+      1100000
+    ],
+    "reference_drift_db": -0.1389431967031866,
+    "interpretation": "BW0 asymmetric edges repeated on B5 and B34; shared-chain hypothesis remains unlocalized; not all-profile specification"
+  }
+}

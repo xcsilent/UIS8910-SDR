@@ -1,0 +1,83 @@
+name: Portable checks and builds
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -B tools/check_publication.py
+      - run: python -B tools/generate_report_assets.py --check
+      - run: python -B tools/prepare_build.py --check
+      - run: python -B tools/usb/prepare_soapy_sdk.py --check-source
+  firmware:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements/build.txt
+      - run: python -B tools/build_firmware.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firmware-v0.1-unflashed
+          path: |
+            work/build-v0.1/Air724UG_SDR_v0.1.pac
+            work/build-v0.1/build.json
+            work/build-v0.1/build.log
+  host-build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Windows cross-build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y \
+            python3 cmake ninja-build ca-certificates \
+            gcc-mingw-w64-x86-64-posix g++-mingw-w64-x86-64-posix \
+            binutils-mingw-w64-x86-64
+      - run: python3 -B tools/build_host_components.py --toolchain-root /usr
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-host-v0.1-candidate
+          path: |
+            outputs/host/build-v0.1/
+            work/wsl-host-v0.1/soapy-module/queue-test.exe
+            work/wsl-host-v0.1/commands.json
+            work/wsl-host-v0.1/build.log
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: windows-host-build-log
+          path: work/wsl-host-v0.1/build.log
+  host-windows-check:
+    needs: host-build
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: windows-host-v0.1-candidate
+          path: .
+      - name: Check newly compiled queues and Soapy capabilities without hardware
+        run: python -B tools/verify/verify_soapy.py --area outputs/host/build-v0.1/soapy --queue-test work/wsl-host-v0.1/soapy-module/queue-test.exe --output work/host-build-offline.json
+      - name: Check receive and timing CLI loading without opening hardware
+        shell: pwsh
+        run: |
+          & ./outputs/host/build-v0.1/windows/sdr_receive.exe --help
+          if ($LASTEXITCODE -ne 2) { throw "Receive CLI failed to load or return expected usage" }
+          & ./outputs/host/build-v0.1/tune/sdr_tune_benchmark.exe --help
+          if ($LASTEXITCODE -ne 2) { throw "Timing CLI failed to load or return expected usage" }
+          exit 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-host-offline-results
+          path: work/host-build-offline.json

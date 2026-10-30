@@ -1,0 +1,594 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "scope": "Compare stopped epoch3 board NV fields only, not RF behavior or active override support.",
+  "rows": {
+    "B5": {
+      "nv_row": 4,
+      "band_id": 5,
+      "rx_port": 2,
+      "antenna_row": 0,
+      "mipi": {
+        "switch_open": [
+          {
+            "reg_value": 5,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "switch_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      },
+      "gpo": {
+        "switch_open": {
+          "mask": 252,
+          "value": 0
+        },
+        "switch_close": {
+          "mask": 252,
+          "value": 0
+        },
+        "lna_open": {
+          "mask": 0,
+          "value": 0
+        },
+        "lna_close": {
+          "mask": 0,
+          "value": 0
+        },
+        "rxtx": {
+          "mask": 0,
+          "value": 0
+        },
+        "antenna": {
+          "mask": 0,
+          "value": 0
+        }
+      },
+      "mdll_enable": 0,
+      "mdll_table_value": 7,
+      "gpo_open_command": 4520960
+    },
+    "B8": {
+      "nv_row": 6,
+      "band_id": 8,
+      "rx_port": 3,
+      "antenna_row": 0,
+      "mipi": {
+        "switch_open": [
+          {
+            "reg_value": 2,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "switch_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      },
+      "gpo": {
+        "switch_open": {
+          "mask": 252,
+          "value": 24
+        },
+        "switch_close": {
+          "mask": 252,
+          "value": 0
+        },
+        "lna_open": {
+          "mask": 0,
+          "value": 0
+        },
+        "lna_close": {
+          "mask": 0,
+          "value": 0
+        },
+        "rxtx": {
+          "mask": 0,
+          "value": 0
+        },
+        "antenna": {
+          "mask": 0,
+          "value": 0
+        }
+      },
+      "mdll_enable": 0,
+      "mdll_table_value": 8,
+      "gpo_open_command": 4520984
+    }
+  },
+  "differences": {
+    "nv_row": {
+      "B5": 4,
+      "B8": 6
+    },
+    "band_id": {
+      "B5": 5,
+      "B8": 8
+    },
+    "rx_port": {
+      "B5": 2,
+      "B8": 3
+    },
+    "mipi": {
+      "B5": {
+        "switch_open": [
+          {
+            "reg_value": 5,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "switch_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      },
+      "B8": {
+        "switch_open": [
+          {
+            "reg_value": 2,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "switch_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "lna_close": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      }
+    },
+    "gpo": {
+      "B5": {
+        "switch_open": {
+          "mask": 252,
+          "value": 0
+        },
+        "switch_close": {
+          "mask": 252,
+          "value": 0
+        },
+        "lna_open": {
+          "mask": 0,
+          "value": 0
+        },
+        "lna_close": {
+          "mask": 0,
+          "value": 0
+        },
+        "rxtx": {
+          "mask": 0,
+          "value": 0
+        },
+        "antenna": {
+          "mask": 0,
+          "value": 0
+        }
+      },
+      "B8": {
+        "switch_open": {
+          "mask": 252,
+          "value": 24
+        },
+        "switch_close": {
+          "mask": 252,
+          "value": 0
+        },
+        "lna_open": {
+          "mask": 0,
+          "value": 0
+        },
+        "lna_close": {
+          "mask": 0,
+          "value": 0
+        },
+        "rxtx": {
+          "mask": 0,
+          "value": 0
+        },
+        "antenna": {
+          "mask": 0,
+          "value": 0
+        }
+      }
+    },
+    "mdll_table_value": {
+      "B5": 7,
+      "B8": 8
+    },
+    "gpo_open_command": {
+      "B5": 4520960,
+      "B8": 4520984
+    }
+  },
+  "conclusion": "Whole-route B5/B8 comparison changes RX port, switch and potentially calibration/PLL path. It cannot isolate external switch benefit.",
+  "next_experiment": {
+    "anchor": "B5 selector4, NV row4, RX port2",
+    "variable": "switch_open first command reg_value5 versus known board row6 value2; retain slave13/reg0 and all remaining fields",
+    "requirements": [
+      "Prove controlled RAM-copy update or add bounded capture configuration before RF dispatch; existing public configuration exposes route/frequency/gain/BW, not independent FEM command.",
+      "Preserve initialization, close commands, PA-off and calibration; restore on success and failure.",
+      "Native dispatch comparison must show only intended controller data difference before hardware comparison."
+    ],
+    "not_executed": true
+  },
+  "dependencies": {
+    "records/rf/frontend-observer-v28-runtime-nv.rfnv.bin": "a8394c46eedcd72d56559dd3785ae29891c464b4e2e53869e724c871a0d5feb8",
+    "tools/sdr/rf_frontend.py": "64b1b4f6088135b528bcdbab3e834b6152863dde1722e6f06e5bdb1c5c260719"
+  }
+}

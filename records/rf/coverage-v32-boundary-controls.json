@@ -1,0 +1,294 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "firmware_changed": false,
+  "band": 3,
+  "selector": 2,
+  "rx_port": 1,
+  "byte_equivalence": [
+    {
+      "name": "B RXON body",
+      "start": "0x4ecc",
+      "end_exclusive": "0x5360",
+      "equal": true
+    },
+    {
+      "name": "port analog rows",
+      "start": "0x8a54",
+      "end_exclusive": "0x8aa4",
+      "equal": true
+    },
+    {
+      "name": "port route table",
+      "start": "0x8184",
+      "end_exclusive": "0x8194",
+      "equal": true
+    },
+    {
+      "name": "post-RX code prefix",
+      "start": "0x38a8",
+      "end_exclusive": "0x39a0",
+      "equal": true
+    }
+  ],
+  "mode_helper_equivalence": [
+    {
+      "mode": 0,
+      "ordered_writes": 45,
+      "equal": true
+    },
+    {
+      "mode": 1,
+      "ordered_writes": 45,
+      "equal": true
+    },
+    {
+      "mode": 2,
+      "ordered_writes": 45,
+      "equal": true
+    },
+    {
+      "mode": 3,
+      "ordered_writes": 45,
+      "equal": true
+    },
+    {
+      "mode": 4,
+      "ordered_writes": 45,
+      "equal": true
+    },
+    {
+      "mode": 5,
+      "ordered_writes": 45,
+      "equal": true
+    }
+  ],
+  "comparisons": [
+    {
+      "mode": 0,
+      "first_requested_raw": 13500000,
+      "second_requested_raw": 13750000,
+      "first_write_count": 93,
+      "second_write_count": 93,
+      "same_ordered_addresses_and_widths": true,
+      "value_differences": [
+        {
+          "write_index": 9,
+          "address": "0x30360",
+          "bytes": 2,
+          "first_value": "0x33f3",
+          "second_value": "0x34e9"
+        },
+        {
+          "write_index": 10,
+          "address": "0x302c4",
+          "bytes": 2,
+          "first_value": "0x2be2",
+          "second_value": "0xcf0c"
+        },
+        {
+          "write_index": 11,
+          "address": "0x302c8",
+          "bytes": 2,
+          "first_value": "0x76be",
+          "second_value": "0x78f0"
+        }
+      ],
+      "scope": "Native B request through0x5360 with actual shared helpers and synthetic initial MMIO; excludes caller post-configure and analog hardware.",
+      "differences_outside_frequency_words": [],
+      "same_nonfrequency_mmio_writes": true
+    },
+    {
+      "mode": 1,
+      "first_requested_raw": 13500000,
+      "second_requested_raw": 13750000,
+      "first_write_count": 93,
+      "second_write_count": 93,
+      "same_ordered_addresses_and_widths": true,
+      "value_differences": [
+        {
+          "write_index": 9,
+          "address": "0x30360",
+          "bytes": 2,
+          "first_value": "0x33ec",
+          "second_value": "0x34e2"
+        },
+        {
+          "write_index": 10,
+          "address": "0x302c4",
+          "bytes": 2,
+          "first_value": "0x6ae6",
+          "second_value": "0xe10"
+        },
+        {
+          "write_index": 11,
+          "address": "0x302c8",
+          "bytes": 2,
+          "first_value": "0x76ae",
+          "second_value": "0x78e1"
+        }
+      ],
+      "scope": "Native B request through0x5360 with actual shared helpers and synthetic initial MMIO; excludes caller post-configure and analog hardware.",
+      "differences_outside_frequency_words": [],
+      "same_nonfrequency_mmio_writes": true
+    },
+    {
+      "mode": 2,
+      "first_requested_raw": 13500000,
+      "second_requested_raw": 13750000,
+      "first_write_count": 93,
+      "second_write_count": 93,
+      "same_ordered_addresses_and_widths": true,
+      "value_differences": [
+        {
+          "write_index": 9,
+          "address": "0x30360",
+          "bytes": 2,
+          "first_value": "0x33ec",
+          "second_value": "0x34e2"
+        },
+        {
+          "write_index": 10,
+          "address": "0x302c4",
+          "bytes": 2,
+          "first_value": "0x6ae6",
+          "second_value": "0xe10"
+        },
+        {
+          "write_index": 11,
+          "address": "0x302c8",
+          "bytes": 2,
+          "first_value": "0x76ae",
+          "second_value": "0x78e1"
+        }
+      ],
+      "scope": "Native B request through0x5360 with actual shared helpers and synthetic initial MMIO; excludes caller post-configure and analog hardware.",
+      "differences_outside_frequency_words": [],
+      "same_nonfrequency_mmio_writes": true
+    },
+    {
+      "mode": 3,
+      "first_requested_raw": 13500000,
+      "second_requested_raw": 13750000,
+      "first_write_count": 93,
+      "second_write_count": 93,
+      "same_ordered_addresses_and_widths": true,
+      "value_differences": [
+        {
+          "write_index": 9,
+          "address": "0x30360",
+          "bytes": 2,
+          "first_value": "0x33ec",
+          "second_value": "0x34e2"
+        },
+        {
+          "write_index": 10,
+          "address": "0x302c4",
+          "bytes": 2,
+          "first_value": "0x6ae6",
+          "second_value": "0xe10"
+        },
+        {
+          "write_index": 11,
+          "address": "0x302c8",
+          "bytes": 2,
+          "first_value": "0x76ae",
+          "second_value": "0x78e1"
+        }
+      ],
+      "scope": "Native B request through0x5360 with actual shared helpers and synthetic initial MMIO; excludes caller post-configure and analog hardware.",
+      "differences_outside_frequency_words": [],
+      "same_nonfrequency_mmio_writes": true
+    },
+    {
+      "mode": 4,
+      "first_requested_raw": 13500000,
+      "second_requested_raw": 13750000,
+      "first_write_count": 93,
+      "second_write_count": 93,
+      "same_ordered_addresses_and_widths": true,
+      "value_differences": [
+        {
+          "write_index": 9,
+          "address": "0x30360",
+          "bytes": 2,
+          "first_value": "0x33ec",
+          "second_value": "0x34e2"
+        },
+        {
+          "write_index": 10,
+          "address": "0x302c4",
+          "bytes": 2,
+          "first_value": "0x6ae6",
+          "second_value": "0xe10"
+        },
+        {
+          "write_index": 11,
+          "address": "0x302c8",
+          "bytes": 2,
+          "first_value": "0x76ae",
+          "second_value": "0x78e1"
+        }
+      ],
+      "scope": "Native B request through0x5360 with actual shared helpers and synthetic initial MMIO; excludes caller post-configure and analog hardware.",
+      "differences_outside_frequency_words": [],
+      "same_nonfrequency_mmio_writes": true
+    },
+    {
+      "mode": 5,
+      "first_requested_raw": 13500000,
+      "second_requested_raw": 13750000,
+      "first_write_count": 93,
+      "second_write_count": 93,
+      "same_ordered_addresses_and_widths": true,
+      "value_differences": [
+        {
+          "write_index": 9,
+          "address": "0x30360",
+          "bytes": 2,
+          "first_value": "0x33ec",
+          "second_value": "0x34e2"
+        },
+        {
+          "write_index": 10,
+          "address": "0x302c4",
+          "bytes": 2,
+          "first_value": "0x6ae6",
+          "second_value": "0xe10"
+        },
+        {
+          "write_index": 11,
+          "address": "0x302c8",
+          "bytes": 2,
+          "first_value": "0x76ae",
+          "second_value": "0x78e1"
+        }
+      ],
+      "scope": "Native B request through0x5360 with actual shared helpers and synthetic initial MMIO; excludes caller post-configure and analog hardware.",
+      "differences_outside_frequency_words": [],
+      "same_nonfrequency_mmio_writes": true
+    }
+  ],
+  "current_pac_coefficients": "records/rf/coverage-v32-boundary-pac-coefficients.json",
+  "scope": "Offline native B request fixture and current-PAC coefficient/mode checks. Not live RAM, full boot, caller entry equivalence, or analog response.",
+  "conclusion": "For this retained pair, inspect same_nonfrequency_mmio_writes per mode. Equality means no software filter/route switch in the tested B body; a fixed analog response or LO failure is not excluded.",
+  "next": "Avoid toggling unnamed filter/reset bits. Trace an independently identified LO/analog control or integrate already verified coverage into delivered hosts.",
+  "dependencies": {
+    "tools/analyze/rf_boundary_controls.py": "0d1ef09431840ce8f55a83311bcaa3be4b5ca74e44c615a61aaade066f6e6638",
+    "records/rf-coverage-v1/v32-boundary-request-chain.json": "1ea7d377e43d03c3e481030714ac2149de52c77b47be521279e034e21d8d3908",
+    "records/rf/coverage-v32-boundary-pac-coefficients.json": "8a71f3581dcecf5b3158fe089e965419b948f821e25ff9490831493b797fe856",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "work/rf-cache/current-rf-decoded.bin": "75318189d55ee76bc9d9478bcb8665cac36efe22e283db51d98c2a1f64122f04",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "tools/verify/rf_image.py": "34be385865e1836fec111ed47e1565e4e46a6ccd17f40ff302d61544bf5dad47",
+    "records/rf/reference-rf-pac-payload.json": "2c37e894cc9f918c0ff998e5f3092ddb5b7d140356ad3275d89aca32aaf4214e",
+    "outputs/firmware/current/manifest.json": "dcd6523afd494ecabea01e1b1af0d87956f4a46ae62e6ae4f309c02293b8a7d7",
+    "outputs/firmware/unrestricted-v32/Air724U_UIS8910_SDR_BW0_USB_v32.pac": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b",
+    "tools/verify/verify_rf_pac_payload.py": "018d8184190e9ff75ab5bc31d0065c7ad20d9e93da5ae4680bf7ea11bd08c6aa",
+    "tools/usb/pac.py": "c890401edb5063c0cc625001ae79aefcb98ec1cb20b12ca87032c46e67ffcdd2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/CSDK_RDA8910.elf": "a4e2e388549948b69a3059239656ee8daa171bc2b59f275bee79f00a32286886",
+    "inputs/repositories/rda8910-csdk-hotelec/tools/win32/lzmar.exe": "f2b46166f8de5dd5596da508c93e28e3b4a7ddf2ab77a5dbc089afb2ff0ebaad"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "scope": "portable docs/final-table consistency and Python syntax only",
+  "device_accessed": false,
+  "documents": 36,
+  "local_links": 385,
+  "python_syntax_files": 134,
+  "register_rows": 129,
+  "external_local_references": [],
+  "RF_retested": false,
+  "license_certified": false
+}

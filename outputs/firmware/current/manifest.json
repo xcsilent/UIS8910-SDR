@@ -1,0 +1,48 @@
+{
+  "role": "Single v0.1 release pointer. Historical project firmware retired; runtime identity/ABI preserved.",
+  "installed_firmware": {
+    "pac": "outputs/firmware/v0.1/Air724UG_SDR_v0.1.pac",
+    "sha256": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b",
+    "identity": "uis8910-sdr-bw0-usb-v1",
+    "user_confirmed_flashed": true,
+    "cp_baseline_sha256": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "build_evidence": "outputs/firmware/v0.1/build.json",
+    "hardware_evidence": "records/rf/coverage-v32-deployment.json",
+    "running_identity_verified_at": "2026-10-29T12:02:44.061479+08:00",
+    "running_identity_evidence": "records/rf/coverage-v32-b3-1600-reference-off-rf-status.json",
+    "running_generation": "0x526f0501",
+    "bw0_wait_us": 250,
+    "bandwidth_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "configuration_abi": 2,
+    "until_stop": true,
+    "rf_status_trace": true,
+    "experimental_pre_selectors": [],
+    "rf_status_trace_abi": 5,
+    "firmware_identity_scope": "User flash confirmation, matching live CP generation and finite RF/drain; no full flash readback.",
+    "slot_bytes": 8192,
+    "output_slots": 6,
+    "experimental_lossy_scratch": true,
+    "scheduler_policy_abi": 2,
+    "scheduler_auto_wait_min_bw": 2,
+    "experimental_fem_override": true,
+    "refill_profile_abi": 1,
+    "unrestricted_frequency": true,
+    "release_version": "0.1.0",
+    "consolidation_scope": "Byte-identical relabel of recorded v32. No device query, new flash or hardware measurement."
+  },
+  "artifacts": [
+    {
+      "path": "outputs/firmware/v0.1/Air724UG_SDR_v0.1.pac",
+      "sha256": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b"
+    }
+  ],
+  "rollback": null,
+  "release_version": "0.1.0"
+}

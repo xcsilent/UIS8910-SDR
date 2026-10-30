@@ -1,0 +1,96 @@
+{
+  "status": "diagnostic_short_capture_passed_reference_unavailable",
+  "recorded_at": "2026-10-27T17:38:36.212248+08:00",
+  "user_confirmed_flash": true,
+  "identity_scope": "INFO baseline plus CP generation; no full flash readback",
+  "generation": "0x52630501",
+  "device_accessed": true,
+  "firmware_changed": false,
+  "rf_transmitted": false,
+  "usb_enumeration": "COM9 current AT interface VID1782 PID4e00; no concurrent SDR process observed",
+  "reference_enumeration": {
+    "command": "uhd_find_devices.exe --args type=b200",
+    "exit_code": 1,
+    "output": "No UHD Devices Found",
+    "meaning": "No live B210 reference in this session"
+  },
+  "known_center_bw0": {
+    "frequency_hz": 881500000,
+    "bytes": 3832000,
+    "trace_complete": true,
+    "epoch": 1
+  },
+  "known_center_bw1": {
+    "frequency_hz": 881500000,
+    "bytes": 7664000,
+    "device_bytes": 7664000,
+    "full_ring_stops": 0,
+    "observed_gap_ms": 0,
+    "device_drained": true
+  },
+  "lowband_no_transmit": [
+    {
+      "center_hz": 700000000,
+      "working_raw": 7007000,
+      "epoch": 2,
+      "rx_cal_status": "0x851",
+      "rx_cal_ready_reference": true,
+      "rx_vco_bits_reference": 81,
+      "tx_cal_status": "0xcc8",
+      "selector": 4,
+      "rx_port": 2,
+      "route_30468": "0x1ea",
+      "route_30480": "0x2",
+      "bbpll1": "0xec00",
+      "bbpll2": "0xec00",
+      "host_bytes": 3832000,
+      "rf_reference_used": false
+    },
+    {
+      "center_hz": 675000000,
+      "working_raw": 6757000,
+      "epoch": 3,
+      "rx_cal_status": "0x801",
+      "rx_cal_ready_reference": true,
+      "rx_vco_bits_reference": 1,
+      "tx_cal_status": "0xcc8",
+      "selector": 4,
+      "rx_port": 2,
+      "route_30468": "0x1ea",
+      "route_30480": "0x2",
+      "bbpll1": "0xec00",
+      "bbpll2": "0xec00",
+      "host_bytes": 3832000,
+      "rf_reference_used": false
+    },
+    {
+      "center_hz": 650000000,
+      "working_raw": 6507000,
+      "epoch": 4,
+      "rx_cal_status": "0x802",
+      "rx_cal_ready_reference": true,
+      "rx_vco_bits_reference": 2,
+      "tx_cal_status": "0xcc8",
+      "selector": 4,
+      "rx_port": 2,
+      "route_30468": "0x1ea",
+      "route_30480": "0x2",
+      "bbpll1": "0xec00",
+      "bbpll2": "0xec00",
+      "host_bytes": 3832000,
+      "rf_reference_used": false
+    }
+  ],
+  "interpretation": "B-group VCO field falls to1/2 near675/650; ready remains set and selected route unchanged at these checkpoints. Neither proves saturation, LO lock or RF reception; absent reference cannot distinguish measurement, frontend and RF limits.",
+  "dependencies": {
+    "records/reference-review/rf-dual-v17/postflash-bw0.json": "cbdfdf3d0cb6aa5a4599095087d4cbdc874303d98bcb9601bbfe966d223b5dba",
+    "records/reference-review/rf-dual-v17/postflash-bw0-trace.json": "a76df1510b2ac109351885e520dde974fb2c3136ba4355b45952c540489ed915",
+    "records/reference-review/rf-dual-v17/b5-700-state-capture.json": "4c1670ee045d498ce9c285a8fba40d337635efdeab0c1aa5f8672622de98dfaf",
+    "records/reference-review/rf-dual-v17/b5-700-state-trace.json": "36310444df9954da9b7e8d414bce62293e287cc31879db29cfa9078256de7ed4",
+    "records/reference-review/rf-dual-v17/b5-675-state-capture.json": "4067545ec1ec022c62f00c6fefcbdf284a09105a002bd8045d2d29f3858ecd0e",
+    "records/reference-review/rf-dual-v17/b5-675-state-trace.json": "11a1e92ab0db673e548ae8710e2cbeb6128cd3a03da875dd4cc95bc78c13ca38",
+    "records/reference-review/rf-dual-v17/b5-650-state-capture.json": "c00709610cbc8283057db613ce4bed237de12477d28f440669da3abfa0e4fd79",
+    "records/reference-review/rf-dual-v17/b5-650-state-trace.json": "11c7fae0555e2fb4e64e17a730ea0cc81184eedb3bcdd991058397c6937056c1",
+    "records/reference-review/rf-dual-v17/postflash-bw1.json": "0dcffafca8ab6fa89d17e34c9d7172f806562e16e301ce42b82c0da7f7ef8e6a"
+  }
+}

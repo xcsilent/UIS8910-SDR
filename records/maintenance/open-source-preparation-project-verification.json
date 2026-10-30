@@ -1,0 +1,1254 @@
+{
+  "status": "passed",
+  "scope": "Current structure, raw policy, release/host identities, local links and evidence freshness; no hardware or code tests",
+  "device_accessed": false,
+  "physical_archive": "archive/consolidation-2026-10-28",
+  "active_documents": 36,
+  "active_links": 440,
+  "active_python_files": 134,
+  "current_artifacts_verified": 1,
+  "host_artifacts_verified": 13,
+  "reference_excerpts_verified": 8,
+  "code_evidence_freshness": "stale",
+  "code_evidence": [
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-host-auto.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_auto.py",
+        "outputs/host/windows/sdr_usb.dll",
+        "host/common/rf_auto.h",
+        "host/windows/sdr_info.c",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-host-info.json",
+      "recorded_status": "passed",
+      "input_count": 5,
+      "changed_inputs": [
+        "outputs/host/windows/sdr_usb.dll",
+        "host/windows/sdr_info.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-soapy-offline.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/verify/verify_soapy.py",
+        "outputs/host/soapy/build.json",
+        "outputs/host/soapy/sdr_usb.dll",
+        "outputs/host/soapy/soapy_receive_probe.exe",
+        "outputs/host/soapy/uis8910Support.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-tune.json",
+      "recorded_status": "passed",
+      "input_count": 5,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-tune-rebuild.json",
+      "recorded_status": "passed",
+      "input_count": 5,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/maintenance/2026-10-28-consolidation-retained-iq-analysis.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_recorded_artifacts.py",
+        "tools/sdr/artifacts.py",
+        "tools/rf_reference.py",
+        "records/retention/manifest.json"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-b-prepare-prefix.json",
+      "recorded_status": "passed",
+      "input_count": 39,
+      "changed_inputs": [
+        "tools/verify/verify_rf_prepare_b_prefix.py",
+        "tools/verify/verify_rf_frequency_native.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rf-register-crosswalk.json",
+      "recorded_status": "passed",
+      "input_count": 20,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/pll-verification.json",
+      "recorded_status": "passed",
+      "input_count": 16,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-analysis-verification.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/sdr/artifacts.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/wideband-fft-verification.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [
+        "tools/sdr/artifacts.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/selector6-unknown-rate-verification.json",
+      "recorded_status": "passed",
+      "input_count": 4,
+      "changed_inputs": [
+        "tools/sdr/artifacts.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rffe-init-native.json",
+      "recorded_status": "passed",
+      "input_count": 11,
+      "changed_inputs": [
+        "tools/verify/verify_rf_frequency_native.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v23-cp-final-arm.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [
+        "tools/verify/verify_cp_batch_arm.py",
+        "tools/build_capture_bridge.py",
+        "firmware/capture/rf_terminal_rx.c",
+        "firmware/capture/rf_terminal_service.c",
+        "firmware/capture/rf_terminal_control.c",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v23-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v23-trace-final-arm.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_status_trace.py",
+        "firmware/capture/rxcapt_rf_status_trace.h",
+        "firmware/capture/rf_terminal_rx.c",
+        "tools/sdr/rf_status.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v23-layout.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v23-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 80,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v22-abi2-compatibility.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_status_trace.py",
+        "firmware/capture/rxcapt_rf_status_trace.h",
+        "firmware/capture/rf_terminal_rx.c",
+        "tools/sdr/rf_status.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/udc-queue-native.json",
+      "recorded_status": "passed",
+      "input_count": 4,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/queue-v24-cp-arm.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [
+        "tools/verify/verify_cp_batch_arm.py",
+        "tools/build_capture_bridge.py",
+        "firmware/capture/rf_terminal_rx.c",
+        "firmware/capture/rf_terminal_service.c",
+        "firmware/capture/rf_terminal_control.c",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/queue-v24-trace.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_status_trace.py",
+        "firmware/capture/rxcapt_rf_status_trace.h",
+        "firmware/capture/rf_terminal_rx.c",
+        "tools/sdr/rf_status.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/queue-v24-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 41,
+      "changed_inputs": [
+        "firmware/sdr_receiver/bw0_usb_service.c",
+        "firmware/sdr_receiver/bw0_usb_service.h",
+        "firmware/sdr_receiver/cp_usb_8910.c",
+        "firmware/sdr_receiver/cp_usb_8910.h",
+        "firmware/sdr_receiver/cp_usb_scheduler.c",
+        "firmware/sdr_receiver/cp_usb_scheduler.h",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "firmware/debug_monitor/ap_monitor.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/queue-v24-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/queue-v24-layout.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/queue-v24-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 81,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/bw2-v8-segment-profile-verification.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/bw2-v8-segment-client-verification.json",
+      "recorded_status": "passed",
+      "input_count": 2,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-trace-arm.json",
+      "recorded_status": "passed",
+      "input_count": 7,
+      "changed_inputs": [
+        "tools/verify/verify_rf_status_trace.py",
+        "firmware/capture/rxcapt_rf_status_trace.h",
+        "firmware/capture/rf_terminal_rx.c",
+        "tools/sdr/rf_status.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-abi3-regression.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_status_trace.py",
+        "firmware/capture/rxcapt_rf_status_trace.h",
+        "firmware/capture/rf_terminal_rx.c",
+        "tools/sdr/rf_status.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 41,
+      "changed_inputs": [
+        "firmware/sdr_receiver/bw0_usb_service.c",
+        "firmware/sdr_receiver/bw0_usb_service.h",
+        "firmware/sdr_receiver/cp_usb_8910.c",
+        "firmware/sdr_receiver/cp_usb_8910.h",
+        "firmware/sdr_receiver/cp_usb_scheduler.c",
+        "firmware/sdr_receiver/cp_usb_scheduler.h",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "firmware/debug_monitor/ap_monitor.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-cp-arm.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [
+        "tools/verify/verify_cp_batch_arm.py",
+        "tools/build_capture_bridge.py",
+        "firmware/capture/rf_terminal_rx.c",
+        "firmware/capture/rf_terminal_service.c",
+        "firmware/capture/rf_terminal_control.c",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-layout.json",
+      "recorded_status": "passed",
+      "input_count": 4,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-v25-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 82,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rffe-cp-callers.json",
+      "recorded_status": "passed",
+      "input_count": 4,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-policy-native.json",
+      "recorded_status": "passed",
+      "input_count": 5,
+      "changed_inputs": [
+        "firmware/sdr_receiver/cp_usb_scheduler.c",
+        "firmware/sdr_receiver/cp_usb_scheduler.h",
+        "tools/verify/cp_usb_scheduler_harness.c",
+        "tools/verify/verify_usb_scheduler.py",
+        "tools/sdr/scheduler.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-policy-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 41,
+      "changed_inputs": [
+        "firmware/sdr_receiver/bw0_usb_service.c",
+        "firmware/sdr_receiver/bw0_usb_service.h",
+        "firmware/sdr_receiver/cp_usb_8910.c",
+        "firmware/sdr_receiver/cp_usb_8910.h",
+        "firmware/sdr_receiver/cp_usb_scheduler.c",
+        "firmware/sdr_receiver/cp_usb_scheduler.h",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "firmware/debug_monitor/ap_monitor.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-policy-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-policy-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 82,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-wide-native.json",
+      "recorded_status": "passed",
+      "input_count": 5,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-wide-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 41,
+      "changed_inputs": [
+        "firmware/sdr_receiver/bw0_usb_service.c",
+        "firmware/sdr_receiver/bw0_usb_service.h",
+        "firmware/sdr_receiver/cp_usb_8910.c",
+        "firmware/sdr_receiver/cp_usb_8910.h",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "firmware/debug_monitor/ap_monitor.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-wide-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/scheduler-wide-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 82,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rf-pac-payload.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rffe-current-pac-native.json",
+      "recorded_status": "passed",
+      "input_count": 20,
+      "changed_inputs": [
+        "work/rf-cache/current-rf-decoded.bin",
+        "tools/verify/verify_rf_frequency_native.py",
+        "records/rf/reference-rf-pac-payload.json",
+        "outputs/firmware/current/manifest.json"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rf-current-pac-frequency.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [
+        "tools/verify/verify_rf_frequency_native.py",
+        "work/rf-cache/current-rf-decoded.bin",
+        "records/rf/reference-rf-pac-payload.json",
+        "outputs/firmware/current/manifest.json"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/reference-rffe-observer-native.json",
+      "recorded_status": "passed",
+      "input_count": 26,
+      "changed_inputs": [
+        "tools/verify/verify_rf_frequency_native.py",
+        "records/rf/reference-rf-pac-payload.json",
+        "outputs/firmware/current/manifest.json",
+        "work/rf-cache/current-rf-decoded.bin"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-trace-arm.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "firmware/capture/rf_terminal_rx.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 41,
+      "changed_inputs": [
+        "firmware/sdr_receiver/bw0_usb_service.c",
+        "firmware/sdr_receiver/bw0_usb_service.h",
+        "firmware/sdr_receiver/cp_usb_8910.c",
+        "firmware/sdr_receiver/cp_usb_8910.h",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "firmware/debug_monitor/ap_monitor.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-cp-arm.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [
+        "tools/verify/verify_cp_batch_arm.py",
+        "tools/build_capture_bridge.py",
+        "firmware/capture/rf_terminal_rx.c",
+        "firmware/capture/rf_terminal_service.c",
+        "firmware/capture/rf_terminal_control.c",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-ap-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 82,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-layout.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-final-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 19,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-observer-v28-deployment.json",
+      "recorded_status": "passed",
+      "input_count": 11,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-execution-analysis-verification.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-observer-v28-route-isolation.json",
+      "recorded_status": "passed",
+      "input_count": 2,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-observer-v28-switch-isolation-native.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/verify/verify_rf_frontend_isolation.py",
+        "outputs/firmware/current/manifest.json",
+        "tools/verify/verify_rf_frequency_native.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-observer-v28-copy-restore-isolation-native.json",
+      "recorded_status": "passed",
+      "input_count": 11,
+      "changed_inputs": [
+        "outputs/firmware/current/manifest.json",
+        "tools/verify/verify_rf_frequency_native.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-observer-v28-override-policy-arm.json",
+      "recorded_status": "passed",
+      "input_count": 8,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-stop-continuation-final-arm.json",
+      "recorded_status": "passed",
+      "input_count": 9,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-trace-arm.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-cp-final-arm.json",
+      "recorded_status": "passed",
+      "input_count": 24,
+      "changed_inputs": [
+        "tools/verify/verify_cp_batch_arm.py",
+        "tools/build_capture_bridge.py",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-ap-preload-arm.json",
+      "recorded_status": "passed",
+      "input_count": 42,
+      "changed_inputs": [
+        "firmware/sdr_receiver/bw0_usb_service.c",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "firmware/debug_monitor/ap_monitor.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-final-layout.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-final-preload-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 140,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-host-control.json",
+      "recorded_status": "passed",
+      "input_count": 3,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/current-geometry-supply.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [
+        "firmware/sdr_receiver/iq_udc_adapter.c",
+        "firmware/sdr_receiver/cp_usb_stream.c",
+        "tools/verify/cp_exchange_stream_harness.c",
+        "firmware/sdr_receiver/usb_segment_profile.c",
+        "firmware/sdr_receiver/usb_segment_profile.h"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-override-v29-deployment-20261029.json",
+      "recorded_status": "passed_control_lifecycle_only",
+      "input_count": 10,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-fem-b5-900-v29-20261029-rerun.json",
+      "recorded_status": "reference_verified",
+      "input_count": 11,
+      "changed_inputs": [
+        "tools/rf_reference.py",
+        "tools/rf_unknown_rate.py",
+        "tools/sdr/receive.py",
+        "tools/sdr/rf_catalog.py",
+        "outputs/host/windows/sdr_receive.exe",
+        "outputs/host/windows/sdr_usb.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-fem-b8-900-v29-20261029.json",
+      "recorded_status": "reference_not_identified",
+      "input_count": 11,
+      "changed_inputs": [
+        "tools/rf_reference.py",
+        "tools/rf_unknown_rate.py",
+        "tools/sdr/receive.py",
+        "tools/sdr/rf_catalog.py",
+        "outputs/host/windows/sdr_receive.exe",
+        "outputs/host/windows/sdr_usb.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/soapy-v29-hardware-20261029.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/verify/verify_soapy.py",
+        "outputs/host/soapy/build.json",
+        "outputs/host/soapy/sdr_usb.dll",
+        "outputs/host/soapy/soapy_receive_probe.exe",
+        "outputs/host/soapy/uis8910Support.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/sdrpp-v29-hardware-20261029.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_sdrpp.py",
+        "outputs/host/sdrpp/build.json"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/soapy-v29-bw5-hardware-20261029.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/verify/verify_soapy.py",
+        "outputs/host/soapy/build.json",
+        "outputs/host/soapy/sdr_usb.dll",
+        "outputs/host/soapy/soapy_receive_probe.exe",
+        "outputs/host/soapy/uis8910Support.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/soapy-v29-auto-route-20261029.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/verify/verify_soapy.py",
+        "outputs/host/soapy/build.json",
+        "outputs/host/soapy/sdr_usb.dll",
+        "outputs/host/soapy/soapy_receive_probe.exe",
+        "outputs/host/soapy/uis8910Support.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/sdrpp-v29-desktop-visual-20261029.json",
+      "recorded_status": "passed",
+      "input_count": 0,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "unverifiable",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/retune-v29-rapid-retune-20261029.json",
+      "recorded_status": "failed",
+      "input_count": 5,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/retune-v29-rapid-retune-20261029-reconnected.json",
+      "recorded_status": "failed",
+      "input_count": 5,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/sdrpp-v29-retune-recovery-candidate-20261029.json",
+      "recorded_status": "built_candidate",
+      "input_count": 0,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "unverifiable",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/sdrpp-v29-retune-recovery-manual-20261029.json",
+      "recorded_status": "passed_manual_user_validation",
+      "input_count": 0,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "unverifiable",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/frontend-fem-b8-880-v29-20261029.json",
+      "recorded_status": "failed",
+      "input_count": 11,
+      "changed_inputs": [
+        "tools/rf_reference.py",
+        "tools/rf_unknown_rate.py",
+        "tools/sdr/receive.py",
+        "tools/sdr/rf_catalog.py",
+        "outputs/host/windows/sdr_receive.exe",
+        "outputs/host/windows/sdr_usb.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/refill-stream-native.json",
+      "recorded_status": "passed",
+      "input_count": 21,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/refill-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 42,
+      "changed_inputs": [
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/refill-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/usb/refill-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 140,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/soapy-v30-auto-route.json",
+      "recorded_status": "passed",
+      "input_count": 10,
+      "changed_inputs": [
+        "tools/verify/verify_soapy.py",
+        "outputs/host/soapy/build.json",
+        "outputs/host/soapy/sdr_usb.dll",
+        "outputs/host/soapy/soapy_receive_probe.exe",
+        "outputs/host/soapy/uis8910Support.dll"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/host/sdrpp-v30-retune-auto.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_sdrpp.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-b3-lower-cp-arm.json",
+      "recorded_status": "passed",
+      "input_count": 24,
+      "changed_inputs": [
+        "tools/verify/verify_cp_batch_arm.py",
+        "tools/build_capture_bridge.py",
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-b3-lower-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 42,
+      "changed_inputs": [
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c",
+        "tools/build_receiver.py",
+        "tools/verify/verify_bw0_service_arm.py"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-b3-lower-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-b3-lower-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 140,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-b3-lower-host-catalog.json",
+      "recorded_status": "passed",
+      "input_count": 11,
+      "changed_inputs": [
+        "firmware/capture/rxcapt_profile.c",
+        "tools/verify/verify_rf_catalog.py",
+        "tools/sdr/rf_catalog.py",
+        "tools/sdr.py",
+        "firmware/capture/rxcapt_profile.h"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-b3-lower-auto.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_auto.py",
+        "host/common/rf_auto.h",
+        "host/windows/sdr_info.c",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-unrestricted-candidate.json",
+      "recorded_status": "passed",
+      "input_count": 140,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-unrestricted-cp-arm.json",
+      "recorded_status": "passed",
+      "input_count": 24,
+      "changed_inputs": [
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-unrestricted-ap-arm.json",
+      "recorded_status": "passed",
+      "input_count": 42,
+      "changed_inputs": [
+        "firmware/capture/rxcapt_profile.h",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-unrestricted-usb-arm.json",
+      "recorded_status": "passed",
+      "input_count": 1,
+      "changed_inputs": [],
+      "missing_inputs": [],
+      "freshness": "matches_recorded_inputs",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-unrestricted-host-catalog.json",
+      "recorded_status": "passed",
+      "input_count": 11,
+      "changed_inputs": [
+        "firmware/capture/rxcapt_profile.c",
+        "tools/sdr/rf_catalog.py",
+        "tools/sdr.py",
+        "firmware/capture/rxcapt_profile.h"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    },
+    {
+      "report": "records/rf/coverage-unrestricted-auto.json",
+      "recorded_status": "passed",
+      "input_count": 6,
+      "changed_inputs": [
+        "tools/verify/verify_rf_auto.py",
+        "host/common/rf_auto.h",
+        "host/windows/sdr_info.c",
+        "firmware/capture/rxcapt_profile.c"
+      ],
+      "missing_inputs": [],
+      "freshness": "stale",
+      "proves_current_hardware": false
+    }
+  ],
+  "retained_B5_recipe_layout": {
+    "data_base": 2157314048,
+    "data_end": 2157370048,
+    "slot_bytes": 8000,
+    "slots": 7,
+    "capture_end": 1999,
+    "stream_address": 2157372160,
+    "trace_address": 2157370368,
+    "trace_bytes": 512
+  },
+  "installed_generation": "0x526f0501",
+  "installed_slot_bytes": 8192,
+  "historical_full_trial_chain_required": false
+}

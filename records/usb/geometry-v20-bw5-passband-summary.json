@@ -1,0 +1,299 @@
+{
+  "status": "BW5_fixed_reference_response_measured",
+  "recorded_at": "2026-10-28T11:47:46.008029+08:00",
+  "generation": "0x52660501",
+  "band": 40,
+  "RF_signal_hz": 2000150000,
+  "bandwidth_index": 5,
+  "rx_gain_index": 40,
+  "tx_gain_db": 40,
+  "sample_rate_nominal_hz": 30720000,
+  "analysis_dma_bytes": 8192,
+  "usb_request_bytes": 8192,
+  "total_relative_minus3db_width_bracket_hz": [
+    17500000,
+    18500000
+  ],
+  "calibrated_passband": false,
+  "calibrated_sample_clock": false,
+  "rows": [
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse.json",
+      "reference_on_off_db": 40.99419270125432,
+      "reference_drift_db": -0.1699836713135779,
+      "width_bracket_hz": null,
+      "points": [
+        {
+          "offset_hz": 150000,
+          "relative_db": 0.0
+        },
+        {
+          "offset_hz": -150000,
+          "relative_db": -0.12520656849162926
+        },
+        {
+          "offset_hz": -7000000,
+          "relative_db": -0.656419667326942
+        },
+        {
+          "offset_hz": -9000000,
+          "relative_db": -2.94945047226506
+        },
+        {
+          "offset_hz": 7000000,
+          "relative_db": -0.9267224931906636
+        },
+        {
+          "offset_hz": 9000000,
+          "relative_db": -3.0930100585788574
+        },
+        {
+          "offset_hz": 150000,
+          "relative_db": -0.1699836713135779
+        }
+      ]
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge.json",
+      "reference_on_off_db": 41.02349191631271,
+      "reference_drift_db": -0.08266663622963787,
+      "width_bracket_hz": [
+        17500000,
+        18500000
+      ],
+      "points": [
+        {
+          "offset_hz": 150000,
+          "relative_db": 0.0
+        },
+        {
+          "offset_hz": -8500000,
+          "relative_db": -1.8929364151739354
+        },
+        {
+          "offset_hz": -9000000,
+          "relative_db": -2.8729020451271126
+        },
+        {
+          "offset_hz": -9500000,
+          "relative_db": -6.479860885222126
+        },
+        {
+          "offset_hz": 8500000,
+          "relative_db": -2.248779763485744
+        },
+        {
+          "offset_hz": 9000000,
+          "relative_db": -3.082512425533011
+        },
+        {
+          "offset_hz": 9500000,
+          "relative_db": -6.371971257918158
+        },
+        {
+          "offset_hz": 150000,
+          "relative_db": -0.08266663622963787
+        }
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-off.json",
+      "epoch": 32,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.09375
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point0.json",
+      "epoch": 33,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.109375
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point1.json",
+      "epoch": 34,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.09375
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point2.json",
+      "epoch": 35,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.140625
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point3.json",
+      "epoch": 36,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.078125
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point4.json",
+      "epoch": 37,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.171875
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point5.json",
+      "epoch": 38,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.078125
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-coarse-point6.json",
+      "epoch": 39,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.109375
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-off.json",
+      "epoch": 40,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.046875
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point0.json",
+      "epoch": 41,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.046875
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point1.json",
+      "epoch": 42,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.09375
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point2.json",
+      "epoch": 43,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.03125
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point3.json",
+      "epoch": 44,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.09375
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point4.json",
+      "epoch": 45,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.078125
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point5.json",
+      "epoch": 46,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.0625
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point6.json",
+      "epoch": 47,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.03125
+    },
+    {
+      "record": "records/geometry-v19/v20-bw5-passband-edge-point7.json",
+      "epoch": 48,
+      "device_minus_host_bytes": 0,
+      "file_queue_dropped_bytes": 0,
+      "host_cpu_seconds": 0.03125
+    }
+  ],
+  "all_finite_TX_ended": true,
+  "terminal": {
+    "epoch": 48,
+    "generation": "0x52660501",
+    "stopped_drained": true,
+    "status_words": [
+      827802451,
+      1,
+      1,
+      4,
+      0,
+      48,
+      1000,
+      1008,
+      2,
+      30720000,
+      4,
+      12,
+      3,
+      0,
+      0,
+      1,
+      3128,
+      3128,
+      0,
+      0,
+      0,
+      0,
+      25624576,
+      0,
+      3128,
+      3128,
+      0,
+      1894,
+      1,
+      1,
+      1,
+      2985,
+      30,
+      0,
+      3128,
+      3128,
+      1,
+      1,
+      1,
+      1,
+      10320,
+      0,
+      5,
+      134,
+      1,
+      40,
+      1002,
+      2000000000
+    ]
+  },
+  "scope": "Sparse fixed-RF end-to-end response, includes tuning/analog/DFE/board/antennas. Crossing brackets not metrology confidence bounds; near9MHz levels vary about threshold. No chip cutoff or all-route passband assertion; acquisition total loss unknown. Historical distance text in acquisition records not a new measurement.",
+  "dependencies": {
+    "records/geometry-v19/v20-bw5-passband-coarse-off.json": "4e0c953a1852680abeeea8e4abbb4007a768f295c5e8155630fa3679a5cfd84a",
+    "records/geometry-v19/v20-bw5-passband-coarse-point0.json": "fd0baa05244c9aac84aea515bf74c261a271434137d7d44319670ab6f0f7eb7a",
+    "records/geometry-v19/v20-bw5-passband-coarse-point1.json": "ab3983a140574874e0602d1e5f93684477b2e8c94b26243b47089a0865022f83",
+    "records/geometry-v19/v20-bw5-passband-coarse-point2.json": "ccefa6b4abde22b6caabb0e41a867e6b42ee20cea8fa83c865646d27d2c3d3b9",
+    "records/geometry-v19/v20-bw5-passband-coarse-point3.json": "5f18bd36ddf75ff60aaf2d26a43a6e518f3ba9d099746c955751397d86bddfdb",
+    "records/geometry-v19/v20-bw5-passband-coarse-point4.json": "427ba6dcd08cd52d5234f7ab3d24d4a77d2272f1284298453668d7a210170bc1",
+    "records/geometry-v19/v20-bw5-passband-coarse-point5.json": "0eddb8d8b99b931bd9d5dbe0706e15afed2fd09aede7bd3dc46378f4dc12a7b1",
+    "records/geometry-v19/v20-bw5-passband-coarse-point6.json": "93411b63790f8bf07b857fe34e5e6c8c37d9f08deb92ec86be0255827d274a59",
+    "records/geometry-v19/v20-bw5-passband-coarse.json": "eb0cdbe336307e11cebdcf2f89bbad5fa275c6e41825b0d1ed44847d1f1006bd",
+    "records/geometry-v19/v20-bw5-passband-edge-off.json": "e60d77dff2cde892ba25106b674ea028576c78248b66f2b781f7d72432b4d03d",
+    "records/geometry-v19/v20-bw5-passband-edge-point0.json": "1264a9b2b1680b3a2286854067a1499e89466bb9ab54e3c0f0f79e80b3704e0c",
+    "records/geometry-v19/v20-bw5-passband-edge-point1.json": "a0dd4e2b4a3d697ad639a77d1f50ec4f3725dc51814025a0a7a7b5d6574497df",
+    "records/geometry-v19/v20-bw5-passband-edge-point2.json": "580113ec593498a2755512dc1eece883d3319f938b4212ae60d2894531bc7728",
+    "records/geometry-v19/v20-bw5-passband-edge-point3.json": "bc460dd81945fb70b931574d3eac7f17d25bfb2a0c6d013f6a6b9c072f306389",
+    "records/geometry-v19/v20-bw5-passband-edge-point4.json": "e1530ce75ab1a714f7f051b09741b76bf83d19cbf62345e3ae472f72e7ffec1f",
+    "records/geometry-v19/v20-bw5-passband-edge-point5.json": "faa850d1661e9134a86406309c88918709f8753da64dee4b254e94aa05dde414",
+    "records/geometry-v19/v20-bw5-passband-edge-point6.json": "bb6f0ceed28eddd25a41262c3e08839bea1a36ccb1304ece48fb0da2c28540b2",
+    "records/geometry-v19/v20-bw5-passband-edge-point7.json": "765ac0531b5ac87c615dae4027390b19375e562e138a2b7123a8af3245939d2b",
+    "records/geometry-v19/v20-bw5-passband-edge.json": "9e4f3232d6fe97d6c483bad76878cfd332375191b04a13221e7d16632e925a57"
+  }
+}

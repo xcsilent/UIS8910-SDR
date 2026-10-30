@@ -1,0 +1,26 @@
+{
+  "status": "request_and_analog_chain_verified_offline",
+  "device_accessed": false,
+  "firmware_changed": false,
+  "question": "Can an existing calibrated receive route bridge1000-1710MHz?",
+  "findings": [
+    "Current PAC original coefficient helper and compiled C agree for30 synthetic contexts across10 working frequencies spanning1000.0001-1710.7MHz; no coefficient wrap in these points. Working frequency is not RF reception.",
+    "B3 software floor1710MHz is an explicit profile envelope, not a check inside the tested coefficient helper. Below1805MHz its initialization anchor remains channel1200/1805MHz.",
+    "B3 uses selector2/port1, while B5 selector4/port2 and B8 selector6/port3. Shared B-bank arithmetic does not imply shared analog passband.",
+    "B prepare uses field4 from NV RX port to select analog row0x8a54+10*port. Named calibration callback at0x5354 targets0x453c and applies selector/slot/context tables; it does not read request frequency or ready/VCO. This is table application, not an unresolved autonomous calibration routine.",
+    "Original1447-1466.9MHz rows45/61 use selector18 but recorded SDK route checks have no matching NV or RX port. They cannot be enabled by bypassing calibration gates.",
+    "Focused original/C request composition at1100/1447/1600/1710MHz acrossBW0-BW5 passes at-O0/-O2 using recorded B3/B5/B8 routes and NV. B3 post-RX helper0x38a8 has24 focused cases; all select the same default register profile. These executions use retained SDK RF image and historical board NV, not live RF RAM or current PAC full caller proof."
+  ],
+  "decision": "Software evidence now supports a bounded B3 test extension while preserving selector2,port1 and valid channel1200/1805MHz anchor. It does not support unrestricted Auto coverage. First candidate should expose a controlled representative point, retain NV gate and stop/drain, and require reference on/off plus retune follow before promotion.",
+  "next": "Build a bounded experimental B3 lower-envelope candidate using the common profile table, preserving NV/anchor and existing baseline. Validate AP/CP/host bounds and packaging; user manual flash. Start with one representative just below1710MHz and a known1710MHz control; stop expansion if reference identification fails without changed conditions.",
+  "dependencies": {
+    "records/reference-review/rf-gap-coefficients-v30-verified.json": "80f5cf9ce08b027281587c06fa5bf0784d1b040040ec85543fa78ca9a5d8963a",
+    "records/usb/rf-channel-routes.json": "1db38c12100ce98643fba963633a6727cb6185afe5e9ac3d2829405400fe72b0",
+    "firmware/capture/rxcapt_profile.c": "1fe14ca40d36763103ea3a4ed0c3a6974a77fd764372fb7537f141e2d5530f71",
+    "firmware/rf_rebuild/rf_core_rxon_request.c": "66e524549f88b8ab0060687ffda9f09c16b68826d2b7449901c583c744c1cdc1",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c": "87b56a256755bac0aed7a6d7a0da9562180ba6c4dad3da5adda4a452070818df",
+    "firmware/rf_rebuild/rf_core_rxon_b.c": "64cc19df7f1d29c97d54ed0625fc71f9ee73119691801583ea1586539f506505",
+    "records/rf/reference-b-gap-request-chain.json": "d40a587d41c7c01c2634213b43b1e0c95cce18a0f224cc14e420d9f80a47151c"
+  },
+  "request_chain_evidence": "records/rf/reference-b-gap-request-chain.json"
+}

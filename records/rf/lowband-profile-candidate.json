@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-27T13:01:14.319975+08:00",
+  "device_accessed": false,
+  "deployed": false,
+  "candidate_min_hz": 700000000,
+  "candidate_max_hz": 925000000,
+  "scope": "Isolated modified profile compiled for ARM and called in emulator; no full AP/CP integration, NV gate, hardware reception or physical limit proof.",
+  "cases": [
+    {
+      "request_hz": 699999900,
+      "channel": 0,
+      "cp_raw_valid": false,
+      "anchor_hz": null
+    },
+    {
+      "request_hz": 700000000,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 700000100,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 750000000,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 800000000,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 823999900,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 824000000,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 869000000,
+      "channel": 2400,
+      "cp_raw_valid": true,
+      "anchor_hz": 869000000
+    },
+    {
+      "request_hz": 881500000,
+      "channel": 2525,
+      "cp_raw_valid": true,
+      "anchor_hz": 881500000
+    },
+    {
+      "request_hz": 925000000,
+      "channel": 2649,
+      "cp_raw_valid": true,
+      "anchor_hz": 893900000
+    },
+    {
+      "request_hz": 925000100,
+      "channel": 0,
+      "cp_raw_valid": false,
+      "anchor_hz": null
+    }
+  ],
+  "dependencies": {
+    "tools/verify/verify_lowband_profile_candidate.py": "b682f549b2a63eb056af492b826c2f72d1f8be7ad2ab14c583b2dbe0bf362f67",
+    "outputs/firmware/pre-switch-v14/source-snapshot/firmware/capture/rxcapt_profile.c": "3274f6fde988c49d5d98a829030da319966e79bca7b9ca906d9cb7ab7d55fc43",
+    "outputs/firmware/pre-switch-v14/source-snapshot/firmware/capture/rxcapt_profile.h": "3b20efd8d3b777eb92c77622e6904f4beb054aaef0c1ba0c5c7687fb709d8c7c",
+    "work/rf-lowband-profile-candidate/rxcapt_profile.c": "aa731896f9b24228a5a587ccb229c9d50573c3455855a51b6a48c85aa19c2b64",
+    "work/rf-lowband-profile-candidate/profile.elf": "8c9dd2541a20b21f37e34b4070898662ff33de9e4602ef371f74fd0e56e678dd"
+  }
+}

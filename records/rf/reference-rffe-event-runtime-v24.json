@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-28T16:09:05.373405+08:00",
+  "status": "passed",
+  "address": "0x802d0720",
+  "size": 632,
+  "read_only": true,
+  "scope": "AP DDR view only; stopped/drained, no CP call, no RF transaction. Firmware INFO and CP generation do not prove full flash identity.",
+  "epoch": 9,
+  "generation": "0x526a0501",
+  "stable_double_read": true,
+  "runtime_sha256": "5919e62d88456ca69b9c1d8720851f25922b33bdb958453ed7770e1aad9562c7",
+  "local_sha256": "5919e62d88456ca69b9c1d8720851f25922b33bdb958453ed7770e1aad9562c7",
+  "runtime_equals_local": true,
+  "equal_bytes": 632,
+  "artifact": "records/rf/reference-rffe-event-runtime-v24.bin"
+}

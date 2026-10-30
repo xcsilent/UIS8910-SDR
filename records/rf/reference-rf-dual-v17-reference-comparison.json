@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-27T17:47:02.541070+08:00",
+  "status": "observations_recorded",
+  "setup": "B210 serial DEVICE_ID_REDACTED, USB3, subdev A:A A:B channel 0 TX/RX; physical TRX1 and ~30 cm antennas previously reported by user, not independently sensed.",
+  "conditions": "BW0, B5, RX gain index 40; finite B210 TX, 1 Msps, amplitude 0.3; TX gain 40 at 881.5 MHz and 60 at 700/675 MHz.",
+  "observations": [
+    {
+      "frequency_hz": 881500000,
+      "status": "reference_verified",
+      "tone150_vs_off_db": 47.71626432397327,
+      "retune_shift_hz": 100078.125,
+      "tone_separation_hz": 199921.875,
+      "rx_status_3036c": 3349,
+      "rx_status_low11": 1301,
+      "selector": 4,
+      "rx_port": 2,
+      "trace": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "report": "records/reference-review/rf-dual-v17/b5-8815-reference.json"
+    },
+    {
+      "frequency_hz": 700000000,
+      "status": "reference_verified",
+      "tone150_vs_off_db": 15.105857140567057,
+      "retune_shift_hz": 99843.75,
+      "tone_separation_hz": 199921.875,
+      "rx_status_3036c": 2129,
+      "rx_status_low11": 81,
+      "selector": 4,
+      "rx_port": 2,
+      "trace": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "report": "records/reference-review/rf-dual-v17/b5-700-reference.json"
+    },
+    {
+      "frequency_hz": 675000000,
+      "status": "reference_not_identified",
+      "tone150_vs_off_db": null,
+      "retune_shift_hz": null,
+      "tone_separation_hz": null,
+      "rx_status_3036c": 2050,
+      "rx_status_low11": 2,
+      "selector": 4,
+      "rx_port": 2,
+      "trace": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "report": "records/reference-review/rf-dual-v17/b5-675-reference.json"
+    }
+  ],
+  "interpretation": "Discrete observations under uncalibrated antenna conditions, not continuous coverage or a chip limit. RX cal-ready and BBPLL status do not establish RF PLL lock; the low 11 status bits are not proven saturation or a physical boundary.",
+  "all_tx_processes_ended": true,
+  "dependencies": {
+    "records/reference-review/rf-dual-v17/b5-8815-reference.json": "5ae46bf716a808f5d7dce8e2af334746857fe4e48813f79aff7d59419482d9cf",
+    "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json": "4481f35df2f2f596bb7e2be7477006fc1439e0fc04b789a2e0d7bfd956786293",
+    "records/reference-review/rf-dual-v17/b5-700-reference.json": "652545358442c0bdd2de54105407ed3728072d66218b1ca02765f9ef97ad0250",
+    "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json": "143a66e027c01c95e11f9fb31fa7ea9743b84536d263cdf5b0b7ad93c9269117",
+    "records/reference-review/rf-dual-v17/b5-675-reference.json": "c904ae3c5a224c177834eeacd156d3ea596ee1cf47a13c0e932baabbaa9607fc",
+    "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json": "f0997d38cdadf9761058e920cfd140417d2a9683ef481d0ca641f0ccb02db621"
+  }
+}

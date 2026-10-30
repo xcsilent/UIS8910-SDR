@@ -1,0 +1,206 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "image_sha256": "75318189d55ee76bc9d9478bcb8665cac36efe22e283db51d98c2a1f64122f04",
+  "cases": [
+    {
+      "row": 4,
+      "selector": 4,
+      "variants": [
+        {
+          "value": 5,
+          "open_writes": [
+            [
+              245768,
+              5,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "close_writes": [
+            [
+              245768,
+              0,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "nv_byte_offset": "0x350",
+          "rf_local_byte": "0x97f0",
+          "original_cp_copy_executed": true,
+          "baseline_copy_restore_matches": true
+        },
+        {
+          "value": 2,
+          "open_writes": [
+            [
+              245768,
+              2,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "close_writes": [
+            [
+              245768,
+              0,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "nv_byte_offset": "0x350",
+          "rf_local_byte": "0x97f0",
+          "original_cp_copy_executed": true,
+          "baseline_copy_restore_matches": true
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "selector": 6,
+      "variants": [
+        {
+          "value": 5,
+          "open_writes": [
+            [
+              245768,
+              5,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "close_writes": [
+            [
+              245768,
+              0,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "nv_byte_offset": "0x370",
+          "rf_local_byte": "0x9810",
+          "original_cp_copy_executed": true,
+          "baseline_copy_restore_matches": true
+        },
+        {
+          "value": 2,
+          "open_writes": [
+            [
+              245768,
+              2,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "close_writes": [
+            [
+              245768,
+              0,
+              2
+            ],
+            [
+              245760,
+              0,
+              2
+            ],
+            [
+              245764,
+              13426,
+              2
+            ]
+          ],
+          "nv_byte_offset": "0x370",
+          "rf_local_byte": "0x9810",
+          "original_cp_copy_executed": true,
+          "baseline_copy_restore_matches": true
+        }
+      ]
+    }
+  ],
+  "original_cp_copy": {
+    "entry": "0x801b9aba",
+    "stop": "0x801b9acc",
+    "source_offset": "0x2ac",
+    "destination": "0x5000974c",
+    "bytes": 4476,
+    "scatter_loaded_memcpy": "0x804388"
+  },
+  "scope": "Actual CP copy slice and RF dispatch under synthetic memory. One-byte NV substitution changes only open controller data, with identical close writes and no other retained RF RAM writes. Does not prove call lifetime, live update/cache protocol, ACK, physical routing or reception.",
+  "dependencies": {
+    "tools/verify/verify_rf_frontend_isolation.py": "87dce6d0a3798015505a1db549e4ad0b2081f96d0bb156e64ea1da2df96b12db",
+    "work/rf-command-observer-validated/riscV.bin": "75318189d55ee76bc9d9478bcb8665cac36efe22e283db51d98c2a1f64122f04",
+    "records/rf/frontend-observer-v28-runtime-nv.rfnv.bin": "a8394c46eedcd72d56559dd3785ae29891c464b4e2e53869e724c871a0d5feb8",
+    "outputs/firmware/current/manifest.json": "ee04eeb5ccd771f00fe5df1c7ebc84bb90a8b2c0b20d0036a6b2ffd07757536b",
+    "outputs/firmware/rf-observer-v28/build.json": "9e7e4c0eeb4dc97c17a748616e4b7f5490ecfae8260257834dab8bdcb7857242",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.bin": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "tools/verify/verify_rffe_init_native.py": "fcca1ca25bf9aa2bd69bea407acc14c12b134bf6aee24864e139916774e730f4",
+    "tools/verify/verify_rf_frequency_native.py": "ea157c16df8a02d1fb68b1bbc847f63280a03838d814c8c61d308e9deda30fd9",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2"
+  }
+}

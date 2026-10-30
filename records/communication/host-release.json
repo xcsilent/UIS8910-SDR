@@ -1,0 +1,70 @@
+{
+  "status": "promoted",
+  "at": "2026-10-30T12:55:59.832592+08:00",
+  "scope": "Source/build identity plus native mocks and finite physical RF/USB acceptance. Other host components unchanged.",
+  "candidate_build": "outputs/host/windows-realtime-release/build.json",
+  "release_build": "outputs/host/windows/build.json",
+  "rollback": "archive/host-release-2026-10-30/before-realtime-windows",
+  "artifacts": [
+    {
+      "path": "outputs/host/windows/sdr_usb.dll",
+      "bytes": 312866,
+      "sha256": "015a50e6c0a4277644ee21fdd57dc72b89fff90806f4b9c4c2b0a7975069bd9c"
+    },
+    {
+      "path": "outputs/host/windows/sdr_receive.exe",
+      "bytes": 341334,
+      "sha256": "ff206ec66d031a0444534f52d1f8289857e942edeb07ebfdb13970c57392aee8"
+    },
+    {
+      "path": "outputs/host/windows/libsdr_usb.a",
+      "bytes": 20388,
+      "sha256": "88125c3881c6c2d10298c2620bd61da834a4ec0c3f0b0b026fd5dc2765bb6605"
+    }
+  ],
+  "sources": {
+    "host/windows/file_sink.c": "7069119c2b399707143ecc7b93e33235cf6e6bea08915a2f271bca7cd3e0a0c0",
+    "host/windows/file_sink.h": "8c4d031394a8da973b8b3b4674999e7523ec853f5eca87cfffdd8aadef72f281",
+    "host/windows/sdr_bandwidth.h": "3f27d97de5cd4399d50564d2b06c45b1249edce8aa7315a902b5a17836e64627",
+    "host/windows/sdr_control.c": "d5fbfd4a65da5491ae6c4f3f76f4bc61d90f0420a3227d78d44bed088182b831",
+    "host/windows/sdr_control.h": "e7884fc58fa0a7538faa297a8ff25d3bf5ff7873cce83c5b4eccc80a7186226d",
+    "host/windows/sdr_info.c": "1d1a187e58b8ce682ecc68b21ae9d5597fe8645f979c18d42041c7f001cee662",
+    "host/windows/sdr_receive.c": "8ab0172ddfa82cdf439e1c115bf05d69c49e9c73b0e3b517364f020da5ae578e",
+    "host/windows/sdr_session.c": "9821d7273f5252e1fb4b8d46909baca0e395ab9a3fa4901bf8fd53b9a4db1b3f",
+    "host/windows/sdr_session.h": "8fbec18bb35c6485c217d500926d0caaea04e30a697835647c85b1450c1344cf",
+    "host/windows/sdr_usb.c": "3c7a3ee4239ce0bc376ffd7d61061615fe51d875ac7ebf459ab86745b70a40e9",
+    "host/windows/sdr_usb.h": "5d935dd98a421a462dd7b291b5155eb926a359678edd3ff608af827537fac7ca",
+    "host/windows/tune_benchmark.c": "c1c8c8c673430b64dc7442678cf658b9ad12644920da1fbe399aa56cda4dedc1",
+    "tools/build_host.py": "0a7b8e6d921f217cec336aa31bb70d0113e6a47290c1c48f565d36262e42c10e",
+    "host/common/rf_auto.h": "a345b68b76528b38c331e75f9448ee763c978bcc0bd66f7b5e788c32facf9cc8",
+    "firmware/capture/rxcapt_profile.c": "d0e3abf11162258d6b180cfc5c85e96f78307df8cea9f0570ec93bc0e365d3af",
+    "firmware/capture/rxcapt_profile.h": "c9f4986a9924d6ec796573895f549956b6c801bff579a6981b1f9cbeacc6faf2",
+    "firmware/sdr_receiver/sample_rate.h": "5c8d2e37b2c895f1174c5236c2e0447fdab0b95a59c4a7331f03652ed10505c7"
+  },
+  "verification": [
+    "records/communication-host-session-release.json",
+    "records/usb/host-receive-verification.json",
+    "records/usb/host-file-verification.json",
+    "records/usb/daily-receive-verification.json",
+    "records/communication/pipe-verification.json"
+  ],
+  "hardware": [
+    "records/communication-release-ofdm-1900-bw1-tx65-rx30-10s.json",
+    "records/communication-release-ofdm-1900-bw1-tx65-rx30-60s.json",
+    "records/communication-release-file.json",
+    "records/communication-release-default-ofdm-1900-bw0-rx30-10s.json"
+  ],
+  "known_losses": {
+    "bw1_long_device_minus_host_bytes": 8192,
+    "bw0_file_device_minus_host_bytes": 16384,
+    "exact_sample_loss_unknown": true
+  },
+  "delivered_default": "tools/comm_realtime.py resolves outputs/host/manifest.json components.windows",
+  "runner_sources": {
+    "tools/comm_realtime.py": "51bc3e7524399fed1dde4e7dd037c3892ea51ce386a7c5b24e14d5f61ce791d9",
+    "tools/comm_protocol.py": "1a3cc0b5a50b146b02e14a52ac18dc609eaaa142d38e06bddcc98fa064417e3a",
+    "tools/comm_ofdm_realtime.py": "ceab4af053a6e368fc06fd3471d4305ff7e3f1a128aae733d63fc8fbe365a50e",
+    "tools/comm_waveform.py": "4d6e6c5c73cb832affa28c98bd8db1cd2e9120a80d07e679b7538e0d85bcf14a"
+  },
+  "default_command_verified": "Omitted receiver/gain resolves release manifest and RX30; BW0 OFDM10s 4156frames, zero payload errors, EVM2.335%, finite exit/drain."
+}

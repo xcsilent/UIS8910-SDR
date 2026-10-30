@@ -1,0 +1,217 @@
+{
+  "status": "wideband_response_and_saved_fft_observations_recorded",
+  "recorded_at": "2026-10-27T10:00:58.526918+08:00",
+  "device_accessed": true,
+  "firmware_generation": "0x525d0401",
+  "firmware_changed": false,
+  "chip_reset": false,
+  "all_TX_ended": true,
+  "band": 5,
+  "RF_signal_hz": 881650000,
+  "TX_gain_db": 40,
+  "antenna_scope": "Existing antennas/TRX1; latest user estimate30cm, not remeasured. Tool25cm text is historical.",
+  "rows": [
+    {
+      "bandwidth_index": 3,
+      "nominal_sample_rate_hz": 15360000,
+      "relative_minus3db_width_bracket_hz": [
+        9200000,
+        9400000
+      ],
+      "edges": {
+        "negative": {
+          "offset_magnitude_bracket_hz": [
+            4600000,
+            4700000
+          ],
+          "nonmonotonic_after_crossing": false,
+          "reference_drift_passed": true
+        },
+        "positive": {
+          "offset_magnitude_bracket_hz": [
+            4600000,
+            4700000
+          ],
+          "nonmonotonic_after_crossing": false,
+          "reference_drift_passed": true
+        }
+      },
+      "reference_drift_db": 0.20236526426770898,
+      "fft_rows": [
+        {
+          "fft_samples": 2000,
+          "windows": 128,
+          "bin_hz": 7680.0,
+          "peak_hz": 148125.0,
+          "peak_error_hz": -1875.0,
+          "main_peak_half_power_width_hz": 11250.0,
+          "hann_ideal_half_power_width_approx_hz": 11059.2,
+          "peak_to_distant_median_db": 53.540535272732306,
+          "near_peak_on_off_db": 47.65700614602699
+        },
+        {
+          "fft_samples": 2048,
+          "windows": 128,
+          "bin_hz": 7500.0,
+          "peak_hz": 148125.0,
+          "peak_error_hz": -1875.0,
+          "main_peak_half_power_width_hz": 11250.0,
+          "hann_ideal_half_power_width_approx_hz": 10800.0,
+          "peak_to_distant_median_db": 47.482430715874486,
+          "near_peak_on_off_db": 47.280046300236975
+        },
+        {
+          "fft_samples": 8192,
+          "windows": 125,
+          "bin_hz": 1875.0,
+          "peak_hz": 147187.5,
+          "peak_error_hz": -2812.5,
+          "main_peak_half_power_width_hz": 3281.25,
+          "hann_ideal_half_power_width_approx_hz": 2700.0,
+          "peak_to_distant_median_db": 52.890027478875766,
+          "near_peak_on_off_db": 46.20037146679277
+        },
+        {
+          "fft_samples": 32768,
+          "windows": 31,
+          "bin_hz": 468.75,
+          "peak_hz": 147304.6875,
+          "peak_error_hz": -2695.3125,
+          "main_peak_half_power_width_hz": 1171.875,
+          "hann_ideal_half_power_width_approx_hz": 675.0,
+          "peak_to_distant_median_db": 57.522828221414386,
+          "near_peak_on_off_db": 46.63710532686807
+        },
+        {
+          "fft_samples": 65536,
+          "windows": 15,
+          "bin_hz": 234.375,
+          "peak_hz": 146953.125,
+          "peak_error_hz": -3046.875,
+          "main_peak_half_power_width_hz": 1171.875,
+          "hann_ideal_half_power_width_approx_hz": 337.5,
+          "peak_to_distant_median_db": 57.33079772850719,
+          "near_peak_on_off_db": 45.49383289737071
+        }
+      ],
+      "retained_pairs_per_requested_second": 1190000.0,
+      "SDRPP_default_fft_rate_setting": 20,
+      "SDRPP_default_fft_interval_samples": 768000,
+      "predicted_fft_frames_per_second_with_default_skip": 1.5494791666666667,
+      "prediction_scope": "Source-derived pacing estimate from saved1s capture; not a measured live GUI refresh rate."
+    },
+    {
+      "bandwidth_index": 4,
+      "nominal_sample_rate_hz": 30720000,
+      "relative_minus3db_width_bracket_hz": [
+        13600000,
+        13800000
+      ],
+      "edges": {
+        "negative": {
+          "offset_magnitude_bracket_hz": [
+            6800000,
+            6900000
+          ],
+          "nonmonotonic_after_crossing": false,
+          "reference_drift_passed": true
+        },
+        "positive": {
+          "offset_magnitude_bracket_hz": [
+            6800000,
+            6900000
+          ],
+          "nonmonotonic_after_crossing": false,
+          "reference_drift_passed": true
+        }
+      },
+      "reference_drift_db": -0.09636093440456724,
+      "fft_rows": [
+        {
+          "fft_samples": 2000,
+          "windows": 128,
+          "bin_hz": 15360.0,
+          "peak_hz": 146250.0,
+          "peak_error_hz": -3750.0,
+          "main_peak_half_power_width_hz": 26250.0,
+          "hann_ideal_half_power_width_approx_hz": 22118.4,
+          "peak_to_distant_median_db": 34.408560344308434,
+          "near_peak_on_off_db": 40.557506036462875
+        },
+        {
+          "fft_samples": 2048,
+          "windows": 128,
+          "bin_hz": 15000.0,
+          "peak_hz": 142500.0,
+          "peak_error_hz": -7500.0,
+          "main_peak_half_power_width_hz": 30000.0,
+          "hann_ideal_half_power_width_approx_hz": 21600.0,
+          "peak_to_distant_median_db": 31.077574751932552,
+          "near_peak_on_off_db": 40.88408449537062
+        },
+        {
+          "fft_samples": 8192,
+          "windows": 125,
+          "bin_hz": 3750.0,
+          "peak_hz": 141562.5,
+          "peak_error_hz": -8437.5,
+          "main_peak_half_power_width_hz": 7500.0,
+          "hann_ideal_half_power_width_approx_hz": 5400.0,
+          "peak_to_distant_median_db": 35.78388573603238,
+          "near_peak_on_off_db": 41.467493216324975
+        },
+        {
+          "fft_samples": 32768,
+          "windows": 31,
+          "bin_hz": 937.5,
+          "peak_hz": 141562.5,
+          "peak_error_hz": -8437.5,
+          "main_peak_half_power_width_hz": 2812.5,
+          "hann_ideal_half_power_width_approx_hz": 1350.0,
+          "peak_to_distant_median_db": 38.861523500979935,
+          "near_peak_on_off_db": 41.27811706353508
+        },
+        {
+          "fft_samples": 65536,
+          "windows": 15,
+          "bin_hz": 468.75,
+          "peak_hz": 142031.25,
+          "peak_error_hz": -7968.75,
+          "main_peak_half_power_width_hz": 1523.4375,
+          "hann_ideal_half_power_width_approx_hz": 675.0,
+          "peak_to_distant_median_db": 40.38137333383695,
+          "near_peak_on_off_db": 41.91039263263727
+        }
+      ],
+      "retained_pairs_per_requested_second": 1192000.0,
+      "SDRPP_default_fft_rate_setting": 20,
+      "SDRPP_default_fft_interval_samples": 1536000,
+      "predicted_fft_frames_per_second_with_default_skip": 0.7760416666666666,
+      "prediction_scope": "Source-derived pacing estimate from saved1s capture; not a measured live GUI refresh rate."
+    }
+  ],
+  "calibrated_passband": false,
+  "sample_clock_calibrated": false,
+  "desktop_visual_verified": false,
+  "exact_lost_samples_known": false,
+  "scope": "Sparse fixed-RF end-to-end response and saved single-tone FFT comparison; no complete continuous coverage or arbitrary waveform/time-continuity proof.",
+  "next_action": "Add bounded optional wideband FFT pacing in native SDR++ plugin using the existing core FFT path: reduce sample skip while preserving effective sample rate/frequency axis; restore normal user FFT configuration on STOP/source change and validate with actual core FFT callbacks before deployment.",
+  "dependencies": {
+    "records/wideband-v11/bw3-passband-coarse.json": "92ede96d52efeca220722aafbf2ada4e28dce96e9cbea1236fea05739be6ef66",
+    "records/wideband-v11/bw3-passband-refined.json": "d74cd14ebd0f3e01a77540f3abd8f453a3d2294e1ca607ecf71e45e91567fe64",
+    "records/wideband-v11/bw4-passband-coarse.json": "75e09b37429f02dccfa7713112d32f0ef842fedc8e2c2b59009209141eee543c",
+    "records/wideband-v11/bw4-passband-inner.json": "542a0f3775ec9c7cbb72b6e98830bed8b29a3fbb7248725bdbee0ee013471dfc",
+    "records/wideband-v11/bw4-passband-refined.json": "86c9000a9cd5d282c6169f63645ad36b487713159e07d97ed623c60202606417",
+    "records/wideband-v11/bw3-fft.json": "884be10f9233f24bc946ca012adb93c04342b1e40891223a07f91d8d31cbb003",
+    "records/wideband-v11/bw4-fft.json": "853b488c8b09a060c4730f6248f262272fcdf3e63946b07b523b26494cba51aa",
+    "records/rf/wideband-fft-verification.json": "2301c7bd2d47795aaa80ca5c8149e68b0922049130ef1f25c4b630d21380b2a5",
+    "records/wideband-v11/bw1-after-wide-passband.json": "b9d63cb82e4bf3f3dfdd03e30d7f2e38192a966ab810a6fbac08d2c0ebe85561",
+    "records/wideband-v11/bw3-reference-tone150.json": "9b9851fe36e7d11e5c4d3a5b67c91b79f78b708944f740a8eaff2541a726c5c6",
+    "records/wideband-v11/bw4-reference-tone150.json": "a594dddc33d3569fc0cb15f459df15331608edf0172fd0af73bde64b20739948",
+    "tools/rf_fft.py": "12dea584641697f90d376fa963918a6e7e722d5001e38392f22f0b60eec66ae9",
+    "tools/verify/verify_rf_fft.py": "619c3a29d50161d9c4658a8e2211a7c9f90fb0e0a1cbe0481e1c4f4e7eab7d32",
+    "work/sdrpp/source/core/src/signal_path/iq_frontend.h": "473a345546df4f9b9f1536ad471126d2dee1942520f79f28f4fcc2b602aaf48b",
+    "work/sdrpp/source/core/src/signal_path/iq_frontend.cpp": "400913cc4b0a6a43d49450a07c18cf2fb18682819cd9b320e99a6c6cff6ecf4c",
+    "work/sdrpp/source/core/src/core.cpp": "be9150f67fd8a0039a2e87c504abc96371756b68225a9d4ad19b3ba9f241abc7"
+  }
+}

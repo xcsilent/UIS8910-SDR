@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "pac": "outputs/firmware/rf-observer-v28/Air724U_UIS8910_SDR_RF_Observer_v28.pac",
+  "sha256": "d2dc011596b52715a27ad64f4488f972ae17ebe19a635958a2a7470ba7e04916",
+  "generation": "0x526c0501",
+  "changed_from_deployed_baseline": [
+    "Air720U_V403028_CSDK_demo_debug_monitor.img",
+    "cat1_UIS8915DM_BB_RF_SS_NoVolte_cus.img"
+  ],
+  "only_rf_file_changed_in_modem": true,
+  "layout_report": "records/rf/frontend-execution-layout.json",
+  "malformed_container_rejections": [
+    "corrupted payload CRC",
+    "duplicate page list with valid node CRC",
+    "truncated image",
+    "replacement exceeds allocated pages"
+  ],
+  "scope": "Final candidate hash/composition and independently retained AP/CP/layout/native/decode evidence; no hardware or flashing.",
+  "dependencies": {
+    "tools/verify/verify_rf_observer_candidate.py": "8097b8d180aeaa00b6d8070a66d886540dce139299b4d4bfb2625f107ae556b1",
+    "outputs/firmware/rf-observer-v28/build.json": "9e7e4c0eeb4dc97c17a748616e4b7f5490ecfae8260257834dab8bdcb7857242",
+    "records/rf/frontend-execution-layout.json": "ed8fbbb26e73abc8810656009f846d1d43277e5985b0b686eb915176dc384e6e",
+    "tools/package_rf_observer.py": "6ba288251aef6184876ca84b3e552132f59db01a2dab1872a789c6ee0d92a2d2",
+    "tools/usb/modem_container.py": "d2c8ffd3d39943d2756794485682986a8f0df9d344b50458ff7218e1a1045370",
+    "tools/usb/pac.py": "c890401edb5063c0cc625001ae79aefcb98ec1cb20b12ca87032c46e67ffcdd2",
+    "outputs/firmware/fem-execution-v28/build.json": "89911f3c8f8cc2c2e84c09576005b7ace7e4b37d03e6d3573d0e5c063dfb522a",
+    "work/rf-command-observer-validated/build.json": "dcc63dd821ff8bdb2b35c4d796bb732bc91f712aced0b6e0c4a3225ba41e0eab",
+    "work/rf-command-observer-validated/riscV.bin": "75318189d55ee76bc9d9478bcb8665cac36efe22e283db51d98c2a1f64122f04",
+    "outputs/firmware/fem-execution-v28/Air724U_UIS8910_SDR_BW0_USB_v28.pac": "a200b306aacf283fd6166bde8193bc206b8244a57d24845538c23b6494be0904",
+    "work/cp-fem-execution/build.json": "e7fc0669514b3eed6d78135b23a3a263444ed34338c082594aeeceab9f31f1bd",
+    "inputs/repositories/rda8910-csdk-hotelec/tools/win32/lzmar.exe": "f2b46166f8de5dd5596da508c93e28e3b4a7ddf2ab77a5dbc089afb2ff0ebaad",
+    "records/rf/frontend-execution-ap-candidate.json": "aa81ddfd7d0999554c4bb94dfdfbcb46a9688b7b3f52e67a72df6dc81847f3f8",
+    "records/rf/reference-rffe-observer-native.json": "4f52b58ce9d9de546f8c3f8f3fe33df68c10bb1844130c855f54f85de56f3e43",
+    "records/rf/frontend-execution-trace-arm.json": "26c093a0c06201b9fad6b0e3524876d806f9da677892709829c57b36dc78ae0c",
+    "tools/verify/verify_scratch_layout.py": "2b82034ec2849867d823387d2c6e052f2f6293ec23f73f6b6a483b7d28264d50",
+    "work/fem-execution-ap/appimg-build.json": "9895feeb1aacea2742a1394c8448c596ce642e5fcf9bddea938994de3a833e9b",
+    "outputs/firmware/rf-observer-v28/Air724U_UIS8910_SDR_RF_Observer_v28.pac": "d2dc011596b52715a27ad64f4488f972ae17ebe19a635958a2a7470ba7e04916",
+    "outputs/firmware/scheduler-wide-v27/Air724U_UIS8910_SDR_BW0_USB_v27.pac": "944142e3fa907372120011a8c539f5350863a9517039b0a1848b892fe12707d2"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "runtime_interface_and_short_captures_verified",
+  "device_accessed": false,
+  "hardware_evidence": true,
+  "identity_evidence": "records/usb/refill-preflight-native-20261029.json",
+  "scope": "Live advertised refill ABI1 plus successful808B query, finite BW5 captures and stop/drain. Not full flash readback or CP generation readback.",
+  "captures": [
+    {
+      "record": "records/usb/v30-refill-bw5-profiled.json",
+      "epoch": 1,
+      "steady_bytes_per_second": 30301776.842,
+      "device_bytes": 91070464,
+      "host_bytes": 91029504,
+      "tail_bytes": 40960,
+      "drained": true
+    },
+    {
+      "record": "records/usb/v30-refill-bw5-unprofiled.json",
+      "epoch": 2,
+      "steady_bytes_per_second": 31043368.421,
+      "device_bytes": 93085696,
+      "host_bytes": 93061120,
+      "tail_bytes": 24576,
+      "drained": true
+    },
+    {
+      "record": "records/usb/v30-refill-burst25-capture.json",
+      "epoch": 3,
+      "steady_bytes_per_second": 30432857.732,
+      "device_bytes": 90898432,
+      "host_bytes": 90898432,
+      "tail_bytes": 0,
+      "drained": true
+    }
+  ],
+  "normal_queue_mean_interval_us": 104.45221112696149,
+  "burst25_queue_mean_interval_us": 123.33333333333333,
+  "timeline": "records/usb/v30-refill-timeline.json",
+  "burst_timeline": "records/usb-raw-v1/v30-refill-burst25-timeline.json",
+  "conclusion": "Most retained successful episodes already have published hints and pending operation14 at first worker. Release requests often predate starvation.25us pending polling did not provide a clear gain; stop this variable and preserve automatic100/0 forBW5.",
+  "limits": [
+    "Last24 is biased toward session tail, not session-wide stage distribution.",
+    "Single ordered short captures cannot establish diagnostic overhead.",
+    "No device CPU or exact sample loss measurement.",
+    "No new RF coverage evidence."
+  ],
+  "end_state": {
+    "profiling_enabled": false,
+    "scheduler_mode": "automatic",
+    "wait_us": 100,
+    "burst_us": 0,
+    "device_drained": true
+  },
+  "next": "Inspect actual CP mailbox polling and publication timing to explain AP-observed ACK about420us and low blocks/exchange; do not infer CP execution time from ACK observation alone or rerun scheduler grids."
+}

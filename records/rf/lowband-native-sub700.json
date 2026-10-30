@@ -1,0 +1,320 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-27T14:01:44.952643+08:00",
+  "device_accessed": false,
+  "scope": "Native RF coefficient helper and compiled reconstruction; synthetic working frequencies, selectors and factor contexts. No RF, lock, calibration or analog support claim.",
+  "cases": [
+    {
+      "working_raw": 5000000,
+      "selector": 4,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 10000000,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5000000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 10000000,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5000000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 10000000,
+      "q8": 9846,
+      "fraction": 1290555076,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 5000000,
+      "selector": 6,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 10000000,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5000000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 10000000,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5000000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 10000000,
+      "q8": 9846,
+      "fraction": 1290555076,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 5500000,
+      "selector": 4,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 11000000,
+      "q8": 10830,
+      "fraction": 1622412096,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5500000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 11000000,
+      "q8": 10830,
+      "fraction": 1622412096,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5500000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 11000000,
+      "q8": 10830,
+      "fraction": 1419610584,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 5500000,
+      "selector": 6,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 11000000,
+      "q8": 10830,
+      "fraction": 1622412096,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5500000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 11000000,
+      "q8": 10830,
+      "fraction": 1622412096,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 5500000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 11000000,
+      "q8": 10830,
+      "fraction": 1419610584,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 6000000,
+      "selector": 4,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 12000000,
+      "q8": 11815,
+      "fraction": 1769904105,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6000000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 12000000,
+      "q8": 11815,
+      "fraction": 1769904105,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6000000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 12000000,
+      "q8": 11815,
+      "fraction": 1548666092,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 6000000,
+      "selector": 6,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 12000000,
+      "q8": 11815,
+      "fraction": 1769904105,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6000000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 12000000,
+      "q8": 11815,
+      "fraction": 1769904105,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6000000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 12000000,
+      "q8": 11815,
+      "fraction": 1548666092,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 6500000,
+      "selector": 4,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 13000000,
+      "q8": 12800,
+      "fraction": 1917396114,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6500000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 13000000,
+      "q8": 12800,
+      "fraction": 1917396114,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6500000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 13000000,
+      "q8": 12800,
+      "fraction": 1677721600,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 6500000,
+      "selector": 6,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 13000000,
+      "q8": 12800,
+      "fraction": 1917396114,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6500000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 13000000,
+      "q8": 12800,
+      "fraction": 1917396114,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 6500000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 13000000,
+      "q8": 12800,
+      "fraction": 1677721600,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 7000000,
+      "selector": 4,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 14000000,
+      "q8": 13784,
+      "fraction": 2064888123,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 7000000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 14000000,
+      "q8": 13784,
+      "fraction": 2064888123,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 7000000,
+      "selector": 4,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 14000000,
+      "q8": 13784,
+      "fraction": 1806777107,
+      "selected_factor": 8
+    },
+    {
+      "working_raw": 7000000,
+      "selector": 6,
+      "factor_state": 0,
+      "table_factor": 8,
+      "effective_raw": 14000000,
+      "q8": 13784,
+      "fraction": 2064888123,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 7000000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 7,
+      "effective_raw": 14000000,
+      "q8": 13784,
+      "fraction": 2064888123,
+      "selected_factor": 7
+    },
+    {
+      "working_raw": 7000000,
+      "selector": 6,
+      "factor_state": 1,
+      "table_factor": 8,
+      "effective_raw": 14000000,
+      "q8": 13784,
+      "fraction": 1806777107,
+      "selected_factor": 8
+    }
+  ],
+  "dependencies": {
+    "tools/verify/verify_lowband_frequency_native.py": "fa4a68e2abff92e3d33dab64a92ea0d18ad163774b89a87e83a70dc512185ade",
+    "tools/verify/verify_rf_frequency_native.py": "91d4f66d2ccb067d61a496755718a03cf5542f21f8f0e91f6c68ea1d5e566868",
+    "tools/verify/verify_rf_mode_native.py": "372f0082555982a3fd19395bda15979bd6394f9078235d24f61cb4a3cf314be3",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "work/rf-lowband-native/replica.elf": "9208b7175f9042aae52e40ff8d623a4193c58091f1363489546e310e5cde5d3f",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "88ecf7284c9cc75ebd57662115e7d36f6a0ef86fe189707689af91772873c2dd",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3"
+  }
+}

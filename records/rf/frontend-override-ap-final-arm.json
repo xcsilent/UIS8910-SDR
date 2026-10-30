@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "elf": "work/fem-override-ap/csdk/hex/Air720U_V403028_CSDK_demo_sdr_receiver.elf",
+  "elf_sha256": "6c4ae1b0634ef6510b71a1ce69cba7b468165cef0ebc49fc4c51c77d690e093b",
+  "scope": "Linked six-slot AP worker/control operation52 with modeled CP producer and synchronous UDC. Three timed sessions drain two slots each; queued rejection, saturation, generation and active scratch guards. No physical DMA/cache/RF/USB proof.",
+  "sessions": [
+    {
+      "epoch": 1,
+      "bandwidth_index": 5,
+      "frequency_hz": 2000000000,
+      "whole_dropped_pairs": 37,
+      "delivered_bytes": 16384,
+      "requests_freed": 6
+    },
+    {
+      "epoch": 2,
+      "bandwidth_index": 0,
+      "frequency_hz": 2330000000,
+      "whole_dropped_pairs": 4294967295,
+      "delivered_bytes": 16384,
+      "requests_freed": 12
+    },
+    {
+      "epoch": 3,
+      "bandwidth_index": 1,
+      "frequency_hz": 2330100000,
+      "whole_dropped_pairs": 0,
+      "delivered_bytes": 16384,
+      "requests_freed": 18
+    }
+  ],
+  "scheduler_policy": [
+    {
+      "bandwidth": 5,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 1
+    },
+    {
+      "bandwidth": 0,
+      "mode": "manual",
+      "wait_us": 75,
+      "epoch": 2
+    },
+    {
+      "bandwidth": 5,
+      "mode": "manual",
+      "wait_us": 75,
+      "epoch": 3
+    },
+    {
+      "bandwidth": 5,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 4
+    },
+    {
+      "bandwidth": 0,
+      "mode": "automatic",
+      "wait_us": 250,
+      "epoch": 5
+    },
+    {
+      "bandwidth": 1,
+      "mode": "automatic",
+      "wait_us": 250,
+      "epoch": 6
+    },
+    {
+      "bandwidth": 2,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 7
+    },
+    {
+      "bandwidth": 3,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 8
+    },
+    {
+      "bandwidth": 4,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 9
+    }
+  ],
+  "fem_override_cases": [
+    {
+      "mode": 1,
+      "packed_mode": 1,
+      "epoch": 2
+    },
+    {
+      "mode": 2,
+      "packed_mode": 2,
+      "epoch": 3
+    },
+    {
+      "mode": 0,
+      "packed_mode": 0,
+      "epoch": 4
+    }
+  ],
+  "dependencies": {
+    "firmware/sdr_receiver/bw0_usb_service.c": "0df5442abe52c5ceb1851061e74ecc065c636c3fc01e5db1742318caa89fb285",
+    "firmware/sdr_receiver/bw0_usb_service.h": "796bd3c822d7a1971bdf48aff1e40836bc33474ffe38e11c8df3e36d09ddda51",
+    "firmware/sdr_receiver/cp_capture_bridge.c": "b6f5bd6e4540be32ed62125c8327ce3f13694980f159a1a70f68edd8737dc141",
+    "firmware/sdr_receiver/cp_capture_bridge.h": "fcc22deb7fb5e5132efe0171cff07fdbf2a8f279bc8ee8168ba4258c5dd48e6e",
+    "firmware/sdr_receiver/cp_stream_mailbox.c": "b0a50a412d6a4b1628957cce4323ad4c324b530786137ebc835245aa3541a319",
+    "firmware/sdr_receiver/cp_stream_mailbox.h": "148c4e3c577aad9c5c78f4d267543633ae2847d9c56abe36aba1751d810ece79",
+    "firmware/sdr_receiver/cp_usb_8910.c": "d4ec1229bc5b89de2f36fca719e62d7907a7d4ce8432629a6b4ba45c17671022",
+    "firmware/sdr_receiver/cp_usb_8910.h": "006ec87dba8906dc6ad6cdb82e2492eeb9f7b3df154565607d82d013f14d8cc9",
+    "firmware/sdr_receiver/cp_usb_scheduler.c": "af1f1ea49e8d3b4495d8ad03303e0a5280d69854ccd3ba9fd489fc44db4c4936",
+    "firmware/sdr_receiver/cp_usb_scheduler.h": "85b92ee8368dae9f95daa1950269183c85f18e0f4e14b0c00d6b98e9a0e716b9",
+    "firmware/sdr_receiver/cp_usb_stream.c": "a1f857fa4c4e069b08a4180b649173c976fe63abfd15604a57def4a9cdbbd0ef",
+    "firmware/sdr_receiver/cp_usb_stream.h": "49734c90e8a4795dd4ba88b85453114c54583bf5175286d56c3711ddd2d06d2d",
+    "firmware/sdr_receiver/cp_usb_stream_snapshot.c": "5251a97cfc9aa5f9d125bd1aa260eeb7990edd2a718432e0265f21a1aff43871",
+    "firmware/sdr_receiver/iq_udc_adapter.c": "dc6835cc79617cd0a3b3876a2f48afd830154eb6ac932c651bd90c2994809dc1",
+    "firmware/sdr_receiver/iq_udc_adapter.h": "78079fef45ac46b8c56770fbfa9a898f77a19deb4babc4bc24490b135b20c85e",
+    "firmware/sdr_receiver/iq_usb_ring.c": "6cc40f56b2c46c5f2fa223eea104587d81bf552d8dc79c959c5a136d4c8cda97",
+    "firmware/sdr_receiver/iq_usb_ring.h": "a9e78e3acfb1659e87abf4237de37f76c47f64422d44e4d6210d085366f17811",
+    "firmware/sdr_receiver/raw_usb_function.c": "8eccfd320449d03884263de7bd0070c3cb3189a49586bac55d9b4894ab9dc6c6",
+    "firmware/sdr_receiver/raw_usb_function.h": "fdbe22a81fad73cda35b486b5c8515be3c4160de9d6aadeeddc49da3b509bfb0",
+    "firmware/sdr_receiver/rf_profile.h": "d55559bad0eb214500ea00825f1208a11e02e130933705cbf6e62bdf4a2ae10a",
+    "firmware/sdr_receiver/sample_rate.h": "5c8d2e37b2c895f1174c5236c2e0447fdab0b95a59c4a7331f03652ed10505c7",
+    "firmware/sdr_receiver/udc_8910.h": "a969ba445e79a61afa17393672118ad3d8710b4130c84a556d8581f4731270a3",
+    "firmware/sdr_receiver/usb_queue_observer.h": "07b73cc4b2eef4040179e01becbd213b9eda3834d5ff168a59e8ff00eacf27bb",
+    "firmware/sdr_receiver/usb_segment_profile.c": "a22fabf20edf40b808e690fce10c06e6639b2590a81942ac3639065584a6bb6a",
+    "firmware/sdr_receiver/usb_segment_profile.h": "173b5f0c78b57ea1297cccabeb7bd4e8e470b475845e7b0a493898f041f71e6a",
+    "firmware/capture/rxcapt_profile.h": "3b20efd8d3b777eb92c77622e6904f4beb054aaef0c1ba0c5c7687fb709d8c7c",
+    "firmware/capture/rxcapt_profile.c": "1fe14ca40d36763103ea3a4ed0c3a6974a77fd764372fb7537f141e2d5530f71",
+    "work/cp-fem-override/build.json": "3c5b90e222e29dd8fd0786bdc991fbdc02063649c09c2a4bbb239539ebdc85e2",
+    "work/cp-fem-override/resident.bin": "6831a8f1170e398fb97f6cab416e15d67ffc4bed29b55419386044e673e8340d",
+    "work/cp-fem-override/control.bin": "c28da937be401c500e856e9ba3a3fbbf819eb510e63cda9fe873b490cc7785a2",
+    "work/fem-override-ap/generated/rf_profiles_info.h": "05e3c80a8878d109b9259fa1c2d39330a8c0b0c1e92d5fad351208a0be5df23e",
+    "firmware/debug_monitor/ap_monitor.c": "8ea764c65937a31f0a14b42d207494a453a1afc71c0c01c5faeece595d321e44",
+    "firmware/debug_monitor/ap_access.S": "38ef7657eba467db3cdf872f50824d9cb94723b9d3d1066688d090b028698ec8",
+    "firmware/debug_monitor/debug_hash.c": "c90b6729d4d8b1e05c7ae39a334b875e49e7db1a04f8ad7ad88080b0b636075b",
+    "firmware/debug_monitor/cp_agent.c": "8bf54b08cd5217bec4ef3efd399f0e3bf3ad3014dc454f6d5f28311a01c8a67f",
+    "firmware/debug_monitor/debug_shared.h": "4d39cd02ca8d3bd03af9b21da500a5c81754cc10a29ef584a41c50e4488c9015",
+    "firmware/sdr_receiver/CMakeLists.txt": "086fc9e73d0a044e1362ddbf01d146df22e0e39fb48e4365ea888b0c39acaecd",
+    "tools/build_receiver.py": "b9f7dd56f1ef8779fd60a5eab6bbfe2217792e4ab846e39a7f497e38a87d32f5",
+    "tools/verify/verify_bw0_service_arm.py": "907c77d4783d97f8a4068b7726594afef2b8a5c141226d8e79ab26b8d56d8441",
+    "tools/verify/verify_raw_usb_arm.py": "45a489b5c906c55f80087cde34f9e306e3d936491d426313fbbaf50694b93be5",
+    "work/fem-override-ap/csdk/hex/Air720U_V403028_CSDK_demo_sdr_receiver.elf": "6c4ae1b0634ef6510b71a1ce69cba7b468165cef0ebc49fc4c51c77d690e093b"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "built",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "artifacts": [
+    {
+      "path": "outputs/host/verified-v0.1/windows/sdr_usb.dll",
+      "bytes": 312866,
+      "sha256": "cef3c163ffdf62cbed746a8b0c50be0675f9d0a38f3ac0d9aa8ede1390c47226"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/windows/sdr_receive.exe",
+      "bytes": 341334,
+      "sha256": "6fe153ad83a090c28523ce5aec7a1de2b97879203c5dd633103d23c1fea3e75e"
+    },
+    {
+      "path": "outputs/host/verified-v0.1/windows/libsdr_usb.a",
+      "bytes": 20388,
+      "sha256": "88125c3881c6c2d10298c2620bd61da834a4ec0c3f0b0b026fd5dc2765bb6605"
+    }
+  ],
+  "toolchain": {
+    "root": "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr",
+    "target": "x86_64-w64-mingw32",
+    "versions": {
+      "cc": "x86_64-w64-mingw32-gcc-posix (GCC) 13-posix"
+    }
+  },
+  "experimental_b3_min_hz": null,
+  "unrestricted_frequency": true,
+  "sources": {
+    "host/windows/file_sink.c": "7069119c2b399707143ecc7b93e33235cf6e6bea08915a2f271bca7cd3e0a0c0",
+    "host/windows/file_sink.h": "8c4d031394a8da973b8b3b4674999e7523ec853f5eca87cfffdd8aadef72f281",
+    "host/windows/sdr_bandwidth.h": "3f27d97de5cd4399d50564d2b06c45b1249edce8aa7315a902b5a17836e64627",
+    "host/windows/sdr_control.c": "d5fbfd4a65da5491ae6c4f3f76f4bc61d90f0420a3227d78d44bed088182b831",
+    "host/windows/sdr_control.h": "e7884fc58fa0a7538faa297a8ff25d3bf5ff7873cce83c5b4eccc80a7186226d",
+    "host/windows/sdr_info.c": "1d1a187e58b8ce682ecc68b21ae9d5597fe8645f979c18d42041c7f001cee662",
+    "host/windows/sdr_receive.c": "8ab0172ddfa82cdf439e1c115bf05d69c49e9c73b0e3b517364f020da5ae578e",
+    "host/windows/sdr_session.c": "9821d7273f5252e1fb4b8d46909baca0e395ab9a3fa4901bf8fd53b9a4db1b3f",
+    "host/windows/sdr_session.h": "8fbec18bb35c6485c217d500926d0caaea04e30a697835647c85b1450c1344cf",
+    "host/windows/sdr_usb.c": "3c7a3ee4239ce0bc376ffd7d61061615fe51d875ac7ebf459ab86745b70a40e9",
+    "host/windows/sdr_usb.h": "5d935dd98a421a462dd7b291b5155eb926a359678edd3ff608af827537fac7ca",
+    "host/windows/tune_benchmark.c": "c1c8c8c673430b64dc7442678cf658b9ad12644920da1fbe399aa56cda4dedc1",
+    "tools/build_host.py": "34841ab8abab9e87f04ca704bf989732b640adc2cbefdd723ade720f8bc03fa6",
+    "tools/sdr/host_toolchain.py": "1ed24c382658dd35a8a90c8f851c8898af539d68652aa5dcba9dfd07fbbc638f",
+    "host/common/rf_auto.h": "a345b68b76528b38c331e75f9448ee763c978bcc0bd66f7b5e788c32facf9cc8",
+    "firmware/capture/rxcapt_profile.c": "d0e3abf11162258d6b180cfc5c85e96f78307df8cea9f0570ec93bc0e365d3af",
+    "firmware/capture/rxcapt_profile.h": "c9f4986a9924d6ec796573895f549956b6c801bff579a6981b1f9cbeacc6faf2",
+    "firmware/sdr_receiver/sample_rate.h": "5c8d2e37b2c895f1174c5236c2e0447fdab0b95a59c4a7331f03652ed10505c7"
+  }
+}

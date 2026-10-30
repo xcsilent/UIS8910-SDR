@@ -1,0 +1,4905 @@
+{
+  "schema_version": 1,
+  "scope": "Offline record and regenerable work consolidation; no hardware, Git or upload.",
+  "created_at": "2026-10-30T13:39:53.875409+00:00",
+  "record_files_before": 4006,
+  "record_bytes_before": 51389350,
+  "record_root_directories_before": 32,
+  "work_root_directories_before": 140,
+  "work_root_files_before": 471,
+  "retained_record_files": 412,
+  "archived_record_files": 3594,
+  "protected_work_roots": [
+    "build-deps",
+    "build-v0.1",
+    "github-publication-v0.1",
+    "host-test-deps",
+    "sdrpp",
+    "soapysdr",
+    "windows-toolchain"
+  ],
+  "work_removals": [
+    {
+      "path": "work/b3-coverage-sdrpp-build",
+      "files": 22,
+      "bytes": 33539295,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-sdrpp-runtime",
+      "files": 195,
+      "bytes": 30614083,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-soapy",
+      "files": 2,
+      "bytes": 2345477,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-lower-ap",
+      "files": 29,
+      "bytes": 876689,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-b3-overlap-1900-1990-step10-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-b3-overlap-1900-1990-step10-g55-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-b41-2800-g55-d8192",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-2000-2390-step10-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-2400-2800-step5-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-resume-2730-2800-step5-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-upper-2786-2789-step1-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b5-b8-overlap-880-940-step10-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/bandwidth-geometry",
+      "files": 1,
+      "bytes": 263892,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-ap-build",
+      "files": 29,
+      "bytes": 889448,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-b5-baseline",
+      "files": 1,
+      "bytes": 557,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-checks",
+      "files": 28,
+      "bytes": 144752,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-cp-build",
+      "files": 10,
+      "bytes": 56598,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-transport-build",
+      "files": 1,
+      "bytes": 147,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-tune-check",
+      "files": 3,
+      "bytes": 584925,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-1975",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2000",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2025",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2050",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2075",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2075-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2100",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2125",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2125-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2150",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2175",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2175-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2200",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2225",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2225-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2250",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2275",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2275-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2300",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2325",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2325-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2350",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2375",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2375-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2380",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2390",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2400",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2500",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-b40-2600",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b3-1400",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b3-1400-gain20",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b3-1400-gainm5",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b40-2300",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b40-2300-gain20",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b40-2300-gainm5",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/continuous-representative-b5-900",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-b3-lower",
+      "files": 10,
+      "bytes": 60035,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-exchange-bridge",
+      "files": 1,
+      "bytes": 40368,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-command-candidate",
+      "files": 10,
+      "bytes": 56653,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-execution",
+      "files": 10,
+      "bytes": 56557,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-override",
+      "files": 10,
+      "bytes": 56583,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-v23",
+      "files": 10,
+      "bytes": 56485,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-v23-final",
+      "files": 10,
+      "bytes": 56557,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-publish-v22",
+      "files": 10,
+      "bytes": 56508,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-queue-v24",
+      "files": 10,
+      "bytes": 56509,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-scratch-rf-v21-final",
+      "files": 10,
+      "bytes": 56616,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-unrestricted",
+      "files": 10,
+      "bytes": 60032,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-usb-8910",
+      "files": 12,
+      "bytes": 113413,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-usb-bridge",
+      "files": 5,
+      "bytes": 125764,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-usb-stream",
+      "files": 11,
+      "bytes": 712232,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/daily-receive-test",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-v25",
+      "files": 29,
+      "bytes": 890592,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-execution-ap",
+      "files": 29,
+      "bytes": 890447,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-override-ap",
+      "files": 29,
+      "bytes": 878448,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-ap-bind",
+      "files": 29,
+      "bytes": 889316,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-ap-final",
+      "files": 29,
+      "bytes": 889452,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/github-source-review",
+      "files": 596,
+      "bytes": 31468925,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/host-control-test",
+      "files": 1,
+      "bytes": 268365,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/host-file-sink-test",
+      "files": 2,
+      "bytes": 632594,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/host-receive-review",
+      "files": 1,
+      "bytes": 142250,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/host-session-test",
+      "files": 1,
+      "bytes": 280880,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/open-source-review",
+      "files": 5,
+      "bytes": 17355,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/publish-v22-candidate",
+      "files": 29,
+      "bytes": 889316,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-ap-check",
+      "files": 29,
+      "bytes": 890387,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-ap-current",
+      "files": 29,
+      "bytes": 890599,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-final",
+      "files": 29,
+      "bytes": 889551,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/raw-usb-bw0-batch",
+      "files": 10,
+      "bytes": 55065,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-profile-ap",
+      "files": 29,
+      "bytes": 875055,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2400-g40",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2400-g55-d8192",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2500-g40",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2500-g55-d8192",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2600-g40",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2600-g40-r2",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2600-g55",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2700-g55-d8192",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retest-b40-2800-g55-d8192",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-catalog-test",
+      "files": 1,
+      "bytes": 266557,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-command-observer",
+      "files": 2,
+      "bytes": 39985,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-command-observer-validated",
+      "files": 2,
+      "bytes": 39995,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-frequency-native",
+      "files": 1,
+      "bytes": 70840,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-frontend-check",
+      "files": 2,
+      "bytes": 134184,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-frontend-override-check",
+      "files": 3,
+      "bytes": 134682,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-lowband-native",
+      "files": 1,
+      "bytes": 70840,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-mode-rebuild",
+      "files": 2,
+      "bytes": 136452,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-pll-reference",
+      "files": 2,
+      "bytes": 71442,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-prepare-b-prefix",
+      "files": 3,
+      "bytes": 206877,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-reference-analysis-test",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-register-reference",
+      "files": 7,
+      "bytes": 134286,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-response-test",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rx-pre-profile-test",
+      "files": 4,
+      "bytes": 199675,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rxcapt-exchange",
+      "files": 1,
+      "bytes": 27824,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scheduler-policy-ap",
+      "files": 29,
+      "bytes": 870141,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scheduler-wide-ap",
+      "files": 29,
+      "bytes": 890792,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scratch-rf-v21-candidate",
+      "files": 29,
+      "bytes": 889625,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdr-usb-ring-v1",
+      "files": 6,
+      "bytes": 110784,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp-auto-candidate",
+      "files": 22,
+      "bytes": 33533163,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp-auto-runtime",
+      "files": 198,
+      "bytes": 31123479,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp-delivery-build",
+      "files": 22,
+      "bytes": 33532148,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp-retune-candidate",
+      "files": 22,
+      "bytes": 33534420,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp-retune-runtime",
+      "files": 192,
+      "bytes": 30102571,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp-v27-runtime",
+      "files": 183,
+      "bytes": 28571498,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/soapy",
+      "files": 4,
+      "bytes": 4690954,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/soapy-auto-candidate",
+      "files": 2,
+      "bytes": 2345477,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/soapy-bw5-v20",
+      "files": 2,
+      "bytes": 2345477,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/soapy-uis8910",
+      "files": 2,
+      "bytes": 2345495,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/unknown-rate-test",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/unrestricted-ap",
+      "files": 29,
+      "bytes": 876473,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-scheduler",
+      "files": 1,
+      "bytes": 27704,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-segments",
+      "files": 1,
+      "bytes": 69008,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v31-b3-reference",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-rf-reference",
+      "files": 0,
+      "bytes": 0,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/wsl host source check",
+      "files": 6965,
+      "bytes": 599489283,
+      "reparse_files": 1741,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/__pycache__",
+      "files": 2,
+      "bytes": 36270,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/auto-quality-2786",
+      "files": 20,
+      "bytes": 33407613,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/auto-quality-2786-r2",
+      "files": 22,
+      "bytes": 33534187,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/build",
+      "files": 22,
+      "bytes": 33491112,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/portable-release-check",
+      "files": 155,
+      "bytes": 24057768,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/rebuild-current",
+      "files": 22,
+      "bytes": 33533179,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/abi4-trace-regression.json",
+      "files": 1,
+      "bytes": 13219,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/awaiting-v29-project-verify.json",
+      "files": 1,
+      "bytes": 25814,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b-gap-chain-project-verify.json",
+      "files": 1,
+      "bytes": 33857,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b-gap-chain-project-verify.log",
+      "files": 1,
+      "bytes": 67716,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b-gap-request-chain.log",
+      "files": 1,
+      "bytes": 4700,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-final-verify.json",
+      "files": 1,
+      "bytes": 41697,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-final-verify.log",
+      "files": 1,
+      "bytes": 83396,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-host-build.log",
+      "files": 1,
+      "bytes": 2470,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-install.json",
+      "files": 1,
+      "bytes": 1830,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-preflight.json",
+      "files": 1,
+      "bytes": 13962,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-retune.log",
+      "files": 1,
+      "bytes": 18478,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-sdrpp-build.log",
+      "files": 1,
+      "bytes": 9138,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-sdrpp-test.log",
+      "files": 1,
+      "bytes": 34716,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-soapy-build.log",
+      "files": 1,
+      "bytes": 3180,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-soapy-test.log",
+      "files": 1,
+      "bytes": 23988,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-verify-initial.json",
+      "files": 1,
+      "bytes": 41697,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-verify-initial.log",
+      "files": 1,
+      "bytes": 83396,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-windows-auto-released.log",
+      "files": 1,
+      "bytes": 9324,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-coverage-windows-auto.log",
+      "files": 1,
+      "bytes": 2714,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-lower-project-verify.json",
+      "files": 1,
+      "bytes": 36642,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b3-reference-preflight-verify.json",
+      "files": 1,
+      "bytes": 36642,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-b3-overlap-1900-1990-step10-g55-r2.log",
+      "files": 1,
+      "bytes": 134942,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-b3-overlap-1900-1990-step10-g55.log",
+      "files": 1,
+      "bytes": 860,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-b41-2800-g55-d8192.log",
+      "files": 1,
+      "bytes": 24968,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-dma-burst-structure.log",
+      "files": 1,
+      "bytes": 38786,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-2000-2390-step10-g55.log",
+      "files": 1,
+      "bytes": 282304,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-2400-2800-step5-g55.log",
+      "files": 1,
+      "bytes": 423562,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-2435-dma-analysis.log",
+      "files": 1,
+      "bytes": 10152,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-2540-2550-dma-analysis.log",
+      "files": 1,
+      "bytes": 17606,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-resume-2730-2800-step5-g55.log",
+      "files": 1,
+      "bytes": 97542,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-grid-upper-2786-2789-step1-g55.log",
+      "files": 1,
+      "bytes": 29354,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b40-status-evidence-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b5-b8-overlap-880-940-step10-g55.log",
+      "files": 1,
+      "bytes": 94618,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b5-b8-reference-project-verify.json",
+      "files": 1,
+      "bytes": 26846,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b5-envelope-status-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b5-reference-project-verify.json",
+      "files": 1,
+      "bytes": 26537,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b8-880-boundary-verify.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b8-880-correction-verify.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/b8-status-evidence-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/bw5-soapy-verify-20261029.json",
+      "files": 1,
+      "bytes": 27707,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/coefficient-chain-project-verify.json",
+      "files": 1,
+      "bytes": 41697,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-2786-acquisition.npz",
+      "files": 1,
+      "bytes": 1896512,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-2786-symbols-diagnostic.npz",
+      "files": 1,
+      "bytes": 380420,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-bw0-scale1-10s.json",
+      "files": 1,
+      "bytes": 469,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-bw0-scale2-10s.json",
+      "files": 1,
+      "bytes": 469,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-bw1-v1-10s.json",
+      "files": 1,
+      "bytes": 443,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-bw1-v1-60s.json",
+      "files": 1,
+      "bytes": 446,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-framed-current-60s.json",
+      "files": 1,
+      "bytes": 472,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-framed-v1-10s.json",
+      "files": 1,
+      "bytes": 376,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-framed-v1-60s.json",
+      "files": 1,
+      "bytes": 379,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm-selftest-after-fix.json",
+      "files": 1,
+      "bytes": 215,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-ofdm.json",
+      "files": 1,
+      "bytes": 216,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-protocol-selftest.json",
+      "files": 1,
+      "bytes": 267,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-1500-10s.json",
+      "files": 1,
+      "bytes": 232,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-15s.json",
+      "files": 1,
+      "bytes": 232,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-1800-10s.json",
+      "files": 1,
+      "bytes": 232,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-2000-10s.json",
+      "files": 1,
+      "bytes": 232,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-bw0-scale4-10s.json",
+      "files": 1,
+      "bytes": 389,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-bw0-scale4-60s.json",
+      "files": 1,
+      "bytes": 392,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-bw0-scale6-10s.json",
+      "files": 1,
+      "bytes": 389,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-bw1-v1-10s.json",
+      "files": 1,
+      "bytes": 363,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-bw1-v1-60s.json",
+      "files": 1,
+      "bytes": 366,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-framed-v1-10s.json",
+      "files": 1,
+      "bytes": 363,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk-framed-v1-60s.json",
+      "files": 1,
+      "bytes": 366,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-qpsk.json",
+      "files": 1,
+      "bytes": 229,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-2.json",
+      "files": 1,
+      "bytes": 103,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-after-fix.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-after-pipe-fix.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup-v2.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup-v3.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup-v4.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup-v5.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup-v6.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup-v7.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-cleanup.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-ctrlbreak-v2.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-final.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-finite-cleanup-v1.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-gain-review.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-graceful-v1.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-large-ready-v1.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-preflight.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-repeat-v1.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-repeat-v2.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-stop-event-v1.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-v3.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest-v4.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-realtime-selftest.json",
+      "files": 1,
+      "bytes": 103,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-repeat-preflight-test.json",
+      "files": 1,
+      "bytes": 1720,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/comm-review-verify-final.json",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/communication-current-project-verification.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/communication-pipe-check.log",
+      "files": 1,
+      "bytes": 1220,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-verify-initial.json",
+      "files": 1,
+      "bytes": 156,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/consolidation-verify.json",
+      "files": 1,
+      "bytes": 4130,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-v23-final.log",
+      "files": 1,
+      "bytes": 6538,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-fem-v23.log",
+      "files": 1,
+      "bytes": 6394,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-lossy-pair-test",
+      "files": 1,
+      "bytes": 34176,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-lossy-pair.o",
+      "files": 1,
+      "bytes": 1844,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-queue-v24.log",
+      "files": 1,
+      "bytes": 6442,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-six-slot-test",
+      "files": 1,
+      "bytes": 39168,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cp-six-snapshot-test",
+      "files": 1,
+      "bytes": 21976,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cross-route-domain-project-verify.json",
+      "files": 1,
+      "bytes": 41697,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/cross-route-domain-project-verify.log",
+      "files": 1,
+      "bytes": 83396,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/current-evidence-links-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/current-geometry-supply-project-verify.json",
+      "files": 1,
+      "bytes": 25767,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/current-modem-container.bin",
+      "files": 1,
+      "bytes": 2621440,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/current-state-doc-cleanup-20261029.json",
+      "files": 1,
+      "bytes": 27417,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/current-verify.json",
+      "files": 1,
+      "bytes": 83136,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/current-verify.log",
+      "files": 1,
+      "bytes": 83360,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/delivery-integrity-final.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/diagnose-framed-ofdm.py",
+      "files": 1,
+      "bytes": 894,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/diagnose-ofdm-acquisition.py",
+      "files": 1,
+      "bytes": 5514,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/diagnose-qpsk-alignment.py",
+      "files": 1,
+      "bytes": 2923,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/diagnose-qpsk-channel.py",
+      "files": 1,
+      "bytes": 5772,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/direct-receiver-stderr.txt",
+      "files": 1,
+      "bytes": 3622,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/execution-final-project-verify.txt",
+      "files": 1,
+      "bytes": 37678,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-branch-verify.json",
+      "files": 1,
+      "bytes": 12398,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-abi3-regression.json",
+      "files": 1,
+      "bytes": 10991,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-abi4-arm.json",
+      "files": 1,
+      "bytes": 13184,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-abi4-project-verify.json",
+      "files": 1,
+      "bytes": 9598,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-harness.elf",
+      "files": 1,
+      "bytes": 67084,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-snapshot-initial-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-v25-ap-arm.json",
+      "files": 1,
+      "bytes": 5883,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-v25-candidate.json",
+      "files": 1,
+      "bytes": 14138,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-v25-cp-arm.json",
+      "files": 1,
+      "bytes": 8442,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-v25-project-verify.json",
+      "files": 1,
+      "bytes": 11709,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-command-v25-usb-arm.json",
+      "files": 1,
+      "bytes": 1724,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-goal-integration-verify.json",
+      "files": 1,
+      "bytes": 6198,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-goal-integration-verify.log",
+      "files": 1,
+      "bytes": 12398,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-override-ap-check.json",
+      "files": 1,
+      "bytes": 6841,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-override-candidate-check.json",
+      "files": 1,
+      "bytes": 14333,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-override-final-project-verify.json",
+      "files": 1,
+      "bytes": 25477,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-reference-project-verify.json",
+      "files": 1,
+      "bytes": 25790,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-reference-shutdown-project-verify.json",
+      "files": 1,
+      "bytes": 25804,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-reference-shutdown-verify.log",
+      "files": 1,
+      "bytes": 8774,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-reference-verify.log",
+      "files": 1,
+      "bytes": 7570,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-stop-continuation-project-verify.json",
+      "files": 1,
+      "bytes": 25804,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-ap-arm.log",
+      "files": 1,
+      "bytes": 11488,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-ap-bind.log",
+      "files": 1,
+      "bytes": 34322,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-ap-final.log",
+      "files": 1,
+      "bytes": 45062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-bw0-smoke.log",
+      "files": 1,
+      "bytes": 9192,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-candidate.log",
+      "files": 1,
+      "bytes": 26246,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-cp-arm.log",
+      "files": 1,
+      "bytes": 16802,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-cp-final-arm.log",
+      "files": 1,
+      "bytes": 16838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-hardware-trace.log",
+      "files": 1,
+      "bytes": 22978,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-layout.log",
+      "files": 1,
+      "bytes": 2528,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-project-verify.json",
+      "files": 1,
+      "bytes": 7020,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-project-verify.log",
+      "files": 1,
+      "bytes": 14042,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/fem-v23-register-check.log",
+      "files": 1,
+      "bytes": 422,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-audit-20261029.json",
+      "files": 1,
+      "bytes": 29478,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-auto-policy-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-auto-policy-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-completion-audit-20261029.json",
+      "files": 1,
+      "bytes": 28275,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-current-state-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-delivery-audit-20261029.json",
+      "files": 1,
+      "bytes": 27417,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-delivery-state-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-retune-recovery-verify.json",
+      "files": 1,
+      "bytes": 29478,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/final-v01-verify.log",
+      "files": 1,
+      "bytes": 296402,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/finalize-communication.py",
+      "files": 1,
+      "bytes": 12568,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/finalize-sdrpp-installation.py",
+      "files": 1,
+      "bytes": 5752,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/finalize-v01-docs.py",
+      "files": 1,
+      "bytes": 4776,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/finish-comm-review.py",
+      "files": 1,
+      "bytes": 4886,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/finish-ofdm-conditioning.py",
+      "files": 1,
+      "bytes": 6203,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/frontend-override-policy-current-verify.json",
+      "files": 1,
+      "bytes": 20841,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/frontend-snapshot-doc-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-after-realtime-scaffold-2.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-after-realtime-scaffold-2.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-after-realtime-scaffold.json",
+      "files": 1,
+      "bytes": 138,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-after-realtime-scaffold.log",
+      "files": 1,
+      "bytes": 278,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-busy-decode-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-busy-decode-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-current-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-current-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-final-code-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-final-code-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-finite-tx-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-finite-tx-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-ofdm-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-ofdm-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-preflight-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-preflight-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-protocol-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-protocol-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-qpsk-online-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-qpsk-online-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-realtime-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-realtime-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-tx-integrated-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-tx-integrated-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-txstderr-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-txstderr-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-waveform-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/goal-waveform-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/lo-domain-verify.json",
+      "files": 1,
+      "bytes": 41697,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/lo-domain-verify.log",
+      "files": 1,
+      "bytes": 83396,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/manual-flash-blocked-project-verify.json",
+      "files": 1,
+      "bytes": 25814,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/migrate-v01-state.py",
+      "files": 1,
+      "bytes": 6320,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-b40-capture.txt",
+      "files": 1,
+      "bytes": 9228,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-b40-execution.txt",
+      "files": 1,
+      "bytes": 7706,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-b40-trace.txt",
+      "files": 1,
+      "bytes": 27766,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-b8-capture.txt",
+      "files": 1,
+      "bytes": 9212,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-b8-execution.txt",
+      "files": 1,
+      "bytes": 7694,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-b8-trace.txt",
+      "files": 1,
+      "bytes": 27734,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-v28-current-verify.json",
+      "files": 1,
+      "bytes": 19587,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-v28-docs-verify.json",
+      "files": 1,
+      "bytes": 19587,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-v28-final-verify.json",
+      "files": 1,
+      "bytes": 20186,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-v28-nv.txt",
+      "files": 1,
+      "bytes": 602206,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/observer-v28-verify.txt",
+      "files": 1,
+      "bytes": 39176,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/occupancy-project-verify.json",
+      "files": 1,
+      "bytes": 7277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/occupancy-project-verify.log",
+      "files": 1,
+      "bytes": 14556,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-acquisition-diagnosis.log",
+      "files": 1,
+      "bytes": 61942,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-before-single-precision.py",
+      "files": 1,
+      "bytes": 10896,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-conditioned-fast-10s.log",
+      "files": 1,
+      "bytes": 20752,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-conditioned-fast-60s-v3.log",
+      "files": 1,
+      "bytes": 20922,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-conditioned-fast-60s.log",
+      "files": 1,
+      "bytes": 780,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-conditioned-vector-10s.log",
+      "files": 1,
+      "bytes": 20858,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-conditioned-vector-60s.log",
+      "files": 1,
+      "bytes": 20864,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-current-profile.txt",
+      "files": 1,
+      "bytes": 3167,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-filter-selftest.json",
+      "files": 1,
+      "bytes": 1166,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-live-profile.log",
+      "files": 1,
+      "bytes": 20866,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-live-profile.pstats",
+      "files": 1,
+      "bytes": 261384,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-live-timing.log",
+      "files": 1,
+      "bytes": 20830,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-protocol-check.log",
+      "files": 1,
+      "bytes": 14204,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-single-10s.log",
+      "files": 1,
+      "bytes": 21104,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-single-bw0-10s.log",
+      "files": 1,
+      "bytes": 21070,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/ofdm-vector-profile.txt",
+      "files": 1,
+      "bytes": 2455,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/override-preload-project-verify.json",
+      "files": 1,
+      "bytes": 25814,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/plan-v01-cleanup.py",
+      "files": 1,
+      "bytes": 3720,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/prepare-v01-inputs.py",
+      "files": 1,
+      "bytes": 6408,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/promote-communication-host.py",
+      "files": 1,
+      "bytes": 3938,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/qpsk-current-bw0-10s.log",
+      "files": 1,
+      "bytes": 20048,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/qpsk-current-bw1-10s.log",
+      "files": 1,
+      "bytes": 20096,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/qpsk-protocol-check.log",
+      "files": 1,
+      "bytes": 2282,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-client-test.log",
+      "files": 1,
+      "bytes": 950,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-ap-check.log",
+      "files": 1,
+      "bytes": 34688,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-ap-current.log",
+      "files": 1,
+      "bytes": 34708,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-arm.log",
+      "files": 1,
+      "bytes": 11780,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-project-verify.log",
+      "files": 1,
+      "bytes": 14556,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-project.json",
+      "files": 1,
+      "bytes": 7501,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-observer-project.log",
+      "files": 1,
+      "bytes": 15004,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-timing-project-verify.json",
+      "files": 1,
+      "bytes": 7350,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-timing-project-verify.log",
+      "files": 1,
+      "bytes": 14702,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-ap-arm.log",
+      "files": 1,
+      "bytes": 11696,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-bw0-preflight.json",
+      "files": 1,
+      "bytes": 11524,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-bw0-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-candidate.log",
+      "files": 1,
+      "bytes": 26856,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-cp-arm.log",
+      "files": 1,
+      "bytes": 16814,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-deployed-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-deployed-verify.log",
+      "files": 1,
+      "bytes": 18556,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-final.log",
+      "files": 1,
+      "bytes": 45248,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-layout.log",
+      "files": 1,
+      "bytes": 2518,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-long-identity.json",
+      "files": 1,
+      "bytes": 11524,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-long-preflight.json",
+      "files": 1,
+      "bytes": 4007,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-long-profile-preflight.json",
+      "files": 1,
+      "bytes": 3240,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-long-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-off-control.log",
+      "files": 1,
+      "bytes": 9310,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-policy-review-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-project-verify.log",
+      "files": 1,
+      "bytes": 18556,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-repeat-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-usb-arm.log",
+      "files": 1,
+      "bytes": 3450,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-wait-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-v24-wait-verify.log",
+      "files": 1,
+      "bytes": 18556,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-wiring-verify.json",
+      "files": 1,
+      "bytes": 7350,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/queue-wiring-verify.log",
+      "files": 1,
+      "bytes": 14702,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/realtime-pipe-verification-cleanup-v2.json",
+      "files": 1,
+      "bytes": 1871,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/realtime-pipe-verification-v2.json",
+      "files": 1,
+      "bytes": 1871,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/realtime-pipe-verification-v4.json",
+      "files": 1,
+      "bytes": 1871,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/realtime-pipe-verification.json",
+      "files": 1,
+      "bytes": 1871,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/record-v01-build.py",
+      "files": 1,
+      "bytes": 5282,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/recover-1500.json",
+      "files": 1,
+      "bytes": 4959,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-ap-arm.log",
+      "files": 1,
+      "bytes": 16194,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-deployment-project-verify.json",
+      "files": 1,
+      "bytes": 32643,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-deployment-project-verify.log",
+      "files": 1,
+      "bytes": 65288,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-preflight-native.log",
+      "files": 1,
+      "bytes": 10782,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-preflight.log",
+      "files": 1,
+      "bytes": 1400,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-profile-build.log",
+      "files": 1,
+      "bytes": 35796,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-profile-package.log",
+      "files": 1,
+      "bytes": 38386,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-project-verify.json",
+      "files": 1,
+      "bytes": 32643,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-project-verify.log",
+      "files": 1,
+      "bytes": 65288,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-segments-native.log",
+      "files": 1,
+      "bytes": 2009,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-stream-native.log",
+      "files": 1,
+      "bytes": 4830,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-summary-project-verify.json",
+      "files": 1,
+      "bytes": 32643,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-summary-project-verify.log",
+      "files": 1,
+      "bytes": 65288,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/refill-usb-arm.log",
+      "files": 1,
+      "bytes": 3454,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/reflash-scheduler-query.json",
+      "files": 1,
+      "bytes": 4141,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retune-candidate-installed-verify.json",
+      "files": 1,
+      "bytes": 29167,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retune-failure-verify-20261029.json",
+      "files": 1,
+      "bytes": 28565,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retune-reconnected-verify-20261029.json",
+      "files": 1,
+      "bytes": 28867,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/retune-recovery-candidate-verify-20261029.json",
+      "files": 1,
+      "bytes": 29167,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/review-after-reconcile.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/review-after-reconcile.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/review-after-rf-grid.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/review-after-rf-grid.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/review-controlled-gain.py",
+      "files": 1,
+      "bytes": 2073,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/review-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-corrected-container.bin",
+      "files": 1,
+      "bytes": 17936,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-coverage-grid-final-verification.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-coverage-grid-final-verification.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-coverage-grid-project-verification.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-gap-project-verify.json",
+      "files": 1,
+      "bytes": 33802,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-gap-project-verify.log",
+      "files": 1,
+      "bytes": 67606,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-reference-check.log",
+      "files": 1,
+      "bytes": 15758,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-reference-final-verify.log",
+      "files": 1,
+      "bytes": 8774,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-reference-sweep-verification.log",
+      "files": 1,
+      "bytes": 15252,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rf-response-check.log",
+      "files": 1,
+      "bytes": 2140,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-bin-helpers-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-bin-scatter-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-cp-callers-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-cp-image-comparison-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-event-instructions-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-event-objects-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-event-objects-stopped-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-event-runtime-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-extra-event-object-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-gate-write-review.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-prior-gate-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-runtime-nv.log",
+      "files": 1,
+      "bytes": 601930,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-rx-dispatch-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-rx-fields-project-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-snapshot-abi-review.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/rffe-symbol-bounds-verify.json",
+      "files": 1,
+      "bytes": 9277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/roadmap-visual-cleanup-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scheduler-policy-ap-arm.json",
+      "files": 1,
+      "bytes": 6452,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scheduler-policy-project-verify.json",
+      "files": 1,
+      "bytes": 13650,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scheduler-policy-usb-arm.json",
+      "files": 1,
+      "bytes": 1728,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/scheduler-wide-project-verify.json",
+      "files": 1,
+      "bytes": 15229,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdk-service-bridge.json",
+      "files": 1,
+      "bytes": 80,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/selftest-after-final-pipe.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/selftest-pipe2.json",
+      "files": 1,
+      "bytes": 638,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/soapy-auto-verify-20261029.json",
+      "files": 1,
+      "bytes": 27995,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/software-delivery-v29-verify.json",
+      "files": 1,
+      "bytes": 27417,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/status-60s-evidence-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/status-before-repair.md",
+      "files": 1,
+      "bytes": 12217,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/status-sync-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/tx-qpsk-debug.log",
+      "files": 1,
+      "bytes": 1140,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/unrestricted-project-verify.json",
+      "files": 1,
+      "bytes": 38862,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/update-comm-gain-state.py",
+      "files": 1,
+      "bytes": 4868,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/update-communication-representatives.py",
+      "files": 1,
+      "bytes": 14126,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/update-framed-ofdm-state.py",
+      "files": 1,
+      "bytes": 3865,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/update-v01-docs.py",
+      "files": 1,
+      "bytes": 11869,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-closeout-project-verify.json",
+      "files": 1,
+      "bytes": 32643,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-closeout-project-verify.log",
+      "files": 1,
+      "bytes": 65288,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-closure-verify.json",
+      "files": 1,
+      "bytes": 33857,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-probe-after-87.json",
+      "files": 1,
+      "bytes": 4807,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-probe-current.json",
+      "files": 1,
+      "bytes": 4807,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/usb-queue-observer-check",
+      "files": 1,
+      "bytes": 16248,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/user-skip-rf-verify.json",
+      "files": 1,
+      "bytes": 59678,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v01-ap-service-check.log",
+      "files": 1,
+      "bytes": 54970,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v01-ap-usb-check.log",
+      "files": 1,
+      "bytes": 3346,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v01-cp-check.log",
+      "files": 1,
+      "bytes": 17560,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v23-deployed-project-verify.json",
+      "files": 1,
+      "bytes": 7277,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v23-deployed-project-verify.log",
+      "files": 1,
+      "bytes": 14556,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v25-deferred-dispatch-project-verify.json",
+      "files": 1,
+      "bytes": 11996,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v25-helper-access-project-verify.json",
+      "files": 1,
+      "bytes": 11996,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v29-deployment-20261029-project-verify.json",
+      "files": 1,
+      "bytes": 26228,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v29-supply-profile-capture.log",
+      "files": 1,
+      "bytes": 9332,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v29-supply-profile-disable.log",
+      "files": 1,
+      "bytes": 13410,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v29-supply-profile-queue.log",
+      "files": 1,
+      "bytes": 6786,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v3-after-stop.txt",
+      "files": 1,
+      "bytes": 3674,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v3-busy-stderr.txt",
+      "files": 1,
+      "bytes": 3674,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-consumer-release-verify.json",
+      "files": 1,
+      "bytes": 33232,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-consumer-release-verify.log",
+      "files": 1,
+      "bytes": 66466,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-auto.log",
+      "files": 1,
+      "bytes": 5809,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-capture.log",
+      "files": 1,
+      "bytes": 4670,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-config.log",
+      "files": 1,
+      "bytes": 5789,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-disable.log",
+      "files": 1,
+      "bytes": 6726,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-enable.log",
+      "files": 1,
+      "bytes": 6344,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-queue.log",
+      "files": 1,
+      "bytes": 3425,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-scheduler.log",
+      "files": 1,
+      "bytes": 4288,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-burst25-timeline.log",
+      "files": 1,
+      "bytes": 16252,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-bw5-profiled.log",
+      "files": 1,
+      "bytes": 4691,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-bw5-unprofiled.log",
+      "files": 1,
+      "bytes": 4686,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-disable.log",
+      "files": 1,
+      "bytes": 6728,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-enable.log",
+      "files": 1,
+      "bytes": 6344,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-queue.log",
+      "files": 1,
+      "bytes": 3425,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-refill-timeline.log",
+      "files": 1,
+      "bytes": 15969,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-rf-payload.log",
+      "files": 1,
+      "bytes": 230,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-sdrpp-retune-auto.log",
+      "files": 1,
+      "bytes": 37380,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v30-soapy-auto-route.log",
+      "files": 1,
+      "bytes": 23816,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-boundary-project-verify.json",
+      "files": 1,
+      "bytes": 38861,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-boundary-project-verify.log",
+      "files": 1,
+      "bytes": 77724,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-filter-followup-verify.json",
+      "files": 1,
+      "bytes": 38901,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-filter-project-verify.json",
+      "files": 1,
+      "bytes": 38901,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-filter-rx-pre-native.json",
+      "files": 1,
+      "bytes": 16991,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/v32-live-project-verify.json",
+      "files": 1,
+      "bytes": 38901,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b3-10s.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b3-doc.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b3.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b40-2600.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b40-reference.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b40-reference2600.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b40.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b5-10s.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b8-10s.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b8-880.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-b8-envelope.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-bw1.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-bw2-10s.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-bw2-60s.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-bw3.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-bw4.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-bw5.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-comm-cleanup-v5.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-comm-orphan-v6.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-comm-orphan-v6.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-comm-orphan-v7.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-comm-orphan-v7.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ctrlbreak-v16.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ctrlbreak-v16.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-finite-cleanup-v11.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-finite-cleanup-v11.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-finite-gate-v12.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-finite-gate-v12.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-finite60-v18.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-finite60-v18.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-graceful-tx-v15.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-graceful-tx-v15.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-large-ready-v19.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-large-ready-v19.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm-equalizer-v21.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm-equalizer-v21.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm-final-v23.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm-final-v23.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm-v22.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm-v22.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm880-v25.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-ofdm880-v25.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-qpsk60-final-v20.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-qpsk60-final-v20.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-readme.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-repeat-ctrlbreak-v17.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-repeat-ctrlbreak-v17.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-repeat-v10.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-repeat-v10.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-repeat-v9.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-repeat-v9.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-representative-v24.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-representative-v24.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-session-stop-v13.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-session-stop-v13.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-state-convergence.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-status-table.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-stop-event-v14.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-stop-event-v14.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-uhd-cleanup.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-uhd-preflight-v8.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-uhd-preflight-v8.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-usb-probe.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-after-usb-source-review.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-auto-hidden-final.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-auto-hidden.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-b40-gain30.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-burst-structure.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-current-final.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-dma-stability.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-final-current.json",
+      "files": 1,
+      "bytes": 29769,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-passive2600.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-rf-reference-diagnostics.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-txoff-frequency-comparison.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/verify-whole-file-bursts.json",
+      "files": 1,
+      "bytes": 29838,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/visual-plan-removed-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/watchdog-branch-verify.json",
+      "files": 1,
+      "bytes": 41530,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/watchdog-branch-verify.log",
+      "files": 1,
+      "bytes": 83062,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/windows-handoff-current-links-verify.json",
+      "files": 1,
+      "bytes": 41555,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/bw2-build.log",
+      "files": 1,
+      "bytes": 7204,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-pacing-build.log",
+      "files": 1,
+      "bytes": 8536,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-pacing-final-build.log",
+      "files": 1,
+      "bytes": 8626,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-pacing-final-hardware.log",
+      "files": 1,
+      "bytes": 4962,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-pacing-hardware.log",
+      "files": 1,
+      "bytes": 40074,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-pacing-release-build.log",
+      "files": 1,
+      "bytes": 8626,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-pacing-release-hardware.log",
+      "files": 1,
+      "bytes": 27508,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/fft-prototype-build.log",
+      "files": 1,
+      "bytes": 8536,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/portable-release-check.log",
+      "files": 1,
+      "bytes": 34698,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/sample-rate-build.log",
+      "files": 1,
+      "bytes": 8850,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/server-test.log",
+      "files": 1,
+      "bytes": 5051,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/shared-auto-build.log",
+      "files": 1,
+      "bytes": 7400,
+      "reparse_files": 0,
+      "metadata_errors": []
+    },
+    {
+      "path": "work/sdrpp/wideband-v11-build.log",
+      "files": 1,
+      "bytes": 7400,
+      "reparse_files": 0,
+      "metadata_errors": []
+    }
+  ],
+  "record_relocations": {
+    "records/README.md": "records/README.md",
+    "records/audits/2026-10-28-consolidation/README.md": "records/maintenance/2026-10-28-consolidation-README.md",
+    "records/audits/2026-10-28-consolidation/host-auto.json": "records/maintenance/2026-10-28-consolidation-host-auto.json",
+    "records/audits/2026-10-28-consolidation/host-info.json": "records/maintenance/2026-10-28-consolidation-host-info.json",
+    "records/audits/2026-10-28-consolidation/migration.json": "records/maintenance/2026-10-28-consolidation-migration.json",
+    "records/audits/2026-10-28-consolidation/project-verify.json": "records/maintenance/2026-10-28-consolidation-project-verify.json",
+    "records/audits/2026-10-28-consolidation/retained-iq-analysis.json": "records/maintenance/2026-10-28-consolidation-retained-iq-analysis.json",
+    "records/audits/2026-10-28-consolidation/soapy-offline.json": "records/maintenance/2026-10-28-consolidation-soapy-offline.json",
+    "records/audits/2026-10-28-consolidation/tune-rebuild.json": "records/maintenance/2026-10-28-consolidation-tune-rebuild.json",
+    "records/audits/2026-10-28-consolidation/tune.json": "records/maintenance/2026-10-28-consolidation-tune.json",
+    "records/audits/2026-10-28-consolidation/usb-arm.json": "records/maintenance/2026-10-28-consolidation-usb-arm.json",
+    "records/audits/2026-10-29-project-review/README.md": "records/maintenance/2026-10-29-project-review-README.md",
+    "records/audits/host-build-wsl/README.md": "records/maintenance/host-build-wsl-README.md",
+    "records/audits/host-build-wsl/cross-build.json": "records/maintenance/host-build-wsl-cross-build.json",
+    "records/audits/host-build-wsl/independent-build-verification.json": "records/maintenance/host-build-wsl-independent-build-verification.json",
+    "records/audits/host-build-wsl/project-verification.json": "records/maintenance/host-build-wsl-project-verification.json",
+    "records/audits/host-build-wsl/soapy-build.json": "records/maintenance/host-build-wsl-soapy-build.json",
+    "records/audits/host-build-wsl/toolchain.json": "records/maintenance/host-build-wsl-toolchain.json",
+    "records/audits/host-build-wsl/windows-build.json": "records/maintenance/host-build-wsl-windows-build.json",
+    "records/audits/host-build-wsl/windows-offline.json": "records/maintenance/host-build-wsl-windows-offline.json",
+    "records/audits/open-source-preparation/README.md": "records/maintenance/open-source-preparation-README.md",
+    "records/audits/open-source-preparation/after/inventory-summary.json": "records/maintenance/open-source-preparation-after-inventory-summary.json",
+    "records/audits/open-source-preparation/capture-cleanup.json": "records/maintenance/open-source-preparation-capture-cleanup.json",
+    "records/audits/open-source-preparation/capture-log-cleanup.json": "records/maintenance/open-source-preparation-capture-log-cleanup.json",
+    "records/audits/open-source-preparation/documentation-links.json": "records/maintenance/open-source-preparation-documentation-links.json",
+    "records/audits/open-source-preparation/inventory-summary.json": "records/maintenance/open-source-preparation-inventory-summary.json",
+    "records/audits/open-source-preparation/portable-checks.json": "records/maintenance/open-source-preparation-portable-checks.json",
+    "records/audits/open-source-preparation/project-verification.json": "records/maintenance/open-source-preparation-project-verification.json",
+    "records/audits/open-source-preparation/retention-verification.json": "records/maintenance/open-source-preparation-retention-verification.json",
+    "records/audits/open-source-preparation/review-portable-checks.json": "records/maintenance/open-source-preparation-review-portable-checks.json",
+    "records/audits/open-source-preparation/verification-summary.json": "records/maintenance/open-source-preparation-verification-summary.json",
+    "records/audits/release-v0.1/README.md": "records/maintenance/release-v0.1-README.md",
+    "records/audits/release-v0.1/ap-service-arm.json": "records/maintenance/release-v0.1-ap-service-arm.json",
+    "records/audits/release-v0.1/ap-usb-arm.json": "records/maintenance/release-v0.1-ap-usb-arm.json",
+    "records/audits/release-v0.1/cp-batch-arm.json": "records/maintenance/release-v0.1-cp-batch-arm.json",
+    "records/audits/release-v0.1/firmware-cleanup.json": "records/maintenance/release-v0.1-firmware-cleanup.json",
+    "records/audits/release-v0.1/independent-build-verification.json": "records/maintenance/release-v0.1-independent-build-verification.json",
+    "records/audits/release-v0.1/retained-toolchains.json": "records/maintenance/release-v0.1-retained-toolchains.json",
+    "records/audits/release-v0.1/verification-summary.json": "records/maintenance/release-v0.1-verification-summary.json",
+    "records/b40-bandwidth/README.md": "records/rf/b40-README.md",
+    "records/b40-bandwidth/final-2600-bw0.json": "records/rf/b40-final-2600-bw0.json",
+    "records/b40-bandwidth/stability-summary.json": "records/rf/b40-stability-summary.json",
+    "records/b40-bandwidth/stability-verification.json": "records/rf/b40-stability-verification.json",
+    "records/b40-bandwidth/summary.json": "records/rf/b40-summary.json",
+    "records/b40-bandwidth/v11-2600-bw4-fft.json": "records/rf/b40-v11-2600-bw4-fft.json",
+    "records/b40-bandwidth/v21-2600-bw4-stability.json": "records/rf/b40-v21-2600-bw4-stability.json",
+    "records/b40-bandwidth/v21-2600-bw4.json": "records/rf/b40-v21-2600-bw4.json",
+    "records/b40-bandwidth/v21-2600-bw5-stability.json": "records/rf/b40-v21-2600-bw5-stability.json",
+    "records/b40-bandwidth/v21-2600-bw5.json": "records/rf/b40-v21-2600-bw5.json",
+    "records/b40-bandwidth/v21-2600-closeout.json": "records/rf/b40-v21-2600-closeout.json",
+    "records/b40-bandwidth/v21-return-bw0.json": "records/rf/b40-v21-return-bw0.json",
+    "records/bandwidth-extension/cp-preprocessor-verification.json": "records/usb/bandwidth-cp-preprocessor-verification.json",
+    "records/bandwidth-extension/native-mode-verification.json": "records/usb/bandwidth-native-mode-verification.json",
+    "records/bandwidth-extension/profile-verification.json": "records/usb/bandwidth-profile-verification.json",
+    "records/bw2-v7/exchange-bridge-verification.json": "records/usb/bw2-v7-exchange-bridge-verification.json",
+    "records/bw2-v7/exchange-core-verification.json": "records/usb/bw2-v7-exchange-core-verification.json",
+    "records/bw2-v8/dma-cache-native-verification.json": "records/usb/bw2-v8-dma-cache-native-verification.json",
+    "records/bw2-v8/segment-client-verification.json": "records/usb/bw2-v8-segment-client-verification.json",
+    "records/bw2-v8/segment-profile-verification.json": "records/usb/bw2-v8-segment-profile-verification.json",
+    "records/bw5-v12/deployment.json": "records/rf/bw5-v12-deployment.json",
+    "records/communication-functional-acceptance.json": "records/communication/functional-acceptance.json",
+    "records/communication-highband-gain-and-lo.json": "records/communication/highband-gain-and-lo.json",
+    "records/communication-host-release.json": "records/communication/host-release.json",
+    "records/communication-ofdm-1375-dc-diagnosis.json": "records/communication/ofdm-1375-dc-diagnosis.json",
+    "records/communication-ofdm-acquisition-diagnosis.json": "records/communication/ofdm-acquisition-diagnosis.json",
+    "records/communication-ofdm-conditioning.json": "records/communication/ofdm-conditioning.json",
+    "records/communication-ofdm-protocol-verification.json": "records/communication/ofdm-protocol-verification.json",
+    "records/communication-pipe-verification.json": "records/communication/pipe-verification.json",
+    "records/communication-qpsk-2775-rf-status.json": "records/communication/qpsk-2775-rf-status.json",
+    "records/communication-qpsk-2786-diagnosis.json": "records/communication/qpsk-2786-diagnosis.json",
+    "records/communication-qpsk-2786-fir-diagnosis.json": "records/communication/qpsk-2786-fir-diagnosis.json",
+    "records/communication-qpsk-current-waveform-review.json": "records/communication/qpsk-current-waveform-review.json",
+    "records/communication-qpsk-highband-phase-diagnosis.json": "records/communication/qpsk-highband-phase-diagnosis.json",
+    "records/communication-qpsk-legacy-waveform-review.json": "records/communication/qpsk-legacy-waveform-review.json",
+    "records/communication-qpsk-protocol-verification.json": "records/communication/qpsk-protocol-verification.json",
+    "records/communication-realtime-ofdm-1900-bw0-tx65-rx30-single-10s-v1.json": "records/communication/realtime-ofdm-1900-bw0-tx65-rx30-single-10s-v1.json",
+    "records/communication-realtime-ofdm-1900-bw1-tx65-rx30-single-10s-v1.json": "records/communication/realtime-ofdm-1900-bw1-tx65-rx30-single-10s-v1.json",
+    "records/communication-realtime-ofdm-framed-880-tx65-rx40-60s-v2.json": "records/communication/realtime-ofdm-framed-880-tx65-rx40-60s-v2.json",
+    "records/communication-realtime-qpsk-1900-bw1-tx65-rx30-current-10s-v1.json": "records/communication/realtime-qpsk-1900-bw1-tx65-rx30-current-10s-v1.json",
+    "records/communication-realtime-qpsk-2300-diagnostic-v6.json": "records/communication/realtime-qpsk-2300-diagnostic-v6.json",
+    "records/communication-realtime-qpsk-2300-tx75-rx40-60s-v2.json": "records/communication/realtime-qpsk-2300-tx75-rx40-60s-v2.json",
+    "records/communication-realtime-qpsk-2700-bw0-tx65-rx30-current-10s-v1.json": "records/communication/realtime-qpsk-2700-bw0-tx65-rx30-current-10s-v1.json",
+    "records/communication-representative-postflight.json": "records/communication/representative-postflight.json",
+    "records/communication-representative-summary.json": "records/communication/representative-summary.json",
+    "records/geometry-v19/auto-1885-reference-summary.json": "records/usb/geometry-auto-1885-reference-summary.json",
+    "records/geometry-v19/lossy-pair-primitive.json": "records/usb/geometry-lossy-pair-primitive.json",
+    "records/geometry-v19/lossy-ring-model.json": "records/usb/geometry-lossy-ring-model.json",
+    "records/geometry-v19/lossy-scratch-layout.json": "records/usb/geometry-lossy-scratch-layout.json",
+    "records/geometry-v19/scratch-control-host.json": "records/usb/geometry-scratch-control-host.json",
+    "records/geometry-v19/six-slot-bridge.json": "records/usb/geometry-six-slot-bridge.json",
+    "records/geometry-v19/v20-bw5-passband-summary.json": "records/usb/geometry-v20-bw5-passband-summary.json",
+    "records/geometry-v19/v20-bw5-reference-aligned.json": "records/usb/geometry-v20-bw5-reference-aligned.json",
+    "records/geometry-v19/v20-soapy-explicit-bw5.json": "records/usb/geometry-v20-soapy-explicit-bw5.json",
+    "records/geometry-v19/v21-sdrpp-mixed-delivery.json": "records/usb/geometry-v21-sdrpp-mixed-delivery.json",
+    "records/geometry-v19/v21-usb-segment-comparison.json": "records/usb/geometry-v21-usb-segment-comparison.json",
+    "records/geometry-v19/v22-deployment-closeout.json": "records/usb/geometry-v22-deployment-closeout.json",
+    "records/iq/README.md": "records/retention/README.md",
+    "records/iq/manifest.json": "records/retention/manifest.json",
+    "records/iq/retention.json": "records/retention/retention.json",
+    "records/iq/verification.json": "records/retention/verification.json",
+    "records/mainline-v10/bw2-passband-refined.json": "records/rf/mainline-bw2-passband-refined.json",
+    "records/mainline-v10/resume-identity.json": "records/rf/mainline-resume-identity.json",
+    "records/passband-fixed-rf-v1/summary.json": "records/rf/bw01-summary.json",
+    "records/passband-fixed-rf-v1/verification.json": "records/rf/bw01-verification.json",
+    "records/pre-selector6-v13/unknown-rate-verification.json": "records/rf/selector6-unknown-rate-verification.json",
+    "records/reference-review/b-gap-request-chain.json": "records/rf/reference-b-gap-request-chain.json",
+    "records/reference-review/b-prepare-prefix.json": "records/rf/reference-b-prepare-prefix.json",
+    "records/reference-review/current-readonly-rf-snapshot-20261029.json": "records/rf/reference-current-readonly-rf-snapshot-20261029.json",
+    "records/reference-review/current-readonly-rf-snapshot-20261029.rfnv.bin": "records/rf/reference-current-readonly-rf-snapshot-20261029.rfnv.bin",
+    "records/reference-review/current-readonly-rf-snapshot-20261029.tables.bin": "records/rf/reference-current-readonly-rf-snapshot-20261029.tables.bin",
+    "records/reference-review/live-frontend-nv.json": "records/rf/reference-live-frontend-nv.json",
+    "records/reference-review/live-frontend-nv.rfnv.bin": "records/rf/reference-live-frontend-nv.rfnv.bin",
+    "records/reference-review/live-route-nv.json": "records/rf/reference-live-route-nv.json",
+    "records/reference-review/live-route-nv.rfnv.bin": "records/rf/reference-live-route-nv.rfnv.bin",
+    "records/reference-review/live-route-nv.tables.bin": "records/rf/reference-live-route-nv.tables.bin",
+    "records/reference-review/live-route-preflight.json": "records/rf/reference-live-route-preflight.json",
+    "records/reference-review/rf-current-pac-frequency.json": "records/rf/reference-rf-current-pac-frequency.json",
+    "records/reference-review/rf-dual-v17/b5-675-reference-tone150-rf-status.json": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+    "records/reference-review/rf-dual-v17/b5-700-reference-tone150-rf-status.json": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+    "records/reference-review/rf-dual-v17/b5-8815-reference-tone150-rf-status.json": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+    "records/reference-review/rf-dual-v17/calibration-status-comparison.json": "records/rf/reference-rf-dual-v17-calibration-status-comparison.json",
+    "records/reference-review/rf-dual-v17/flag-direct-references.json": "records/rf/reference-rf-dual-v17-flag-direct-references.json",
+    "records/reference-review/rf-dual-v17/hardware-summary.json": "records/rf/reference-rf-dual-v17-hardware-summary.json",
+    "records/reference-review/rf-dual-v17/reference-comparison.json": "records/rf/reference-rf-dual-v17-reference-comparison.json",
+    "records/reference-review/rf-dual-v17/runtime-flags-comparison.json": "records/rf/reference-rf-dual-v17-runtime-flags-comparison.json",
+    "records/reference-review/rf-dual-v17/v20-frontend-mdll.json": "records/rf/reference-rf-dual-v17-v20-frontend-mdll.json",
+    "records/reference-review/rf-dual-v17/v20-frontend-mdll.rfnv.bin": "records/rf/reference-rf-dual-v17-v20-frontend-mdll.rfnv.bin",
+    "records/reference-review/rf-dual-v17/vendor-capture-end.json": "records/rf/reference-rf-dual-v17-vendor-capture-end.json",
+    "records/reference-review/rf-dual-v17/vendor-capture-update.json": "records/rf/reference-rf-dual-v17-vendor-capture-update.json",
+    "records/reference-review/rf-gap-assessment-v30.json": "records/rf/reference-rf-gap-assessment-v30.json",
+    "records/reference-review/rf-image-index-v27.json": "records/rf/reference-rf-image-index-v27.json",
+    "records/reference-review/rf-pac-payload.json": "records/rf/reference-rf-pac-payload.json",
+    "records/reference-review/rf-register-crosswalk.json": "records/rf/reference-rf-register-crosswalk.json",
+    "records/reference-review/rffe-config-stopped-v27.json": "records/rf/reference-rffe-config-stopped-v27.json",
+    "records/reference-review/rffe-cp-callers.json": "records/rf/reference-rffe-cp-callers.json",
+    "records/reference-review/rffe-current-pac-native.json": "records/rf/reference-rffe-current-pac-native.json",
+    "records/reference-review/rffe-event-objects-stopped-v24.json": "records/rf/reference-rffe-event-objects-stopped-v24.json",
+    "records/reference-review/rffe-event-runtime-v24.bin": "records/rf/reference-rffe-event-runtime-v24.bin",
+    "records/reference-review/rffe-event-runtime-v24.json": "records/rf/reference-rffe-event-runtime-v24.json",
+    "records/reference-review/rffe-init-native.json": "records/rf/reference-rffe-init-native.json",
+    "records/reference-review/rffe-observer-native.json": "records/rf/reference-rffe-observer-native.json",
+    "records/reference-review/zw217-layout.json": "records/rf/reference-zw217-layout.json",
+    "records/retune-v1/v29-rapid-retune-20261029-reconnected.json": "records/host/retune-v29-rapid-retune-20261029-reconnected.json",
+    "records/retune-v1/v29-rapid-retune-20261029.json": "records/host/retune-v29-rapid-retune-20261029.json",
+    "records/rf-auto-v1/runtime-nv.rfnv.bin": "records/host/auto-runtime-nv.rfnv.bin",
+    "records/rf-auto-v1/runtime-nv.tables.bin": "records/host/auto-runtime-nv.tables.bin",
+    "records/rf-auto-v1/shared-resolver-verification.json": "records/host/auto-shared-resolver-verification.json",
+    "records/rf-coverage-v1/analysis-verification.json": "records/rf/coverage-analysis-verification.json",
+    "records/rf-coverage-v1/b3-coverage-windows-auto-released.json": "records/rf/coverage-b3-coverage-windows-auto-released.json",
+    "records/rf-coverage-v1/b3-lower-ap-arm.json": "records/rf/coverage-b3-lower-ap-arm.json",
+    "records/rf-coverage-v1/b3-lower-auto.json": "records/rf/coverage-b3-lower-auto.json",
+    "records/rf-coverage-v1/b3-lower-candidate.json": "records/rf/coverage-b3-lower-candidate.json",
+    "records/rf-coverage-v1/b3-lower-cp-arm.json": "records/rf/coverage-b3-lower-cp-arm.json",
+    "records/rf-coverage-v1/b3-lower-host-catalog.json": "records/rf/coverage-b3-lower-host-catalog.json",
+    "records/rf-coverage-v1/b3-lower-usb-arm.json": "records/rf/coverage-b3-lower-usb-arm.json",
+    "records/rf-coverage-v1/b40-b3-overlap-1900-1990-summary.json": "records/rf/coverage-b40-b3-overlap-1900-1990-summary.json",
+    "records/rf-coverage-v1/b40-b41-2800-g55-d8192.json": "records/rf/coverage-b40-b41-2800-g55-d8192.json",
+    "records/rf-coverage-v1/b40-grid-2000-2390-summary.json": "records/rf/coverage-b40-grid-2000-2390-summary.json",
+    "records/rf-coverage-v1/b40-grid-2400-2800-summary.json": "records/rf/coverage-b40-grid-2400-2800-summary.json",
+    "records/rf-coverage-v1/b40-grid-upper-2786-2789-step1-g55-2786000000.json": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2786000000.json",
+    "records/rf-coverage-v1/b40-grid-upper-2786-2789-step1-g55-2787000000.json": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2787000000.json",
+    "records/rf-coverage-v1/b40-grid-upper-2786-2789-step1-g55-2788000000.json": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2788000000.json",
+    "records/rf-coverage-v1/b40-grid-upper-2786-2789-step1-g55-2789000000.json": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2789000000.json",
+    "records/rf-coverage-v1/b40-grid-upper-2786-2789-step1-g55.json": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55.json",
+    "records/rf-coverage-v1/b5-b8-overlap-880-940-summary.json": "records/rf/coverage-b5-b8-overlap-880-940-summary.json",
+    "records/rf-coverage-v1/coefficient-chain-verification.json": "records/rf/coverage-coefficient-chain-verification.json",
+    "records/rf-coverage-v1/cross-route-lower-domain.json": "records/rf/coverage-cross-route-lower-domain.json",
+    "records/rf-coverage-v1/current-windows-cli-b3-1375-10s.json": "records/rf/coverage-current-windows-cli-b3-1375-10s.json",
+    "records/rf-coverage-v1/current-windows-cli-b3-1375-60s.json": "records/rf/coverage-current-windows-cli-b3-1375-60s.json",
+    "records/rf-coverage-v1/current-windows-cli-b3-1375.json": "records/rf/coverage-current-windows-cli-b3-1375.json",
+    "records/rf-coverage-v1/current-windows-cli-b40-2300.json": "records/rf/coverage-current-windows-cli-b40-2300.json",
+    "records/rf-coverage-v1/current-windows-cli-b5-9425-unrestricted.json": "records/rf/coverage-current-windows-cli-b5-9425-unrestricted.json",
+    "records/rf-coverage-v1/current-windows-cli-b8-9425.json": "records/rf/coverage-current-windows-cli-b8-9425.json",
+    "records/rf-coverage-v1/lo-domain-native.json": "records/rf/coverage-lo-domain-native.json",
+    "records/rf-coverage-v1/unrestricted-ap-arm.json": "records/rf/coverage-unrestricted-ap-arm.json",
+    "records/rf-coverage-v1/unrestricted-auto.json": "records/rf/coverage-unrestricted-auto.json",
+    "records/rf-coverage-v1/unrestricted-candidate.json": "records/rf/coverage-unrestricted-candidate.json",
+    "records/rf-coverage-v1/unrestricted-cp-arm.json": "records/rf/coverage-unrestricted-cp-arm.json",
+    "records/rf-coverage-v1/unrestricted-host-catalog.json": "records/rf/coverage-unrestricted-host-catalog.json",
+    "records/rf-coverage-v1/unrestricted-usb-arm.json": "records/rf/coverage-unrestricted-usb-arm.json",
+    "records/rf-coverage-v1/v31-deployment.json": "records/rf/coverage-v31-deployment.json",
+    "records/rf-coverage-v1/v32-b3-1600-reference-off-rf-status.json": "records/rf/coverage-v32-b3-1600-reference-off-rf-status.json",
+    "records/rf-coverage-v1/v32-b3-lower-summary.json": "records/rf/coverage-v32-b3-lower-summary.json",
+    "records/rf-coverage-v1/v32-boundary-controls.json": "records/rf/coverage-v32-boundary-controls.json",
+    "records/rf-coverage-v1/v32-boundary-pac-coefficients.json": "records/rf/coverage-v32-boundary-pac-coefficients.json",
+    "records/rf-coverage-v1/v32-deployment.json": "records/rf/coverage-v32-deployment.json",
+    "records/rf-coverage-v1/v32-filter-assessment.json": "records/rf/coverage-v32-filter-assessment.json",
+    "records/rf-coverage-v1/v32-filter-rx-pre-native.json": "records/rf/coverage-v32-filter-rx-pre-native.json",
+    "records/rf-frontend/b210-passive-2600.json": "records/rf/frontend-b210-passive-2600.json",
+    "records/rf-frontend/b40-2300-v29-reference-20261029.json": "records/rf/frontend-b40-2300-v29-reference-20261029.json",
+    "records/rf-frontend/b40-2600-v29-reference-20261029.json": "records/rf/frontend-b40-2600-v29-reference-20261029.json",
+    "records/rf-frontend/b40-2600-v29-reference-gain30.json": "records/rf/frontend-b40-2600-v29-reference-gain30.json",
+    "records/rf-frontend/b40-dma-burst-structure.json": "records/rf/frontend-b40-dma-burst-structure.json",
+    "records/rf-frontend/b40-dma-stability.json": "records/rf/frontend-b40-dma-stability.json",
+    "records/rf-frontend/b40-reference-gate-analysis.json": "records/rf/frontend-b40-reference-gate-analysis.json",
+    "records/rf-frontend/b40-txoff-controlled-analysis.json": "records/rf/frontend-b40-txoff-controlled-analysis.json",
+    "records/rf-frontend/b40-txoff-reverse-analysis.json": "records/rf/frontend-b40-txoff-reverse-analysis.json",
+    "records/rf-frontend/b40-whole-file-burst-analysis.json": "records/rf/frontend-b40-whole-file-burst-analysis.json",
+    "records/rf-frontend/current-readonly-frontend-20261029.json": "records/rf/frontend-current-readonly-frontend-20261029.json",
+    "records/rf-frontend/current-readonly-frontend-20261029.rfnv.bin": "records/rf/frontend-current-readonly-frontend-20261029.rfnv.bin",
+    "records/rf-frontend/execution-analysis-verification.json": "records/rf/frontend-execution-analysis-verification.json",
+    "records/rf-frontend/execution-ap-arm.json": "records/rf/frontend-execution-ap-arm.json",
+    "records/rf-frontend/execution-ap-candidate.json": "records/rf/frontend-execution-ap-candidate.json",
+    "records/rf-frontend/execution-cp-arm.json": "records/rf/frontend-execution-cp-arm.json",
+    "records/rf-frontend/execution-final-candidate.json": "records/rf/frontend-execution-final-candidate.json",
+    "records/rf-frontend/execution-layout.json": "records/rf/frontend-execution-layout.json",
+    "records/rf-frontend/execution-trace-arm.json": "records/rf/frontend-execution-trace-arm.json",
+    "records/rf-frontend/execution-usb-arm.json": "records/rf/frontend-execution-usb-arm.json",
+    "records/rf-frontend/fem-b5-900-v29-20261029-rerun.json": "records/rf/frontend-fem-b5-900-v29-20261029-rerun.json",
+    "records/rf-frontend/fem-b8-880-v29-20261029-live3.json": "records/rf/frontend-fem-b8-880-v29-20261029-live3.json",
+    "records/rf-frontend/fem-b8-880-v29-20261029.json": "records/rf/frontend-fem-b8-880-v29-20261029.json",
+    "records/rf-frontend/fem-b8-900-v29-20261029.json": "records/rf/frontend-fem-b8-900-v29-20261029.json",
+    "records/rf-frontend/observer-v28-b5-trace.json": "records/rf/frontend-observer-v28-b5-trace.json",
+    "records/rf-frontend/observer-v28-copy-restore-isolation-native.json": "records/rf/frontend-observer-v28-copy-restore-isolation-native.json",
+    "records/rf-frontend/observer-v28-deployment.json": "records/rf/frontend-observer-v28-deployment.json",
+    "records/rf-frontend/observer-v28-override-policy-arm.json": "records/rf/frontend-observer-v28-override-policy-arm.json",
+    "records/rf-frontend/observer-v28-route-isolation.json": "records/rf/frontend-observer-v28-route-isolation.json",
+    "records/rf-frontend/observer-v28-runtime-nv.rfnv.bin": "records/rf/frontend-observer-v28-runtime-nv.rfnv.bin",
+    "records/rf-frontend/observer-v28-switch-isolation-native.json": "records/rf/frontend-observer-v28-switch-isolation-native.json",
+    "records/rf-frontend/override-ap-final-arm.json": "records/rf/frontend-override-ap-final-arm.json",
+    "records/rf-frontend/override-ap-preload-arm.json": "records/rf/frontend-override-ap-preload-arm.json",
+    "records/rf-frontend/override-cp-final-arm.json": "records/rf/frontend-override-cp-final-arm.json",
+    "records/rf-frontend/override-current-verification.json": "records/rf/frontend-override-current-verification.json",
+    "records/rf-frontend/override-final-candidate.json": "records/rf/frontend-override-final-candidate.json",
+    "records/rf-frontend/override-final-layout.json": "records/rf/frontend-override-final-layout.json",
+    "records/rf-frontend/override-final-preload-candidate.json": "records/rf/frontend-override-final-preload-candidate.json",
+    "records/rf-frontend/override-host-control.json": "records/rf/frontend-override-host-control.json",
+    "records/rf-frontend/override-lifecycle-arm.json": "records/rf/frontend-override-lifecycle-arm.json",
+    "records/rf-frontend/override-stop-continuation-final-arm.json": "records/rf/frontend-override-stop-continuation-final-arm.json",
+    "records/rf-frontend/override-trace-arm.json": "records/rf/frontend-override-trace-arm.json",
+    "records/rf-frontend/override-usb-arm.json": "records/rf/frontend-override-usb-arm.json",
+    "records/rf-frontend/override-v29-deployment-20261029.json": "records/rf/frontend-override-v29-deployment-20261029.json",
+    "records/rf-frontend/override-v29-runtime-check.json": "records/rf/frontend-override-v29-runtime-check.json",
+    "records/rf-frontend/v22-abi2-compatibility.json": "records/rf/frontend-v22-abi2-compatibility.json",
+    "records/rf-frontend/v23-candidate.json": "records/rf/frontend-v23-candidate.json",
+    "records/rf-frontend/v23-cp-final-arm.json": "records/rf/frontend-v23-cp-final-arm.json",
+    "records/rf-frontend/v23-deployment-closeout.json": "records/rf/frontend-v23-deployment-closeout.json",
+    "records/rf-frontend/v23-hardware-trace.json": "records/rf/frontend-v23-hardware-trace.json",
+    "records/rf-frontend/v23-layout.json": "records/rf/frontend-v23-layout.json",
+    "records/rf-frontend/v23-trace-final-arm.json": "records/rf/frontend-v23-trace-final-arm.json",
+    "records/rf-frontend/v23-usb-arm.json": "records/rf/frontend-v23-usb-arm.json",
+    "records/rf-frontend/v25-abi3-regression.json": "records/rf/frontend-v25-abi3-regression.json",
+    "records/rf-frontend/v25-ap-arm.json": "records/rf/frontend-v25-ap-arm.json",
+    "records/rf-frontend/v25-candidate.json": "records/rf/frontend-v25-candidate.json",
+    "records/rf-frontend/v25-cp-arm.json": "records/rf/frontend-v25-cp-arm.json",
+    "records/rf-frontend/v25-layout.json": "records/rf/frontend-v25-layout.json",
+    "records/rf-frontend/v25-recovery-and-command-observations.json": "records/rf/frontend-v25-recovery-and-command-observations.json",
+    "records/rf-frontend/v25-trace-arm.json": "records/rf/frontend-v25-trace-arm.json",
+    "records/rf-frontend/v25-usb-arm.json": "records/rf/frontend-v25-usb-arm.json",
+    "records/rf-lowband/README.md": "records/rf/lowband-README.md",
+    "records/rf-lowband/b5-68125-v20-reference.json": "records/rf/lowband-b5-68125-v20-reference.json",
+    "records/rf-lowband/b5-6875-v20-reference.json": "records/rf/lowband-b5-6875-v20-reference.json",
+    "records/rf-lowband/b5-6875-v21-reference.json": "records/rf/lowband-b5-6875-v21-reference.json",
+    "records/rf-lowband/b8-970.json": "records/rf/lowband-b8-970.json",
+    "records/rf-lowband/b8-985.json": "records/rf/lowband-b8-985.json",
+    "records/rf-lowband/b8-990-gain50.json": "records/rf/lowband-b8-990-gain50.json",
+    "records/rf-lowband/b8-990.json": "records/rf/lowband-b8-990.json",
+    "records/rf-lowband/b8-995-gain50.json": "records/rf/lowband-b8-995-gain50.json",
+    "records/rf-lowband/b8-9999-gain50.json": "records/rf/lowband-b8-9999-gain50.json",
+    "records/rf-lowband/native-sub700.json": "records/rf/lowband-native-sub700.json",
+    "records/rf-lowband/native-sub824.json": "records/rf/lowband-native-sub824.json",
+    "records/rf-lowband/preflight.json": "records/rf/lowband-preflight.json",
+    "records/rf-lowband/profile-candidate.json": "records/rf/lowband-profile-candidate.json",
+    "records/rf-lowband/v15-ap.json": "records/rf/lowband-v15-ap.json",
+    "records/rf-lowband/v15-auto.json": "records/rf/lowband-v15-auto.json",
+    "records/rf-lowband/v15-b5-700-gain50.json": "records/rf/lowband-v15-b5-700-gain50.json",
+    "records/rf-lowband/v15-b5-700-gain60.json": "records/rf/lowband-v15-b5-700-gain60.json",
+    "records/rf-lowband/v15-b5-7125-gain50.json": "records/rf/lowband-v15-b5-7125-gain50.json",
+    "records/rf-lowband/v15-b5-7125-gain60.json": "records/rf/lowband-v15-b5-7125-gain60.json",
+    "records/rf-lowband/v15-b5-725-gain50.json": "records/rf/lowband-v15-b5-725-gain50.json",
+    "records/rf-lowband/v15-b5-750-gain50.json": "records/rf/lowband-v15-b5-750-gain50.json",
+    "records/rf-lowband/v15-b5-750.json": "records/rf/lowband-v15-b5-750.json",
+    "records/rf-lowband/v15-b5-800.json": "records/rf/lowband-v15-b5-800.json",
+    "records/rf-lowband/v15-b5-824.json": "records/rf/lowband-v15-b5-824.json",
+    "records/rf-lowband/v15-candidate.json": "records/rf/lowband-v15-candidate.json",
+    "records/rf-lowband/v15-consumers-offline.json": "records/rf/lowband-v15-consumers-offline.json",
+    "records/rf-lowband/v15-cp.json": "records/rf/lowband-v15-cp.json",
+    "records/rf-lowband/v15-descriptor.json": "records/rf/lowband-v15-descriptor.json",
+    "records/rf-lowband/v15-host-file.json": "records/rf/lowband-v15-host-file.json",
+    "records/rf-lowband/v15-host-session.json": "records/rf/lowband-v15-host-session.json",
+    "records/rf-lowband/v15-host.json": "records/rf/lowband-v15-host.json",
+    "records/rf-lowband/v15-nv-guard.json": "records/rf/lowband-v15-nv-guard.json",
+    "records/rf-lowband/v15-postflash-identity.json": "records/rf/lowband-v15-postflash-identity.json",
+    "records/rf-lowband/v15-sdrpp-hardware.json": "records/rf/lowband-v15-sdrpp-hardware.json",
+    "records/rf-lowband/v15-soapy-hardware.json": "records/rf/lowband-v15-soapy-hardware.json",
+    "records/rf-lowband/v16-ap.json": "records/rf/lowband-v16-ap.json",
+    "records/rf-lowband/v16-auto-920-hardware.json": "records/rf/lowband-v16-auto-920-hardware.json",
+    "records/rf-lowband/v16-auto-hysteresis.json": "records/rf/lowband-v16-auto-hysteresis.json",
+    "records/rf-lowband/v16-b3-1710-gain60.json": "records/rf/lowband-v16-b3-1710-gain60.json",
+    "records/rf-lowband/v16-b3-1710.json": "records/rf/lowband-v16-b3-1710.json",
+    "records/rf-lowband/v16-b3-1900.json": "records/rf/lowband-v16-b3-1900.json",
+    "records/rf-lowband/v16-b39-1900.json": "records/rf/lowband-v16-b39-1900.json",
+    "records/rf-lowband/v16-b5-600.json": "records/rf/lowband-v16-b5-600.json",
+    "records/rf-lowband/v16-b5-650.json": "records/rf/lowband-v16-b5-650.json",
+    "records/rf-lowband/v16-b5-675-rx80.json": "records/rf/lowband-v16-b5-675-rx80.json",
+    "records/rf-lowband/v16-b5-675.json": "records/rf/lowband-v16-b5-675.json",
+    "records/rf-lowband/v16-b5-700.json": "records/rf/lowband-v16-b5-700.json",
+    "records/rf-lowband/v16-b5-915.json": "records/rf/lowband-v16-b5-915.json",
+    "records/rf-lowband/v16-b5-920.json": "records/rf/lowband-v16-b5-920.json",
+    "records/rf-lowband/v16-b5-9249.json": "records/rf/lowband-v16-b5-9249.json",
+    "records/rf-lowband/v16-b8-915.json": "records/rf/lowband-v16-b8-915.json",
+    "records/rf-lowband/v16-b8-920.json": "records/rf/lowband-v16-b8-920.json",
+    "records/rf-lowband/v16-b8-9249.json": "records/rf/lowband-v16-b8-9249.json",
+    "records/rf-lowband/v16-candidate.json": "records/rf/lowband-v16-candidate.json",
+    "records/rf-lowband/v16-cp.json": "records/rf/lowband-v16-cp.json",
+    "records/rf-lowband/v16-descriptor.json": "records/rf/lowband-v16-descriptor.json",
+    "records/rf-lowband/v16-host.json": "records/rf/lowband-v16-host.json",
+    "records/rf-lowband/v16-nv.json": "records/rf/lowband-v16-nv.json",
+    "records/rf-lowband/v16-postflash-identity.json": "records/rf/lowband-v16-postflash-identity.json",
+    "records/rf-lowband/v16-sdrpp-auto-hardware.json": "records/rf/lowband-v16-sdrpp-auto-hardware.json",
+    "records/rf-lowband/v16-sdrpp-bw5-hardware.json": "records/rf/lowband-v16-sdrpp-bw5-hardware.json",
+    "records/rf-lowband/v16-sdrpp-hysteresis-hardware.json": "records/rf/lowband-v16-sdrpp-hysteresis-hardware.json",
+    "records/rf-lowband/v16-soapy-auto-hardware.json": "records/rf/lowband-v16-soapy-auto-hardware.json",
+    "records/rf-lowband/v20-lower-transition.json": "records/rf/lowband-v20-lower-transition.json",
+    "records/rf-lowband/v21-b5-b8-shared-tx-900.json": "records/rf/lowband-v21-b5-b8-shared-tx-900.json",
+    "records/rf-lowband/v21-phase-comparison.json": "records/rf/lowband-v21-phase-comparison.json",
+    "records/rf-pll-reference-v1/uis8910-xcv-pack.txt": "records/rf/pll-uis8910-xcv-pack.txt",
+    "records/rf-pll-reference-v1/verification.json": "records/rf/pll-verification.json",
+    "records/rf-runtime-v1/after-reference.rfnv.bin": "records/rf/runtime-after-reference.rfnv.bin",
+    "records/rf-runtime-v1/after-reference.tables.bin": "records/rf/runtime-after-reference.tables.bin",
+    "records/rf-runtime-v1/frequency-native-verification.json": "records/rf/runtime-frequency-native-verification.json",
+    "records/rf-runtime-v1/frontend-current.json": "records/rf/runtime-frontend-current.json",
+    "records/rf-runtime-v1/frontend-current.rfnv.bin": "records/rf/runtime-frontend-current.rfnv.bin",
+    "records/rf-runtime-v1/frontend-verification.json": "records/rf/runtime-frontend-verification.json",
+    "records/rf-runtime-v1/verification.json": "records/rf/runtime-verification.json",
+    "records/rf-status-v10/hardware-summary.json": "records/rf/status-hardware-summary.json",
+    "records/rf-status-v10/trace-verification.json": "records/rf/status-trace-verification.json",
+    "records/rf-v5-v1/summary.json": "records/rf/v5-summary.json",
+    "records/sdrpp-v1/b3-coverage-auto.json": "records/host/sdrpp-b3-coverage-auto.json",
+    "records/sdrpp-v1/b3-coverage-retune.json": "records/host/sdrpp-b3-coverage-retune.json",
+    "records/sdrpp-v1/current-hardware-auto-b3-bw0-5.json": "records/host/sdrpp-current-hardware-auto-b3-bw0-5.json",
+    "records/sdrpp-v1/portable-release-delivery-20261030.json": "records/host/sdrpp-portable-release-delivery-20261030.json",
+    "records/sdrpp-v1/portable-release-postflight-20261030.json": "records/host/sdrpp-portable-release-postflight-20261030.json",
+    "records/sdrpp-v1/portable-release-sync-20261030.json": "records/host/sdrpp-portable-release-sync-20261030.json",
+    "records/sdrpp-v1/v29-desktop-visual-20261029.json": "records/host/sdrpp-v29-desktop-visual-20261029.json",
+    "records/sdrpp-v1/v29-hardware-20261029.json": "records/host/sdrpp-v29-hardware-20261029.json",
+    "records/sdrpp-v1/v29-retune-recovery-candidate-20261029.json": "records/host/sdrpp-v29-retune-recovery-candidate-20261029.json",
+    "records/sdrpp-v1/v29-retune-recovery-manual-20261029.json": "records/host/sdrpp-v29-retune-recovery-manual-20261029.json",
+    "records/sdrpp-v1/v30-retune-auto.json": "records/host/sdrpp-v30-retune-auto.json",
+    "records/soapy-v1/b3-coverage-auto.json": "records/host/soapy-b3-coverage-auto.json",
+    "records/soapy-v1/current-hardware-auto-b3-bw5.json": "records/host/soapy-current-hardware-auto-b3-bw5.json",
+    "records/soapy-v1/v29-auto-route-20261029.json": "records/host/soapy-v29-auto-route-20261029.json",
+    "records/soapy-v1/v29-bw5-hardware-20261029.json": "records/host/soapy-v29-bw5-hardware-20261029.json",
+    "records/soapy-v1/v29-hardware-20261029.json": "records/host/soapy-v29-hardware-20261029.json",
+    "records/soapy-v1/v30-auto-route.json": "records/host/soapy-v30-auto-route.json",
+    "records/usb-raw-v1/b3-1800-bw0-10s-v29-20261029.json": "records/usb/b3-1800-bw0-10s-v29-20261029.json",
+    "records/usb-raw-v1/b3-1800-bw0-1s-v29-20261029.json": "records/usb/b3-1800-bw0-1s-v29-20261029.json",
+    "records/usb-raw-v1/b40-2300-bw0-10s-v29-20261029.json": "records/usb/b40-2300-bw0-10s-v29-20261029.json",
+    "records/usb-raw-v1/b40-2600-bw0-1s-v29-20261029.json": "records/usb/b40-2600-bw0-1s-v29-20261029.json",
+    "records/usb-raw-v1/b5-900-bw0-10s-v29-20261029.json": "records/usb/b5-900-bw0-10s-v29-20261029.json",
+    "records/usb-raw-v1/b8-880-bw0-10s-v29-20261029.json": "records/usb/b8-880-bw0-10s-v29-20261029.json",
+    "records/usb-raw-v1/b8-880-bw1-10s-v29-20261029.json": "records/usb/b8-880-bw1-10s-v29-20261029.json",
+    "records/usb-raw-v1/b8-880-bw2-10s-v29-20261029.json": "records/usb/b8-880-bw2-10s-v29-20261029.json",
+    "records/usb-raw-v1/b8-880-bw3-3s-v29-20261029.json": "records/usb/b8-880-bw3-3s-v29-20261029.json",
+    "records/usb-raw-v1/b8-880-bw4-3s-v29-20261029.json": "records/usb/b8-880-bw4-3s-v29-20261029.json",
+    "records/usb-raw-v1/b8-880-bw5-3s-v29-20261029.json": "records/usb/b8-880-bw5-3s-v29-20261029.json",
+    "records/usb-raw-v1/bandwidth-geometry-verification.json": "records/usb/bandwidth-geometry-verification.json",
+    "records/usb-raw-v1/benchmark-verification.json": "records/usb/benchmark-verification.json",
+    "records/usb-raw-v1/bw0-service-arm-verification.json": "records/usb/bw0-service-arm-verification.json",
+    "records/usb-raw-v1/cp-platform-arm-verification.json": "records/usb/cp-platform-arm-verification.json",
+    "records/usb-raw-v1/cp-platform-build.json": "records/usb/cp-platform-build.json",
+    "records/usb-raw-v1/current-geometry-supply.json": "records/usb/current-geometry-supply.json",
+    "records/usb-raw-v1/daily-receive-verification.json": "records/usb/daily-receive-verification.json",
+    "records/usb-raw-v1/fixed-hardware-baseline.json": "records/usb/fixed-hardware-baseline.json",
+    "records/usb-raw-v1/fixed-postflash-60s.json": "records/usb/fixed-postflash-60s.json",
+    "records/usb-raw-v1/host-control-verification.json": "records/usb/host-control-verification.json",
+    "records/usb-raw-v1/host-file-verification.json": "records/usb/host-file-verification.json",
+    "records/usb-raw-v1/host-info-verification.json": "records/usb/host-info-verification.json",
+    "records/usb-raw-v1/host-receive-verification.json": "records/usb/host-receive-verification.json",
+    "records/usb-raw-v1/host-session-verification.json": "records/usb/host-session-verification.json",
+    "records/usb-raw-v1/occupancy-evidence.json": "records/usb/occupancy-evidence.json",
+    "records/usb-raw-v1/queue-v24-ap-arm.json": "records/usb/queue-v24-ap-arm.json",
+    "records/usb-raw-v1/queue-v24-candidate.json": "records/usb/queue-v24-candidate.json",
+    "records/usb-raw-v1/queue-v24-cp-arm.json": "records/usb/queue-v24-cp-arm.json",
+    "records/usb-raw-v1/queue-v24-layout.json": "records/usb/queue-v24-layout.json",
+    "records/usb-raw-v1/queue-v24-trace.json": "records/usb/queue-v24-trace.json",
+    "records/usb-raw-v1/queue-v24-usb-arm.json": "records/usb/queue-v24-usb-arm.json",
+    "records/usb-raw-v1/refill-ap-arm.json": "records/usb/refill-ap-arm.json",
+    "records/usb-raw-v1/refill-candidate.json": "records/usb/refill-candidate.json",
+    "records/usb-raw-v1/refill-preflight-native-20261029.json": "records/usb/refill-preflight-native-20261029.json",
+    "records/usb-raw-v1/refill-stream-native.json": "records/usb/refill-stream-native.json",
+    "records/usb-raw-v1/refill-usb-arm.json": "records/usb/refill-usb-arm.json",
+    "records/usb-raw-v1/refill-v30-deployment.json": "records/usb/refill-v30-deployment.json",
+    "records/usb-raw-v1/rf-catalog-verification.json": "records/usb/rf-catalog-verification.json",
+    "records/usb-raw-v1/rf-channel-inventory.json": "records/usb/rf-channel-inventory.json",
+    "records/usb-raw-v1/rf-channel-routes.json": "records/usb/rf-channel-routes.json",
+    "records/usb-raw-v1/rf-mode-native-verification.json": "records/usb/rf-mode-native-verification.json",
+    "records/usb-raw-v1/rf-mode-rebuild-verification.json": "records/usb/rf-mode-rebuild-verification.json",
+    "records/usb-raw-v1/rf-nv-source-comparison.json": "records/usb/rf-nv-source-comparison.json",
+    "records/usb-raw-v1/rx-fir-native-verification.json": "records/usb/rx-fir-native-verification.json",
+    "records/usb-raw-v1/rx-pre-native-verification.json": "records/usb/rx-pre-native-verification.json",
+    "records/usb-raw-v1/scheduler-policy-ap-arm.json": "records/usb/scheduler-policy-ap-arm.json",
+    "records/usb-raw-v1/scheduler-policy-candidate.json": "records/usb/scheduler-policy-candidate.json",
+    "records/usb-raw-v1/scheduler-policy-native.json": "records/usb/scheduler-policy-native.json",
+    "records/usb-raw-v1/scheduler-policy-usb-arm.json": "records/usb/scheduler-policy-usb-arm.json",
+    "records/usb-raw-v1/scheduler-wide-ap-arm.json": "records/usb/scheduler-wide-ap-arm.json",
+    "records/usb-raw-v1/scheduler-wide-bw2-file-10s.json": "records/usb/scheduler-wide-bw2-file-10s.json",
+    "records/usb-raw-v1/scheduler-wide-candidate.json": "records/usb/scheduler-wide-candidate.json",
+    "records/usb-raw-v1/scheduler-wide-deployment.json": "records/usb/scheduler-wide-deployment.json",
+    "records/usb-raw-v1/scheduler-wide-native.json": "records/usb/scheduler-wide-native.json",
+    "records/usb-raw-v1/scheduler-wide-usb-arm.json": "records/usb/scheduler-wide-usb-arm.json",
+    "records/usb-raw-v1/udc-abi.json": "records/usb/udc-abi.json",
+    "records/usb-raw-v1/udc-queue-native.json": "records/usb/udc-queue-native.json",
+    "records/usb-raw-v1/usb-probe-v29-20261029.json": "records/usb/usb-probe-v29-20261029.json",
+    "records/usb-raw-v1/v29-supply-profile-analysis.json": "records/usb/v29-supply-profile-analysis.json",
+    "records/usb-raw-v1/v30-refill-burst25-auto.json": "records/usb/v30-refill-burst25-auto.json",
+    "records/usb-raw-v1/v30-refill-burst25-capture.json": "records/usb/v30-refill-burst25-capture.json",
+    "records/usb-raw-v1/v30-refill-bw5-profiled.json": "records/usb/v30-refill-bw5-profiled.json",
+    "records/usb-raw-v1/v30-refill-bw5-unprofiled.json": "records/usb/v30-refill-bw5-unprofiled.json",
+    "records/usb-raw-v1/v30-refill-timeline.json": "records/usb/v30-refill-timeline.json",
+    "records/wideband-v11/fft-verification.json": "records/rf/wideband-fft-verification.json",
+    "records/wideband-v11/passband-fft-summary.json": "records/rf/wideband-passband-fft-summary.json"
+  },
+  "cache_relocations": {
+    "work/current-rf-decoded.bin": "work/rf-cache/current-rf-decoded.bin",
+    "work/current-rf-compressed.bin": "work/rf-cache/current-rf-compressed.bin",
+    "work/sdrpp/auto-quality-2786-r2/fft-test.exe": "work/sdrpp/checks/fft-test.exe"
+  },
+  "active_reference_files_changed": [
+    "README.md",
+    "README.zh-CN.md",
+    "docs/README.md",
+    "docs/architecture.md",
+    "docs/building.md",
+    "docs/data/sdr-capabilities.json",
+    "docs/maintainer-review.md",
+    "docs/performance.md",
+    "docs/plans/goal-roadmap.md",
+    "docs/plans/usb-raw-stream.md",
+    "docs/project-state.json",
+    "docs/project-structure.md",
+    "docs/publication-manifest.json",
+    "docs/register-reference.md",
+    "docs/status.md",
+    "docs/technical-report.en.md",
+    "docs/technical-report.md",
+    "docs/topics/rf/init-sequences.md",
+    "docs/topics/rf/investigations/zw217-reference-assessment.md",
+    "docs/topics/rf/pll-reference-comparison.md",
+    "docs/topics/rf/tuning-range.md",
+    "docs/windows-handoff.md",
+    "firmware/rf_rebuild/README.md",
+    "host/sdrpp/README.md",
+    "host/soapy/README.md",
+    "host/windows/README.md",
+    "outputs/firmware/current/manifest.json",
+    "outputs/host/manifest.json",
+    "tools/README.md",
+    "tools/check_publication.py",
+    "tools/debug/recover_stalled_monitor.py",
+    "tools/generate_report_assets.py",
+    "tools/prepare_release.py",
+    "tools/sdr/artifacts.py",
+    "tools/sdr/rf_catalog.py",
+    "tools/sdr/rf_runtime.py",
+    "tools/usb/read_udc.py",
+    "tools/verify/rf_image.py",
+    "tools/verify/verify_bandwidth_extension_native.py",
+    "tools/verify/verify_bandwidth_geometry.py",
+    "tools/verify/verify_bw0_service_arm.py",
+    "tools/verify/verify_capture_update.py",
+    "tools/verify/verify_capture_vendor_end.py",
+    "tools/verify/verify_cp_exchange_bridge.py",
+    "tools/verify/verify_cp_lossy_pair.py",
+    "tools/verify/verify_cp_platform_arm.py",
+    "tools/verify/verify_cp_six_slot.py",
+    "tools/verify/verify_daily_receive.py",
+    "tools/verify/verify_dma_cache_native.py",
+    "tools/verify/verify_fem_control.py",
+    "tools/verify/verify_host_control.py",
+    "tools/verify/verify_host_file_sink.py",
+    "tools/verify/verify_host_info.py",
+    "tools/verify/verify_host_receive.py",
+    "tools/verify/verify_host_session.py",
+    "tools/verify/verify_lossy_ring_model.py",
+    "tools/verify/verify_lowband_frequency_native.py",
+    "tools/verify/verify_recorded_artifacts.py",
+    "tools/verify/verify_rf_auto.py",
+    "tools/verify/verify_rf_catalog.py",
+    "tools/verify/verify_rf_channel_routes.py",
+    "tools/verify/verify_rf_coefficient_chain.py",
+    "tools/verify/verify_rf_execution.py",
+    "tools/verify/verify_rf_fft.py",
+    "tools/verify/verify_rf_flag_references.py",
+    "tools/verify/verify_rf_frequency_native.py",
+    "tools/verify/verify_rf_frontend.py",
+    "tools/verify/verify_rf_mode_native.py",
+    "tools/verify/verify_rf_pac_payload.py",
+    "tools/verify/verify_rf_pll_reference.py",
+    "tools/verify/verify_rf_prepare_b_prefix.py",
+    "tools/verify/verify_rf_reference.py",
+    "tools/verify/verify_rf_register_reference.py",
+    "tools/verify/verify_rf_response.py",
+    "tools/verify/verify_rf_runtime.py",
+    "tools/verify/verify_rf_runtime_flags.py",
+    "tools/verify/verify_rf_stability.py",
+    "tools/verify/verify_rf_status_trace.py",
+    "tools/verify/verify_rf_unknown_rate.py",
+    "tools/verify/verify_rffe_cp_callers.py",
+    "tools/verify/verify_rffe_init_native.py",
+    "tools/verify/verify_rx_bandwidth_chain_native.py",
+    "tools/verify/verify_rx_fir_native.py",
+    "tools/verify/verify_rx_pre_profile.py",
+    "tools/verify/verify_rxcapt_exchange.py",
+    "tools/verify/verify_scratch_drops.py",
+    "tools/verify/verify_scratch_layout.py",
+    "tools/verify/verify_segment_client.py",
+    "tools/verify/verify_usb_benchmark.py",
+    "tools/verify/verify_usb_occupancy_evidence.py",
+    "tools/verify/verify_usb_scheduler.py",
+    "tools/verify/verify_usb_segments.py"
+  ],
+  "archive_work_metadata_files": 1248,
+  "applied": true,
+  "archive": "archive/research-metadata-2026-10-30/metadata.zip",
+  "archive_bytes": 15874286,
+  "archive_sha256": "6d3a60c03f166a3117adb271179b73cf982f09d630dad51ce45005ca98a35aad",
+  "archive_integrity_verified": true,
+  "archive_members": 5347,
+  "pending_native_linux_removal": [],
+  "historical_record_edits": "Retained local path references only; original bytes are in metadata.zip. No measured values or old fingerprints refreshed.",
+  "work_cleanup_bytes": 1097220206,
+  "work_root_directories_after": [
+    "build-deps",
+    "build-v0.1",
+    "github-publication-v0.1",
+    "host-test-deps",
+    "rf-cache",
+    "sdrpp",
+    "soapysdr",
+    "windows-toolchain"
+  ],
+  "record_root_directories_after": [
+    "communication",
+    "host",
+    "maintenance",
+    "retention",
+    "rf",
+    "usb"
+  ],
+  "toolchains_and_deployed_artifacts_preserved": true,
+  "wsl_copy_removal": "Completed with a bounded no-follow native walk; Linux reparse leaves unlinked without traversal.",
+  "before_count_note": "work_root_files_before includes three one-time consolidation controls, archived and removed after verification.",
+  "one_time_controls_removed": [
+    "work/consolidate_repository.py",
+    "work/consolidation-plan.json",
+    "work/consolidation-selection.json"
+  ],
+  "work_root_files_after": [
+    "README.md"
+  ],
+  "record_root_files_after": [
+    "README.md",
+    "index.json"
+  ],
+  "record_files_after": 416,
+  "verification": {
+    "metadata_integrity": "records/maintenance/directory-verification.json",
+    "project_structure_and_release_identity": "records/maintenance/directory-project-verification.json",
+    "publication": "work/github-publication-v0.1/preparation-report.json",
+    "release_preparation_focused_checks": "passed",
+    "generated_tables": "passed",
+    "document_links": "passed",
+    "measured_values_changed": false,
+    "historical_source_fingerprints_refreshed": false,
+    "RF_retested": false,
+    "device_accessed": false,
+    "uploaded": false
+  }
+}

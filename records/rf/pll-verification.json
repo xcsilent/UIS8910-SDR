@@ -1,0 +1,2294 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "scope": "source table exact arithmetic and original RF function under synthetic contexts; optional captured-board NV bypass proof",
+  "table_cases": 971,
+  "tables": [
+    {
+      "name": "GSM850_RX",
+      "entries": 124,
+      "minimum_hz": 869200000,
+      "maximum_hz": 893800000,
+      "multiplier": 2,
+      "denominator_hz": 234000000,
+      "all_entries_exact": true
+    },
+    {
+      "name": "GSM900_RX",
+      "entries": 174,
+      "minimum_hz": 925200000,
+      "maximum_hz": 959800000,
+      "multiplier": 2,
+      "denominator_hz": 234000000,
+      "all_entries_exact": true
+    },
+    {
+      "name": "DCS_RX",
+      "entries": 374,
+      "minimum_hz": 1805200000,
+      "maximum_hz": 1879800000,
+      "multiplier": 1,
+      "denominator_hz": 234000000,
+      "all_entries_exact": true
+    },
+    {
+      "name": "PCS_RX",
+      "entries": 299,
+      "minimum_hz": 1930200000,
+      "maximum_hz": 1989800000,
+      "multiplier": 1,
+      "denominator_hz": 234000000,
+      "all_entries_exact": true
+    }
+  ],
+  "native_cases": [
+    {
+      "table": "GSM850_RX",
+      "index": 0,
+      "working_hz": 869200000,
+      "q28": 1994223062,
+      "factor": 9
+    },
+    {
+      "table": "GSM850_RX",
+      "index": 1,
+      "working_hz": 869400000,
+      "q28": 1994681926,
+      "factor": 9
+    },
+    {
+      "table": "GSM850_RX",
+      "index": 62,
+      "working_hz": 881600000,
+      "q28": 2022672632,
+      "factor": 9
+    },
+    {
+      "table": "GSM850_RX",
+      "index": 123,
+      "working_hz": 893800000,
+      "q28": 2050663338,
+      "factor": 9
+    },
+    {
+      "table": "GSM900_RX",
+      "index": 0,
+      "working_hz": 935000000,
+      "q28": 2145189327,
+      "factor": 9
+    },
+    {
+      "table": "GSM900_RX",
+      "index": 1,
+      "working_hz": 935200000,
+      "q28": 2145648191,
+      "factor": 9
+    },
+    {
+      "table": "GSM900_RX",
+      "index": 87,
+      "working_hz": 952400000,
+      "q28": 2185110498,
+      "factor": 9
+    },
+    {
+      "table": "GSM900_RX",
+      "index": 173,
+      "working_hz": 934800000,
+      "q28": 2144730463,
+      "factor": 9
+    },
+    {
+      "table": "DCS_RX",
+      "index": 0,
+      "working_hz": 1805200000,
+      "q28": 2070853355,
+      "factor": 9
+    },
+    {
+      "table": "DCS_RX",
+      "index": 1,
+      "working_hz": 1805400000,
+      "q28": 2071082787,
+      "factor": 9
+    },
+    {
+      "table": "DCS_RX",
+      "index": 187,
+      "working_hz": 1842600000,
+      "q28": 2113757141,
+      "factor": 9
+    },
+    {
+      "table": "DCS_RX",
+      "index": 373,
+      "working_hz": 1879800000,
+      "q28": 2156431496,
+      "factor": 9
+    },
+    {
+      "table": "PCS_RX",
+      "index": 0,
+      "working_hz": 1930200000,
+      "q28": 2214248363,
+      "factor": 9
+    },
+    {
+      "table": "PCS_RX",
+      "index": 1,
+      "working_hz": 1930400000,
+      "q28": 2214477795,
+      "factor": 9
+    },
+    {
+      "table": "PCS_RX",
+      "index": 149,
+      "working_hz": 1960000000,
+      "q28": 2248433734,
+      "factor": 9
+    },
+    {
+      "table": "PCS_RX",
+      "index": 298,
+      "working_hz": 1989800000,
+      "q28": 2282619104,
+      "factor": 9
+    }
+  ],
+  "actual_8955_rx": {
+    "compiled_source": "verbatim xcvSetArfcn body with scalar type/global stubs; RX invocation",
+    "cases": 1942,
+    "default_divider": 7,
+    "exceptions": [
+      {
+        "band": "PCS1900",
+        "arfcn": 611,
+        "metal": 1,
+        "divider": 8,
+        "sdm_mode": 1
+      },
+      {
+        "band": "PCS1900",
+        "arfcn": 611,
+        "metal": 2,
+        "divider": 8,
+        "sdm_mode": 1
+      }
+    ],
+    "physical_hardware_tested": false
+  },
+  "native_factor_register_cases": [
+    {
+      "entry": "0x4b54",
+      "factor": 7,
+      "address": "0x32a00",
+      "value": "0x9007"
+    },
+    {
+      "entry": "0x4b54",
+      "factor": 8,
+      "address": "0x32a00",
+      "value": "0x9047"
+    },
+    {
+      "entry": "0x4b54",
+      "factor": 9,
+      "address": "0x32a00",
+      "value": "0x9087"
+    },
+    {
+      "entry": "0x4b54",
+      "factor": 10,
+      "address": "0x32a00",
+      "value": "0x90c7"
+    },
+    {
+      "entry": "0x6d88",
+      "factor": 7,
+      "address": "0x32a00",
+      "value": "0x9007"
+    },
+    {
+      "entry": "0x6d88",
+      "factor": 8,
+      "address": "0x32a00",
+      "value": "0x9047"
+    },
+    {
+      "entry": "0x6d88",
+      "factor": 9,
+      "address": "0x32a00",
+      "value": "0x9087"
+    },
+    {
+      "entry": "0x6d88",
+      "factor": 10,
+      "address": "0x32a00",
+      "value": "0x90c7"
+    }
+  ],
+  "cp_nv_to_rf_poll_config": {
+    "cp_bin_entry": "0x801b9ae0",
+    "cp_bin_offset": "0xeae0",
+    "instruction_bytes": "a968b1f876012086",
+    "nv_pointer_table": "0x804713d8",
+    "nv_pointer_member_offset": 8,
+    "source_nv_offset": "0x176",
+    "rf_header": "0x7e00",
+    "published_pointer_offset": "0x18",
+    "published_local_config_pointer": "0x96b0",
+    "cp_destination": "0x500096e0",
+    "rf_destination": "0x96e0",
+    "cases": [
+      {
+        "nv_halfword": 0,
+        "rf_config_halfword": 0,
+        "rf_poll_flag": 0
+      },
+      {
+        "nv_halfword": 1,
+        "rf_config_halfword": 1,
+        "rf_poll_flag": 0
+      },
+      {
+        "nv_halfword": 64,
+        "rf_config_halfword": 64,
+        "rf_poll_flag": 0
+      },
+      {
+        "nv_halfword": 16384,
+        "rf_config_halfword": 16384,
+        "rf_poll_flag": 0
+      },
+      {
+        "nv_halfword": 32767,
+        "rf_config_halfword": 32767,
+        "rf_poll_flag": 0
+      },
+      {
+        "nv_halfword": 32768,
+        "rf_config_halfword": 32768,
+        "rf_poll_flag": 1
+      },
+      {
+        "nv_halfword": 32833,
+        "rf_config_halfword": 32833,
+        "rf_poll_flag": 1
+      },
+      {
+        "nv_halfword": 65535,
+        "rf_config_halfword": 65535,
+        "rf_poll_flag": 1
+      }
+    ],
+    "address_scope": "retained CP BIN and RF local software views, not live hardware reads"
+  },
+  "native_ab_factor_control_cases": [
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        14336,
+        0
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        14336,
+        65532
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        14336,
+        43688
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        14336,
+        21844
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        49151,
+        0
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        49151,
+        65532
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        49151,
+        43688
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        49151,
+        21844
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        47786,
+        0
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        47786,
+        65532
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        47786,
+        43688
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        47786,
+        21844
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        15701,
+        0
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        15701,
+        65532
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        15701,
+        43688
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 7,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        15701,
+        21844
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        16384,
+        1
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        16384,
+        65533
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        16384,
+        43689
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        16384,
+        21845
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        51199,
+        1
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        51199,
+        65533
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        51199,
+        43689
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        51199,
+        21845
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        49834,
+        1
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        49834,
+        65533
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        49834,
+        43689
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        49834,
+        21845
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        17749,
+        1
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        17749,
+        65533
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        17749,
+        43689
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 8,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        17749,
+        21845
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        18432,
+        2
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        18432,
+        65534
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        18432,
+        43690
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        18432,
+        21846
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        53247,
+        2
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        53247,
+        65534
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        53247,
+        43690
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        53247,
+        21846
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        51882,
+        2
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        51882,
+        65534
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        51882,
+        43690
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        51882,
+        21846
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        19797,
+        2
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        19797,
+        65534
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        19797,
+        43690
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 9,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        19797,
+        21846
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        20480,
+        3
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        20480,
+        65535
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        20480,
+        43691
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        20480,
+        21847
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        55295,
+        3
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        55295,
+        65535
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        55295,
+        43691
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        55295,
+        21847
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        53930,
+        3
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        53930,
+        65535
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        53930,
+        43691
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        53930,
+        21847
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        21845,
+        3
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        21845,
+        65535
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        21845,
+        43691
+      ]
+    },
+    {
+      "bank": "A",
+      "factor": 10,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        21845,
+        21847
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        14336,
+        0
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        14336,
+        65532
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        14336,
+        43688
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        14336,
+        21844
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        49151,
+        0
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        49151,
+        65532
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        49151,
+        43688
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        49151,
+        21844
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        47786,
+        0
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        47786,
+        65532
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        47786,
+        43688
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        47786,
+        21844
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        15701,
+        0
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        15701,
+        65532
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        15701,
+        43688
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 7,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        15701,
+        21844
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        16384,
+        1
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        16384,
+        65533
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        16384,
+        43689
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        16384,
+        21845
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        51199,
+        1
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        51199,
+        65533
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        51199,
+        43689
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        51199,
+        21845
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        49834,
+        1
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        49834,
+        65533
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        49834,
+        43689
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        49834,
+        21845
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        17749,
+        1
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        17749,
+        65533
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        17749,
+        43689
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 8,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        17749,
+        21845
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        18432,
+        2
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        18432,
+        65534
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        18432,
+        43690
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        18432,
+        21846
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        53247,
+        2
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        53247,
+        65534
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        53247,
+        43690
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        53247,
+        21846
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        51882,
+        2
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        51882,
+        65534
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        51882,
+        43690
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        51882,
+        21846
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        19797,
+        2
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        19797,
+        65534
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        19797,
+        43690
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 9,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        19797,
+        21846
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        0,
+        0
+      ],
+      "after": [
+        20480,
+        3
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        0,
+        65535
+      ],
+      "after": [
+        20480,
+        65535
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        0,
+        43690
+      ],
+      "after": [
+        20480,
+        43691
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        0,
+        21845
+      ],
+      "after": [
+        20480,
+        21847
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        65535,
+        0
+      ],
+      "after": [
+        55295,
+        3
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        65535,
+        65535
+      ],
+      "after": [
+        55295,
+        65535
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        65535,
+        43690
+      ],
+      "after": [
+        55295,
+        43691
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        65535,
+        21845
+      ],
+      "after": [
+        55295,
+        21847
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        43690,
+        0
+      ],
+      "after": [
+        53930,
+        3
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        43690,
+        65535
+      ],
+      "after": [
+        53930,
+        65535
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        43690,
+        43690
+      ],
+      "after": [
+        53930,
+        43691
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        43690,
+        21845
+      ],
+      "after": [
+        53930,
+        21847
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        21845,
+        0
+      ],
+      "after": [
+        21845,
+        3
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        21845,
+        65535
+      ],
+      "after": [
+        21845,
+        65535
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        21845,
+        43690
+      ],
+      "after": [
+        21845,
+        43691
+      ]
+    },
+    {
+      "bank": "B",
+      "factor": 10,
+      "before": [
+        21845,
+        21845
+      ],
+      "after": [
+        21845,
+        21847
+      ]
+    }
+  ],
+  "cp_nv_to_rf_factor_table": {
+    "cp_bin_entry": "0x801b9aba",
+    "cp_bin_return": "0x801b9acc",
+    "source_nv_offset": "0x2ac",
+    "destination_local": "0x974c",
+    "bytes_copied": 4476,
+    "enable_mapping": {
+      "nv": "0x1270",
+      "rf_local": "0xa710"
+    },
+    "factor_table_mapping": {
+      "nv": "0x1274",
+      "rf_local": "0xa714"
+    },
+    "scatter_loaded_memcpy": "0x804388",
+    "actual_copy_and_coefficient_code_executed": true,
+    "selector_lookup_is_synthetic": true,
+    "cases": [
+      {
+        "nv_enable": 0,
+        "nv_factor": 7,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 0,
+        "nv_factor": 8,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 0,
+        "nv_factor": 9,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 0,
+        "nv_factor": 10,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 1,
+        "nv_factor": 7,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 1,
+        "nv_factor": 8,
+        "selected_factor": 8
+      },
+      {
+        "nv_enable": 1,
+        "nv_factor": 9,
+        "selected_factor": 9
+      },
+      {
+        "nv_enable": 1,
+        "nv_factor": 10,
+        "selected_factor": 10
+      },
+      {
+        "nv_enable": 2,
+        "nv_factor": 7,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 2,
+        "nv_factor": 8,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 2,
+        "nv_factor": 9,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 2,
+        "nv_factor": 10,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 65535,
+        "nv_factor": 7,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 65535,
+        "nv_factor": 8,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 65535,
+        "nv_factor": 9,
+        "selected_factor": 7
+      },
+      {
+        "nv_enable": 65535,
+        "nv_factor": 10,
+        "selected_factor": 7
+      }
+    ],
+    "retained_board_bypass": null
+  },
+  "retained_nv_observation": {
+    "artifact": "records/rf/runtime-frontend-current.rfnv.bin",
+    "point_in_time_only": true,
+    "live_device_query": false,
+    "poll_source_word": "0x8041",
+    "table_enable": 0,
+    "factor_rows": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      8,
+      8,
+      8,
+      7,
+      8,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      8,
+      8
+    ]
+  },
+  "sdk_field_semantics": {
+    "mdll_type": "rf_lte_mdll_dyn_tag",
+    "source": "/home/USER/projects/uis8910dm_cp_v1.3_20a/soft/platform/chip/edrv/rfd/xcv_8910m/rfnv/include/rf_lte_nv.h",
+    "bytes": 52,
+    "member_offsets": {
+      "mdll_en": 0,
+      "reserve": 2,
+      "mdll": 4
+    },
+    "fem_member_offset": "0xfc4",
+    "nv_fem_base": "0x2ac",
+    "nv_mdll_enable_offset": "0x1270",
+    "nv_mdll_values_offset": "0x1274",
+    "unrelated_pll_names": {
+      "puRfClkReadyStateToPllClockReadyState": {
+        "bit_size": 5,
+        "bit_offset": 3,
+        "source": "include/hal_lps.h",
+        "scope": "HAL low-power system timing; not mapped to RF3037c"
+      },
+      "puWaitPllLock": {
+        "bit_size": 1,
+        "bit_offset": 0,
+        "source": "include/hal_lps.h",
+        "scope": "HAL low-power system timing; not mapped to RF3037c"
+      },
+      "LTE_NV_TYPE_FAST_PLLLOCK": {
+        "value": 2,
+        "kind": "DW_TAG_enumerator",
+        "source": "include/calib_pc_msg.h",
+        "scope": "calibration message type identifier; not a bit mask or RF register address"
+      }
+    },
+    "retained_macros": {
+      "RDA8910_ADDR_MASK": [
+        "RDA8910_ADDR_MASK 0x7FFF"
+      ],
+      "RDA8910_ADDR_OFFSET": [
+        "RDA8910_ADDR_OFFSET 16"
+      ],
+      "RDA8910_DATA_MASK": [
+        "RDA8910_DATA_MASK 0xFFFF"
+      ],
+      "RDA8910_DATA_OFFSET": [
+        "RDA8910_DATA_OFFSET 0"
+      ],
+      "RDA8910_PAGE_OFFSET": [
+        "RDA8910_PAGE_OFFSET 15"
+      ],
+      "RDA8910_PAGE_REG_ADDR": [
+        "RDA8910_PAGE_REG_ADDR 0x7FFF"
+      ],
+      "RDA8910_SYS_CTRL_REG": [
+        "RDA8910_SYS_CTRL_REG 0x30"
+      ],
+      "RDA8910_FREQ_CTRL_MDLL_REG": [
+        "RDA8910_FREQ_CTRL_MDLL_REG 0x27"
+      ]
+    },
+    "formal_rf_register_bit_names_present": false,
+    "rxpll_lock_address_mapping_proved": false
+  },
+  "predecessor_hardware_semantics": {
+    "rda8810_mdll_div_num_bits": [
+      12,
+      15
+    ],
+    "rda8810_rx_example": {
+      "divider": 7,
+      "register": "0xbc",
+      "value": "0x7ca8"
+    },
+    "rda8850e_rxpll_lock_bit": 0,
+    "rda8955_header_rxpll_lock_bit": 17,
+    "scope": "positive predecessor field names; shifts differ, no numeric transplant to8910"
+  },
+  "native_poll_enable_source": [
+    {
+      "source_address": "0x96e0",
+      "source_value": "0x0",
+      "flag_address": "0xb464",
+      "flag_value": 0
+    },
+    {
+      "source_address": "0x96e0",
+      "source_value": "0x40",
+      "flag_address": "0xb464",
+      "flag_value": 0
+    },
+    {
+      "source_address": "0x96e0",
+      "source_value": "0x7fff",
+      "flag_address": "0xb464",
+      "flag_value": 0
+    },
+    {
+      "source_address": "0x96e0",
+      "source_value": "0x8000",
+      "flag_address": "0xb464",
+      "flag_value": 1
+    },
+    {
+      "source_address": "0x96e0",
+      "source_value": "0x8040",
+      "flag_address": "0xb464",
+      "flag_value": 1
+    },
+    {
+      "source_address": "0x96e0",
+      "source_value": "0xffff",
+      "flag_address": "0xb464",
+      "flag_value": 1
+    }
+  ],
+  "native_poll_loop_cases": [
+    {
+      "entry": "0x4a78",
+      "initial": "0x0",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x4a78",
+      "initial": "0x7ff",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x4a78",
+      "initial": "0x800",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x4a78",
+      "initial": "0xffff",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x631c",
+      "initial": "0x0",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x631c",
+      "initial": "0x7ff",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x631c",
+      "initial": "0x800",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x631c",
+      "initial": "0xffff",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6578",
+      "initial": "0x0",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6578",
+      "initial": "0x7ff",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6578",
+      "initial": "0x800",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6578",
+      "initial": "0xffff",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6bd8",
+      "initial": "0x0",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6bd8",
+      "initial": "0x7ff",
+      "reads_until_exit": 3,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6bd8",
+      "initial": "0x800",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    },
+    {
+      "entry": "0x6bd8",
+      "initial": "0xffff",
+      "reads_until_exit": 1,
+      "synthetic_ready_set_on_third_read": true
+    }
+  ],
+  "factor7_wrap_cases": [
+    {
+      "working_hz": 2911999900,
+      "wide_coefficient": 4294967148,
+      "stored_u32": 4294967148,
+      "warning": "coefficient representation wrap only; not physical tuning/lock limit"
+    },
+    {
+      "working_hz": 2912000000,
+      "wide_coefficient": 4294967296,
+      "stored_u32": 0,
+      "warning": "coefficient representation wrap only; not physical tuning/lock limit"
+    },
+    {
+      "working_hz": 2912000100,
+      "wide_coefficient": 4294967443,
+      "stored_u32": 147,
+      "warning": "coefficient representation wrap only; not physical tuning/lock limit"
+    }
+  ],
+  "ready_poll_instructions": [
+    {
+      "address": "0x6554",
+      "bytes": "37070300",
+      "instruction": "lui a4, 0x30"
+    },
+    {
+      "address": "0x6558",
+      "bytes": "231af736",
+      "instruction": "sh a5, 0x374(a4)"
+    },
+    {
+      "address": "0x655c",
+      "bytes": "97570000",
+      "instruction": "auipc a5, 5"
+    },
+    {
+      "address": "0x6560",
+      "bytes": "938787f0",
+      "instruction": "addi a5, a5, -0xf8"
+    },
+    {
+      "address": "0x6564",
+      "bytes": "83d70700",
+      "instruction": "lhu a5, 0(a5)"
+    },
+    {
+      "address": "0x6568",
+      "bytes": "b3d70710",
+      "instruction": "legacy extension; see pinned decoder"
+    },
+    {
+      "address": "0x656c",
+      "bytes": "a9c7",
+      "instruction": "c.beqz a5, 0x4a"
+    },
+    {
+      "address": "0x656e",
+      "bytes": "9306c737",
+      "instruction": "addi a3, a4, 0x37c"
+    },
+    {
+      "address": "0x6572",
+      "bytes": "0567",
+      "instruction": "c.lui a4, 1"
+    },
+    {
+      "address": "0x6574",
+      "bytes": "13070780",
+      "instruction": "addi a4, a4, -0x800"
+    },
+    {
+      "address": "0x6578",
+      "bytes": "83d70600",
+      "instruction": "lhu a5, 0(a3)"
+    },
+    {
+      "address": "0x657c",
+      "bytes": "b3d70710",
+      "instruction": "legacy extension; see pinned decoder"
+    },
+    {
+      "address": "0x6580",
+      "bytes": "f98f",
+      "instruction": "c.and a5, a4"
+    },
+    {
+      "address": "0x6582",
+      "bytes": "fddb",
+      "instruction": "c.beqz a5, -0xa"
+    },
+    {
+      "address": "0x6584",
+      "bytes": "0545",
+      "instruction": "c.li a0, 1"
+    }
+  ],
+  "original_native_entry": "0x37f0",
+  "modeled_extensions": [
+    "EXTHZ",
+    "BCLR",
+    "BNEM1"
+  ],
+  "physical_pll_range_proven": false,
+  "uis8910_rxpll_lock_identified": false,
+  "dependencies": {
+    "tools/verify/verify_rf_pll_reference.py": "54812f2608755746ed98662506959d2cd85ed1f5da0bcb7b77da68c22dce188b",
+    "inputs/reference-source/predecessors/rda8955-w17.44-idh/soft/platform/edrv/rfd/xcv_8955/src/drv_xcv.h": "1ffc1369bf7b442074767fe5a0e61950b2c83f4f71c1a94ff0233682220292ec",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.bin": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf": "0ab9571c93d72ad6669e70a7872cf5998c312256ddbe450b55d1cc4a860d17c2",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "records/rf/runtime-frontend-current.rfnv.bin": "a8394c46eedcd72d56559dd3785ae29891c464b4e2e53869e724c871a0d5feb8",
+    "inputs/reference-source/predecessors/rda8810/modem/modem-dualmode-2g/soft/platform/chip/regs/8810/include/tranceiver.h": "9a020dfd0ae6f50cb076d094826f476b901bd23306f53c2a8b03207d62054eed",
+    "inputs/reference-source/predecessors/rda8810/modem/modem-dualmode-2g/soft/platform/edrv/rfd/xcv_8810/src/drv_xcv.c": "d74aefd7d0479584999d87006124833aef007a75110ef07037b7fd0f8448ce21",
+    "inputs/reference-source/predecessors/rda8810/modem/modem-dualmode-2g/soft/platform/chip/regs/8850e/include/tranceiver.h": "ef1d78014e7a803f4ef0f5d3f29a61050672c95ee53bba09d2cbfdc319777985",
+    "tools/verify/verify_rf_frequency_native.py": "8b37d660631ca6b599bdce543702ee6b0e2faf2b294ae8f23a0621ca99ed6971",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "inputs/reference-source/predecessors/rda8955-w17.44-idh/soft/platform/chip/regs/8955/include/xcv.h": "05b3b588ebd41078e34f7b994a2412150fd623e70de379b47d03b1adc593273a",
+    "inputs/reference-source/predecessors/rda8955-w17.44-idh/soft/platform/chip/boot/src/boot_xcv.c": "10ca68ff49bffbfe5ce5f8c6789d0215e874cb585418214d2fd5317af3695f6f",
+    "inputs/reference-source/predecessors/rda8955-w17.44-idh/soft/platform/edrv/rfd/xcv_8955/src/drv_xcv.c": "ebc9120b46941038647a6322929b7df94a115d8ea88dc85cf944e85009fdebd2",
+    "inputs/reference-source/predecessors/rda8955-w17.44-idh/soft/env/link/spi_reg_debug.ld": "bab09732f71753bd23377f0b5f4cf9274f37ce25553ed822c41264596545ba87"
+  }
+}

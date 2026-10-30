@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-29T10:10:00+08:00",
+  "status": "passed_partial_supply",
+  "band": 8,
+  "frequency_hz": 880000000,
+  "bandwidth_index": 4,
+  "duration_ms": 3000,
+  "requests": 32,
+  "request_bytes": 65536,
+  "nominal_sample_rate_hz": 30720000,
+  "host_bytes": 94568448,
+  "device_completed_bytes": 94576640,
+  "device_minus_host_bytes": 8192,
+  "steady_device_bytes_per_second": 31598933.333,
+  "minimum_device_window_bytes_per_second": 31232000.0,
+  "maximum_device_window_bytes_per_second": 31948800.0,
+  "session_error": 0,
+  "control_error": 0,
+  "cleanup_error": 0,
+  "device_drained": true,
+  "lost_samples_known": false,
+  "scope": "Live BW4 short supply measurement; output is partial relative to nominal 122.88MB/s and no full-band IQ claim is made."
+}

@@ -1,0 +1,166 @@
+{
+  "recorded_at": "2026-10-28T11:28:43.786863+08:00",
+  "status": "offline_reinterpretation_completed",
+  "device_accessed": false,
+  "new_transmission": false,
+  "records": [
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "stage": "after_prepare",
+      "working_raw": 8822000,
+      "rx_status": "0xd15",
+      "vco_bits": 1301,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "stage": "before_rx_request",
+      "working_raw": 8822000,
+      "rx_status": "0xd15",
+      "vco_bits": 1301,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "stage": "after_rx_request",
+      "working_raw": 8822000,
+      "rx_status": "0xd15",
+      "vco_bits": 1301,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "stage": "before_rf_stop",
+      "working_raw": 8822000,
+      "rx_status": "0xd15",
+      "vco_bits": 1301,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json",
+      "stage": "after_rf_stop",
+      "working_raw": 8822000,
+      "rx_status": "0xd15",
+      "vco_bits": 1301,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "stage": "after_prepare",
+      "working_raw": 7007000,
+      "rx_status": "0x852",
+      "vco_bits": 82,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "stage": "before_rx_request",
+      "working_raw": 7007000,
+      "rx_status": "0x852",
+      "vco_bits": 82,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "stage": "after_rx_request",
+      "working_raw": 7007000,
+      "rx_status": "0x852",
+      "vco_bits": 82,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "stage": "before_rf_stop",
+      "working_raw": 7007000,
+      "rx_status": "0x851",
+      "vco_bits": 81,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json",
+      "stage": "after_rf_stop",
+      "working_raw": 7007000,
+      "rx_status": "0x851",
+      "vco_bits": 81,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "stage": "after_prepare",
+      "working_raw": 6757000,
+      "rx_status": "0x802",
+      "vco_bits": 2,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "stage": "before_rx_request",
+      "working_raw": 6757000,
+      "rx_status": "0x802",
+      "vco_bits": 2,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "stage": "after_rx_request",
+      "working_raw": 6757000,
+      "rx_status": "0x802",
+      "vco_bits": 2,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "stage": "before_rf_stop",
+      "working_raw": 6757000,
+      "rx_status": "0x802",
+      "vco_bits": 2,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    },
+    {
+      "source": "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json",
+      "stage": "after_rf_stop",
+      "working_raw": 6757000,
+      "rx_status": "0x802",
+      "vco_bits": 2,
+      "cal_ready": true,
+      "cnt_enable": false,
+      "cal_enable": false
+    }
+  ],
+  "interpretation": "At before_rf_stop in881.5/700/675MHz saved sessions, cal_ready=1 and cnt_enable=cal_enable=0. Low VCO result differs, but these checkpoints do not capture active calibration, prove PLL lock, or explain the detection failure.",
+  "scope": "Saved v17 phase snapshots only, not current v20 runtime. Reference read-only bit names do not establish pulse/state-machine timing.",
+  "dependencies": {
+    "records/rf/reference-rf-dual-v17-b5-8815-reference-tone150-rf-status.json": "4481f35df2f2f596bb7e2be7477006fc1439e0fc04b789a2e0d7bfd956786293",
+    "records/rf/reference-rf-dual-v17-b5-700-reference-tone150-rf-status.json": "143a66e027c01c95e11f9fb31fa7ea9743b84536d263cdf5b0b7ad93c9269117",
+    "records/rf/reference-rf-dual-v17-b5-675-reference-tone150-rf-status.json": "f0997d38cdadf9761058e920cfd140417d2a9683ef481d0ca641f0ccb02db621",
+    "inputs/reference-source/zw217-uix8910/chip_drv/chip_plf/uix8910/rf_registers.h": "7f8edf0a854f45f9253a474ac2ba21333cc426df1be92b0f724915ea67d14939"
+  }
+}

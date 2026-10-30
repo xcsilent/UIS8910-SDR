@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-30T18:08:35.162609+08:00",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "requested_sample_rate": 3840000,
+  "requested_bw_mode": null,
+  "scope": "numeric conversion/queue; optional Soapy lifecycle, not new RF range or timestamp evidence",
+  "queue": {
+    "stdout": "passed:4096signed12 values/unused lowbits, CF32/CS16 conjugation, byte fragmentation, whole-pair drop, wrap, partial-tail joining\n",
+    "stderr": "",
+    "exit_code": 0
+  },
+  "capabilities": {
+    "status": "passed",
+    "device_accessed": false,
+    "scope": "Soapy API capability contract without activateStream or serial/USB open",
+    "BW2_advertised": true,
+    "independent_bandwidth_rejected": true
+  },
+  "dependencies": {
+    "tools/verify/verify_soapy.py": "a20d2ccccae6e402db4bdbccda1eff78104200c861cd3d5f42a2f76cfa7dcf15",
+    "outputs/host/verified-v0.1/soapy/build.json": "43742a71c6583ac1234411cec5406e4d2a35a8e12ace6712160c1325f43be24a",
+    "work/wsl-host-verified/soapy-module/queue-test.exe": "040bf74edc196f63f84d445e659d780b46482a65d59e27061386e2dc9336c783",
+    "outputs/host/verified-v0.1/soapy/libSoapySDR.dll": "a17597469785218b10573d275a06895eb8bb064cebe5cdfc078fcb4d708dff3d",
+    "outputs/host/verified-v0.1/soapy/libwinpthread-1.dll": "db1a0fc43ab2f0f8d9c87712567f79601b5f868b9bed514d3335f9016de692ec",
+    "outputs/host/verified-v0.1/soapy/sdr_usb.dll": "cef3c163ffdf62cbed746a8b0c50be0675f9d0a38f3ac0d9aa8ede1390c47226",
+    "outputs/host/verified-v0.1/soapy/SoapySDR-LICENSE.txt": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e",
+    "outputs/host/verified-v0.1/soapy/SoapySDRUtil.exe": "9692c5f90c136fded13ccf919c80655167d790030a3d87d594b0def9bfdcd6ef",
+    "outputs/host/verified-v0.1/soapy/soapy_receive_probe.exe": "0daf2f17a68fb7b440efdb900b609a439e78ea3a3732e390a094d368c6970891",
+    "outputs/host/verified-v0.1/soapy/uis8910Support.dll": "eda9c998473d85314c8ebfb27e083f1177fd3eeb679e29d46da22b66fec899e7"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "recorded_at": "2026-10-28T16:25:10.785528+08:00",
+  "status": "passed",
+  "read_only": true,
+  "scope": "Stopped AP DDR object pointer values only; no pointer dereference, no runtime branch or command freshness claim.",
+  "epoch": 25,
+  "generation": "0x526a0501",
+  "objects": [
+    {
+      "object": "0x804ee978",
+      "pointer_at_0x2c": "0x25101340",
+      "aligned_in_candidate_command_range": true,
+      "words": [
+        "0x0",
+        "0x0",
+        "0x25101324",
+        "0x25101320",
+        "0x25101318",
+        "0x2510131c",
+        "0x2510130c",
+        "0x0",
+        "0x25101310",
+        "0x25101314",
+        "0x0",
+        "0x25101340",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "object": "0x804efcc8",
+      "pointer_at_0x2c": "0x25101420",
+      "aligned_in_candidate_command_range": true,
+      "words": [
+        "0x0",
+        "0x0",
+        "0x25101404",
+        "0x25101400",
+        "0x251013f8",
+        "0x251013fc",
+        "0x251013ec",
+        "0x0",
+        "0x251013f0",
+        "0x251013f4",
+        "0x0",
+        "0x25101420",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "object": "0x804edc98",
+      "pointer_at_0x2c": "0x2510129c",
+      "aligned_in_candidate_command_range": true,
+      "words": [
+        "0x0",
+        "0x0",
+        "0x25101280",
+        "0x0",
+        "0x25101288",
+        "0x2510128c",
+        "0x25101284",
+        "0x0",
+        "0x25101290",
+        "0x25101294",
+        "0x0",
+        "0x2510129c",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "object": "0x804ee4a4",
+      "pointer_at_0x2c": "0x251012c8",
+      "aligned_in_candidate_command_range": true,
+      "words": [
+        "0x0",
+        "0x0",
+        "0x251012c0",
+        "0x0",
+        "0x251012b4",
+        "0x251012b8",
+        "0x251012bc",
+        "0x0",
+        "0x251012ac",
+        "0x251012b0",
+        "0x0",
+        "0x251012c8",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    },
+    {
+      "object": "0x804ef320",
+      "pointer_at_0x2c": "0x251013ac",
+      "aligned_in_candidate_command_range": true,
+      "words": [
+        "0x0",
+        "0x0",
+        "0x25101390",
+        "0x0",
+        "0x25101398",
+        "0x2510139c",
+        "0x25101394",
+        "0x0",
+        "0x251013a0",
+        "0x251013a4",
+        "0x0",
+        "0x251013ac",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ]
+    }
+  ]
+}

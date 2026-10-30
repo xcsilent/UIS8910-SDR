@@ -1,0 +1,107 @@
+{
+  "recorded_at": "2026-10-28T11:21:30.394382+08:00",
+  "status": "targeted_reference_completed",
+  "firmware_generation": "0x52660501",
+  "band": 5,
+  "bandwidth_index": 0,
+  "gain_index": 40,
+  "tx_gain_db": 60,
+  "reference_serial": "DEVICE_ID_REDACTED",
+  "tx_mapping": "A:A A:B channel0 TX/RX; intended physical TRX1",
+  "conditions": "Existing antennas; physical distance not remeasured; uncalibrated received level",
+  "observations": [
+    {
+      "center_hz": 687500000,
+      "status": "reference_verified",
+      "reference_identified": true,
+      "tone150_vs_off_db": 13.430652001240917,
+      "retune_shift_hz": 99843.75,
+      "tone_separation_hz": 199921.875,
+      "all_tx_processes_ended": true
+    },
+    {
+      "center_hz": 681250000,
+      "status": "reference_not_identified",
+      "reference_identified": false,
+      "tone150_vs_off_db": null,
+      "retune_shift_hz": null,
+      "tone_separation_hz": null,
+      "all_tx_processes_ended": true
+    }
+  ],
+  "captures": [
+    {
+      "record": "records/rf-lowband/b5-6875-v20-reference-off.json",
+      "center_hz": 687500000,
+      "label": "off",
+      "epoch": 22,
+      "drained": true,
+      "host_bytes": 7667712,
+      "device_minus_host_bytes": 0,
+      "file_dropped_bytes": 0,
+      "error": 0
+    },
+    {
+      "record": "records/rf-lowband/b5-6875-v20-reference-tone150.json",
+      "center_hz": 687500000,
+      "label": "tone150",
+      "epoch": 23,
+      "drained": true,
+      "host_bytes": 7667712,
+      "device_minus_host_bytes": 0,
+      "file_dropped_bytes": 0,
+      "error": 0
+    },
+    {
+      "record": "records/rf-lowband/b5-6875-v20-reference-rx-plus100.json",
+      "center_hz": 687600000,
+      "label": "rx-plus100",
+      "epoch": 24,
+      "drained": true,
+      "host_bytes": 7667712,
+      "device_minus_host_bytes": 0,
+      "file_dropped_bytes": 0,
+      "error": 0
+    },
+    {
+      "record": "records/rf-lowband/b5-6875-v20-reference-tone350.json",
+      "center_hz": 687500000,
+      "label": "tone350",
+      "epoch": 25,
+      "drained": true,
+      "host_bytes": 7667712,
+      "device_minus_host_bytes": 0,
+      "file_dropped_bytes": 0,
+      "error": 0
+    },
+    {
+      "record": "records/rf-lowband/b5-68125-v20-reference-off.json",
+      "center_hz": 681250000,
+      "label": "off",
+      "epoch": 26,
+      "drained": true,
+      "host_bytes": 7667712,
+      "device_minus_host_bytes": 0,
+      "file_dropped_bytes": 0,
+      "error": 0
+    },
+    {
+      "record": "records/rf-lowband/b5-68125-v20-reference-tone150.json",
+      "center_hz": 681250000,
+      "label": "tone150",
+      "epoch": 27,
+      "drained": true,
+      "host_bytes": 7667712,
+      "device_minus_host_bytes": 8192,
+      "file_dropped_bytes": 0,
+      "error": 0
+    }
+  ],
+  "all_tx_processes_ended": true,
+  "interpretation": "687.5MHz reference and100kHz retune passed;681.25MHz first tone not identified and later stages skipped. Discrete detection transition only; no monotonicity, continuous coverage or physical chip cutoff proof.",
+  "next_action": "Stop same-condition boundary refinement; use targeted native calibration-flow analysis or controlled reference/board conditions to separate PLL/VCO from analog/FEM/antenna causes.",
+  "dependencies": {
+    "records/rf/lowband-b5-6875-v20-reference.json": "5c44a3f0f632a6a2ba34b5c00eaf747334cec9a03a10db3da03e8cbf9846565a",
+    "records/rf/lowband-b5-68125-v20-reference.json": "a506232669e661188fbc3c2eedbe4870d6e7fd321b88a368e183cb0a9877cbee"
+  }
+}

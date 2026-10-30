@@ -1,0 +1,5984 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-29T11:34:38.189389+08:00",
+  "device_accessed": false,
+  "deployed": false,
+  "firmware_changed": false,
+  "native_entry": "0x4fc4",
+  "native_stop": "0x50da",
+  "scope": "B RXON body bus/callback composition and native coefficient-before-dispatch order; synthetic states, shared cal/mode internals abstracted; not cold-start or PLL proof.",
+  "reads_per_case": 15,
+  "writes_per_case": 11,
+  "modeled_extensions": [
+    "EXTHZ"
+  ],
+  "builds": [
+    {
+      "optimization": "-O0",
+      "native_comparisons": 100,
+      "all_bus_failure_positions": 26,
+      "middle_native_comparisons": 675,
+      "middle_bus_failure_cases": 1065,
+      "enter_native_comparisons": 48,
+      "enter_bus_failure_cases": 21,
+      "coefficient_commit_native_comparisons": 1,
+      "commit_bus_failure_cases": 6,
+      "clock_helper_native_comparisons": 45,
+      "clock_bus_failure_cases": 110,
+      "shared_table_native_comparisons": 252,
+      "shared_table_bus_failure_cases": 23,
+      "composed_body_native_comparisons": 264,
+      "composed_bus_and_callback_failure_cases": 618,
+      "auxiliary_decode_native_comparisons": 576,
+      "parameter_decode_native_comparisons": 384,
+      "post_rx_native_comparisons": 1516,
+      "post_rx_failure_positions": 128,
+      "post_rx_invalid_mode_no_io": true,
+      "publish_native_comparisons": 288,
+      "publish_failure_positions": 281,
+      "publish_invalid_contract_no_io_cases": 4,
+      "timing_native_comparisons": 100,
+      "timing_failure_positions": 63,
+      "integrated_B_native_comparisons": 90,
+      "integrated_B_failure_positions": 883,
+      "integrated_B_invalid_bus_no_io_cases": 3,
+      "request_B_native_comparisons": 222,
+      "request_B_failure_positions": 340,
+      "request_B_invalid_cases": 5
+    },
+    {
+      "optimization": "-O2",
+      "native_comparisons": 100,
+      "all_bus_failure_positions": 26,
+      "middle_native_comparisons": 675,
+      "middle_bus_failure_cases": 1065,
+      "enter_native_comparisons": 48,
+      "enter_bus_failure_cases": 21,
+      "coefficient_commit_native_comparisons": 1,
+      "commit_bus_failure_cases": 6,
+      "clock_helper_native_comparisons": 45,
+      "clock_bus_failure_cases": 110,
+      "shared_table_native_comparisons": 252,
+      "shared_table_bus_failure_cases": 23,
+      "composed_body_native_comparisons": 264,
+      "composed_bus_and_callback_failure_cases": 618,
+      "auxiliary_decode_native_comparisons": 576,
+      "parameter_decode_native_comparisons": 384,
+      "post_rx_native_comparisons": 1516,
+      "post_rx_failure_positions": 128,
+      "post_rx_invalid_mode_no_io": true,
+      "publish_native_comparisons": 288,
+      "publish_failure_positions": 281,
+      "publish_invalid_contract_no_io_cases": 4,
+      "timing_native_comparisons": 100,
+      "timing_failure_positions": 63,
+      "integrated_B_native_comparisons": 90,
+      "integrated_B_failure_positions": 883,
+      "integrated_B_invalid_bus_no_io_cases": 3,
+      "request_B_native_comparisons": 222,
+      "request_B_failure_positions": 340,
+      "request_B_invalid_cases": 5
+    }
+  ],
+  "analog_table": {
+    "base": "0x8a54",
+    "stride": 10,
+    "field": "rxon_context+4",
+    "offsets": [
+      0,
+      2,
+      4,
+      8
+    ]
+  },
+  "shared_table": {
+    "base": "0x8184",
+    "stride": 2
+  },
+  "native_b_enter": {
+    "entry": "0x4ecc",
+    "stop": "0x4f90",
+    "cases": 48,
+    "captured_registers": [
+      "0x30400",
+      "0x30404"
+    ],
+    "digital_flag": "0xb52a nonzero preserves30480 by OR",
+    "analog_table_offset": 6,
+    "excluded_prologue": "ABI save trampoline4ec8",
+    "next_step": "load mode and call0x4632 at4f94; clock helper independently reconstructed and tested"
+  },
+  "native_clock_helper": {
+    "entry": "0x4632",
+    "jump_table": "0x7ba4",
+    "cases": 45,
+    "modeled_extensions": [
+      "LWRR",
+      "BNEM1",
+      "BEQM1"
+    ],
+    "hardware_time_preserved": false,
+    "register": "0x30350 BBPLL2_REGA",
+    "result": "Native reads/writes/order preserved; native NOPs not a cross-core timing guarantee."
+  },
+  "composed_b_body": {
+    "entry": "0x4ecc",
+    "stop": "0x5360",
+    "cases": 264,
+    "calibration_and_mode_internals_executed": false,
+    "callback_contract": "Native calls453c and3a7c intercepted, same semantic callbacks in ARM harness; order/arguments/error stop tested.",
+    "calibration_can_update_mode": true,
+    "coefficient_generation_in_body": false,
+    "cold_start_replaced": false,
+    "hardware_tested": false,
+    "limitations": [
+      "Excludes RF ABI save/restore trampolines.",
+      "Requires coefficients already produced for this request; producer synchronization not provided.",
+      "Native callback timing and actual MMIO/PLL behavior not emulated."
+    ],
+    "sample_accesses": [
+      {
+        "operation": "read16",
+        "address": "0x30400",
+        "value": "0xa55a"
+      },
+      {
+        "operation": "read16",
+        "address": "0x30404",
+        "value": "0x5aa5"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30364",
+        "value": "0x33"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302cc",
+        "value": "0x20"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb52a",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30498",
+        "value": "0x2"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304c0",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a5a",
+        "value": "0x2996"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30480",
+        "value": "0x2996"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30320",
+        "value": "0x501f"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30350",
+        "value": "0x501f"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30350",
+        "value": "0x511f"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30350",
+        "value": "0x517f"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb520",
+        "value": "0xfc1c"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30360",
+        "value": "0xfc1c"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb524",
+        "value": "0xfd78"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302c4",
+        "value": "0xfd78"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb522",
+        "value": "0xfc8e"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302c8",
+        "value": "0xfc8e"
+      },
+      {
+        "operation": "read16",
+        "address": "0x30410",
+        "value": "0xa55a"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb526",
+        "value": "0x7"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30410",
+        "value": "0xbd5a"
+      },
+      {
+        "operation": "read16",
+        "address": "0x302c0",
+        "value": "0xa55a"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb526",
+        "value": "0x7"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302c0",
+        "value": "0xa558"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3041c",
+        "value": "0x11c0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30420",
+        "value": "0x5861"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30424",
+        "value": "0x7208"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30408",
+        "value": "0x4845"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a54",
+        "value": "0x2bc8"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30418",
+        "value": "0x2bc8"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a56",
+        "value": "0x28ba"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3040c",
+        "value": "0x28ba"
+      },
+      {
+        "operation": "read16",
+        "address": "0x3049c",
+        "value": "0xa55a"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a58",
+        "value": "0x2924"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3049c",
+        "value": "0xa924"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a5c",
+        "value": "0x2e00"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30414",
+        "value": "0x2e00"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8184",
+        "value": "0xb498"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30468",
+        "value": "0xb498"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3046c",
+        "value": "0x3c00"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30478",
+        "value": "0x400"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3047c",
+        "value": "0x328e"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304b4",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304b8",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30400",
+        "value": "0xe55a"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb52a",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30498",
+        "value": "0x6"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30404",
+        "value": "0xffa5"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30364",
+        "value": "0xb3"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30408",
+        "value": "0x4844"
+      },
+      {
+        "operation": "read16",
+        "address": "0x304b4",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb52a",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30498",
+        "value": "0x7"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a5c",
+        "value": "0x2e00"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30414",
+        "value": "0x2e40"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304b4",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302cc",
+        "value": "0x60"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb534",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0x8a5c",
+        "value": "0x2e00"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30414",
+        "value": "0x2e60"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304b4",
+        "value": "0x200"
+      },
+      {
+        "operation": "calibration_callback",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x0"
+      },
+      {
+        "operation": "mode_callback",
+        "address": "0x3a7c",
+        "value": "0x0"
+      }
+    ]
+  },
+  "native_b_feedback_consumption": {
+    "entry": "0x4ecc",
+    "stop": "0x5360",
+    "shared_helpers_executed": [
+      "0x453c",
+      "0x3a7c"
+    ],
+    "cases": [
+      {
+        "mode": 0,
+        "selector": 2,
+        "rx_port": 1,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 0,
+        "selector": 4,
+        "rx_port": 2,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 0,
+        "selector": 6,
+        "rx_port": 3,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 1,
+        "selector": 2,
+        "rx_port": 1,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 1,
+        "selector": 4,
+        "rx_port": 2,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 1,
+        "selector": 6,
+        "rx_port": 3,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 2,
+        "selector": 2,
+        "rx_port": 1,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 2,
+        "selector": 4,
+        "rx_port": 2,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 2,
+        "selector": 6,
+        "rx_port": 3,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 3,
+        "selector": 2,
+        "rx_port": 1,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 3,
+        "selector": 4,
+        "rx_port": 2,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 3,
+        "selector": 6,
+        "rx_port": 3,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 4,
+        "selector": 2,
+        "rx_port": 1,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 4,
+        "selector": 4,
+        "rx_port": 2,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 4,
+        "selector": 6,
+        "rx_port": 3,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 5,
+        "selector": 2,
+        "rx_port": 1,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 5,
+        "selector": 4,
+        "rx_port": 2,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      },
+      {
+        "mode": 5,
+        "selector": 6,
+        "rx_port": 3,
+        "register_reads": 7,
+        "writes": 93,
+        "ready_clear_and_set_identical": true,
+        "calibration_feedback_read": false
+      }
+    ],
+    "paired_status_words": [
+      0,
+      65535
+    ],
+    "status_addresses": [
+      "0x3036c",
+      "0x3037c"
+    ],
+    "control_writes": [
+      {
+        "address": "0x30364",
+        "value": "0x33"
+      },
+      {
+        "address": "0x30364",
+        "value": "0xb3"
+      }
+    ],
+    "result": "In these B RXON contexts the full body including shared helpers neither reads calibration status nor changes its operations based on externally supplied ready/VCO bits.",
+    "scope": "36 original instruction executions; mode0..5, B3/B5/B8 port fixtures, zero software analog/digital flags. No ABI prologue/epilogue, caller tail, autonomous hardware calibration or PLL lock model.",
+    "no_wait_added": true,
+    "physical_cutoff_proved": false
+  },
+  "coefficient_producer_dispatch": {
+    "entry": "0x6122",
+    "coefficient_call": "0x6134 ->0x37f0",
+    "output": "0xb520",
+    "working_source": "0xb53c",
+    "context": "0xb530",
+    "cases": [
+      {
+        "selector": 0,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 0,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 0,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 0,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 0,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 0,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 1,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 1,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 1,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 1,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 1,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 1,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 2,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 2,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 2,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 2,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 2,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 2,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 3,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 3,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 3,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 3,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 3,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 3,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 4,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 4,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 4,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 4,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 4,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 4,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 5,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 5,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 5,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 5,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 5,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 5,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 6,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 6,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 6,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 6,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 6,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 6,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 7,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 7,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 7,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 7,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 7,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 7,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 8,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 8,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 8,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 8,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 8,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 8,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 9,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 9,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 9,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 9,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 9,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 9,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 10,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 10,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 10,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 10,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 10,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 10,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 11,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 11,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 11,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 11,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 11,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 11,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 12,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 12,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 12,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 12,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 12,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 12,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 13,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 13,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 13,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 13,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 13,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 13,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 14,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 14,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 14,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 14,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 14,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 14,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 15,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 15,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 15,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 15,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 15,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 15,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 16,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 16,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 16,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 16,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 16,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 16,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 17,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 17,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 17,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 17,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 17,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 17,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x4ec8"
+      },
+      {
+        "selector": 18,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 18,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 18,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 18,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 18,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 18,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 19,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 19,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 19,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 19,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 19,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 19,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 20,
+        "working_raw": 7007000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          13798,
+          31539,
+          13107,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 20,
+        "working_raw": 7007000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          13798,
+          24530,
+          32039,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 20,
+        "working_raw": 8815000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          17358,
+          39677,
+          12242,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 20,
+        "working_raw": 8815000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          17358,
+          30860,
+          2240,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 20,
+        "working_raw": 23307000,
+        "table_enable": 0,
+        "factor": 7,
+        "coefficient_words": [
+          22948,
+          52453,
+          36440,
+          7
+        ],
+        "rxon_target": "0x46f6"
+      },
+      {
+        "selector": 20,
+        "working_raw": 23307000,
+        "table_enable": 1,
+        "factor": 9,
+        "coefficient_words": [
+          22948,
+          40797,
+          13779,
+          9
+        ],
+        "rxon_target": "0x46f6"
+      }
+    ],
+    "B_call": "0x6158 ->0x4ec8",
+    "A_call": "0x614a ->0x46f6",
+    "software_order_proved": true,
+    "hardware_request_freshness_proved": false,
+    "limitation": "Original software computes then dispatches synchronously; synthetic caller inputs do not prove RFAD delivery or current-request identity on hardware."
+  },
+  "shared_post_rx": {
+    "entry": "0x38a8",
+    "RXON_call": "0x616a",
+    "retune_call": "0x66ce",
+    "focused_B3_gap_cases": [
+      {
+        "requested_raw": 11000000,
+        "mode": 0,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 14470000,
+        "mode": 0,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 16000000,
+        "mode": 0,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 17100000,
+        "mode": 0,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 11000000,
+        "mode": 1,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 14470000,
+        "mode": 1,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 16000000,
+        "mode": 1,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 17100000,
+        "mode": 1,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 11000000,
+        "mode": 2,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 14470000,
+        "mode": 2,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 16000000,
+        "mode": 2,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 17100000,
+        "mode": 2,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 11000000,
+        "mode": 3,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 14470000,
+        "mode": 3,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 16000000,
+        "mode": 3,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 17100000,
+        "mode": 3,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 11000000,
+        "mode": 4,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 14470000,
+        "mode": 4,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 16000000,
+        "mode": 4,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 17100000,
+        "mode": 4,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 11000000,
+        "mode": 5,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 14470000,
+        "mode": 5,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 16000000,
+        "mode": 5,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      },
+      {
+        "requested_raw": 17100000,
+        "mode": 5,
+        "selector": 2,
+        "writes": [
+          {
+            "address": "0x3033c",
+            "value": "0x25cf"
+          },
+          {
+            "address": "0x30340",
+            "value": "0x29bf"
+          },
+          {
+            "address": "0x3030c",
+            "value": "0x2800"
+          },
+          {
+            "address": "0x30310",
+            "value": "0x0"
+          },
+          {
+            "address": "0x32004",
+            "value": "0xa45a"
+          }
+        ]
+      }
+    ],
+    "cases": 1516,
+    "default_centers_raw": [
+      19660800,
+      18432000,
+      25804800,
+      23961600
+    ],
+    "default_widths_raw": [
+      7000,
+      15000,
+      25000,
+      50000,
+      75000,
+      100000,
+      2000
+    ],
+    "runtime_reads": [
+      "0x32004:16",
+      "0xb538:16",
+      "0x8530..0x853c:32",
+      "0x91a0+4*mode:32"
+    ],
+    "writes": [
+      "0x50109050:32",
+      "0x3033c:16",
+      "0x30340:16",
+      "0x3030c:16",
+      "0x30310:16",
+      "0x32004:16"
+    ],
+    "lowband_same_default_branch": [
+      6812500,
+      6875000
+    ],
+    "result": "Original request-frequency profile selection; preserves runtime table reads and short-circuit order. No ready/VCO reads or LO-lock check.",
+    "deployed": false,
+    "hardware_meaning_confirmed": false,
+    "physical_limits_proved": false
+  },
+  "caller_publish_state": {
+    "entry": "0x616e",
+    "stop": "0x6200",
+    "cases": 288,
+    "conditional_flags": [
+      "0xb4ee ==1: b4d2 OR0x10 then0xacc",
+      "0xb4f2 ==1: b4d2 OR0x20 then0xacc"
+    ],
+    "final_stores": [
+      "b52c=1",
+      "read b52c -> b4d8",
+      "read b550 -> b4dc"
+    ],
+    "shared_acc_scope": "Caller composition uses an explicit callback; isolated body and0x902 verified separately in shared_timing_ring. Target ABI/address bridge and physical timer units not validated.",
+    "callback_may_change_shared_state": true,
+    "ready_vco_reads": false,
+    "b4e0_written_in_slice": false,
+    "deployed": false,
+    "sample_accesses": [
+      [
+        0,
+        46318,
+        1
+      ],
+      [
+        0,
+        46290,
+        42330
+      ],
+      [
+        1,
+        46290,
+        42330
+      ],
+      [
+        2,
+        2764,
+        0
+      ],
+      [
+        0,
+        46322,
+        1
+      ],
+      [
+        0,
+        46290,
+        42330
+      ],
+      [
+        1,
+        46290,
+        42362
+      ],
+      [
+        2,
+        2764,
+        0
+      ],
+      [
+        1,
+        46380,
+        1
+      ],
+      [
+        0,
+        46380,
+        1
+      ],
+      [
+        1,
+        46296,
+        1
+      ],
+      [
+        0,
+        46416,
+        3
+      ],
+      [
+        1,
+        46300,
+        3
+      ]
+    ],
+    "limitation": "Original caller slice with intercepted0xacc; does not execute later calls at6202/620a or prove hardware readiness, atomicity, runtime flag producers or helper time bounds."
+  },
+  "shared_timing_ring": {
+    "entry": "0xad0",
+    "stop": "0xb52",
+    "helper": "0x902 executed",
+    "cases": 100,
+    "state": "0x92ce halfword, modulo5",
+    "rings": [
+      "0x928c first snapshot",
+      "0x92a0 second snapshot"
+    ],
+    "system_reads": [
+      "0x500901f0",
+      "0x50090104",
+      "0x500900b8",
+      "0x500900bc",
+      "0x500900c0"
+    ],
+    "timer_poll": "bit20, at most10 reads; original proceeds even if still set",
+    "modeled_extensions": [
+      "EXTHZ",
+      "BCLR",
+      "PULPv2 SWRR",
+      "HWLP_SETUP (ae8 only)"
+    ],
+    "hardware_loop_model": "RI5CY manual rev4 page38: start=pc+4,end=pc+(uimm<<1),count=rs1. Hereaec..af8,count10; branch may exit early.",
+    "does_not_read_PLL": true,
+    "does_not_write_RF_configuration": true,
+    "deployed": false,
+    "limitation": "Synthetic system-MMIO responses; no physical timer unit, simultaneous snapshot guarantee, actual bus latency or inter-core address bridge established. ABI prologue/epilogue excluded."
+  },
+  "request_B_chain": {
+    "entry": "0x602c",
+    "stop": "0x5360",
+    "cases": 222,
+    "C_entry": "rf_core_rxon_request_b",
+    "original_helpers_executed": [
+      "0x37f0",
+      "0x4ec8",
+      "0x453c",
+      "0x3a7c"
+    ],
+    "stateful_bus": true,
+    "bus_widths": [
+      2,
+      4
+    ],
+    "modes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "selectors": [
+      2,
+      4,
+      5,
+      6,
+      17
+    ],
+    "requested_raw_cases": [
+      6812500,
+      6875000,
+      9992999,
+      9993000,
+      10000000
+    ],
+    "correction": "Mode0 re-reads ZFIF index and signed table7b70 before coefficient production.",
+    "coefficient_order": "Publish Q8, read MDLL state/lookup, publish and re-read factor, publish low then high.",
+    "normalization": "Private immutable division byte lookups and mode image-table loads omitted; each omitted guest read checked against original image. Runtime context including b550/b538 retained.",
+    "deployed": false,
+    "hardware_tested": false,
+    "limitation": "Initialized synthetic tables/context/MMIO only; no cold-start, caller post-processing, address bridge, RFAD freshness or PLL/analog proof."
+  },
+  "integrated_B_helpers": {
+    "entry": "0x4ecc",
+    "stop": "0x5360",
+    "cases": 90,
+    "original_helpers_executed": [
+      "0x453c",
+      "0x3a7c"
+    ],
+    "C_entry": "rf_core_rxon_b_with_helpers",
+    "callbacks_replaced_by_actual_C": true,
+    "all_bus_widths": 2,
+    "stateful_bus_fixture": true,
+    "normalization": "Native private immutable mode-table loads omitted from bus trace because C embeds these verified constants. Runtime table/context/MMIO reads and all writes retained; mode writes compared to original image.",
+    "modes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode6_supported": false,
+    "precomputed_coefficients_required": true,
+    "deployed": false,
+    "hardware_tested": false,
+    "limitation": "Synthetic initial RAM/MMIO, initialized only before execution. No ABI/caller/cold-start/address bridge, autonomous calibration, RF lock or received-signal proof."
+  },
+  "auxiliary_decode": {
+    "entry": "0x602c",
+    "stop": "0x609e",
+    "cases": 576,
+    "slot_source": "RF auxiliary halfword bits15:12 at30054",
+    "context16_source": "auxiliary bits11:0",
+    "correction_index_source": "RXON word bits14:13 at6080; two bits, distinct from6390 retune one-bit field",
+    "bug_reproduction": {
+      "word": "0x4221",
+      "old_C_index": 0,
+      "native_index": 2
+    },
+    "scope": "Pure context decode before correction selection; mode0 can subsequently replace index fromZFIF, so this is not full correction-path validation. Synthetic slot15 decode is not legal table-index authorization."
+  },
+  "parameter_decode": {
+    "entry": "0x602c",
+    "stop": "0x6080",
+    "cases": 384,
+    "port_field": "bits7:4 (4 bits), stored context+4; synthetic8..15 are decoding tests only, not authorized table indices",
+    "corrected_prior_C_mask": "7 ->15; previous C lost input bit7; reproduced with word0x0080",
+    "selector_field": "bits12:8",
+    "mode_field": "bits3:0",
+    "modeled_extensions": [
+      "EXTHZ",
+      "EXTRACTU"
+    ]
+  },
+  "retained_board_route_chain": {
+    "snapshot": "records/rf/reference-live-route-nv.json",
+    "frontend": "records/rf/reference-live-frontend-nv.json",
+    "retained_default_B_request_cases": 72,
+    "epoch": 278,
+    "rows": [
+      {
+        "raw_band_id": 3,
+        "nv_row": 2,
+        "rx_port": 1,
+        "selector": 2,
+        "group": "B",
+        "retained_default_B_request_application": [
+          {
+            "mode": 0,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfe08",
+              "0xfe48",
+              "0xfe68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfe68",
+              "0x30468": "0x20ea"
+            }
+          }
+        ],
+        "cp_pack_and_rf_decode": [
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500210",
+            "rf_context_field4": 1,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 30,
+            "shared_table_addresses": [
+              "0x87a0",
+              "0x9474",
+              "0xaff0",
+              "0xaff2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500210",
+            "rf_context_field4": 1,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 30,
+            "shared_table_addresses": [
+              "0x87a0",
+              "0x9474",
+              "0xaff0",
+              "0xaff2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500215",
+            "rf_context_field4": 1,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 30,
+            "shared_table_addresses": [
+              "0x87a0",
+              "0x9474",
+              "0xaff0",
+              "0xaff2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500215",
+            "rf_context_field4": 1,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 30,
+            "shared_table_addresses": [
+              "0x87a0",
+              "0x9474",
+              "0xaff0",
+              "0xaff2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          }
+        ],
+        "analog_table_base": "0x8a54",
+        "analog_row_stride": 10,
+        "binary_default_analog_fields": [
+          {
+            "offset": 0,
+            "word": "0xf84f",
+            "destination": "0x30418"
+          },
+          {
+            "offset": 2,
+            "word": "0x1052",
+            "destination": "0x3040c"
+          },
+          {
+            "offset": 4,
+            "word": "0xff0",
+            "destination": "0x3049c"
+          },
+          {
+            "offset": 6,
+            "word": "0x2",
+            "destination": "0x30480"
+          },
+          {
+            "offset": 8,
+            "word": "0xfe08",
+            "destination": "0x30414"
+          }
+        ],
+        "shared_30468_word": "0x20ea",
+        "rffe_switch_open": [
+          {
+            "reg_value": 4,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "rffe_lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      },
+      {
+        "raw_band_id": 5,
+        "nv_row": 4,
+        "rx_port": 2,
+        "selector": 4,
+        "group": "B",
+        "retained_default_B_request_application": [
+          {
+            "mode": 0,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x2",
+              "0x30414": "0xfd68",
+              "0x30468": "0x1ea"
+            }
+          }
+        ],
+        "cp_pack_and_rf_decode": [
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500420",
+            "rf_context_field4": 2,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 60,
+            "shared_table_addresses": [
+              "0x87dc",
+              "0x94b0",
+              "0xb068",
+              "0xb06a"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500420",
+            "rf_context_field4": 2,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 60,
+            "shared_table_addresses": [
+              "0x87dc",
+              "0x94b0",
+              "0xb068",
+              "0xb06a"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500425",
+            "rf_context_field4": 2,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 60,
+            "shared_table_addresses": [
+              "0x87dc",
+              "0x94b0",
+              "0xb068",
+              "0xb06a"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500425",
+            "rf_context_field4": 2,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 60,
+            "shared_table_addresses": [
+              "0x87dc",
+              "0x94b0",
+              "0xb068",
+              "0xb06a"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          }
+        ],
+        "analog_table_base": "0x8a54",
+        "analog_row_stride": 10,
+        "binary_default_analog_fields": [
+          {
+            "offset": 0,
+            "word": "0xf84f",
+            "destination": "0x30418"
+          },
+          {
+            "offset": 2,
+            "word": "0x1052",
+            "destination": "0x3040c"
+          },
+          {
+            "offset": 4,
+            "word": "0xff0",
+            "destination": "0x3049c"
+          },
+          {
+            "offset": 6,
+            "word": "0x2",
+            "destination": "0x30480"
+          },
+          {
+            "offset": 8,
+            "word": "0xfd08",
+            "destination": "0x30414"
+          }
+        ],
+        "shared_30468_word": "0x1ea",
+        "rffe_switch_open": [
+          {
+            "reg_value": 5,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "rffe_lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      },
+      {
+        "raw_band_id": 8,
+        "nv_row": 6,
+        "rx_port": 3,
+        "selector": 6,
+        "group": "B",
+        "retained_default_B_request_application": [
+          {
+            "mode": 0,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 0,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 1,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 2,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 3,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 4,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 11000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 14470000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 16000000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          },
+          {
+            "mode": 5,
+            "requested_raw": 17100000,
+            "latch_30414_writes": [
+              "0xfd08",
+              "0xfd48",
+              "0xfd68"
+            ],
+            "analog_writes": {
+              "0x30418": "0xf84f",
+              "0x3040c": "0x1052",
+              "0x30480": "0x1",
+              "0x30414": "0xfd68",
+              "0x30468": "0x80ea"
+            }
+          }
+        ],
+        "cp_pack_and_rf_decode": [
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500630",
+            "rf_context_field4": 3,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 90,
+            "shared_table_addresses": [
+              "0x8818",
+              "0x94ec",
+              "0xb0e0",
+              "0xb0e2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500630",
+            "rf_context_field4": 3,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 90,
+            "shared_table_addresses": [
+              "0x8818",
+              "0x94ec",
+              "0xb0e0",
+              "0xb0e2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500635",
+            "rf_context_field4": 3,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 90,
+            "shared_table_addresses": [
+              "0x8818",
+              "0x94ec",
+              "0xb0e0",
+              "0xb0e2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500635",
+            "rf_context_field4": 3,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 90,
+            "shared_table_addresses": [
+              "0x8818",
+              "0x94ec",
+              "0xb0e0",
+              "0xb0e2"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          }
+        ],
+        "analog_table_base": "0x8a54",
+        "analog_row_stride": 10,
+        "binary_default_analog_fields": [
+          {
+            "offset": 0,
+            "word": "0xf84f",
+            "destination": "0x30418"
+          },
+          {
+            "offset": 2,
+            "word": "0x1052",
+            "destination": "0x3040c"
+          },
+          {
+            "offset": 4,
+            "word": "0xff0",
+            "destination": "0x3049c"
+          },
+          {
+            "offset": 6,
+            "word": "0x1",
+            "destination": "0x30480"
+          },
+          {
+            "offset": 8,
+            "word": "0xfd08",
+            "destination": "0x30414"
+          }
+        ],
+        "shared_30468_word": "0x80ea",
+        "rffe_switch_open": [
+          {
+            "reg_value": 2,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "rffe_lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      },
+      {
+        "raw_band_id": 40,
+        "nv_row": 22,
+        "rx_port": 0,
+        "selector": 15,
+        "group": "A",
+        "retained_default_B_request_application": [],
+        "cp_pack_and_rf_decode": [
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500f00",
+            "rf_context_field4": 0,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 225,
+            "shared_table_addresses": [
+              "0x8926",
+              "0x95fa",
+              "0xb2fc",
+              "0xb2fe"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 0,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500f00",
+            "rf_context_field4": 0,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 225,
+            "shared_table_addresses": [
+              "0x8926",
+              "0x95fa",
+              "0xb2fc",
+              "0xb2fe"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cedc",
+            "packed": "0x500f05",
+            "rf_context_field4": 0,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 225,
+            "shared_table_addresses": [
+              "0x8926",
+              "0x95fa",
+              "0xb2fc",
+              "0xb2fe"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          },
+          {
+            "bandwidth": 5,
+            "cp_entry": "0x8020cf24",
+            "packed": "0x500f05",
+            "rf_context_field4": 0,
+            "rf_auxiliary": "0x50",
+            "rf_context_slot": 0,
+            "rf_context16": "0x50",
+            "shared_table_index": 225,
+            "shared_table_addresses": [
+              "0x8926",
+              "0x95fa",
+              "0xb2fc",
+              "0xb2fe"
+            ],
+            "shared_table_image_values": [
+              "0x805",
+              null,
+              null,
+              null
+            ],
+            "shared_table_value_scope": "Values outside retained RF binary are unknown runtime RAM, not zero/default calibration."
+          }
+        ],
+        "analog_table_base": "0x84f0",
+        "analog_row_stride": 8,
+        "binary_default_analog_fields": [
+          {
+            "offset": 0,
+            "word": "0x114",
+            "destination": "0x304c0"
+          },
+          {
+            "offset": 2,
+            "word": "0xa0",
+            "destination": "0x30480"
+          },
+          {
+            "offset": 4,
+            "word": "0x8c02",
+            "destination": "0x30430"
+          },
+          {
+            "offset": 6,
+            "word": "0xfe08",
+            "destination": "0x30414"
+          }
+        ],
+        "shared_30468_word": "0x10ea",
+        "rffe_switch_open": [
+          {
+            "reg_value": 8,
+            "reg_addr": 0,
+            "slave_id": 13,
+            "reserved": 0
+          },
+          {
+            "reg_value": 1,
+            "reg_addr": 2,
+            "slave_id": 15,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ],
+        "rffe_lna_open": [
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          },
+          {
+            "reg_value": 0,
+            "reg_addr": 0,
+            "slave_id": 0,
+            "reserved": 0
+          }
+        ]
+      }
+    ],
+    "scope": "Actual retained board NV port -> native CP pack prefix in both variants -> native RF decode -> binary default analog row. RFAD delivery and live RF RAM table contents not observed.",
+    "distinction": "Analog rows are values in retained RF binary, not live RAM/calibration readback; board FEM identity and physical pin wiring remain unknown.",
+    "row_application": "Destinations identify native consumers, not unconditional final values: masks/OR/latch apply; A30430 may instead use84b0 under runtime flag92cc.",
+    "B_group_row_offset6_used_by_enter": true,
+    "hardware_written": false
+  },
+  "native_b_coefficient_commit": {
+    "entry": "0x4f98",
+    "stop": "0x4fc4",
+    "source": "Precomputed RF RAM b520 Q8 / b524 low / b522 high, no frequency calculation in this slice",
+    "accesses": [
+      {
+        "operation": "read16",
+        "address": "0xb520",
+        "value": "0xfc1c"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30360",
+        "value": "0xfc1c"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb524",
+        "value": "0xfd78"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302c4",
+        "value": "0xfd78"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb522",
+        "value": "0xfc8e"
+      },
+      {
+        "operation": "write16",
+        "address": "0x302c8",
+        "value": "0xfc8e"
+      }
+    ]
+  },
+  "b4e0_producer": {
+    "reset_entry": "0x10c2",
+    "reset_store": "0x10d6",
+    "stop": "0x10da",
+    "base": "0xb468",
+    "offset": "0x78",
+    "value": 0,
+    "cases": [
+      {
+        "initial": 0,
+        "result": 0
+      },
+      {
+        "initial": 1,
+        "result": 0
+      },
+      {
+        "initial": 42330,
+        "result": 0
+      },
+      {
+        "initial": 65535,
+        "result": 0
+      }
+    ],
+    "all_runtime_writers_identified": false,
+    "field_name_confirmed": false,
+    "limitation": "Positive reset-producer evidence only; does not prove no later writer or a permanent zero."
+  },
+  "native_b_mode_middle": {
+    "entry": "0x50da",
+    "stop": "0x529c",
+    "cases": 675,
+    "original_instruction_boundaries_exercised": 128,
+    "modeled_extensions": [
+      "EXTHZ",
+      "BSET",
+      "BNEM1",
+      "BEQM1"
+    ],
+    "saved_register_source": {
+      "0x30400": "LHU at4ed6 before prefix",
+      "0x30404": "LHU at4ee2 before prefix"
+    },
+    "mode6_is_new_bandwidth": false,
+    "limitation": "Modes7/65535 are synthetic branch tests, not supported receive or bandwidth modes.",
+    "sample_accesses": [
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x3"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb4e0",
+        "value": "0x1"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3046c",
+        "value": "0x7c00"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x3"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30478",
+        "value": "0xc00"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x3"
+      },
+      {
+        "operation": "write16",
+        "address": "0x3047c",
+        "value": "0x328e"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x3"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb538",
+        "value": "0x5"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304b4",
+        "value": "0xa4d"
+      },
+      {
+        "operation": "write16",
+        "address": "0x304b8",
+        "value": "0x2888"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30400",
+        "value": "0xe55a"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb52a",
+        "value": "0x0"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30498",
+        "value": "0x6"
+      },
+      {
+        "operation": "read16",
+        "address": "0xb530",
+        "value": "0x3"
+      },
+      {
+        "operation": "write16",
+        "address": "0x30404",
+        "value": "0xffa5"
+      }
+    ]
+  },
+  "native_b_completion": {
+    "entry": "0x529c",
+    "stop": "0x5354",
+    "cases": [
+      {
+        "field": 0,
+        "digital_flag": 0,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30498",
+            "0x7"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 0,
+        "digital_flag": 1,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 0,
+        "digital_flag": 2,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 0,
+        "digital_flag": 65535,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 3,
+        "digital_flag": 0,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30498",
+            "0x7"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 3,
+        "digital_flag": 1,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 3,
+        "digital_flag": 2,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 3,
+        "digital_flag": 65535,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 7,
+        "digital_flag": 0,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30498",
+            "0x7"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 7,
+        "digital_flag": 1,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 7,
+        "digital_flag": 2,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      },
+      {
+        "field": 7,
+        "digital_flag": 65535,
+        "writes": [
+          [
+            "0x30364",
+            "0xb3"
+          ],
+          [
+            "0x30408",
+            "0x4844"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa55a"
+          ],
+          [
+            "0x302cc",
+            "0x60"
+          ],
+          [
+            "0x30414",
+            "0x1968"
+          ],
+          [
+            "0x304b4",
+            "0xa75a"
+          ]
+        ]
+      }
+    ],
+    "modeled_extensions": [
+      "EXTHZ",
+      "BCLR",
+      "BSET"
+    ],
+    "calibration_call": {
+      "site": "0x5354",
+      "target": "0x453c",
+      "argument": "rxon_context"
+    },
+    "mode_call": {
+      "site": "0x535c",
+      "target": "0x3a7c",
+      "argument_source": "LHU context[0] at5358"
+    },
+    "mode_argument_forwarding_cases": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "cal_status_reads_in_this_slice": false,
+    "limitation": "No cal-status reads within this tail; not proof none exist in earlier stages or callees."
+  },
+  "sample_accesses": [
+    {
+      "operation": "read16",
+      "address": "0x30410",
+      "value": "0xa55a"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb526",
+      "value": "0x9"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30410",
+      "value": "0xcd5a"
+    },
+    {
+      "operation": "read16",
+      "address": "0x302c0",
+      "value": "0xa55a"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb526",
+      "value": "0x9"
+    },
+    {
+      "operation": "write16",
+      "address": "0x302c0",
+      "value": "0xa55a"
+    },
+    {
+      "operation": "write16",
+      "address": "0x3041c",
+      "value": "0x11c0"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30420",
+      "value": "0x5861"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30424",
+      "value": "0x7208"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30408",
+      "value": "0x4845"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb534",
+      "value": "0x3"
+    },
+    {
+      "operation": "read16",
+      "address": "0x8a72",
+      "value": "0x20be"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30418",
+      "value": "0x20be"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb534",
+      "value": "0x3"
+    },
+    {
+      "operation": "read16",
+      "address": "0x8a74",
+      "value": "0x2128"
+    },
+    {
+      "operation": "write16",
+      "address": "0x3040c",
+      "value": "0x2128"
+    },
+    {
+      "operation": "read16",
+      "address": "0x3049c",
+      "value": "0xa55a"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb534",
+      "value": "0x3"
+    },
+    {
+      "operation": "read16",
+      "address": "0x8a76",
+      "value": "0x219a"
+    },
+    {
+      "operation": "write16",
+      "address": "0x3049c",
+      "value": "0xa19a"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb534",
+      "value": "0x3"
+    },
+    {
+      "operation": "read16",
+      "address": "0x8a7a",
+      "value": "0x26f6"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30414",
+      "value": "0x26f6"
+    },
+    {
+      "operation": "read16",
+      "address": "0xb534",
+      "value": "0x3"
+    },
+    {
+      "operation": "read16",
+      "address": "0x818a",
+      "value": "0xaa66"
+    },
+    {
+      "operation": "write16",
+      "address": "0x30468",
+      "value": "0xaa66"
+    }
+  ],
+  "shared_table_application": {
+    "entry": "0x453c",
+    "cases": 252,
+    "writes": 9,
+    "register_feedback_reads": false,
+    "context_fields": [
+      "mode+0",
+      "selector+8",
+      "slot+0x14",
+      "control+0x16"
+    ],
+    "scope": "Table/context application with repeated reads; no ready poll, no autonomous calibration or lock proof; caller guarantees valid indices."
+  },
+  "dependencies": {
+    "tools/verify/verify_rf_prepare_b_prefix.py": "77ad9fba6e7e2e371fd3698fba262a66f4cc3f51ab5475dd02547b09957099da",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c": "87b56a256755bac0aed7a6d7a0da9562180ba6c4dad3da5adda4a452070818df",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.h": "6d08391d21ef5725377e17e47bc70bf06037442ccd06ffbb2a4f8a844b4028b2",
+    "firmware/rf_rebuild/rf_core_rxon_prepare.h": "671e45d27268633da5903c9a103e89fe8435cfd101f1d030d42a541fb8036507",
+    "tools/verify/rf_prepare_b_prefix_harness.c": "33327978ee6d74abd740c34378692da39142dffc37c057dcb48a9d37c5d547db",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c": "11fa7a54d92772930559880ad854ae4e8099de51659cb55df64b89dce3aef867",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.h": "40191a2aadf8467f951237eced49953a942e7ab88597a4ffe61cf22a797f49ba",
+    "firmware/rf_rebuild/rf_core_rxon_b.c": "64cc19df7f1d29c97d54ed0625fc71f9ee73119691801583ea1586539f506505",
+    "firmware/rf_rebuild/rf_core_rxon_b.h": "ef520b8ba6f54028054d82587d64a7e664aba8141c50f7f5adc9906e8f7a1a1e",
+    "firmware/rf_rebuild/rf_core_rxon_request.c": "66e524549f88b8ab0060687ffda9f09c16b68826d2b7449901c583c744c1cdc1",
+    "firmware/rf_rebuild/rf_core_rxon_request.h": "0de97ce0ef8cc6206e7cdb9b8ccbc791166b87be8ce97a972574b779650b7ea4",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "tools/verify/verify_rf_frequency_native.py": "8b37d660631ca6b599bdce543702ee6b0e2faf2b294ae8f23a0621ca99ed6971",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "work/rf-prepare-b-prefix/O0.elf": "3142e82b22484207b8329181a6cd95ff0c0007a5a99f5b8806541d8061410bd8",
+    "work/rf-prepare-b-prefix/O2.elf": "852db4d4cdaea733aa3669b3891827bca48363f21a8af14287ded4c02f8b9d3f",
+    "records/rf/reference-live-route-nv.rfnv.bin": "dbde127f01ecacde4d86d733c5139365ba130d7df2d033e6110ce3b9a21abd6a",
+    "records/rf/reference-live-route-nv.tables.bin": "fafd4741354129a594349972bf8891ae31fe44000e171df4acc707803ff154cc",
+    "records/rf/reference-live-route-nv.json": "6d690498c9adb75ea05b4d4ae3e7ccd3c70cd49dc0b7e8a74a6054e1b1981617",
+    "records/rf/reference-live-frontend-nv.json": "9b7a3def418d025910c871ab963fa0300f53a86944de769d9fa0246aa2275ea0",
+    "records/rf/reference-live-frontend-nv.rfnv.bin": "a8394c46eedcd72d56559dd3785ae29891c464b4e2e53869e724c871a0d5feb8",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.bin": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf": "0ab9571c93d72ad6669e70a7872cf5998c312256ddbe450b55d1cc4a860d17c2",
+    "tools/sdr/rf_frontend.py": "64b1b4f6088135b528bcdbab3e834b6152863dde1722e6f06e5bdb1c5c260719",
+    "tools/sdr/rf_runtime.py": "52a589de0383d6aab913c1a1efbc48f11e8463ad2bcb7cf5a8f3304c489a9b46",
+    "firmware/rf_rebuild/rf_core_rxon_finish.c": "073f49fa6d80fd1efc2754d3177df63127c725e780a07a1c7c2f0da90e497f63",
+    "firmware/rf_rebuild/rf_core_rxon_finish.h": "a4b17a395e270f86b3d55a3878bc73f11fb0d9f610ad60a7cf289845dea7857b",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "f546e38732e83b7223274972a238a57f22ba888abcff4ddd5acb309d4f962f92",
+    "firmware/rf_rebuild/rf_core_tune_flow.h": "d850c5d0785a661ee2dbdf04d5482a50db8b15bfd22ce7237fe18d91a851ba25",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3",
+    "firmware/rf_rebuild/rf_core_tune_plan.h": "dedefd2b49823e2e84ee191a237db652bae0bfb05abc620f169afd79a7390eaf",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_frequency.h": "dc0c15cc462a8a2322017a83f7f6f2db47583817e6d26631004e15ec54fb575e",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.c": "da600f761b5fe13f5724326363c577e297fa628caf9349005e740f23d39f1ee7",
+    "inputs/reference-source/riscv-pulp-legacy/ri5cy_user_manual.pdf": "497f1baae547adbb7e3701e328929718410a11fc57f08b60e62dfd3c21d629ff",
+    "firmware/rf_rebuild/rf_core_mode.c": "788c1efc32bc3f095bd8fc2fc660eecc862d9ced004c7a5baf8828e9d4098162",
+    "firmware/rf_rebuild/rf_core_mode.h": "eac07d5a7702f4538ac86bbb452f38fb799387d5e19e5d314fe51305c13b00c7"
+  }
+}

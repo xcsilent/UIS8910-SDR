@@ -1,0 +1,107 @@
+{
+  "status": "representative_BW4_BW5_reference_verified",
+  "recorded_at": "2026-10-28T12:57:47.218684+08:00",
+  "generation": "0x52670501",
+  "rows": [
+    {
+      "record": "records/rf/b40-v21-2600-bw5.json",
+      "bandwidth_index": 5,
+      "status": "reference_verified",
+      "on_off_db": 21.26178387201246,
+      "tone_separation_hz": 198750.0,
+      "retune_shift_hz": 101250.0,
+      "captures": [
+        {
+          "label": "off",
+          "epoch": 10,
+          "host_bytes": 27451392,
+          "device_bytes": 27451392,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        },
+        {
+          "label": "tone150",
+          "epoch": 11,
+          "host_bytes": 27574272,
+          "device_bytes": 27574272,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        },
+        {
+          "label": "rx-plus100",
+          "epoch": 12,
+          "host_bytes": 27688960,
+          "device_bytes": 27688960,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        },
+        {
+          "label": "tone350",
+          "epoch": 13,
+          "host_bytes": 27361280,
+          "device_bytes": 27361280,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        }
+      ],
+      "stability_median_retune_hz": 101384.36231098749,
+      "stability_median_tone_separation_hz": 198491.73805120643
+    },
+    {
+      "record": "records/rf/b40-v21-2600-bw4.json",
+      "bandwidth_index": 4,
+      "status": "reference_verified",
+      "on_off_db": 16.724201488569555,
+      "tone_separation_hz": 198750.0,
+      "retune_shift_hz": 101250.0,
+      "captures": [
+        {
+          "label": "off",
+          "epoch": 14,
+          "host_bytes": 27623424,
+          "device_bytes": 27623424,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        },
+        {
+          "label": "tone150",
+          "epoch": 15,
+          "host_bytes": 27402240,
+          "device_bytes": 27402240,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        },
+        {
+          "label": "rx-plus100",
+          "epoch": 16,
+          "host_bytes": 27443200,
+          "device_bytes": 27443200,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        },
+        {
+          "label": "tone350",
+          "epoch": 17,
+          "host_bytes": 27049984,
+          "device_bytes": 27049984,
+          "device_minus_host_bytes": 0,
+          "drained": true
+        }
+      ],
+      "stability_median_retune_hz": 101317.35824730663,
+      "stability_median_tone_separation_hz": 198541.2829634766
+    }
+  ],
+  "all_TX_ended": true,
+  "chip_reset": false,
+  "firmware_changed": false,
+  "continuous_frequency_coverage_proved": false,
+  "calibrated_sample_rate_proved": false,
+  "lossless_sampling_proved": false,
+  "dependencies": {
+    "records/rf/b40-v21-2600-bw5.json": "e54148ac3fbc25895375979e3848223239c9145378eafd754effe9ae62440434",
+    "records/rf/b40-v21-2600-bw4.json": "b10d313dd96507e601109cd4e68a91952c57150c0a03ee6b1f9c6f64116d8ebc",
+    "records/rf/b40-v21-return-bw0.json": "1dd3447fd993005d76b69be0f93172af91bfd64bf893ac2704d0370f5b0c79df",
+    "records/b40-bandwidth/v21-2600-bw4-drops.json": "7f4a85ecf7ef6530c4962e5775493057f2b8c6b55eeeb548fa3a10e3e88e82b1"
+  }
+}

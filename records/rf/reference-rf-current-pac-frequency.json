@@ -1,0 +1,504 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "image_source": "current PAC decoded payload",
+  "image_sha256": "5df483f4435d11ed0a7e66918a5bce00e322097c57bbc4a1138b9940f1dc6ab8",
+  "frequency_witness_verified": true,
+  "scope": "Current PAC coefficient helper with working-raw witness vs compiled current C; SDK retune/correction addresses not reused. Synthetic contexts, no analog/lock proof",
+  "native_entries": {
+    "coefficients": "0x37f0"
+  },
+  "modeled_legacy_operations": [
+    "EXTHZ",
+    "BCLR",
+    "BNEM1"
+  ],
+  "coefficient_cases": [
+    {
+      "working_raw": 8240000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 16226,
+      "fraction": 2430668304,
+      "selected_factor": 7,
+      "effective_raw": 16480000
+    },
+    {
+      "working_raw": 8240000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 16226,
+      "fraction": 2430668304,
+      "selected_factor": 7,
+      "effective_raw": 16480000
+    },
+    {
+      "working_raw": 8240000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 16226,
+      "fraction": 2126834766,
+      "selected_factor": 8,
+      "effective_raw": 16480000
+    },
+    {
+      "working_raw": 8690000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 17112,
+      "fraction": 2563411112,
+      "selected_factor": 7,
+      "effective_raw": 17380000
+    },
+    {
+      "working_raw": 8690000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 17112,
+      "fraction": 2563411112,
+      "selected_factor": 7,
+      "effective_raw": 17380000
+    },
+    {
+      "working_raw": 8690000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 17112,
+      "fraction": 2242984723,
+      "selected_factor": 8,
+      "effective_raw": 17380000
+    },
+    {
+      "working_raw": 8800000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 17329,
+      "fraction": 2595859354,
+      "selected_factor": 7,
+      "effective_raw": 17600000
+    },
+    {
+      "working_raw": 8800000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 17329,
+      "fraction": 2595859354,
+      "selected_factor": 7,
+      "effective_raw": 17600000
+    },
+    {
+      "working_raw": 8800000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 17329,
+      "fraction": 2271376935,
+      "selected_factor": 8,
+      "effective_raw": 17600000
+    },
+    {
+      "working_raw": 9425000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 18560,
+      "fraction": 2780224365,
+      "selected_factor": 7,
+      "effective_raw": 18850000
+    },
+    {
+      "working_raw": 9425000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 18560,
+      "fraction": 2780224365,
+      "selected_factor": 7,
+      "effective_raw": 18850000
+    },
+    {
+      "working_raw": 9425000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 18560,
+      "fraction": 2432696320,
+      "selected_factor": 8,
+      "effective_raw": 18850000
+    },
+    {
+      "working_raw": 9700000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19101,
+      "fraction": 2861344970,
+      "selected_factor": 7,
+      "effective_raw": 19400000
+    },
+    {
+      "working_raw": 9700000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19101,
+      "fraction": 2861344970,
+      "selected_factor": 7,
+      "effective_raw": 19400000
+    },
+    {
+      "working_raw": 9700000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19101,
+      "fraction": 2503676849,
+      "selected_factor": 8,
+      "effective_raw": 19400000
+    },
+    {
+      "working_raw": 9800000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19298,
+      "fraction": 2890843372,
+      "selected_factor": 7,
+      "effective_raw": 19600000
+    },
+    {
+      "working_raw": 9800000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19298,
+      "fraction": 2890843372,
+      "selected_factor": 7,
+      "effective_raw": 19600000
+    },
+    {
+      "working_raw": 9800000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19298,
+      "fraction": 2529487950,
+      "selected_factor": 8,
+      "effective_raw": 19600000
+    },
+    {
+      "working_raw": 9992999,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2947774992,
+      "selected_factor": 7,
+      "effective_raw": 19985998
+    },
+    {
+      "working_raw": 9992999,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19678,
+      "fraction": 2947774992,
+      "selected_factor": 7,
+      "effective_raw": 19985998
+    },
+    {
+      "working_raw": 9992999,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2579303118,
+      "selected_factor": 8,
+      "effective_raw": 19985998
+    },
+    {
+      "working_raw": 9993000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2947775287,
+      "selected_factor": 7,
+      "effective_raw": 19986000
+    },
+    {
+      "working_raw": 9993000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19678,
+      "fraction": 2947775287,
+      "selected_factor": 7,
+      "effective_raw": 19986000
+    },
+    {
+      "working_raw": 9993000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19678,
+      "fraction": 2579303376,
+      "selected_factor": 8,
+      "effective_raw": 19986000
+    },
+    {
+      "working_raw": 9999999,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2949839880,
+      "selected_factor": 7,
+      "effective_raw": 19999998
+    },
+    {
+      "working_raw": 9999999,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19692,
+      "fraction": 2949839880,
+      "selected_factor": 7,
+      "effective_raw": 19999998
+    },
+    {
+      "working_raw": 9999999,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2581109895,
+      "selected_factor": 8,
+      "effective_raw": 19999998
+    },
+    {
+      "working_raw": 10000000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7,
+      "effective_raw": 10000000
+    },
+    {
+      "working_raw": 10000000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 9846,
+      "fraction": 1474920087,
+      "selected_factor": 7,
+      "effective_raw": 10000000
+    },
+    {
+      "working_raw": 10000000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1290555076,
+      "selected_factor": 8,
+      "effective_raw": 10000000
+    },
+    {
+      "working_raw": 10000001,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1474920235,
+      "selected_factor": 7,
+      "effective_raw": 10000001
+    },
+    {
+      "working_raw": 10000001,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 9846,
+      "fraction": 1474920235,
+      "selected_factor": 7,
+      "effective_raw": 10000001
+    },
+    {
+      "working_raw": 10000001,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 9846,
+      "fraction": 1290555205,
+      "selected_factor": 8,
+      "effective_raw": 10000001
+    },
+    {
+      "working_raw": 17100000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 16836,
+      "fraction": 2522113350,
+      "selected_factor": 7,
+      "effective_raw": 17100000
+    },
+    {
+      "working_raw": 17100000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 16836,
+      "fraction": 2522113350,
+      "selected_factor": 7,
+      "effective_raw": 17100000
+    },
+    {
+      "working_raw": 17100000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 16836,
+      "fraction": 2206849181,
+      "selected_factor": 8,
+      "effective_raw": 17100000
+    },
+    {
+      "working_raw": 18425000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 18141,
+      "fraction": 2717540261,
+      "selected_factor": 7,
+      "effective_raw": 18425000
+    },
+    {
+      "working_raw": 18425000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 18141,
+      "fraction": 2717540261,
+      "selected_factor": 7,
+      "effective_raw": 18425000
+    },
+    {
+      "working_raw": 18425000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 18141,
+      "fraction": 2377847729,
+      "selected_factor": 8,
+      "effective_raw": 18425000
+    },
+    {
+      "working_raw": 20000000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2949840175,
+      "selected_factor": 7,
+      "effective_raw": 20000000
+    },
+    {
+      "working_raw": 20000000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 19692,
+      "fraction": 2949840175,
+      "selected_factor": 7,
+      "effective_raw": 20000000
+    },
+    {
+      "working_raw": 20000000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 19692,
+      "fraction": 2581110153,
+      "selected_factor": 8,
+      "effective_raw": 20000000
+    },
+    {
+      "working_raw": 23300000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 22941,
+      "fraction": 3436563804,
+      "selected_factor": 7,
+      "effective_raw": 23300000
+    },
+    {
+      "working_raw": 23300000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 22941,
+      "fraction": 3436563804,
+      "selected_factor": 7,
+      "effective_raw": 23300000
+    },
+    {
+      "working_raw": 23300000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 22941,
+      "fraction": 3006993329,
+      "selected_factor": 8,
+      "effective_raw": 23300000
+    },
+    {
+      "working_raw": 26000000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 25600,
+      "fraction": 3834792228,
+      "selected_factor": 7,
+      "effective_raw": 26000000
+    },
+    {
+      "working_raw": 26000000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 25600,
+      "fraction": 3834792228,
+      "selected_factor": 7,
+      "effective_raw": 26000000
+    },
+    {
+      "working_raw": 26000000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 25600,
+      "fraction": 3355443200,
+      "selected_factor": 8,
+      "effective_raw": 26000000
+    },
+    {
+      "working_raw": 27812500,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 27384,
+      "fraction": 4102121494,
+      "selected_factor": 7,
+      "effective_raw": 27812500
+    },
+    {
+      "working_raw": 27812500,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 27384,
+      "fraction": 4102121494,
+      "selected_factor": 7,
+      "effective_raw": 27812500
+    },
+    {
+      "working_raw": 27812500,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 27384,
+      "fraction": 3589356307,
+      "selected_factor": 8,
+      "effective_raw": 27812500
+    }
+  ],
+  "correction_cases": [],
+  "register_groups": [],
+  "conclusion": "Current PAC coefficient outputs agree with C for tested contexts and frequency witness stores input after coefficient calculation; not an execution counter or RF lock proof.",
+  "dependencies": {
+    "tools/verify/verify_rf_frequency_native.py": "ea157c16df8a02d1fb68b1bbc847f63280a03838d814c8c61d308e9deda30fd9",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "work/rf-cache/current-rf-decoded.bin": "5df483f4435d11ed0a7e66918a5bce00e322097c57bbc4a1138b9940f1dc6ab8",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "work/rf-frequency-native/replica.elf": "e5317d2f6d6df489d857550ffc045d595bf45c43dcf73e025feee0a25962859b",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_frequency.h": "dc0c15cc462a8a2322017a83f7f6f2db47583817e6d26631004e15ec54fb575e",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "f546e38732e83b7223274972a238a57f22ba888abcff4ddd5acb309d4f962f92",
+    "firmware/rf_rebuild/rf_core_tune_flow.h": "d850c5d0785a661ee2dbdf04d5482a50db8b15bfd22ce7237fe18d91a851ba25",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3",
+    "firmware/rf_rebuild/rf_core_tune_plan.h": "dedefd2b49823e2e84ee191a237db652bae0bfb05abc620f169afd79a7390eaf",
+    "tools/verify/rf_image.py": "34be385865e1836fec111ed47e1565e4e46a6ccd17f40ff302d61544bf5dad47",
+    "records/rf/reference-rf-pac-payload.json": "6fd9f469e405294cd6a0fb3fe1733551e9bdb0cdfab4f3f061bdbf5ac4cabb8f",
+    "outputs/firmware/current/manifest.json": "4607714b156d07bf48a2043e4e741094c2c5ce68bf68a61522cad6c8acfe6e44",
+    "outputs/firmware/scheduler-wide-v27/Air724U_UIS8910_SDR_BW0_USB_v27.pac": "944142e3fa907372120011a8c539f5350863a9517039b0a1848b892fe12707d2",
+    "tools/verify/verify_rf_pac_payload.py": "018d8184190e9ff75ab5bc31d0065c7ad20d9e93da5ae4680bf7ea11bd08c6aa",
+    "tools/usb/pac.py": "c890401edb5063c0cc625001ae79aefcb98ec1cb20b12ca87032c46e67ffcdd2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/CSDK_RDA8910.elf": "a4e2e388549948b69a3059239656ee8daa171bc2b59f275bee79f00a32286886",
+    "inputs/repositories/rda8910-csdk-hotelec/tools/win32/lzmar.exe": "f2b46166f8de5dd5596da508c93e28e3b4a7ddf2ab77a5dbc089afb2ff0ebaad",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca"
+  }
+}

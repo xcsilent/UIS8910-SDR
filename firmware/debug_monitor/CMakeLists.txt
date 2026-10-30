@@ -1,0 +1,10 @@
+get_filename_component(DEBUG_MONITOR_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../../../../.." ABSOLUTE)
+set(DEBUG_MONITOR_DIR "${DEBUG_MONITOR_ROOT}/firmware/debug_monitor")
+if(NOT EXISTS "${DEBUG_MONITOR_DIR}/generated/cp_agent_blob.h")
+    message(FATAL_ERROR "CP agent header missing. The old PAC builder is archived; prepare the dedicated service build entry before building AP firmware.")
+endif()
+add_appimg(${target} ${flash_ldscript}
+    ${DEBUG_MONITOR_DIR}/ap_monitor.c ${DEBUG_MONITOR_DIR}/debug_hash.c ${DEBUG_MONITOR_DIR}/ap_access.S)
+target_include_directories(${target} PRIVATE ${DEBUG_MONITOR_DIR} ${DEBUG_MONITOR_DIR}/generated)
+target_compile_options(${target} PRIVATE -Wall -Wextra -Wno-misleading-indentation)
+target_link_options(${target} PRIVATE -Wl,--undefined=debug_at_write_filter -Wl,--undefined=debug_data_abort_gate)

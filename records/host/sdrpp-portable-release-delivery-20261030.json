@@ -1,0 +1,56 @@
+{
+  "status": "installed_and_core_dataflow_verified",
+  "recorded_at": "2026-10-30T15:12:10.525223+08:00",
+  "portable_root": "D:/Tools/sdrpp_windows_x64",
+  "files": [
+    {
+      "source": "C:/Projects/UIS8910-SDR/outputs/host/sdrpp/uis8910_source.dll",
+      "destination": "D:/Tools/sdrpp_windows_x64/modules/uis8910_source.dll",
+      "sha256": "45f3007302a783f927206278c21010ef1a563c27b008c4d8577bd27696e71953",
+      "isolated_hardware_runtime": "work/sdrpp/portable-release-check/modules/uis8910_source.dll"
+    },
+    {
+      "source": "C:/Projects/UIS8910-SDR/outputs/host/sdrpp/sdr_usb.dll",
+      "destination": "D:/Tools/sdrpp_windows_x64/sdr_usb.dll",
+      "sha256": "9b8a0b56dfa9cf8f5f5fd88d5ee69098af30dd857ff41a3bc1f7294d13052f08",
+      "isolated_hardware_runtime": "work/sdrpp/portable-release-check/sdr_usb.dll"
+    }
+  ],
+  "installation": "outputs/host/sdrpp/installation.json",
+  "config_backup": "D:\\Tools\\sdrpp_windows_x64\\config.before-uis8910-20261030-150422-711394.json",
+  "parsed_user_config_preserved": true,
+  "hardware_evidence": "records/host/sdrpp-portable-release-sync-20261030.json",
+  "postflight": "records/host/sdrpp-portable-release-postflight-20261030.json",
+  "scope": "Installed files equal the tested isolated runtime and release build. Actual SDR++ core/USB dataflow and Auto transitions, no desktop visual test or new RF reference claim.",
+  "tested_gain_index": 30,
+  "tested_bandwidth_indices": [
+    0
+  ],
+  "core_sha256": "5cc72ceb770e64646855ade781a59642d2e9be68dc6325a094c74a5fd4df6328",
+  "exe_sha256": "2e55713e0b045222d923c3a696fd2a812da9d46266a125b6cf33ca876804ded1",
+  "auto_frequency_requests_hz": [
+    1375000000,
+    1400000000,
+    1447000000,
+    1600000000,
+    1842500000,
+    942500000,
+    1375000000,
+    2000000000,
+    1500000000
+  ],
+  "baseline_read_pairs": 8822784,
+  "limitations": [
+    "No new RF coverage or sensitivity measurement.",
+    "Existing BW1-BW5 and rapid-retune evidence remains separately recorded; not rerun without code changes.",
+    "Windows realtime CLI has its own newer DLL; SDR++ keeps its explicitly paired release runtime."
+  ],
+  "dependencies": {
+    "records/host/sdrpp-portable-release-sync-20261030.json": "445b573a56995e9e2eaf33cd28d0f1823f37691e34c3af7226d2d8d9ee36a3ce",
+    "records/host/sdrpp-portable-release-postflight-20261030.json": "98952f685fd8bd061a0080a1f1e605e1ff69ae83caa6c8882cf2a2667321f161",
+    "outputs/host/sdrpp/build.json": "35cfd9a4fb150bff6ed0c31fb7ba176e2fccd5090f7a103c4dbecb00faed55d1",
+    "outputs/host/sdrpp/installation.json": "8ba85dcb557bf7c5ea63be92534de290a175459039d938717a4a728753805ce1",
+    "tools/install_sdrpp.py": "6d8b4d7ce5978806f34aaf6933fdf333a1d40bd7a27ddbfaefeeef3700339671",
+    "tools/verify/verify_sdrpp.py": "7b05fbd16450e1a84789d4a40204852b3f3fd053df5c437e15a4059b98168991"
+  }
+}

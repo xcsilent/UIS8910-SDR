@@ -1,0 +1,1711 @@
+{
+  "captured_at": "2026-10-30T08:52:03.155635+00:00",
+  "scope": "All local file metadata except .git internals, symlinks/junctions and the inventory itself. No payload hashes or raw data reads.",
+  "device_accessed": false,
+  "groups": {
+    ".github": {
+      "files": 4,
+      "bytes": 2593
+    },
+    ".github/ISSUE_TEMPLATE": {
+      "files": 2,
+      "bytes": 1633
+    },
+    ".github/workflows": {
+      "files": 1,
+      "bytes": 403
+    },
+    ".gitignore": {
+      "files": 1,
+      "bytes": 1320
+    },
+    ".rgignore": {
+      "files": 1,
+      "bytes": 93
+    },
+    "AGENTS.md": {
+      "files": 1,
+      "bytes": 2327
+    },
+    "ALL": {
+      "files": 142521,
+      "bytes": 29760188768
+    },
+    "CONTRIBUTING.md": {
+      "files": 1,
+      "bytes": 2942
+    },
+    "LICENSE-STATUS.md": {
+      "files": 1,
+      "bytes": 1781
+    },
+    "README.md": {
+      "files": 1,
+      "bytes": 6963
+    },
+    "README.zh-CN.md": {
+      "files": 1,
+      "bytes": 4259
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "files": 1,
+      "bytes": 3324
+    },
+    "archive": {
+      "files": 74003,
+      "bytes": 17401904816
+    },
+    "archive/consolidation-2026-10-28": {
+      "files": 28551,
+      "bytes": 1671515792
+    },
+    "archive/host-release-2026-10-29": {
+      "files": 22,
+      "bytes": 11184952
+    },
+    "archive/host-release-2026-10-30": {
+      "files": 5,
+      "bytes": 680344
+    },
+    "archive/legacy-2026-10-23": {
+      "files": 45423,
+      "bytes": 15718507714
+    },
+    "archive/open-source-preparation-2026-10-30": {
+      "files": 1,
+      "bytes": 15352
+    },
+    "docs": {
+      "files": 32,
+      "bytes": 581075
+    },
+    "docs/assets": {
+      "files": 4,
+      "bytes": 215084
+    },
+    "docs/data": {
+      "files": 3,
+      "bytes": 74170
+    },
+    "docs/plans": {
+      "files": 2,
+      "bytes": 8929
+    },
+    "docs/topics": {
+      "files": 7,
+      "bytes": 136017
+    },
+    "firmware": {
+      "files": 134,
+      "bytes": 570344
+    },
+    "firmware/capture": {
+      "files": 38,
+      "bytes": 206788
+    },
+    "firmware/debug_monitor": {
+      "files": 12,
+      "bytes": 73282
+    },
+    "firmware/rf_rebuild": {
+      "files": 58,
+      "bytes": 174430
+    },
+    "firmware/sdr_receiver": {
+      "files": 26,
+      "bytes": 115844
+    },
+    "host": {
+      "files": 22,
+      "bytes": 116910
+    },
+    "host/common": {
+      "files": 2,
+      "bytes": 2582
+    },
+    "host/sdrpp": {
+      "files": 4,
+      "bytes": 23411
+    },
+    "host/soapy": {
+      "files": 3,
+      "bytes": 19986
+    },
+    "host/windows": {
+      "files": 13,
+      "bytes": 70931
+    },
+    "inputs": {
+      "files": 40850,
+      "bytes": 7706873146
+    },
+    "inputs/firmware": {
+      "files": 4,
+      "bytes": 5589952
+    },
+    "inputs/manuals": {
+      "files": 8,
+      "bytes": 6574048
+    },
+    "inputs/reference-source": {
+      "files": 28,
+      "bytes": 8634378
+    },
+    "inputs/repositories": {
+      "files": 40808,
+      "bytes": 7686068038
+    },
+    "outputs": {
+      "files": 1337,
+      "bytes": 109053273
+    },
+    "outputs/firmware": {
+      "files": 1249,
+      "bytes": 70722499
+    },
+    "outputs/host": {
+      "files": 88,
+      "bytes": 38330774
+    },
+    "records": {
+      "files": 3982,
+      "bytes": 45187262
+    },
+    "records/audits": {
+      "files": 62,
+      "bytes": 13755854
+    },
+    "records/b40-bandwidth": {
+      "files": 111,
+      "bytes": 800322
+    },
+    "records/bandwidth-extension": {
+      "files": 12,
+      "bytes": 256802
+    },
+    "records/bw2-v6": {
+      "files": 26,
+      "bytes": 117135
+    },
+    "records/bw2-v7": {
+      "files": 34,
+      "bytes": 141059
+    },
+    "records/bw2-v8": {
+      "files": 26,
+      "bytes": 149169
+    },
+    "records/bw2-v9": {
+      "files": 8,
+      "bytes": 37869
+    },
+    "records/bw5-v12": {
+      "files": 31,
+      "bytes": 210868
+    },
+    "records/geometry-v19": {
+      "files": 247,
+      "bytes": 1293010
+    },
+    "records/host-control-v2": {
+      "files": 8,
+      "bytes": 41414
+    },
+    "records/iq": {
+      "files": 4,
+      "bytes": 134495
+    },
+    "records/mainline-v10": {
+      "files": 61,
+      "bytes": 367189
+    },
+    "records/passband-fixed-rf-v1": {
+      "files": 72,
+      "bytes": 420029
+    },
+    "records/pre-selector6-v13": {
+      "files": 45,
+      "bytes": 614430
+    },
+    "records/pre-switch-v14": {
+      "files": 74,
+      "bytes": 1078709
+    },
+    "records/reference-review": {
+      "files": 117,
+      "bytes": 1823507
+    },
+    "records/retune-v1": {
+      "files": 21,
+      "bytes": 97213
+    },
+    "records/rf-auto-v1": {
+      "files": 35,
+      "bytes": 236839
+    },
+    "records/rf-coverage-v1": {
+      "files": 1403,
+      "bytes": 11418121
+    },
+    "records/rf-frontend": {
+      "files": 248,
+      "bytes": 2983298
+    },
+    "records/rf-lowband": {
+      "files": 351,
+      "bytes": 2022021
+    },
+    "records/rf-pll-reference-v1": {
+      "files": 3,
+      "bytes": 64724
+    },
+    "records/rf-reference-v2-20261026": {
+      "files": 152,
+      "bytes": 317148
+    },
+    "records/rf-runtime-v1": {
+      "files": 27,
+      "bytes": 444314
+    },
+    "records/rf-status-v10": {
+      "files": 79,
+      "bytes": 485560
+    },
+    "records/rf-v5-v1": {
+      "files": 98,
+      "bytes": 519688
+    },
+    "records/runtime": {
+      "files": 1,
+      "bytes": 2552
+    },
+    "records/sdrpp-retune-v1": {
+      "files": 7,
+      "bytes": 61839
+    },
+    "records/sdrpp-v1": {
+      "files": 16,
+      "bytes": 122586
+    },
+    "records/soapy-v1": {
+      "files": 11,
+      "bytes": 99789
+    },
+    "records/usb-raw-v1": {
+      "files": 301,
+      "bytes": 2587687
+    },
+    "records/wideband-v11": {
+      "files": 111,
+      "bytes": 722363
+    },
+    "requirements": {
+      "files": 3,
+      "bytes": 297
+    },
+    "tools": {
+      "files": 186,
+      "bytes": 1614819
+    },
+    "tools/__pycache__": {
+      "files": 7,
+      "bytes": 154242
+    },
+    "tools/analyze": {
+      "files": 3,
+      "bytes": 14076
+    },
+    "tools/debug": {
+      "files": 3,
+      "bytes": 56188
+    },
+    "tools/sdr": {
+      "files": 26,
+      "bytes": 150325
+    },
+    "tools/usb": {
+      "files": 10,
+      "bytes": 62076
+    },
+    "tools/verify": {
+      "files": 112,
+      "bytes": 919133
+    },
+    "work": {
+      "files": 21960,
+      "bytes": 4494261224
+    },
+    "work/__pycache__": {
+      "files": 2,
+      "bytes": 36270
+    },
+    "work/b3-coverage-sdrpp-build": {
+      "files": 22,
+      "bytes": 33539295
+    },
+    "work/b3-coverage-sdrpp-runtime": {
+      "files": 195,
+      "bytes": 30614083
+    },
+    "work/b3-coverage-soapy": {
+      "files": 2,
+      "bytes": 2345477
+    },
+    "work/b3-lower-ap": {
+      "files": 89,
+      "bytes": 7140462
+    },
+    "work/bandwidth-geometry": {
+      "files": 1,
+      "bytes": 263892
+    },
+    "work/consolidation-ap-build": {
+      "files": 89,
+      "bytes": 7114662
+    },
+    "work/consolidation-b5-baseline": {
+      "files": 5,
+      "bytes": 154117
+    },
+    "work/consolidation-checks": {
+      "files": 28,
+      "bytes": 144752
+    },
+    "work/consolidation-cp-build": {
+      "files": 15,
+      "bytes": 569538
+    },
+    "work/consolidation-transport-build": {
+      "files": 1,
+      "bytes": 147
+    },
+    "work/consolidation-tune-check": {
+      "files": 3,
+      "bytes": 584925
+    },
+    "work/cp-b3-lower": {
+      "files": 15,
+      "bytes": 588071
+    },
+    "work/cp-exchange-bridge": {
+      "files": 1,
+      "bytes": 40368
+    },
+    "work/cp-fem-command-candidate": {
+      "files": 15,
+      "bytes": 574425
+    },
+    "work/cp-fem-execution": {
+      "files": 15,
+      "bytes": 575789
+    },
+    "work/cp-fem-override": {
+      "files": 15,
+      "bytes": 577843
+    },
+    "work/cp-fem-v23": {
+      "files": 15,
+      "bytes": 569681
+    },
+    "work/cp-fem-v23-final": {
+      "files": 15,
+      "bytes": 569861
+    },
+    "work/cp-publish-v22": {
+      "files": 15,
+      "bytes": 569456
+    },
+    "work/cp-queue-v24": {
+      "files": 15,
+      "bytes": 573801
+    },
+    "work/cp-scratch-rf-v21-final": {
+      "files": 15,
+      "bytes": 569180
+    },
+    "work/cp-unrestricted": {
+      "files": 15,
+      "bytes": 588236
+    },
+    "work/cp-usb-8910": {
+      "files": 12,
+      "bytes": 113413
+    },
+    "work/cp-usb-bridge": {
+      "files": 5,
+      "bytes": 125764
+    },
+    "work/cp-usb-stream": {
+      "files": 11,
+      "bytes": 712232
+    },
+    "work/fem-command-v25": {
+      "files": 89,
+      "bytes": 7127958
+    },
+    "work/fem-execution-ap": {
+      "files": 89,
+      "bytes": 7132837
+    },
+    "work/fem-override-ap": {
+      "files": 89,
+      "bytes": 7125306
+    },
+    "work/fem-v23-ap-bind": {
+      "files": 89,
+      "bytes": 7114370
+    },
+    "work/fem-v23-ap-final": {
+      "files": 89,
+      "bytes": 7114586
+    },
+    "work/github-source-review": {
+      "files": 559,
+      "bytes": 6864450
+    },
+    "work/host-control-test": {
+      "files": 1,
+      "bytes": 268365
+    },
+    "work/host-file-sink-test": {
+      "files": 2,
+      "bytes": 632594
+    },
+    "work/host-receive-review": {
+      "files": 1,
+      "bytes": 142250
+    },
+    "work/host-session-test": {
+      "files": 1,
+      "bytes": 280880
+    },
+    "work/host-test-deps": {
+      "files": 63,
+      "bytes": 60169201
+    },
+    "work/open-source-review": {
+      "files": 5,
+      "bytes": 17355
+    },
+    "work/publish-v22-candidate": {
+      "files": 89,
+      "bytes": 7114462
+    },
+    "work/queue-observer-ap-check": {
+      "files": 89,
+      "bytes": 7127761
+    },
+    "work/queue-observer-ap-current": {
+      "files": 89,
+      "bytes": 7128153
+    },
+    "work/queue-v24-final": {
+      "files": 89,
+      "bytes": 7126329
+    },
+    "work/raw-usb-bw0-batch": {
+      "files": 14,
+      "bytes": 209783
+    },
+    "work/refill-profile-ap": {
+      "files": 89,
+      "bytes": 7138604
+    },
+    "work/rf-catalog-test": {
+      "files": 1,
+      "bytes": 266557
+    },
+    "work/rf-command-observer": {
+      "files": 2,
+      "bytes": 39985
+    },
+    "work/rf-command-observer-validated": {
+      "files": 2,
+      "bytes": 39995
+    },
+    "work/rf-frequency-native": {
+      "files": 1,
+      "bytes": 70840
+    },
+    "work/rf-frontend-check": {
+      "files": 2,
+      "bytes": 134184
+    },
+    "work/rf-frontend-override-check": {
+      "files": 3,
+      "bytes": 134682
+    },
+    "work/rf-lowband-native": {
+      "files": 1,
+      "bytes": 70840
+    },
+    "work/rf-mode-rebuild": {
+      "files": 2,
+      "bytes": 136452
+    },
+    "work/rf-pll-reference": {
+      "files": 2,
+      "bytes": 71442
+    },
+    "work/rf-prepare-b-prefix": {
+      "files": 3,
+      "bytes": 206877
+    },
+    "work/rf-register-reference": {
+      "files": 7,
+      "bytes": 134286
+    },
+    "work/rx-pre-profile-test": {
+      "files": 4,
+      "bytes": 199675
+    },
+    "work/rxcapt-exchange": {
+      "files": 1,
+      "bytes": 27824
+    },
+    "work/scheduler-policy-ap": {
+      "files": 89,
+      "bytes": 7112803
+    },
+    "work/scheduler-wide-ap": {
+      "files": 89,
+      "bytes": 7133326
+    },
+    "work/scratch-rf-v21-candidate": {
+      "files": 89,
+      "bytes": 7114975
+    },
+    "work/sdr-usb-ring-v1": {
+      "files": 6,
+      "bytes": 110784
+    },
+    "work/sdrpp": {
+      "files": 12160,
+      "bytes": 3411310405
+    },
+    "work/sdrpp-auto-candidate": {
+      "files": 22,
+      "bytes": 33533163
+    },
+    "work/sdrpp-auto-runtime": {
+      "files": 198,
+      "bytes": 31123479
+    },
+    "work/sdrpp-delivery-build": {
+      "files": 22,
+      "bytes": 33532148
+    },
+    "work/sdrpp-retune-candidate": {
+      "files": 22,
+      "bytes": 33534420
+    },
+    "work/sdrpp-retune-runtime": {
+      "files": 192,
+      "bytes": 30102571
+    },
+    "work/sdrpp-v27-runtime": {
+      "files": 183,
+      "bytes": 28571498
+    },
+    "work/soapy": {
+      "files": 4,
+      "bytes": 4690954
+    },
+    "work/soapy-auto-candidate": {
+      "files": 2,
+      "bytes": 2345477
+    },
+    "work/soapy-bw5-v20": {
+      "files": 2,
+      "bytes": 2345477
+    },
+    "work/soapy-uis8910": {
+      "files": 2,
+      "bytes": 2345495
+    },
+    "work/soapysdr": {
+      "files": 215,
+      "bytes": 18449026
+    },
+    "work/unrestricted-ap": {
+      "files": 89,
+      "bytes": 7139774
+    },
+    "work/usb-scheduler": {
+      "files": 1,
+      "bytes": 27704
+    },
+    "work/usb-segments": {
+      "files": 1,
+      "bytes": 69008
+    },
+    "work/windows-toolchain": {
+      "files": 5916,
+      "bytes": 583915876
+    }
+  },
+  "extensions": {
+    ".h": 33489,
+    ".bin": 18471,
+    ".c": 12515,
+    ".json": 10234,
+    ".png": 8881,
+    "(none)": 5350,
+    ".cmake": 4572,
+    ".obj": 2703,
+    ".a": 2523,
+    ".dll": 2503,
+    ".lib": 2151,
+    ".cpp": 2129,
+    ".inf": 1949,
+    ".bmp": 1750,
+    ".py": 1741,
+    ".rst": 1539,
+    ".log": 1449,
+    ".hpp": 1336,
+    ".tab": 1283,
+    ".xml": 1204,
+    ".txt": 1080,
+    ".o": 1040,
+    ".elf": 973,
+    ".idl": 932,
+    ".exe": 918,
+    ".ld": 804,
+    ".md": 769,
+    ".s": 744,
+    ".specs": 741,
+    ".def": 643,
+    ".jsonl": 629,
+    ".nv": 574,
+    ".tcl": 547,
+    ".img": 537,
+    ".in": 496,
+    ".html": 486,
+    ".dat": 468,
+    ".mk": 461,
+    ".msg": 429,
+    ".rb": 375,
+    ".lod": 363,
+    ".gif": 363,
+    ".srcs": 337,
+    ".xmd": 276,
+    ".sh": 250,
+    ".bat": 244,
+    ".enc": 235,
+    ".ini": 202,
+    ".tcc": 202,
+    ".inc": 197,
+    ".pl": 197,
+    ".nvm": 185,
+    ".crt": 175,
+    ".map": 174,
+    ".cat": 165,
+    ".jpg": 161,
+    ".ico": 145,
+    ".npz": 143,
+    ".js": 131,
+    ".ninja": 126,
+    ".mo": 119,
+    ".pac": 117,
+    ".winmd": 109,
+    ".xcp": 108,
+    ".zip": 104,
+    ".lua": 100,
+    ".flw": 96,
+    ".props": 96,
+    ".pyc": 95,
+    ".pm": 94,
+    ".xbm": 90,
+    ".pnl": 90,
+    ".pdb": 89,
+    ".dsp": 88,
+    ".pem": 88,
+    ".xsd": 84,
+    ".tlb": 83,
+    ".vbs": 73,
+    ".rc": 69,
+    ".mak": 68,
+    ".asm": 66,
+    ".vcxproj": 65,
+    ".pyd": 65,
+    ".gz": 64,
+    ".check_cache": 63,
+    ".data": 62,
+    ".cpio": 62,
+    ".xls": 61,
+    ".mid": 61,
+    ".java": 60,
+    ".1": 58,
+    ".doc": 57,
+    ".key": 56,
+    ".ith": 54,
+    ".src": 52,
+    ".dis": 51,
+    ".rc2": 50,
+    ".dsw": 49,
+    ".mui": 49,
+    ".mof": 49,
+    ".exp": 48,
+    ".itb": 48,
+    ".targets": 47,
+    ".f": 45,
+    ".manifest": 44,
+    ".info": 43,
+    ".xcw": 42,
+    ".function": 42,
+    ".m": 41,
+    ".tpl": 41,
+    ".xpm": 39,
+    ".000": 39,
+    ".scf": 39,
+    ".yaml": 37,
+    ".vcproj": 37,
+    ".hp": 36,
+    ".am": 35,
+    ".ttf": 34,
+    ".mx": 32,
+    ".pdf": 32,
+    ".cxx": 31,
+    ".wav": 30,
+    ".sln": 29,
+    ".so": 27,
+    ".sys": 26,
+    ".inl": 25,
+    ".fs": 24,
+    ".cs": 24,
+    ".csc": 24,
+    ".ruleset": 24,
+    ".axf": 23,
+    ".mp3": 23,
+    ".dlg": 23,
+    ".before-20261026-145151-443667": 22,
+    ".before-20261026-192953-119375": 22,
+    ".before-20261026-193152-108836": 22,
+    ".before-20261026-200444-089509": 22,
+    ".before-20261027-091326-811334": 22,
+    ".before-20261027-093052-164964": 22,
+    ".before-20261027-094925-736272": 22,
+    ".before-20261027-102237-070987": 22,
+    ".before-20261027-103309-467170": 22,
+    ".7": 22,
+    ".plg": 21,
+    ".001": 20,
+    ".002": 20,
+    ".003": 20,
+    ".004": 20,
+    ".005": 20,
+    ".006": 20,
+    ".007": 20,
+    ".008": 20,
+    ".009": 20,
+    ".010": 20,
+    ".011": 20,
+    ".012": 20,
+    ".013": 20,
+    ".014": 20,
+    ".015": 20,
+    ".016": 20,
+    ".017": 20,
+    ".018": 20,
+    ".019": 20,
+    ".020": 20,
+    ".021": 20,
+    ".022": 20,
+    ".023": 20,
+    ".024": 20,
+    ".025": 20,
+    ".026": 20,
+    ".027": 20,
+    ".028": 20,
+    ".029": 20,
+    ".030": 20,
+    ".031": 20,
+    ".032": 20,
+    ".033": 20,
+    ".034": 20,
+    ".035": 20,
+    ".036": 20,
+    ".037": 20,
+    ".038": 20,
+    ".039": 20,
+    ".040": 20,
+    ".041": 20,
+    ".042": 20,
+    ".043": 20,
+    ".044": 20,
+    ".045": 20,
+    ".046": 20,
+    ".047": 20,
+    ".snapshot": 20,
+    ".yml": 19,
+    ".htm": 19,
+    ".sed": 18,
+    ".i64": 18,
+    ".fsc": 18,
+    ".cmd": 16,
+    ".fc32": 16,
+    ".la": 16,
+    ".0": 15,
+    ".f90": 15,
+    ".conf": 15,
+    ".tm": 15,
+    ".css": 14,
+    ".ncb": 14,
+    ".opt": 14,
+    ".before-20261027-150606-498207": 14,
+    ".raw": 14,
+    ".aps": 14,
+    ".real": 13,
+    ".2": 13,
+    ".cur": 13,
+    ".new": 12,
+    ".vim": 12,
+    ".rh": 12,
+    ".plist": 11,
+    ".config": 11,
+    ".x": 11,
+    ".xbn": 11,
+    ".xn": 11,
+    ".xr": 11,
+    ".xu": 11,
+    ".deb": 11,
+    ".lex": 11,
+    ".cab": 11,
+    ".pbxproj": 10,
+    ".cc": 10,
+    ".vsmacros": 10,
+    ".xc": 10,
+    ".xd": 10,
+    ".xdc": 10,
+    ".xdw": 10,
+    ".xs": 10,
+    ".xsc": 10,
+    ".xsw": 10,
+    ".xw": 10,
+    ".expected": 10,
+    ".lnt": 10,
+    ".filters": 10,
+    ".m4": 9,
+    ".patch": 9,
+    ".itcl": 9,
+    ".pptx": 9,
+    ".fmk": 9,
+    ".im": 8,
+    ".bak": 8,
+    ".der": 8,
+    ".install": 8,
+    ".before-20261028-095121-393563": 8,
+    ".org": 8,
+    ".wlua": 8,
+    ".prj": 8,
+    ".db": 8,
+    ".csv": 8,
+    ".atd": 8,
+    ".clw": 8,
+    ".coef": 8,
+    ".dot": 7,
+    ".d": 7,
+    ".ilk": 7,
+    ".spec": 7,
+    ".xe": 7,
+    ".id0": 7,
+    ".id1": 7,
+    ".nam": 7,
+    ".til": 7,
+    ".csr": 7,
+    ".old": 7,
+    ".hm": 7,
+    ".ps1": 7,
+    ".csh": 6,
+    ".vocsrcs": 6,
+    ".pch": 6,
+    ".y": 6,
+    ".rar": 6,
+    ".7z": 6,
+    ".eps": 6,
+    ".xce": 6,
+    ".xdce": 6,
+    ".xde": 6,
+    ".xdwe": 6,
+    ".xsce": 6,
+    ".xse": 6,
+    ".xswe": 6,
+    ".xwe": 6,
+    ".ntac": 6,
+    ".swf": 6,
+    ".5": 6,
+    ".cfp": 6,
+    ".before-20261028-130036-157143": 6,
+    ".ver": 6,
+    ".hxx": 6,
+    ".msi": 6,
+    ".url": 6,
+    ".doxyfile": 5,
+    ".contiki": 5,
+    ".build": 5,
+    ".docx": 5,
+    ".cu": 5,
+    ".pfx": 5,
+    ".el": 5,
+    ".dtd": 5,
+    ".cfg": 5,
+    ".id2": 5,
+    ".svg": 5,
+    ".xlsx": 5,
+    ".travis": 5,
+    ".suo": 5,
+    ".dmb": 4,
+    ".pmw": 4,
+    ".ac": 4,
+    ".sha1": 4,
+    ".strings": 4,
+    ".nib": 4,
+    ".l": 4,
+    ".properties": 4,
+    ".woff": 4,
+    ".chm": 4,
+    ".u8": 4,
+    ".3": 4,
+    ".pc": 4,
+    ".jar": 4,
+    ".bfd": 4,
+    ".hi": 4,
+    ".irf": 4,
+    ".sf2": 4,
+    ".ind": 4,
+    ".pbs": 4,
+    ".vsd": 4,
+    ".before-20261029-090940-929913": 4,
+    ".vwl": 4,
+    ".pcm": 3,
+    ".dylib": 3,
+    ".129": 3,
+    ".fmt": 3,
+    ".opensslconf": 3,
+    ".sha224": 3,
+    ".sha256": 3,
+    ".sha384": 3,
+    ".sha512": 3,
+    ".gen": 3,
+    ".cbp": 3,
+    ".c_shipped": 3,
+    ".res": 3,
+    "._pth": 3,
+    ".mask": 3,
+    ".terms": 3,
+    ".cf32": 3,
+    ".repository": 3,
+    ".6": 3,
+    ".idc": 3,
+    ".modules": 3,
+    ".hairy": 3,
+    ".simple": 3,
+    ".profile": 3,
+    ".uxml": 3,
+    ".urapk": 3,
+    ".al": 3,
+    ".bk": 3,
+    ".ink": 3,
+    ".tra": 3,
+    ".fgq": 3,
+    ".desc": 3,
+    ".psd1": 3,
+    ".mftx": 3,
+    ".tmf": 3,
+    ".tsp": 3,
+    ".man": 3,
+    ".gradle": 3,
+    ".h--": 2,
+    ".stackdump": 2,
+    ".awk": 2,
+    ".hnnn": 2,
+    ".gperf": 2,
+    ".default": 2,
+    ".bsd": 2,
+    ".gpl": 2,
+    ".libcoap": 2,
+    ".sym": 2,
+    ".etsi_iot": 2,
+    ".sample": 2,
+    ".cocci": 2,
+    ".yuv": 2,
+    ".f32": 2,
+    ".nonsync": 2,
+    ".depend": 2,
+    ".layout": 2,
+    ".session": 2,
+    ".mm": 2,
+    ".lnk": 2,
+    ".hh": 2,
+    ".4": 2,
+    ".toc": 2,
+    ".gold": 2,
+    ".payload": 2,
+    ".typed": 2,
+    ".bash": 2,
+    ".amr": 2,
+    ".tl": 2,
+    ".xlsm": 2,
+    ".i": 2,
+    ".dmp": 2,
+    ".rlog": 2,
+    ".ppt": 2,
+    ".logel": 2,
+    ".tlh": 2,
+    ".tli": 2,
+    ".ixx": 2,
+    ".xaml": 2,
+    ".acf": 2,
+    ".rtf": 2,
+    ".kt": 2,
+    ".before-20261029-123143-569313": 2,
+    ".h16": 2,
+    ".proto": 1,
+    ".debug": 1,
+    ".compress": 1,
+    ".device": 1,
+    ".display": 1,
+    ".features": 1,
+    ".sensor": 1,
+    ".sim": 1,
+    ".touch": 1,
+    ".font": 1,
+    ".gb": 1,
+    ".lang": 1,
+    ".multitap": 1,
+    ".reverie": 1,
+    ".smart": 1,
+    ".h-": 1,
+    ".h_": 1,
+    ".c_": 1,
+    ".c-": 1,
+    ".c+": 1,
+    ".pub": 1,
+    ".3des": 1,
+    ".aes128": 1,
+    ".aes192": 1,
+    ".aes256": 1,
+    ".des": 1,
+    ".psk": 1,
+    ".pubkey": 1,
+    ".cert_type": 1,
+    ".key_usage": 1,
+    ".ku-ct": 1,
+    ".md4": 1,
+    ".md5": 1,
+    ".objc": 1,
+    ".xib": 1,
+    ".xcworkspacedata": 1,
+    ".xbox360": 1,
+    ".guess": 1,
+    ".sub": 1,
+    ".vdproj": 1,
+    ".tinydtls": 1,
+    ".ecc": 1,
+    ".jpeg": 1,
+    ".elf-bcpu": 1,
+    ".map-bcpu": 1,
+    ".glade": 1,
+    ".warning": 1,
+    ".xm": 1,
+    ".gprs_a9": 1,
+    ".supp": 1,
+    ".dict": 1,
+    ".bu": 1,
+    ".uf": 1,
+    ".uu": 1,
+    ".readme": 1,
+    ".hex": 1,
+    ".configure": 1,
+    ".info-1": 1,
+    ".info-2": 1,
+    ".33": 1,
+    ".cache": 1,
+    ".cross": 1,
+    ".err": 1,
+    ".lz77": 1,
+    ".bi": 1,
+    ".pid": 1,
+    ".rules": 1,
+    ".third-party": 1,
+    ".verify": 1,
+    ".esp8266": 1,
+    ".defs": 1,
+    ".particle": 1,
+    ".riot": 1,
+    ".zephyr": 1,
+    ".pro": 1,
+    ".orig": 1,
+    ".3gp": 1,
+    ".ogg": 1,
+    ".jdx": 1,
+    ".mss": 1,
+    ".idx": 1,
+    ".df2": 1,
+    ".ucss": 1,
+    ".dic": 1,
+    ".avi": 1,
+    ".iab": 1,
+    ".iad": 1,
+    ".imb": 1,
+    ".imd": 1,
+    ".pfi": 1,
+    ".po": 1,
+    ".pr": 1,
+    ".pri": 1,
+    ".ps": 1,
+    ".searchresults": 1,
+    ".wk3": 1,
+    ".cnf": 1,
+    ".pw": 1,
+    ".multibin": 1,
+    ".idb": 1,
+    ".c_orig": 1,
+    ".em": 1,
+    ".ix": 1,
+    ".hdi": 1,
+    ".cmm": 1,
+    ".ocx": 1,
+    ".m3u": 1,
+    ".u3": 1,
+    ".gdb": 1,
+    ".z": 1,
+    ".pstats": 1,
+    ".hlp": 1,
+    ".odl": 1,
+    ".hlsli": 1,
+    ".clang": 1,
+    ".hello": 1,
+    ".inx": 1,
+    ".desktop": 1,
+    ".keystore": 1,
+    ".manpages": 1,
+    ".state": 1,
+    ".debian": 1,
+    ".xa": 1,
+    ".xer": 1
+  },
+  "largest_files": [
+    {
+      "path": "archive/legacy-2026-10-23/inputs/archives/rda8910_csdk.zip",
+      "bytes": 335012684
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/ap-reusable-publication-race-v1/thirty-seconds/transport/ap-reusable-20261023T090045-rx.bin",
+      "bytes": 234013003
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-ap-bw0/upper-30s/transport/rf-terminal-20261020T101128-rx.bin",
+      "bytes": 233735314
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/ap-reusable-publication-race-v1/thirty-seconds/epoch-13/ap-reusable-20261023T090045.data.bin",
+      "bytes": 230320000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-ap-bw0/upper-30s/captures/rf-terminal-20261020T101128.data.bin",
+      "bytes": 229952000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_BT_TTS_VOLTE_map/modemgen/cat1_UIS8915DM_BB_RF_SS_cus/cpbin/cp.axf.i64",
+      "bytes": 219584509
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/reference-source/rda8810/modem-cross-compiler-linux.tar.gz",
+      "bytes": 171641796
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/rf-runtime-analysis/ida-finite-rx/cp-sdk-review.i64",
+      "bytes": 167281101
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/sdk-hotelec-585a0c8-novolte/runs/2026-10-12-offline-analysis/cp-sysram.i64",
+      "bytes": 167281101
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_BT_TTS_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf.i64",
+      "bytes": 166304175
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/rf-reconstruction/ida/cp-reference.i64",
+      "bytes": 166281077
+    },
+    {
+      "path": "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf.i64",
+      "bytes": 166281077
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/firmware/sdk/hotelec-585a0c8/novolte/cpbin/cp.axf.i64",
+      "bytes": 164683499
+    },
+    {
+      "path": "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf.id0",
+      "bytes": 150396928
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/rf-runtime-analysis/ida-finite-rx/cp-sdk-review.id0",
+      "bytes": 148799488
+    },
+    {
+      "path": "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/ucrt/arm64/libucrtd.lib",
+      "bytes": 89891698
+    },
+    {
+      "path": "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/ucrt/arm64/libucrt.lib",
+      "bytes": 87066288
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-ap-bw0/hardware/transport/rf-terminal-20261020T100914-rx.bin",
+      "bytes": 77677742
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-ap-bw0/lower-10s/transport/rf-terminal-20261020T101552-rx.bin",
+      "bytes": 77677714
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-ap-bw0/hardware/captures/rf-terminal-20261020T100914.data.bin",
+      "bytes": 76352000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-ap-bw0/lower-10s/captures/rf-terminal-20261020T101552.data.bin",
+      "bytes": 76352000
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/12.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73875852
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/38.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73854276
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/35.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73854180
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/37.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73854152
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/36.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73854144
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/41.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73824040
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/10.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73778872
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/34.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73773408
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/33.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73773124
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/30.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73754340
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/31.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73754256
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/32.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73753864
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/8.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73690780
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/oneos/7.0/UWS6121E_UWS6121E_WC_1H00_NoGNSS_USER.axf",
+      "bytes": 73690068
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/archives/CORE_V4035.zip",
+      "bytes": 70828772
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS/l4.a",
+      "bytes": 70250396
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_rel/l4.a",
+      "bytes": 70245356
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_USER/l4.a",
+      "bytes": 70084856
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS/tcpip.a",
+      "bytes": 63518302
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_rel/tcpip.a",
+      "bytes": 63506370
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_USER/tcpip.a",
+      "bytes": 63277202
+    },
+    {
+      "path": "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/lib/libppl_c.a",
+      "bytes": 62989548
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-triggered-v1/b3/capture/transport/rf-terminal-20261023T142622902145-rx.bin",
+      "bytes": 62195966
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-matched-control-v1/b3-retry/capture/transport/rf-terminal-20261023T150808463806-rx.bin",
+      "bytes": 62017166
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b5-native-service-v1/capture/transport/rf-terminal-20261023T180815884187-rx.bin",
+      "bytes": 62009022
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-prethreshold-980-v1/capture/transport/rf-terminal-20261023T174249491439-rx.bin",
+      "bytes": 61992758
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-native-lowband-v1/capture/transport/rf-terminal-20261023T151038418610-rx.bin",
+      "bytes": 61984630
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-prethreshold-960-v1/capture/transport/rf-terminal-20261023T174422826272-rx.bin",
+      "bytes": 61984630
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-prethreshold-970-v1/capture/transport/rf-terminal-20261023T174623063913-rx.bin",
+      "bytes": 61984630
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-reference-level-v1/gain20/capture/transport/rf-terminal-20261023T180425887961-rx.bin",
+      "bytes": 61984630
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-triggered-v1/b8/capture/transport/rf-terminal-20261023T142755303896-rx.bin",
+      "bytes": 61984630
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-guarded-native-v1/capture/transport/rf-terminal-20261023T153145896246-rx.bin",
+      "bytes": 61961062
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-guarded-1090-v1/capture/transport/rf-terminal-20261023T153255954071-rx.bin",
+      "bytes": 61952934
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-triggered-v1/b3/capture/captures/rf-terminal-20261023T142622902145.data.bin",
+      "bytes": 61104000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-matched-control-v1/b3-retry/capture/captures/rf-terminal-20261023T150808463806.data.bin",
+      "bytes": 60928000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b5-native-service-v1/capture/captures/rf-terminal-20261023T180815884187.data.bin",
+      "bytes": 60920000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-prethreshold-980-v1/capture/captures/rf-terminal-20261023T174249491439.data.bin",
+      "bytes": 60904000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-native-lowband-v1/capture/captures/rf-terminal-20261023T151038418610.data.bin",
+      "bytes": 60896000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-prethreshold-960-v1/capture/captures/rf-terminal-20261023T174422826272.data.bin",
+      "bytes": 60896000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-prethreshold-970-v1/capture/captures/rf-terminal-20261023T174623063913.data.bin",
+      "bytes": 60896000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-reference-level-v1/gain20/capture/captures/rf-terminal-20261023T180425887961.data.bin",
+      "bytes": 60896000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-triggered-v1/b8/capture/captures/rf-terminal-20261023T142755303896.data.bin",
+      "bytes": 60896000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-guarded-native-v1/capture/captures/rf-terminal-20261023T153145896246.data.bin",
+      "bytes": 60872000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/b8-guarded-1090-v1/capture/captures/rf-terminal-20261023T153255954071.data.bin",
+      "bytes": 60864000
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS/app_main.lib",
+      "bytes": 60248134
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_USER/app_main.lib",
+      "bytes": 58594408
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/sdk-hotelec-585a0c8-novolte/runs/2026-10-12-offline-analysis/ap-csdk.elf.i64",
+      "bytes": 55806786
+    },
+    {
+      "path": "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/CSDK_RDA8910.elf.i64",
+      "bytes": 55593803
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/repositories/air724u-csdk-nicephil/doc/secure boot使能操作手册/Simba.rar",
+      "bytes": 55013330
+    },
+    {
+      "path": "inputs/repositories/rda8910-csdk-hotelec/doc/secure boot使能操作手册/Simba.rar",
+      "bytes": 55013330
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/MS_MMI_Main/source/winsimulator_tp/win_platform/bin/disk/sd card.img",
+      "bytes": 53477376
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/rf-runtime-analysis/ida-finite-rx/cp-runtime.elf.i64",
+      "bytes": 52367540
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/firmware/sdk/hotelec-585a0c8/volte/cpbin/cp.axf",
+      "bytes": 51567456
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/repositories/air724u-csdk-nicephil/core/iot_SDK_720U_BT_TTS_VOLTE_map/modemgen/cat1_UIS8915DM_BB_RF_SS_cus/cpbin/cp.axf",
+      "bytes": 51567456
+    },
+    {
+      "path": "archive/legacy-2026-10-23/inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_BT_TTS_VOLTE_map/modemgen/cat1_UIS8915DM_BB_RF_SS_cus/cpbin/cp.axf",
+      "bytes": 51567456
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/rf-reconstruction/python/unicorn/lib/unicorn.lib",
+      "bytes": 49894000
+    },
+    {
+      "path": "work/host-test-deps/unicorn/lib/unicorn.lib",
+      "bytes": 49894000
+    },
+    {
+      "path": "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/CSDK_RDA8910.elf.i64.crash-20261014T003853Z-5166-728083/CSDK_RDA8910.elf.id0",
+      "bytes": 49299456
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/rx1090-b8-v1/b210-passive.fc32",
+      "bytes": 48000000
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/sdk-hotelec-585a0c8-novolte/disassembly/cp/cp.axf.disasm.txt",
+      "bytes": 47892777
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS/daps.a",
+      "bytes": 46851698
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_rel/daps.a",
+      "bytes": 46825042
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/UWS6121E_WC_1H00_NoGNSS_USER/daps.a",
+      "bytes": 46649146
+    },
+    {
+      "path": "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/libucrtd.lib",
+      "bytes": 44183354
+    },
+    {
+      "path": "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/ucrt/x64/libucrt.lib",
+      "bytes": 43336396
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/lib/modem/UWS6121E_MODEM/UWS6121_cat1bis_volte_nognss/cp.axf",
+      "bytes": 41733376
+    },
+    {
+      "path": "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/ucrt/x86/libucrt.lib",
+      "bytes": 40566660
+    },
+    {
+      "path": "archive/legacy-2026-10-23/work/rf-runtime-analysis/ida-finite-rx/cp-runtime-rw.elf.id0",
+      "bytes": 40321024
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/MS_MMI_Main/source/resource/mmi_res_240x240_child_circular/preload_img/preload_le.img",
+      "bytes": 39997440
+    },
+    {
+      "path": "inputs/repositories/ZW217_W19_V4.1_yisai/tools/DEBUG_TOOL/MovieEncoder/Setup/MovieEncode Setup.exe",
+      "bytes": 39874930
+    },
+    {
+      "path": "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/ucrt/x86/libucrtd.lib",
+      "bytes": 39788096
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-raw-sweep/rf-core-feedback/hardware/baseline/00-raw-23300000/transport/rf-terminal-20261020T113243-rx.bin",
+      "bytes": 38835122
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-raw-sweep/rf-core-feedback/hardware/range-feedback/00-raw-20000000/transport/rf-terminal-20261020T113442-rx.bin",
+      "bytes": 38835122
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-raw-sweep/rf-core-feedback/hardware/range-feedback/01-raw-26000000/transport/rf-terminal-20261020T113509-rx.bin",
+      "bytes": 38826994
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-raw-sweep/rf-core-feedback/hardware/range-feedback/02-raw-24500000/transport/rf-terminal-20261020T113537-rx.bin",
+      "bytes": 38826994
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-raw-sweep/rf-core-feedback/hardware/range-feedback/03-raw-23300000/transport/rf-terminal-20261020T113605-rx.bin",
+      "bytes": 38826994
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-21-rf-coefficient-probe/hardware/transport/rf-terminal-20261021T095730-rx.bin",
+      "bytes": 38822054
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-rf-cp-bridge/sfr-snapshot/hardware/transport/rf-terminal-20261020T165439-rx.bin",
+      "bytes": 38820338
+    },
+    {
+      "path": "archive/legacy-2026-10-23/records/experiments/2026-10-20-raw-sweep/hardware/frequency-matrix/03-raw-22000000/transport/rf-terminal-20261020T111917-rx.bin",
+      "bytes": 38817962
+    }
+  ],
+  "license_notice_paths": [
+    "LICENSE-STATUS.md",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/nanopb/core/LICENSE.txt",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/edp/src/LICENSE",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/libcoap/src/obgm_libcoap/COPYING",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/libcoap/src/obgm_libcoap/LICENSE.BSD",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/libcoap/src/obgm_libcoap/LICENSE.GPL",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/liblwm2m/src/wakaama/core/er-coap-13/LICENSE",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/liblwm2m/src/wakaama/notice.html",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/lwip/COPYING",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/mbedtls/src/mbedtls/LICENSE",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/mupnp/src/mupnp/COPYING",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/mupnp/src/mupnp/debian/copyright",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/mupnp/src/mupnp/std/av/COPYING",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/mupnp/src/mupnp/std/av/sample/upnpavserver/youtube/License",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/net/tinydtls/src/tinydtls/LICENSE",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/platform/service/spiffs/spiffs_core/LICENSE",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/toolpool/usb_cdc_driver/x64/driver/amd64/NOTICE.txt",
+    "archive/consolidation-2026-10-28/inputs/repositories/rda8955-w17.44-idh/soft/toolpool/usb_cdc_driver/x86/driver/i386/NOTICE.txt",
+    "archive/consolidation-2026-10-28/outputs/host/sdrpp/COPYING",
+    "archive/host-release-2026-10-29/before-b3-coverage/sdrpp/COPYING",
+    "archive/host-release-2026-10-29/sdrpp-before-retune/COPYING",
+    "archive/legacy-2026-10-23/inputs/repositories/air724u-csdk-nicephil/LICENSE",
+    "archive/legacy-2026-10-23/inputs/repositories/air724u-csdk-nicephil/prebuilts/win32/python3/tcl/tk8.6/license.terms",
+    "archive/legacy-2026-10-23/inputs/repositories/aithinker-gprs_c_sdk/LICENSE",
+    "archive/legacy-2026-10-23/inputs/repositories/aithinker-gprs_c_sdk/libs/cjson/src/LICENSE",
+    "archive/legacy-2026-10-23/inputs/repositories/aithinker-gprs_c_sdk/libs/cjson/src/tests/unity/docs/license.txt",
+    "archive/legacy-2026-10-23/inputs/repositories/ml302-xupenghu/LICENSE",
+    "archive/legacy-2026-10-23/inputs/repositories/ml302-xupenghu/src/demo/dm/ciscore/er-coap-13/LICENSE",
+    "archive/legacy-2026-10-23/inputs/repositories/ml302-xupenghu/tools/private/python3/intelhex/LICENSE.txt",
+    "archive/legacy-2026-10-23/inputs/repositories/ml302-xupenghu/tools/private/python3/tcl/tk8.6/license.terms",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/share/doc/mpfr/COPYING",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/share/doc/mpfr/COPYING.LIB",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/share/doc/ppl/COPYING",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/share/doc/pwl/COPYING",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/share/insight1.0/help/license.html",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/cross-compiler/share/insight1.0/help/trace/license.html",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/i386root/root/usr/share/doc/libc6/copyright",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/i386root/root/usr/share/doc/zlib1g/copyright",
+    "archive/legacy-2026-10-23/tools/toolchains/rda/mips231/usr/share/doc/binutils-mips-linux-gnu/copyright",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/JEE/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/JEE/deps/jerryscript/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/JEE/deps/jerryscript/targets/esp8266/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/MS_MMI_Main/source/mmi_app/app/rtmp/api/librtmp/COPYING",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/MS_MMI_Main/source/resource/mmi_res_240x240_child_circular/common/MMI_RES_DEFAULT/IMAG/mainmenu_slim/Z903B/notice.png",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/MS_MMI_Main/source/resource/mmi_res_240x240_child_circular/zdt/MMI_RES_DEFAULT/IMAG/mainmenu/notice.png",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/alipay/alimbedtls/src/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/libcoap/src/obgm_libcoap/COPYING",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/libcoap/src/obgm_libcoap/LICENSE.BSD",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/libcoap/src/obgm_libcoap/LICENSE.GPL",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/liblwm2m/src/wakaama/core/er-coap-13/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/liblwm2m/src/wakaama/notice.html",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/mbedtls/V206/src/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/mqtt/src/paho.mqtt.c-master/LICENSE",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/Third-party/mqtt/src/paho.mqtt.c-master/notice.html",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/common/nv_parameters/ProductionParam/license.nvm",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/halo_rec/keys/license_key.c",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/halo_rec/keys/license_key.h",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/make/make_cmd/dtools/linux/fota-cli-xenial/setting/gdb/arm-gdb/share/insight1.0/help/license.html",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/make/make_cmd/dtools/linux/fota-cli-xenial/setting/gdb/arm-gdb/share/insight1.0/help/trace/license.html",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/make/perl_script/ResGen_New/notice.txt",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/tools/DEBUG_TOOL/ArmTracer/Dll/License.dat",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/tools/DEBUG_TOOL/ArmTracer/Dll/LicenseDll.dll",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/tools/DEBUG_TOOL/ArmTracer/Dll/LicenseDll.lib",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/tools/DEBUG_TOOL/ArmTracer/ExportBSD/Dll/License.dat",
+    "inputs/repositories/ZW217_W19_V4.1_yisai/tools/DEBUG_TOOL/ArmTracer/ExportBSD/Dll/LicenseDll.dll",
+    "inputs/repositories/rda8910-csdk-hotelec/LICENSE",
+    "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/python3/tcl/tk8.6/license.terms",
+    "outputs/host/sdrpp/COPYING",
+    "work/github-source-review/LICENSE-STATUS.md",
+    "work/sdrpp/msvc-downloader/LICENSE.txt",
+    "work/sdrpp/msvc/Windows Kits/10/Include/10.0.26100.0/cppwinrt/LICENSE.txt",
+    "work/sdrpp/msvc/Windows Kits/10/Include/10.0.26100.0/um/LicenseProtection.h",
+    "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/um/arm64/LicenseProtection.Lib",
+    "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/um/x64/LicenseProtection.Lib",
+    "work/sdrpp/msvc/Windows Kits/10/Lib/10.0.26100.0/um/x86/LicenseProtection.Lib",
+    "work/sdrpp/source/core/libcorrect/LICENSE",
+    "work/sdrpp/source/license",
+    "work/sdrpp/source/misc_modules/discord_integration/discord-rpc/LICENSE",
+    "work/sdrpp/source/source_modules/sddc_source/libsddc/license",
+    "work/soapysdr/source/LICENSE_1_0.txt",
+    "work/soapysdr/source/debian/copyright",
+    "work/windows-toolchain/root/usr/share/doc/gcc-mingw-w64-base/copyright",
+    "work/windows-toolchain/root/usr/share/doc/mingw-w64-common/copyright",
+    "work/windows-toolchain/root/usr/share/doc/mingw-w64-x86-64-dev/copyright"
+  ],
+  "skipped_links": [],
+  "errors": [
+    {
+      "path": "C:/Projects/UIS8910-SDR\\archive\\legacy-2026-10-23\\work\\rf-reconstruction\\ida\\cp-reference.i64.crash-20261016T001026Z-4300-193800",
+      "error": "PermissionError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\archive\\legacy-2026-10-23\\work\\sdk-hotelec-585a0c8-novolte\\runs\\2026-10-12-offline-analysis\\cp-sysram.i64.crash-20261023T062230Z-20220-273500",
+      "error": "PermissionError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\inputs\\repositories\\rda8910-csdk-hotelec\\core\\iot_SDK_720U_map\\CSDK_RDA8910.elf.i64.crash-20261019T060752Z-26388-385200",
+      "error": "PermissionError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\inputs\\repositories\\rda8910-csdk-hotelec\\core\\iot_SDK_720U_map\\modemgen\\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus\\cpbin\\cp.axf.i64.crash-20261019T055312Z-26388-342300",
+      "error": "PermissionError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\inputs\\repositories\\rda8910-csdk-hotelec\\core\\iot_SDK_720U_map\\modemgen\\cat1_UIS8915DM_BB_RF_SS_NoVolte_cus\\cpbin\\cp.bin.i64.crash-20261019T061157Z-26388-016800",
+      "error": "PermissionError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\work\\windows-toolchain\\root\\usr\\share\\doc\\g++-mingw-w64-x86-64-posix",
+      "error": "OSError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\work\\windows-toolchain\\root\\usr\\share\\doc\\gcc-mingw-w64-x86-64-posix",
+      "error": "OSError"
+    },
+    {
+      "path": "C:/Projects/UIS8910-SDR\\work\\windows-toolchain\\root\\usr\\share\\doc\\gcc-mingw-w64-x86-64-posix-runtime",
+      "error": "OSError"
+    }
+  ]
+}

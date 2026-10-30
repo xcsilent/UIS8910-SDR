@@ -1,0 +1,84 @@
+{
+  "role": "Current host release; Auto routing is shared by Windows, SoapySDR and SDR++.",
+  "components": {
+    "windows": "windows",
+    "sdrpp": "sdrpp",
+    "soapy": "soapy",
+    "tune": "tune"
+  },
+  "artifacts": [
+    {
+      "path": "outputs/host/windows/libsdr_usb.a",
+      "sha256": "88125c3881c6c2d10298c2620bd61da834a4ec0c3f0b0b026fd5dc2765bb6605"
+    },
+    {
+      "path": "outputs/host/windows/sdr_receive.exe",
+      "sha256": "ff206ec66d031a0444534f52d1f8289857e942edeb07ebfdb13970c57392aee8"
+    },
+    {
+      "path": "outputs/host/windows/sdr_usb.dll",
+      "sha256": "015a50e6c0a4277644ee21fdd57dc72b89fff90806f4b9c4c2b0a7975069bd9c"
+    },
+    {
+      "path": "outputs/host/sdrpp/sdr_usb.dll",
+      "sha256": "9b8a0b56dfa9cf8f5f5fd88d5ee69098af30dd857ff41a3bc1f7294d13052f08"
+    },
+    {
+      "path": "outputs/host/sdrpp/uis8910_source.dll",
+      "sha256": "45f3007302a783f927206278c21010ef1a563c27b008c4d8577bd27696e71953"
+    },
+    {
+      "path": "outputs/host/soapy/libSoapySDR.dll",
+      "sha256": "4216a6d4268fb356a25b92e6f88bab45737c4126621a11f3f9bf7531a40c11d5"
+    },
+    {
+      "path": "outputs/host/soapy/libwinpthread-1.dll",
+      "sha256": "db1a0fc43ab2f0f8d9c87712567f79601b5f868b9bed514d3335f9016de692ec"
+    },
+    {
+      "path": "outputs/host/soapy/sdr_usb.dll",
+      "sha256": "9b8a0b56dfa9cf8f5f5fd88d5ee69098af30dd857ff41a3bc1f7294d13052f08"
+    },
+    {
+      "path": "outputs/host/soapy/soapy_receive_probe.exe",
+      "sha256": "59e4f14655b80876a31716aa9984c4dd3d6de19d469026f947cec55ec3462c15"
+    },
+    {
+      "path": "outputs/host/soapy/SoapySDRUtil.exe",
+      "sha256": "9cda9e984411523a243b199a28a1d5276c9161145a7e9241add2f7ee08e41181"
+    },
+    {
+      "path": "outputs/host/soapy/uis8910Support.dll",
+      "sha256": "75abd129fe7833c8723cec98e4c05321f9af522ddc95219c53f46ee3adf90adf"
+    },
+    {
+      "path": "outputs/host/tune/sdr_tune_benchmark.exe",
+      "sha256": "f7c64d815bc5085270c66e2b085b4c2820a37d81421adedd728e0ee5ace6f107"
+    },
+    {
+      "path": "outputs/host/tune/sdr_usb.dll",
+      "sha256": "073835085da757ddc75f6ab7e36ac6bcb25e9ff2aeadfde3a822ff4bcc5a3d07"
+    }
+  ],
+  "external_installation_changed": true,
+  "historical_installation_evidence": "archive/consolidation-2026-10-28/outputs/host/sdrpp-delivery/installation.json",
+  "sdrpp_hardware_evidence": "records/host/sdrpp-b3-coverage-auto.json",
+  "installed_sdrpp_plugin_matches_delivery": true,
+  "installed_plugin_identity_scope": "Portable plugin and paired runtime match current release hashes; equivalent isolated real-core BW0/Auto/STOP-drain verified. Desktop visual acceptance remains abandoned.",
+  "soapy_hardware_evidence": "records/host/soapy-b3-coverage-auto.json",
+  "rapid_retune_evidence": "records/host/sdrpp-b3-coverage-retune.json",
+  "coverage_scope": "Auto user surface uses the shared frequency table and hides manual RF route selection. Current RF evidence includes B40 2400?2800MHz grid and B3/B5/B8 representative points; physical continuity remains conditional.",
+  "rollback": "archive/host-release-2026-10-29/before-b3-coverage",
+  "current_installation_evidence": "records/host/sdrpp-portable-release-delivery-20261030.json",
+  "windows_realtime_release": {
+    "evidence": "records/communication/host-release.json",
+    "rollback": "archive/host-release-2026-10-30/before-realtime-windows",
+    "capabilities": [
+      "binary stdout IQ; JSON on stderr",
+      "explicit finite STOP and drain",
+      "until-STOP continuous capture"
+    ],
+    "scope": "Windows DLL/CLI only; Soapy/SDR++/tune retain their separately listed artifacts. No firmware update."
+  },
+  "sdrpp_installation_hardware_evidence": "records/host/sdrpp-portable-release-sync-20261030.json"
+}

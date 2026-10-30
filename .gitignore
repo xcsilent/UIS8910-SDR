@@ -1,0 +1,56 @@
+# Current external reference trees and reproducible outputs
+/inputs/repositories/*
+!/inputs/repositories/README.md
+/inputs/reference-source/*
+!/inputs/reference-source/README.md
+/work/*
+!/work/README.md
+/firmware-source-v0.1/work/
+__pycache__/
+*.pyc
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+# Large physical archives; archive source/scripts remain visible to Git
+/archive/legacy-2026-10-23/inputs/
+/archive/legacy-2026-10-23/work/
+/archive/legacy-2026-10-23/outputs/
+/archive/legacy-2026-10-23/records/experiments/
+/archive/legacy-2026-10-23/tools/toolchains/
+/archive/consolidation-2026-10-28/inputs/
+/archive/consolidation-2026-10-28/outputs/
+/archive/consolidation-2026-10-28/work/
+
+# IQ payloads are intentionally not retained; final metadata remains visible.
+
+# Local artifacts are not the public source package. Previously tracked files
+# remain tracked; use the allowlisted review export, never push this history.
+/archive/**
+!/archive/README.md
+/inputs/**
+!/inputs/README.md
+!/inputs/manifest.json
+/outputs/**
+!/outputs/firmware/
+!/outputs/firmware/current/
+!/outputs/firmware/current/manifest.json
+!/outputs/firmware/v0.1/
+!/outputs/firmware/v0.1/build.json
+!/outputs/host/
+!/outputs/host/manifest.json
+*.raw
+*.fc32
+*.cs16
+*.iq
+*.pac
+*.dll
+*.exe
+*.elf
+*.axf
+
+# Explicit v0.1 firmware/platform input for the buildable release package.
+# Review redistribution terms before publishing, see build-support/README.md.
+!/outputs/firmware/v0.1/Air724UG_SDR_v0.1.pac

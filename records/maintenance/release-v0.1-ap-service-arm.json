@@ -1,0 +1,691 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "elf": "work/build-v0.1/ap.elf",
+  "elf_sha256": "4f31ca0e284415f4b0e7a1100a5debd424f9a1de1fffae086683bfe7578c1c7f",
+  "scope": "Linked six-slot AP worker/control operation52 with modeled CP producer and synchronous UDC. Three timed sessions drain two slots each; queued rejection, saturation, generation and active scratch guards. No physical DMA/cache/RF/USB proof.",
+  "sessions": [
+    {
+      "epoch": 1,
+      "bandwidth_index": 5,
+      "frequency_hz": 2000000000,
+      "whole_dropped_pairs": 37,
+      "delivered_bytes": 16384,
+      "requests_freed": 6
+    },
+    {
+      "epoch": 2,
+      "bandwidth_index": 0,
+      "frequency_hz": 2330000000,
+      "whole_dropped_pairs": 4294967295,
+      "delivered_bytes": 16384,
+      "requests_freed": 12
+    },
+    {
+      "epoch": 3,
+      "bandwidth_index": 1,
+      "frequency_hz": 2330100000,
+      "whole_dropped_pairs": 0,
+      "delivered_bytes": 16384,
+      "requests_freed": 18
+    }
+  ],
+  "frequency_request_cases": [
+    {
+      "band": 1,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 1,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 1,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 1,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 1,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 1,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 3,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 3,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 3,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 3,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 3,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 3,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 5,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 5,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 5,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 5,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 5,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 5,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 7,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 7,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 7,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 7,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 7,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 7,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 8,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 8,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 8,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 8,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 8,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 8,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 18,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 18,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 18,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 18,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 18,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 18,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 19,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 19,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 19,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 19,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 19,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 19,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 26,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 26,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 26,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 26,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 26,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 26,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 34,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 34,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 34,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 34,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 34,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 34,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 38,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 38,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 38,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 38,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 38,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 38,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 39,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 39,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 39,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 39,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 39,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 39,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 40,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 40,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 40,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 40,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 40,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 40,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    },
+    {
+      "band": 41,
+      "frequency_hz": 100,
+      "accepted": true
+    },
+    {
+      "band": 41,
+      "frequency_hz": 1000000000,
+      "accepted": true
+    },
+    {
+      "band": 41,
+      "frequency_hz": 1447000000,
+      "accepted": true
+    },
+    {
+      "band": 41,
+      "frequency_hz": 1650000000,
+      "accepted": true
+    },
+    {
+      "band": 41,
+      "frequency_hz": 3000000000,
+      "accepted": true
+    },
+    {
+      "band": 41,
+      "frequency_hz": 4294967200,
+      "accepted": true
+    }
+  ],
+  "scheduler_policy": [
+    {
+      "bandwidth": 5,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 1
+    },
+    {
+      "bandwidth": 0,
+      "mode": "manual",
+      "wait_us": 75,
+      "epoch": 2
+    },
+    {
+      "bandwidth": 5,
+      "mode": "manual",
+      "wait_us": 75,
+      "epoch": 3
+    },
+    {
+      "bandwidth": 5,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 4
+    },
+    {
+      "bandwidth": 0,
+      "mode": "automatic",
+      "wait_us": 250,
+      "epoch": 5
+    },
+    {
+      "bandwidth": 1,
+      "mode": "automatic",
+      "wait_us": 250,
+      "epoch": 6
+    },
+    {
+      "bandwidth": 2,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 7
+    },
+    {
+      "bandwidth": 3,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 8
+    },
+    {
+      "bandwidth": 4,
+      "mode": "automatic",
+      "wait_us": 100,
+      "epoch": 9
+    }
+  ],
+  "fem_override_cases": [
+    {
+      "mode": 1,
+      "packed_mode": 1,
+      "epoch": 2
+    },
+    {
+      "mode": 2,
+      "packed_mode": 2,
+      "epoch": 3
+    },
+    {
+      "mode": 0,
+      "packed_mode": 0,
+      "epoch": 4
+    }
+  ],
+  "preload": {
+    "resident_bytes": 15572,
+    "limit_bytes": 16384,
+    "headroom_bytes": 812,
+    "cases": [
+      {
+        "case": "valid",
+        "result": 0
+      },
+      {
+        "case": "resident_oversize",
+        "result": 2
+      },
+      {
+        "case": "resident_empty",
+        "result": 2
+      },
+      {
+        "case": "control_oversize",
+        "result": 2
+      },
+      {
+        "case": "control_empty",
+        "result": 2
+      },
+      {
+        "case": "bad_entry",
+        "result": 2
+      },
+      {
+        "case": "gateway_busy",
+        "result": 5
+      },
+      {
+        "case": "gateway_abi",
+        "result": 10
+      }
+    ],
+    "scope": "Linked AP copy/range/gateway guards and configuration executed; CP initialize/permission/CRC/cache/physical launch are modeled, not verified here."
+  },
+  "dependencies": {
+    "build-support/manifest.json": "d7ad8aa0df018fc62d7ea67228b80f11474a0580512204d948de624e0a8419bc",
+    "firmware/capture/build-recipe.json": "5f79da5b28c4c24421a077ca8f4f2d43f6b5b48e2c94b594032bf3029beee069",
+    "firmware/capture/generated/control.ld": "f5c62aada9a173e0c4a38dfbc80333c8f6b07372925be9ac119a786f677c8557",
+    "firmware/capture/generated/cp_agent_expected.h": "ac7cbade6eea7a3311c89a479491ea0e2b706e4cfba754a421af7bce07e7c6d7",
+    "firmware/capture/generated/resident.ld": "b04e066adde5a6711d7052706d96cfc3b01e744a3d023c250fcc446cb6c54a55",
+    "firmware/capture/generated/rxcapt_finite_binding.h": "b1b1ae799fd1385cc6a85a91a1085a864f3e5e3f7841eba742d9824191dbe306",
+    "firmware/capture/generated/terminal_asm_binding.h": "4debd74f4d40c81a6dde6ce925220ed477162d81041a5612643ac9be67ca1af9",
+    "firmware/capture/generated/terminal_binding.h": "392d1fe81557cd29a80c18bcf9e50cba5262afc45491e48cc17cf8b4b32d6f91",
+    "firmware/capture/generated/terminal_control_binding.h": "355af6934be961af313b793810e6501049a0674a8141e7c1625ce8f00ca9d63e",
+    "firmware/capture/generated/terminal_rxcapt_core.inc": "d87b813a7746a38629ff81f90d7e59edabe68e0749722fdc038abf6ced4c182d",
+    "firmware/capture/rf_terminal_control.c": "4e24b3b7a36298c2079070442633ce5cfd9f181ef084b2dd7671b7c5704c16a1",
+    "firmware/capture/rf_terminal_rx.c": "9cc1bfcb6e58615c334651b4f1576d51f3652e8677fb71344a1a0b2172e01666",
+    "firmware/capture/rf_terminal_rx.S": "b24a454afc01191e0e63f23b7ec6b108bdbf0c2e004ec00d545228a49e22e9ef",
+    "firmware/capture/rf_terminal_service.c": "9f6bd33fffdd818c50f0ee3f0e4a29aa0958a9726336c83a8382dfe1d31ce38d",
+    "firmware/capture/rxcapt_digital_profile.h": "612f2c8af1c174c9fc084a39461f9c1047ddc0262729cf72451682449dcecb14",
+    "firmware/capture/rxcapt_fast_tune.h": "9e082d1512691318b793ff24aabbbb8f0bb5ab5d73583d2be4ec574f261d45c8",
+    "firmware/capture/rxcapt_fem_command_snapshot.h": "90e8ede883ac9ce9c80becd73789e4028f3afac6a772e4a26510fbe906e6a3c0",
+    "firmware/capture/rxcapt_fem_override.h": "68071d13ba1cc85e501c6b414fc12687a77e04c0c91ff42596912f87280e8f5e",
+    "firmware/capture/rxcapt_finite_abi.h": "a11f6c10f3a9905fb943df5c77f8ecb19a68e723394420a5b4e360d54cca7670",
+    "firmware/capture/rxcapt_lossy_pair.c": "f628b29367ac5786439900d1f1b4a1829acefe669e2a93223520d77ad40575d2",
+    "firmware/capture/rxcapt_lossy_pair.h": "209afa53277d117345e88ad489f6fb26e680c2f8fa7625d5ce9c17b1bd884ee8",
+    "firmware/capture/rxcapt_profile.c": "d0e3abf11162258d6b180cfc5c85e96f78307df8cea9f0570ec93bc0e365d3af",
+    "firmware/capture/rxcapt_profile.h": "c9f4986a9924d6ec796573895f549956b6c801bff579a6981b1f9cbeacc6faf2",
+    "firmware/capture/rxcapt_profile_nv.h": "bc460fa2b585a07edd223fb7e099393a400493811e3a1309f3d755a2e5cb1033",
+    "firmware/capture/rxcapt_raw_frequency.h": "cbcaf7db4c7bf37e8d3a2f14cfa028ae6f22ac9eb7c334786ed03202c4b727f3",
+    "firmware/capture/rxcapt_rf_coefficient_probe.h": "cc42d3ee6982991aacff95b901bba3c1107e1f142dfabe377d3496a8df5c9ee4",
+    "firmware/capture/rxcapt_rf_core_snapshot.h": "ba09d07bb430339295f9ada04a00a86c06bff0c7a889fcf12cee14c8a4ae0488",
+    "firmware/capture/rxcapt_rf_fixed_config_probe.h": "783de78bf3cfda4feae1edcab6646aca8c201a3bc5250586528a1ef1b2ffe111",
+    "firmware/capture/rxcapt_rf_phase_log.h": "7b7db86b87f7d3c8b69d84dc449cdb5ed4ec1c1c145793bd041c8062050cfb8b",
+    "firmware/capture/rxcapt_rf_status_trace.h": "9ab495c3a91ffb80fabb20ad31f37cfa0e6da91728019c5e3656bbbe3c0095d5",
+    "firmware/capture/rxcapt_rf_target_register_snapshot.h": "9bb5c95a1f4cac28e3babf94306d26e7e3279850705489358e483c214f9db08e",
+    "firmware/capture/rxcapt_rf_timer_probe.h": "532413f21dbfae9fa0dd96fa535ad6683f3629286cbbd1480d74e4a27cbae217",
+    "firmware/capture/rxcapt_ring_resident.c": "60c1cb2ab5c30664e950ca9068fbe64913f7c8316e8765a76cad9b00490a13a0",
+    "firmware/capture/rxcapt_rx_pre_profile.h": "0c6dca29edd16a8cec54d90acc6fab17a070072a425434b124787f7702318558",
+    "firmware/capture/rxcapt_stream_batch.c": "2d1ab08da9b430ec64505a55a853e2f0de137ef8ca79afe36e58382f6ee9e3bb",
+    "firmware/capture/rxcapt_stream_batch.h": "56f0ad45c64799fc9006823eb311846ed7e0305e45291ffc4a15ba17c936a821",
+    "firmware/capture/rxcapt_stream_idle.h": "d37af5a7b478cfe272fd24dfb1b7d43e30a2ef3ebbfe7f0db73db3c53a50185a",
+    "firmware/capture/rxcapt_stream_publish.c": "ff3064ff9a407319b4c7dfbff86f1b5f8a817750c4b01e559726ddb11d0a22b5",
+    "firmware/capture/rxcapt_stream_timing.h": "2b8d9656584a878e61cd29da9f9826cbf785e7564150b1c08a9c7e8bcb7caeb7",
+    "firmware/debug_monitor/ap_access.S": "38ef7657eba467db3cdf872f50824d9cb94723b9d3d1066688d090b028698ec8",
+    "firmware/debug_monitor/ap_monitor.c": "1f0d9fd86424bc158ee0b37fe95da97440cbf6afdde3276b2189c3a87363d264",
+    "firmware/debug_monitor/ap_rxcapt_reuse.inc": "673fa84bd99de88aaae2808c762d88ca811ae3b4af3a4705e058ae8e27e6eb33",
+    "firmware/debug_monitor/ap_rxcapt_stream.inc": "3b8df2bbf3ecf1b90831a424aa5d6326b394dbec13b793dcd75514e64d2e50d4",
+    "firmware/debug_monitor/CMakeLists.txt": "7ea37371a0c63798d8b77421ea25272ccac7ba34134c4138bc87b5f5945b2d8e",
+    "firmware/debug_monitor/cp_agent.c": "8bf54b08cd5217bec4ef3efd399f0e3bf3ad3014dc454f6d5f28311a01c8a67f",
+    "firmware/debug_monitor/cp_agent.ld": "5c3ab8064d4b12dfef5d68ec2e36e1aacd5ac3911a3cc1377a9c0da583f1bd37",
+    "firmware/debug_monitor/cp_gateway.S": "029dc9c401fd243e3d17e9e257281defbbf9b7a9009836a929cb9a2bdb644291",
+    "firmware/debug_monitor/debug_hash.c": "c90b6729d4d8b1e05c7ae39a334b875e49e7db1a04f8ad7ad88080b0b636075b",
+    "firmware/debug_monitor/debug_shared.h": "4d39cd02ca8d3bd03af9b21da500a5c81754cc10a29ef584a41c50e4488c9015",
+    "firmware/debug_monitor/rxcapt_reuse_protocol.h": "0d7f9684e3335ab3555094645bf797eec3986b9e70057fe2f63e01025bdfeddf",
+    "firmware/debug_monitor/rxcapt_stream_protocol.h": "d49e3297a95b2b3f917335d2128c52d16f1db0706bbb2682f4186c6779ce42db",
+    "firmware/platform/air724ug.json": "b04fbe5b9b895041f0157a09822f8e1159d65bdc3540aae1ae1e346eef652cee",
+    "firmware/rf_rebuild/README.md": "9a6fc4e08ea9bd7f710202b9c4c65872efa9972c9d24f002d691b296e22bd596",
+    "firmware/rf_rebuild/rf_bus.h": "751975e648ac2c54e77c963464c5f4abd1c27e6c0ca273a301128e7b5acf53ca",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_frequency.h": "dc0c15cc462a8a2322017a83f7f6f2db47583817e6d26631004e15ec54fb575e",
+    "firmware/rf_rebuild/rf_core_mode.c": "788c1efc32bc3f095bd8fc2fc660eecc862d9ced004c7a5baf8828e9d4098162",
+    "firmware/rf_rebuild/rf_core_mode.h": "eac07d5a7702f4538ac86bbb452f38fb799387d5e19e5d314fe51305c13b00c7",
+    "firmware/rf_rebuild/rf_core_rxon_b.c": "64cc19df7f1d29c97d54ed0625fc71f9ee73119691801583ea1586539f506505",
+    "firmware/rf_rebuild/rf_core_rxon_b.h": "ef520b8ba6f54028054d82587d64a7e664aba8141c50f7f5adc9906e8f7a1a1e",
+    "firmware/rf_rebuild/rf_core_rxon_finish.c": "073f49fa6d80fd1efc2754d3177df63127c725e780a07a1c7c2f0da90e497f63",
+    "firmware/rf_rebuild/rf_core_rxon_finish.h": "a4b17a395e270f86b3d55a3878bc73f11fb0d9f610ad60a7cf289845dea7857b",
+    "firmware/rf_rebuild/rf_core_rxon_prepare.c": "35ef326352960932ce94cf6b2e5a9b47e524afda45e5edc3615b3aa3766cf1d7",
+    "firmware/rf_rebuild/rf_core_rxon_prepare.h": "671e45d27268633da5903c9a103e89fe8435cfd101f1d030d42a541fb8036507",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c": "11fa7a54d92772930559880ad854ae4e8099de51659cb55df64b89dce3aef867",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.h": "40191a2aadf8467f951237eced49953a942e7ab88597a4ffe61cf22a797f49ba",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c": "87b56a256755bac0aed7a6d7a0da9562180ba6c4dad3da5adda4a452070818df",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.h": "6d08391d21ef5725377e17e47bc70bf06037442ccd06ffbb2a4f8a844b4028b2",
+    "firmware/rf_rebuild/rf_core_rxon_request.c": "66e524549f88b8ab0060687ffda9f09c16b68826d2b7449901c583c744c1cdc1",
+    "firmware/rf_rebuild/rf_core_rxon_request.h": "0de97ce0ef8cc6206e7cdb9b8ccbc791166b87be8ce97a972574b779650b7ea4",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "f546e38732e83b7223274972a238a57f22ba888abcff4ddd5acb309d4f962f92",
+    "firmware/rf_rebuild/rf_core_tune_flow.h": "d850c5d0785a661ee2dbdf04d5482a50db8b15bfd22ce7237fe18d91a851ba25",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3",
+    "firmware/rf_rebuild/rf_core_tune_plan.h": "dedefd2b49823e2e84ee191a237db652bae0bfb05abc620f169afd79a7390eaf",
+    "firmware/rf_rebuild/rf_frontend_nv.c": "3fb18eb1534fe0b5360407088564dc1483763cb50330c8c7818dc6b9286474f7",
+    "firmware/rf_rebuild/rf_frontend_nv.h": "73c3920da94195ba584b2d4473017a5e99d3c7b4ad1e7ca6081f63ffbb0442e8",
+    "firmware/rf_rebuild/rf_frontend_override.c": "3768ec9e6d979e347504227842e5c513a98b7b259c0fa737caa8faab0e6a8384",
+    "firmware/rf_rebuild/rf_frontend_override.h": "8eacad1170a27ebf1e2982643fa9717d45600115c619500e0460354615c40397",
+    "firmware/rf_rebuild/rfad.c": "e20cdf7f1d0640aa563f4bdee3bf087cd4aedafb691a401676730e6aa04cbb31",
+    "firmware/rf_rebuild/rfad.h": "93b39395c145247d036c76c23f9daa317e3cf03b4070f297da0efe707aaf656a",
+    "firmware/rf_rebuild/rfad_analog.c": "24b796ed3cb8251555a16ba4bb9cd5ec3ebd479e46faee0ab46fc9663df58a36",
+    "firmware/rf_rebuild/rfad_analog.h": "b606896ce4feee0ad124e981d2954767ce04c4528e3dc2dfa91dfa03d209e196",
+    "firmware/rf_rebuild/rfad_boot_inputs.c": "0c92a0e1ac4f6381e4c74a4e2688d54fe957ffc08ace1ab48ee88abc08f65702",
+    "firmware/rf_rebuild/rfad_boot_inputs.h": "70b640e37f6da212686903bd7ae6d50db00422d132bf9362140e465917ac6153",
+    "firmware/rf_rebuild/rfad_boot_memory.c": "39b9ba8969d5b7f95aa3d05334eb5ce55f4b6de9642a0ad6e9aa18066b6f2913",
+    "firmware/rf_rebuild/rfad_boot_memory.h": "ca894414c393a71c2b730d2de1492a2063d085670566e48f54721e129a80f61b",
+    "firmware/rf_rebuild/rfad_control.c": "98a2638144a90fff0688d1ad228585a05aa9adf246cd4de0744023cebe4bb772",
+    "firmware/rf_rebuild/rfad_frame_time.c": "7eaddfcbc5c331336f734fcabe08b08b172d7ea98662959db63500d5bb99189b",
+    "firmware/rf_rebuild/rfad_frame_time.h": "4b6f0f6fea6ced6c40ff86a04c55c5099b2201281f8e9b5ac8ef6073b64f2393",
+    "firmware/rf_rebuild/rfad_frequency.c": "ae635d4007b91d27b5c5b2f8ee549a3c5dc96b221b163d25d399fed15edbb5d2",
+    "firmware/rf_rebuild/rfad_memory.c": "80050ec030db29222bf2a13a736819af290c2c80bbd1d95e7fa03ddf6017689d",
+    "firmware/rf_rebuild/rfad_nv.c": "9ff8883893e1d6a75633d0b82bb6609e5227ea74c0954f1c4cf209f056dcb965",
+    "firmware/rf_rebuild/rfad_off_immediate.c": "1bc744814ee8fd82899fccc63a255dcb8a1249ad37918f8d087f9f3e3a61f65e",
+    "firmware/rf_rebuild/rfad_off_immediate.h": "e6d9ce49b2042ad21f8c4db0c434084de84633bfba54184eac52e9851603c220",
+    "firmware/rf_rebuild/rfad_power.c": "a4acbbf7f5656cde12d470966f709b9053871e9d791b2207623133717b631f15",
+    "firmware/rf_rebuild/rfad_raw_capture.c": "8963899a1b49243bfec5e066a20eca0e55059cf36422b02b1a4973cbb1503ba7",
+    "firmware/rf_rebuild/rfad_raw_capture.h": "04e26c0be9222f4c08e93960272baaa5f27dcea6274afd6643ea364298152d8a",
+    "firmware/rf_rebuild/rfad_raw_dma.c": "395798888febc316da4a4464224c80f820d92f69397a4eb6e724b4810e343c1e",
+    "firmware/rf_rebuild/rfad_raw_dma.h": "4f9855a91e0dcb20ed67bb0d4a6003275a6e945dd5039feddfa1e787e0c33d8f",
+    "firmware/rf_rebuild/rfad_rx.c": "e3fa38317560b7dc473bb4723a5e1a2f5b1ae5c96fea889f2345c32d152b9175",
+    "firmware/rf_rebuild/rfad_rx_request.c": "8d5b71e091495b61172bcf75ea9ac1b2827762d86532742b1b0922c479f0e5a6",
+    "firmware/rf_rebuild/rfad_rx_request.h": "40966b38a21f170b6175e96b01ebbe0ef4f597536dab3c5086b0c3ddfd51c758",
+    "firmware/rf_rebuild/rfad_rx_window.c": "b8d88eaa36fcc5a8859442fe577fab76feac57476db8882e11208cf6301b68e2",
+    "firmware/rf_rebuild/rfad_rx_window.h": "2210de847e437d868ca1e798e816d6d2e2f94e4926fd2c2566176318356fa09a",
+    "firmware/rf_rebuild/rfad_spi.c": "d8d277cb21b91bdef918fe165e4902f8b5350513ccb54be664a84c278d90b9e1",
+    "firmware/rf_rebuild/rfad_spi.h": "55ff05d031790964abafb9d67f168626e0b3f55129b560d76e471042230a7683",
+    "firmware/rf_rebuild/rfad_stop.c": "407f87f1bee1ced300e7fa0b58e68475b7cce85c5940942f8e06da7201dc164b",
+    "firmware/rf_rebuild/rfad_stop.h": "162dfac2c3ef7e4d88d5bda7d462956ec510bd556761fcda5464d300b9f3d457",
+    "firmware/rf_rebuild/rfad_variable.c": "31f754967fa801188deb41bf9100c12c8618b4b22be7482e7f677b596ffcb1c3",
+    "firmware/rf_rebuild/rfad_variable.h": "0dcbc1ddc567643c5c6d529f5d6cea855a6726bd716e3442bc5d424413cbc5c0",
+    "firmware/sdr_receiver/bw0_usb_service.c": "ada0b797f3620acc3053239662826d2bbcd705712644e6ed59b8cede7581266c",
+    "firmware/sdr_receiver/bw0_usb_service.h": "796bd3c822d7a1971bdf48aff1e40836bc33474ffe38e11c8df3e36d09ddda51",
+    "firmware/sdr_receiver/CMakeLists.txt": "086fc9e73d0a044e1362ddbf01d146df22e0e39fb48e4365ea888b0c39acaecd",
+    "firmware/sdr_receiver/cp_capture_bridge.c": "b6f5bd6e4540be32ed62125c8327ce3f13694980f159a1a70f68edd8737dc141",
+    "firmware/sdr_receiver/cp_capture_bridge.h": "fcc22deb7fb5e5132efe0171cff07fdbf2a8f279bc8ee8168ba4258c5dd48e6e",
+    "firmware/sdr_receiver/cp_stream_mailbox.c": "b0a50a412d6a4b1628957cce4323ad4c324b530786137ebc835245aa3541a319",
+    "firmware/sdr_receiver/cp_stream_mailbox.h": "148c4e3c577aad9c5c78f4d267543633ae2847d9c56abe36aba1751d810ece79",
+    "firmware/sdr_receiver/cp_usb_8910.c": "d4ec1229bc5b89de2f36fca719e62d7907a7d4ce8432629a6b4ba45c17671022",
+    "firmware/sdr_receiver/cp_usb_8910.h": "006ec87dba8906dc6ad6cdb82e2492eeb9f7b3df154565607d82d013f14d8cc9",
+    "firmware/sdr_receiver/cp_usb_scheduler.c": "af1f1ea49e8d3b4495d8ad03303e0a5280d69854ccd3ba9fd489fc44db4c4936",
+    "firmware/sdr_receiver/cp_usb_scheduler.h": "85b92ee8368dae9f95daa1950269183c85f18e0f4e14b0c00d6b98e9a0e716b9",
+    "firmware/sdr_receiver/cp_usb_stream.c": "df0571d9c72445e25c30c429f2f6d32e4f844c5aa2c6c5e0dc97576830121573",
+    "firmware/sdr_receiver/cp_usb_stream.h": "49734c90e8a4795dd4ba88b85453114c54583bf5175286d56c3711ddd2d06d2d",
+    "firmware/sdr_receiver/cp_usb_stream_snapshot.c": "5251a97cfc9aa5f9d125bd1aa260eeb7990edd2a718432e0265f21a1aff43871",
+    "firmware/sdr_receiver/iq_udc_adapter.c": "d15e79dbf3c0f1a3d260d0a004f9473c73fd1bedbf71621388a93f0a39f937b4",
+    "firmware/sdr_receiver/iq_udc_adapter.h": "78079fef45ac46b8c56770fbfa9a898f77a19deb4babc4bc24490b135b20c85e",
+    "firmware/sdr_receiver/iq_usb_ring.c": "6cc40f56b2c46c5f2fa223eea104587d81bf552d8dc79c959c5a136d4c8cda97",
+    "firmware/sdr_receiver/iq_usb_ring.h": "a9e78e3acfb1659e87abf4237de37f76c47f64422d44e4d6210d085366f17811",
+    "firmware/sdr_receiver/raw_usb_function.c": "8eccfd320449d03884263de7bd0070c3cb3189a49586bac55d9b4894ab9dc6c6",
+    "firmware/sdr_receiver/raw_usb_function.h": "fdbe22a81fad73cda35b486b5c8515be3c4160de9d6aadeeddc49da3b509bfb0",
+    "firmware/sdr_receiver/rf_profile.h": "d55559bad0eb214500ea00825f1208a11e02e130933705cbf6e62bdf4a2ae10a",
+    "firmware/sdr_receiver/sample_rate.h": "5c8d2e37b2c895f1174c5236c2e0447fdab0b95a59c4a7331f03652ed10505c7",
+    "firmware/sdr_receiver/udc_8910.h": "a969ba445e79a61afa17393672118ad3d8710b4130c84a556d8581f4731270a3",
+    "firmware/sdr_receiver/usb_queue_observer.h": "07b73cc4b2eef4040179e01becbd213b9eda3834d5ff168a59e8ff00eacf27bb",
+    "firmware/sdr_receiver/usb_segment_profile.c": "33f49d408213c78f9b39221c086f1c81f693cc21775e76e504b46ad7db509938",
+    "firmware/sdr_receiver/usb_segment_profile.h": "b6752d832c8f7e227feb3b33747614bd7f28057abde76c253a65f8bb8aaed7df",
+    "tools/build_capture_bridge.py": "54b64830b5b58c0cca3bd44995a4753ea96bb1f15d1d25c8a81cdd8c50cc3839",
+    "tools/build_firmware.py": "1138463d52548828cfd86ed4694af6c94fb77d49e508b2f07bc0ee7a4e62a41d",
+    "tools/debug/uis_debug.py": "bba399b7487936fdc6ab0a1e1c339b84f5c0315914657ea8d5066390cf8b4632",
+    "tools/prepare_build.py": "b5925e2a1908619928e0db9e79ef9cc2dcc46a7a71e3fd95a6b39aa05b1162cd",
+    "tools/sdr/rf_catalog.py": "1e8c4580497fbf218c7b9a5c8bf154195b256cec9e9e57d3d68d694e84c492f3",
+    "tools/usb/pac.py": "c890401edb5063c0cc625001ae79aefcb98ec1cb20b12ca87032c46e67ffcdd2",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "tools/verify/verify_bw0_service_arm.py": "7b894efcffe0f18d4663ecfcf57204977f331475a5779bcc46e219e87c9c4f45",
+    "tools/verify/verify_raw_usb_arm.py": "e156cc7ae9cb2319ceb544bf3c229b7d5e5fe8521ef1bccccd49503fd4690b29",
+    "work/build-v0.1/cp/build.json": "83c94c4804366db3b4ff6ad1c82969dcea7fd687f7ca6a4c241a2e2db01bbeca",
+    "work/build-v0.1/ap.elf": "4f31ca0e284415f4b0e7a1100a5debd424f9a1de1fffae086683bfe7578c1c7f",
+    "work/build-v0.1/cp/resident.bin": "1abdaf14d0066a261dd5d318dee78a523fa0fd69daf634606bb4f08c5495990c",
+    "work/build-v0.1/cp/control.bin": "bbb810346deda40cdcac4e51cc2c7c7c5c68158e8184a52eed3ed6a5e7fd84a6",
+    "work/build-v0.1/cp/control.json": "1b1819d0bc008517657afb7a216fe5a1b99fe0d10cbaceb438cfc08981370ead"
+  }
+}

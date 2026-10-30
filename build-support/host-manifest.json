@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "component": "SoapySDR",
+  "version": "0.8.1",
+  "repository": "https://github.com/pothosware/SoapySDR.git",
+  "tag": "soapy-sdr-0.8.1",
+  "commit": "1cf5a539a21414ff509ff7d0eedfc5fa8edb90c6",
+  "license": "Boost Software License 1.0; LICENSE_1_0.txt retained in source and output",
+  "source_archive": {
+    "path": "build-support/soapysdr-0.8.1-source.zip",
+    "bytes": 164869,
+    "sha256": "a92e82af9d6ec29590c8f9142199c00aa22f0881b72651bf37c011dc4abeeb29",
+    "files": [
+      {
+        "path": ".travis.yml",
+        "bytes": 3294,
+        "sha256": "c9e1ad79eaafcc79a63f964b40216ca8baf12115995f4750817df57e4c0c8cd4"
+      },
+      {
+        "path": "CMakeLists.txt",
+        "bytes": 8082,
+        "sha256": "05057a2335d3ad9715d962779c4e27fb28f54aee1ca5aab7f43a3167412bc6d3"
+      },
+      {
+        "path": "Changelog.txt",
+        "bytes": 9458,
+        "sha256": "b9845b84c800c5dc3bd6dc0405bc1fa75e7bbb9edbdb904e7891a917b7757bb3"
+      },
+      {
+        "path": "ExampleDriver/CMakeLists.txt",
+        "bytes": 1529,
+        "sha256": "f756e6b9603e5cbf5f490068716d8bb73c6924b4333ac3474a07d76c923e1cb3"
+      },
+      {
+        "path": "ExampleDriver/MyDeviceSupport.cpp",
+        "bytes": 1479,
+        "sha256": "532873a5bdb0809216b23dfb2789665101bac18dbeb7acb69d4004c12966e6de"
+      },
+      {
+        "path": "ExampleDriver/README.md",
+        "bytes": 364,
+        "sha256": "de80431677c6bfa6fb855d311684ade21d5c7defa388616de9238348713c5201"
+      },
+      {
+        "path": "LICENSE_1_0.txt",
+        "bytes": 1361,
+        "sha256": "beb8e42e9d6b4284e03304d05a81a0755200a965fc8d0a5e0aea1e84cf805d6e"
+      },
+      {
+        "path": "README.md",
+        "bytes": 663,
+        "sha256": "778431f89ce7fb6bbcefb6bd523c2f36fc746f2796ae2eea412969c5bd02fe8e"
+      },
+      {
+        "path": "apps/CMakeLists.txt",
+        "bytes": 1058,
+        "sha256": "e6757e3c6c948e96f072129e06cd91f3d5aa0a84b015a18c127ad561fb0081ab"
+      },
+      {
+        "path": "apps/SoapyRateTest.cpp",
+        "bytes": 6219,
+        "sha256": "a6b8e499965454d978da23e2f256ca3785714acce694bccda7582848da9f9c7e"
+      },
+      {
+        "path": "apps/SoapySDRProbe.cpp",
+        "bytes": 12613,
+        "sha256": "a17f32b5fc5b833c89b3afc0c743f7c70aa748aa95a214008ec82a66c038212b"
+      },
+      {
+        "path": "apps/SoapySDRUtil.1",
+        "bytes": 2004,
+        "sha256": "4eacc2f743e1353695486458cf46d107f57459f44cda3e689d31bde660b06f54"
+      },
+      {
+        "path": "apps/SoapySDRUtil.cpp",
+        "bytes": 14475,
+        "sha256": "03d0177dcb9c060abffef51d26d7603a0174217c7467cbc2f2652114b721dfc9"
+      },
+      {
+        "path": "apps/msvc/getopt.h",
+        "bytes": 16673,
+        "sha256": "25592ce73f276120c61d210617fe19dda0b2c9d96b090010a23939fd97c2ec70"
+      },
+      {
+        "path": "appveyor.yml",
+        "bytes": 1377,
+        "sha256": "4b56cc6a96e311aa35c4519b7705af5affe97d84cbfbf77f0586c60fce91a538"
+      },
+      {
+        "path": "buildkite/build.sh",
+        "bytes": 868,
+        "sha256": "2d9b4e0d0fa085f185c5198f07aedef3e679af5da46387896847e727e8525db1"
+      },
+      {
+        "path": "cmake/Modules/GetGitRevisionDescription.cmake",
+        "bytes": 4248,
+        "sha256": "ceaad1ecdf70f87f333e670714c5d5ff755f716ddf5c0bff5b6e6ededfb4917c"
+      },
+      {
+        "path": "cmake/Modules/GetGitRevisionDescription.cmake.in",
+        "bytes": 1240,
+        "sha256": "52228cbf1e3ddda802729d21f8e3d3d638478b9cf80467d075398056950eb546"
+      },
+      {
+        "path": "cmake/Modules/SoapySDRConfig.cmake",
+        "bytes": 3390,
+        "sha256": "9c8852e96b790964866dc3db910bdd2093e63d1bf2cacdcfde9e30de0fadf89b"
+      },
+      {
+        "path": "cmake/Modules/SoapySDRUtil.cmake",
+        "bytes": 4799,
+        "sha256": "d05f7e5f109a9cd25c04f2384d1a9a637bca173fd0995050da395d18f76f5272"
+      },
+      {
+        "path": "cmake_uninstall.cmake.in",
+        "bytes": 1056,
+        "sha256": "cb661fc70a5877525c2f457f61f20f113818e8160990ddd4b494da657786bd34"
+      },
+      {
+        "path": "debian/changelog",
+        "bytes": 3571,
+        "sha256": "104aa2024eced70c28cd21a6eafb70301c474d25241dc152151502835ddbd7fb"
+      },
+      {
+        "path": "debian/compat",
+        "bytes": 3,
+        "sha256": "69fa4dd4fdc0b43ba7ca7c997539c4500f03ab9b220228e2b1e97bd305397806"
+      },
+      {
+        "path": "debian/control",
+        "bytes": 3599,
+        "sha256": "e0a7843e9c3a579f3353c7694a3654690e2132dca256c9e57cf8aed81ca21133"
+      },
+      {
+        "path": "debian/copyright",
+        "bytes": 1690,
+        "sha256": "024c715c922cf0a20f3e856bd9c1455471c08f23c379f06a5c96beae91662d70"
+      },
+      {
+        "path": "debian/docs",
+        "bytes": 11,
+        "sha256": "a30a6de0bba6dbf7ceaea07572d5a1cccfa9259d140addbe5e6487d093aee11a"
+      },
+      {
+        "path": "debian/libsoapysdr-dev.install",
+        "bytes": 80,
+        "sha256": "96bfdc0e1e747e5c381605536ff4047ad92501550b100f94216e6e3e0249067a"
+      },
+      {
+        "path": "debian/libsoapysdr0.8.install",
+        "bytes": 28,
+        "sha256": "4954b8ea152d8fd8e60815c6431384941c00f96dffff67b3b7529a7c9027cb0d"
+      },
+      {
+        "path": "debian/python-soapysdr.install",
+        "bytes": 19,
+        "sha256": "9e16d3f009e13268fdc84fac858e89418d0b511eb0d6b0809da410697b4c7bea"
+      },
+      {
+        "path": "debian/python3-soapysdr.install",
+        "bytes": 19,
+        "sha256": "fb08a68a2c3ca7545138de22ec2c64a16e7ad8a1949138834f8b2399000118df"
+      },
+      {
+        "path": "debian/rules",
+        "bytes": 542,
+        "sha256": "8e10c78eea11d2544f8a04ffd446183e1076d236c8552aa82ca7ea45bfb2ec51"
+      },
+      {
+        "path": "debian/soapysdr-tools.install",
+        "bytes": 10,
+        "sha256": "816e4a345ba8ec86c7cd0dbf10d49525d6583152a7e95044764cd0882f4f1249"
+      },
+      {
+        "path": "debian/soapysdr-tools.manpages",
+        "bytes": 21,
+        "sha256": "e2845dbcb2b9c01d8fe2041cf71b00429ca8575f423c852f9d1825cc2c55b687"
+      },
+      {
+        "path": "debian/source/format",
+        "bytes": 13,
+        "sha256": "41058583c1cee899b0f86dd9400131fc69441fb475239515ff963785fbe362fe"
+      },
+      {
+        "path": "docs/CMakeLists.txt",
+        "bytes": 1576,
+        "sha256": "755f9bf02d8b0bf93d205b2c27ae4b63def6e7a169cfe900d11d06094c540620"
+      },
+      {
+        "path": "docs/Doxyfile.in",
+        "bytes": 108879,
+        "sha256": "bfdf67c76550ad1af42a311470209e32ba61449d16b42bb32dc808baf4e34937"
+      },
+      {
+        "path": "docs/soapy_sdr_logo.png",
+        "bytes": 3889,
+        "sha256": "1ec628f815ad151cd5f3cff5d7c3056383e2e6f30a6e2a33129939bc8406d689"
+      },
+      {
+        "path": "include/SoapySDR/Config.h",
+        "bytes": 1956,
+        "sha256": "87d6d4ff53e752b2d46f73e21a0a84ea43f37a9835774fa46a4a79644f9adcdf"
+      },
+      {
+        "path": "include/SoapySDR/Config.hpp",
+        "bytes": 274,
+        "sha256": "ca938d854d1f73b5f5a9c39d876f5f1ce4b5b3bf9fe7072625aa450fe63229dc"
+      },
+      {
+        "path": "include/SoapySDR/Constants.h",
+        "bytes": 1938,
+        "sha256": "57a21d0aeb829b75267609e5f5198a8f9c1d6e4ca5c498e42ffc4d052b63677a"
+      },
+      {
+        "path": "include/SoapySDR/ConverterPrimitives.hpp",
+        "bytes": 3443,
+        "sha256": "e6c4cc9c4ff7dfee6df09bcc533c8eeac21c3ed19e6e6e0a5e82dcdfc69dfc6a"
+      },
+      {
+        "path": "include/SoapySDR/ConverterRegistry.hpp",
+        "bytes": 5562,
+        "sha256": "80f3f79a48f9512d26d9831ce484146a41fa26d67e71827fef11c0129ee22446"
+      },
+      {
+        "path": "include/SoapySDR/Converters.h",
+        "bytes": 3593,
+        "sha256": "a9edaaf382e66eabae464579ddddb786ef598ae17cf7f4afffe79c294bb92110"
+      },
+      {
+        "path": "include/SoapySDR/Device.h",
+        "bytes": 66821,
+        "sha256": "0588db74c95c6df9cfb988fba01e81413523318de5bc05e514f2e0454d14226c"
+      },
+      {
+        "path": "include/SoapySDR/Device.hpp",
+        "bytes": 59960,
+        "sha256": "b767b94b710b278572ab0d4bf8ae4ef602b710d8868c1acb63152a9785181510"
+      },
+      {
+        "path": "include/SoapySDR/Errors.h",
+        "bytes": 1558,
+        "sha256": "f18d5f2087f93d8ded359ede5cd413e43bdd6436e5a18e0e8ce531218947ebe2"
+      },
+      {
+        "path": "include/SoapySDR/Errors.hpp",
+        "bytes": 597,
+        "sha256": "4f8f4bf6d99fac31b558f84654f76e4055af4b0977d8878e2d1a65087554faa7"
+      },
+      {
+        "path": "include/SoapySDR/Formats.h",
+        "bytes": 2103,
+        "sha256": "2df5b18071d57843242c6d0a3a5eac2e8c2ab3b057a06688cf93b4aaf561383e"
+      },
+      {
+        "path": "include/SoapySDR/Formats.hpp",
+        "bytes": 560,
+        "sha256": "5d53a0a184f0b805283ebcec5d9545c185ba8390ca8bc668f33eb5c6ec91aadb"
+      },
+      {
+        "path": "include/SoapySDR/Logger.h",
+        "bytes": 3383,
+        "sha256": "a07cc3585fcaef97275cefbfe5084c247295836ea8c18b2c7da3fd9b6960f6f7"
+      },
+      {
+        "path": "include/SoapySDR/Logger.hpp",
+        "bytes": 1819,
+        "sha256": "7caf5785d9a827b353871c7d321459a031c900299d57433d7d95e36d93b0343c"
+      },
+      {
+        "path": "include/SoapySDR/Modules.h",
+        "bytes": 3107,
+        "sha256": "9d44e2a67b253849c349d8f66281999a337793f2932295fc554c0880ccbbf3b0"
+      },
+      {
+        "path": "include/SoapySDR/Modules.hpp",
+        "bytes": 3309,
+        "sha256": "c94d5d2062a28869f0a82d401da9a2ddf0148f0b921964b473742464d80f7e73"
+      },
+      {
+        "path": "include/SoapySDR/Registry.hpp",
+        "bytes": 1863,
+        "sha256": "7842869a2857791a0768d26a9a55f1891c662f47fafdf7a99b7abfe66a60fd35"
+      },
+      {
+        "path": "include/SoapySDR/Time.h",
+        "bytes": 887,
+        "sha256": "0055dc37946321497d6ae091ee1dac4ba899678dc6f75214ac7c631a4d1f2a0d"
+      },
+      {
+        "path": "include/SoapySDR/Time.hpp",
+        "bytes": 1152,
+        "sha256": "34ae95bc9ff5d556c032e009539ef446a2957907563fe3b1cc1a19797becff44"
+      },
+      {
+        "path": "include/SoapySDR/Types.h",
+        "bytes": 4642,
+        "sha256": "77ebed336244169c5b599c0ee944b809b200c5d78776c3e2e17a74b674e8df04"
+      },
+      {
+        "path": "include/SoapySDR/Types.hpp",
+        "bytes": 6195,
+        "sha256": "94d57481883b2cb1aaac4645bb3bf3089f5d2b514eb22d4d6a3069cdc1a177e1"
+      },
+      {
+        "path": "include/SoapySDR/Version.h",
+        "bytes": 5212,
+        "sha256": "e8726791050ea933de8cf6f431ccc64c72211a6a366f8b56359810aa96a1de8a"
+      },
+      {
+        "path": "include/SoapySDR/Version.hpp",
+        "bytes": 1294,
+        "sha256": "ed5e4e3e834e5afef3e733bc9d50026b9c70edb5ed225580223dd00ec77c4c43"
+      },
+      {
+        "path": "lib/CMakeLists.txt",
+        "bytes": 5814,
+        "sha256": "9894ed74e5cc9942c2f1df9bb2421d70efed9bc14993620396bea30f58b0b07d"
+      },
+      {
+        "path": "lib/ConverterRegistry.cpp",
+        "bytes": 5475,
+        "sha256": "961c408a90b6ce2e2e0378bfe2964c665fdcc6b81cff386f82b9a1cd3a5a58b4"
+      },
+      {
+        "path": "lib/ConvertersC.cpp",
+        "bytes": 2993,
+        "sha256": "101fed982cab6317ff05734eb6d1c2dc9f5bb898a29c4fc8204e81e3dfcc15e3"
+      },
+      {
+        "path": "lib/DefaultConverters.cpp",
+        "bytes": 24205,
+        "sha256": "2ba64d28d7f0b9caba86e00bddccb08d2ec02deec93f93d21566a445e414a26a"
+      },
+      {
+        "path": "lib/Device.cpp",
+        "bytes": 24373,
+        "sha256": "d1850ba4adefaecefee9ebb8c20cef7abcde419792a760f4b863c20242670db9"
+      },
+      {
+        "path": "lib/DeviceC.cpp",
+        "bytes": 34584,
+        "sha256": "f20a10f4f2371c78eb3469df2cdc6bb70daddaee11fec20ff087a5f54741d141"
+      },
+      {
+        "path": "lib/ErrorHelpers.hpp",
+        "bytes": 1117,
+        "sha256": "01f9c06efad810d47d2ed574bea6642ca043ae559017d7268441510b5c18c884"
+      },
+      {
+        "path": "lib/Errors.cpp",
+        "bytes": 212,
+        "sha256": "06e3975bc0e8258b79cc7bae52f073240e8761ac7c0af4ede4c1d6808f6ab24e"
+      },
+      {
+        "path": "lib/ErrorsC.cpp",
+        "bytes": 687,
+        "sha256": "cb789f99f642ac90ab2e6ada4c81f31e9f73de151af5c95dca015dcabb5fefd1"
+      },
+      {
+        "path": "lib/Factory.cpp",
+        "bytes": 10272,
+        "sha256": "287cfd5d9d786202d878d908f093d56af1e70431df55347ad66f155a4722cff0"
+      },
+      {
+        "path": "lib/FactoryC.cpp",
+        "bytes": 2711,
+        "sha256": "65962a053e33095ae19c7039ef27524470f764eb4343afdc8644f1ed8580d055"
+      },
+      {
+        "path": "lib/Formats.cpp",
+        "bytes": 227,
+        "sha256": "96a5f9d83943197379a02307235886ebf0e7d75c3b4aff5f6a23e5550f6fda41"
+      },
+      {
+        "path": "lib/FormatsC.cpp",
+        "bytes": 519,
+        "sha256": "d236024c239f613a11357d190a2834c95907bcfb29f173da2f8f26e1915aea80"
+      },
+      {
+        "path": "lib/Logger.cpp",
+        "bytes": 616,
+        "sha256": "4605108173596cc1c7e03566925ce04c011015aac9710f9021e637055b6a745c"
+      },
+      {
+        "path": "lib/LoggerC.cpp",
+        "bytes": 4335,
+        "sha256": "2b2326c8bba41d04e48eff7ec0dbc35dcfe111b81c1c6c2d15e24b05214d6cc1"
+      },
+      {
+        "path": "lib/Modules.in.cpp",
+        "bytes": 12049,
+        "sha256": "35ae7fb6df01e8e9b0d46fa1b75d75b3ea7fbbb7d3d568914e9a792ac77677b3"
+      },
+      {
+        "path": "lib/ModulesC.cpp",
+        "bytes": 1810,
+        "sha256": "a09984c32c2cb63fb165feb7318bf9e60fcfc9f016ed3900e152fe7ec3390705"
+      },
+      {
+        "path": "lib/NullDevice.cpp",
+        "bytes": 1365,
+        "sha256": "00003530f1ad6c5407b7a9c0bd39a69dcb81660e1fffa208ae2d31f957451414"
+      },
+      {
+        "path": "lib/Registry.cpp",
+        "bytes": 3093,
+        "sha256": "fcccbad888717a6eec5ab93ace4a21c7fc936cd8bd348f199b16782ad7ff2249"
+      },
+      {
+        "path": "lib/SoapySDR.in.pc",
+        "bytes": 424,
+        "sha256": "dafaf6f1f3745b0c21b82deab2412536cd1cc9be084777f7ee23751120fcfa40"
+      },
+      {
+        "path": "lib/TimeC.cpp",
+        "bytes": 1116,
+        "sha256": "f7177febd2b9f8bc72cbcf5260305a1111da8155904fb5b95f1b9489b27f8dd0"
+      },
+      {
+        "path": "lib/TypeHelpers.hpp",
+        "bytes": 4996,
+        "sha256": "4583e9036b2c66af0b713c803f9272aaabd0fe8136c36dc7bed4e44992da8583"
+      },
+      {
+        "path": "lib/Types.cpp",
+        "bytes": 1858,
+        "sha256": "9379f838b2cf0339dc119fa939d15b95cf398b97aa69641e1029f8d32c1ce247"
+      },
+      {
+        "path": "lib/TypesC.cpp",
+        "bytes": 3794,
+        "sha256": "affb70664fa1b5923430ae6903132427927ffbe1de91b220db55b1c4a8d422ab"
+      },
+      {
+        "path": "lib/Version.in.cpp",
+        "bytes": 633,
+        "sha256": "be672572ea5f5319455c5cbb0081f9b36af370de8ce2a57559df24d71e199bb0"
+      },
+      {
+        "path": "lib/VersionC.cpp",
+        "bytes": 545,
+        "sha256": "750733e4ec6ad9d302c67540d5e74768c4b98f86f0ab48f64083f6beccdb0ff4"
+      },
+      {
+        "path": "python/CMakeLists.txt",
+        "bytes": 7570,
+        "sha256": "df7f663f48967b5d9b5406cf3acad571d44f756a8d1bb004d0d9fc9108f7a75e"
+      },
+      {
+        "path": "python/SoapySDR.in.i",
+        "bytes": 13211,
+        "sha256": "23347321a1b9953f61b700253ebce2a0bcdedb4985beb834f8505fc905a93908"
+      },
+      {
+        "path": "python/apps/MeasureDelay.py",
+        "bytes": 8440,
+        "sha256": "01c9b021f504091cad6508abc16c14c55efc5437f9b2c8503c5444bf6eaabf7a"
+      },
+      {
+        "path": "python/apps/SimpleSiggen.py",
+        "bytes": 5163,
+        "sha256": "373fd36fc04063c6f5bd47a0510c4965800a68e807de723900e335745750b9e2"
+      },
+      {
+        "path": "python/apps/soapy_log_handle.py",
+        "bytes": 1326,
+        "sha256": "33a8de36eedf876c7ae6de5ef6c1a88ac5233ab90ca83173dd1f8335ec1df258"
+      },
+      {
+        "path": "python/get_python_lib.py",
+        "bytes": 594,
+        "sha256": "dbb627cf19476ef574943e9110e958a11620c6180d73ee6459b04f2c92512e37"
+      },
+      {
+        "path": "python3/CMakeLists.txt",
+        "bytes": 4411,
+        "sha256": "c99aa282837c0b0d6bcded9c21916036c625f4fb87a0bf15b7f69f64b06f3696"
+      },
+      {
+        "path": "python3/FindPython3Interp.cmake",
+        "bytes": 3108,
+        "sha256": "e8b54ef616e8bcd2382d100547b1b9cb860cc6659e43183f7c1027727d6b4264"
+      },
+      {
+        "path": "python3/FindPython3Libs.cmake",
+        "bytes": 11060,
+        "sha256": "137383995a4f46ea7c6e54e2241771d6fd7f124363bd36edb8dc835f7465a0ad"
+      },
+      {
+        "path": "python3/README.md",
+        "bytes": 606,
+        "sha256": "06ce5daf32e334c3cd6cc8873efa993f874914c7fc39583b3133ec2d3a597138"
+      },
+      {
+        "path": "tests/CMakeLists.txt",
+        "bytes": 1204,
+        "sha256": "61eccf90bb995d25614433da2879167412fd668a0325e4148a6e1a41485c3079"
+      },
+      {
+        "path": "tests/TestConvertTypes.cpp",
+        "bytes": 3395,
+        "sha256": "a61e5f7c69980347054b2f4dbac825e3b6ceee2570228775b323a52b4f99b877"
+      },
+      {
+        "path": "tests/TestFormatParser.cpp",
+        "bytes": 1359,
+        "sha256": "ee264876d4fa02cee4ee0843242825da46d13d21c2b93a791b70d42a54703c6c"
+      },
+      {
+        "path": "tests/TestKwargsMarkup.cpp",
+        "bytes": 2842,
+        "sha256": "22b0d914be8b9dc193404556ca722c2cad54a81eb846163c9ab3bb6f43e16680"
+      },
+      {
+        "path": "tests/TestTimeConversion.cpp",
+        "bytes": 3500,
+        "sha256": "155f1e10220ade8516157c0f0d45458aacf2c5b8d596b58045e2af1a7eb646b5"
+      }
+    ]
+  }
+}

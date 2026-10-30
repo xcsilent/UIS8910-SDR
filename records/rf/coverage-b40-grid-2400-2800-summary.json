@@ -1,0 +1,895 @@
+{
+  "status": "measurement_completed",
+  "recorded_at": "2026-10-29T17:39:34.136214+08:00",
+  "route": 40,
+  "grid_first_hz": 2400000000,
+  "grid_last_hz": 2800000000,
+  "grid_step_hz": 5000000,
+  "grid_points": 81,
+  "complete_reference_points": 72,
+  "user_accepted_environment_affected_points": [
+    2435000000,
+    2440000000
+  ],
+  "grid": [
+    {
+      "frequency_hz": 2400000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2400000000.json",
+      "tone150_vs_off_db": 31.874216806738353,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2405000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2405000000.json",
+      "tone150_vs_off_db": 31.056429360376896,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2410000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2410000000.json",
+      "tone150_vs_off_db": 13.709561818691899,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2415000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2415000000.json",
+      "tone150_vs_off_db": 15.076944679480826,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2420000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2420000000.json",
+      "tone150_vs_off_db": 19.759422402027177,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2425000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2425000000.json",
+      "tone150_vs_off_db": 31.939723602141676,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2430000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2430000000.json",
+      "tone150_vs_off_db": 38.580703289055755,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2435000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2435000000.json",
+      "tone150_vs_off_db": 16.15565048973256,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null,
+      "acceptance": "user_accepted_environment_affected"
+    },
+    {
+      "frequency_hz": 2440000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2440000000.json",
+      "tone150_vs_off_db": 3.2565236280734844,
+      "failed_checks": [
+        "reference_on_off"
+      ],
+      "error": null,
+      "acceptance": "user_accepted_environment_affected"
+    },
+    {
+      "frequency_hz": 2445000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2445000000.json",
+      "tone150_vs_off_db": 35.75944688464608,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2450000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2450000000.json",
+      "tone150_vs_off_db": 40.3789711043317,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2455000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2455000000.json",
+      "tone150_vs_off_db": 46.645507072937484,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2460000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2460000000.json",
+      "tone150_vs_off_db": 38.08183561354009,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2465000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2465000000.json",
+      "tone150_vs_off_db": 34.24188549836033,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2470000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2470000000.json",
+      "tone150_vs_off_db": 49.7687514527571,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2475000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2475000000.json",
+      "tone150_vs_off_db": 47.24631868243995,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2480000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2480000000.json",
+      "tone150_vs_off_db": 18.664292538502675,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2485000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2485000000.json",
+      "tone150_vs_off_db": 49.48287682666428,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2490000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2490000000.json",
+      "tone150_vs_off_db": 46.66884306604703,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2495000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2495000000.json",
+      "tone150_vs_off_db": 46.32729292995698,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2500000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2500000000.json",
+      "tone150_vs_off_db": 44.98255645694204,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2505000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2505000000.json",
+      "tone150_vs_off_db": 44.81496584297146,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2510000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2510000000.json",
+      "tone150_vs_off_db": 46.046816299683435,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2515000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2515000000.json",
+      "tone150_vs_off_db": 43.59645790386988,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2520000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2520000000.json",
+      "tone150_vs_off_db": 27.55893554832268,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2525000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2525000000.json",
+      "tone150_vs_off_db": 23.602526230978924,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2530000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2530000000.json",
+      "tone150_vs_off_db": 13.913504746842966,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2535000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2535000000.json",
+      "tone150_vs_off_db": 5.45396905453747,
+      "failed_checks": [
+        "reference_on_off"
+      ],
+      "error": null,
+      "acceptance": "incomplete_reference_evidence"
+    },
+    {
+      "frequency_hz": 2540000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2540000000.json",
+      "tone150_vs_off_db": null,
+      "failed_checks": null,
+      "error": "first reference tone not identified; remaining TX/retune skipped",
+      "acceptance": "incomplete_reference_evidence"
+    },
+    {
+      "frequency_hz": 2545000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2545000000.json",
+      "tone150_vs_off_db": 5.046840693469833,
+      "failed_checks": [
+        "reference_on_off"
+      ],
+      "error": null,
+      "acceptance": "incomplete_reference_evidence"
+    },
+    {
+      "frequency_hz": 2550000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2550000000.json",
+      "tone150_vs_off_db": null,
+      "failed_checks": null,
+      "error": "first reference tone not identified; remaining TX/retune skipped",
+      "acceptance": "incomplete_reference_evidence"
+    },
+    {
+      "frequency_hz": 2555000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2555000000.json",
+      "tone150_vs_off_db": 13.926406603919963,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2560000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2560000000.json",
+      "tone150_vs_off_db": 17.072512104855775,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2565000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2565000000.json",
+      "tone150_vs_off_db": 22.523501659715134,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2570000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2570000000.json",
+      "tone150_vs_off_db": 19.197980390391976,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2575000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2575000000.json",
+      "tone150_vs_off_db": 17.084991279261246,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2580000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2580000000.json",
+      "tone150_vs_off_db": 26.197749883440224,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2585000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2585000000.json",
+      "tone150_vs_off_db": 21.097871837825366,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2590000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2590000000.json",
+      "tone150_vs_off_db": 17.19382961823531,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2595000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2595000000.json",
+      "tone150_vs_off_db": 23.307215901100534,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2600000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2600000000.json",
+      "tone150_vs_off_db": 28.722935155093165,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2605000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2605000000.json",
+      "tone150_vs_off_db": 16.720706165374214,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2610000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2610000000.json",
+      "tone150_vs_off_db": 20.287006492106705,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2615000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2615000000.json",
+      "tone150_vs_off_db": 44.224665442840575,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2620000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2620000000.json",
+      "tone150_vs_off_db": 42.769521853313826,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2625000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2625000000.json",
+      "tone150_vs_off_db": 40.5551152250075,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2630000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2630000000.json",
+      "tone150_vs_off_db": 32.04043499675305,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2635000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2635000000.json",
+      "tone150_vs_off_db": 28.597356968898385,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2640000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2640000000.json",
+      "tone150_vs_off_db": 26.990283234120472,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2645000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2645000000.json",
+      "tone150_vs_off_db": 36.28964703135087,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2650000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2650000000.json",
+      "tone150_vs_off_db": 41.15712564515561,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2655000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2655000000.json",
+      "tone150_vs_off_db": 42.37347768403772,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2660000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2660000000.json",
+      "tone150_vs_off_db": 43.514287552219734,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2665000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2665000000.json",
+      "tone150_vs_off_db": 43.328376815203704,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2670000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2670000000.json",
+      "tone150_vs_off_db": 43.34408183422138,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2675000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2675000000.json",
+      "tone150_vs_off_db": 44.20487962943728,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2680000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2680000000.json",
+      "tone150_vs_off_db": 43.42266520213015,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2685000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2685000000.json",
+      "tone150_vs_off_db": 44.46192774010533,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2690000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2690000000.json",
+      "tone150_vs_off_db": 44.59006713803991,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2695000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2695000000.json",
+      "tone150_vs_off_db": 46.59247940601068,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2700000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2700000000.json",
+      "tone150_vs_off_db": 46.68667917237825,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2705000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2705000000.json",
+      "tone150_vs_off_db": 45.439393219199346,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2710000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2710000000.json",
+      "tone150_vs_off_db": 46.149980058520235,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2715000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2715000000.json",
+      "tone150_vs_off_db": 45.61056164901462,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2720000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2720000000.json",
+      "tone150_vs_off_db": 43.6512958216284,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2725000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2725000000.json",
+      "tone150_vs_off_db": 44.718032850944184,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2730000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2730000000.json",
+      "tone150_vs_off_db": 45.1977792689872,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2735000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2735000000.json",
+      "tone150_vs_off_db": 45.794606651421155,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2740000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2740000000.json",
+      "tone150_vs_off_db": 47.92681183707166,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2745000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2745000000.json",
+      "tone150_vs_off_db": 49.72283819292826,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2750000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2750000000.json",
+      "tone150_vs_off_db": 48.05187231353608,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2755000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2755000000.json",
+      "tone150_vs_off_db": 50.391490537101404,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2760000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2760000000.json",
+      "tone150_vs_off_db": 49.11453891723851,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2765000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2765000000.json",
+      "tone150_vs_off_db": 48.7730285970456,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2770000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2770000000.json",
+      "tone150_vs_off_db": 48.91217220054092,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2775000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2775000000.json",
+      "tone150_vs_off_db": 50.161621682849294,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2780000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2780000000.json",
+      "tone150_vs_off_db": 49.78918374768398,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2785000000,
+      "status": "reference_verified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2785000000.json",
+      "tone150_vs_off_db": 45.276100366603615,
+      "failed_checks": [],
+      "error": null,
+      "acceptance": "complete_reference"
+    },
+    {
+      "frequency_hz": 2790000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2790000000.json",
+      "tone150_vs_off_db": null,
+      "failed_checks": null,
+      "error": "first reference tone not identified; remaining TX/retune skipped",
+      "acceptance": "incomplete_reference_evidence"
+    },
+    {
+      "frequency_hz": 2795000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2795000000.json",
+      "tone150_vs_off_db": null,
+      "failed_checks": null,
+      "error": "first reference tone not identified; remaining TX/retune skipped",
+      "acceptance": "incomplete_reference_evidence"
+    },
+    {
+      "frequency_hz": 2800000000,
+      "status": "reference_not_identified",
+      "record": "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55-2800000000.json",
+      "tone150_vs_off_db": null,
+      "failed_checks": null,
+      "error": "first reference tone not identified; remaining TX/retune skipped",
+      "acceptance": "incomplete_reference_evidence"
+    }
+  ],
+  "additional_boundary_points": [
+    {
+      "frequency_hz": 2786000000,
+      "status": "reference_verified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2786000000.json",
+      "tone150_vs_off_db": 43.27636266671756,
+      "failed_checks": [],
+      "error": null
+    },
+    {
+      "frequency_hz": 2787000000,
+      "status": "reference_not_identified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2787000000.json",
+      "tone150_vs_off_db": 43.10348868343795,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null
+    },
+    {
+      "frequency_hz": 2788000000,
+      "status": "reference_not_identified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2788000000.json",
+      "tone150_vs_off_db": 40.944043065346335,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null
+    },
+    {
+      "frequency_hz": 2789000000,
+      "status": "reference_not_identified",
+      "record": "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55-2789000000.json",
+      "tone150_vs_off_db": 39.88088091381671,
+      "failed_checks": [
+        "tone_prominence"
+      ],
+      "error": null
+    }
+  ],
+  "highest_complete_reference_center_hz": 2786000000,
+  "tracking_observed_below_prominence_gate_hz": [
+    2787000000,
+    2788000000,
+    2789000000
+  ],
+  "weak_or_background_affected_points_hz": [
+    2535000000,
+    2540000000,
+    2545000000,
+    2550000000
+  ],
+  "single_tone_only_points_hz": [
+    2540000000,
+    2550000000,
+    2790000000,
+    2795000000
+  ],
+  "upper2800_comparison": {
+    "routes": [
+      40,
+      41
+    ],
+    "shared_finite_tx_per_tone": true,
+    "scope": "Sequential routes in each same TX burst; uncalibrated antenna/AGC/end-to-end comparison, not sensitivity or physical limit.",
+    "assessments": {
+      "40": {
+        "status": "reference_not_identified",
+        "reference_identified": false,
+        "verification_checks": {
+          "tone_prominence": false,
+          "expected_offsets": true,
+          "reference_on_off": true,
+          "tone_separation": true,
+          "retune_following": false
+        },
+        "failed_checks": [
+          "tone_prominence",
+          "retune_following"
+        ],
+        "tone_separation_hz": 199921.875,
+        "retune_shift_hz": 92812.5,
+        "tone150_vs_off_db": 35.167937328755485,
+        "sample_rate_from_two_tone_spacing_hz": null,
+        "evidence_scope": "one RF center plus100kHz retune only; no continuous interval or chip limit assertion"
+      },
+      "41": {
+        "status": "reference_not_identified",
+        "reference_identified": false,
+        "verification_checks": {
+          "tone_prominence": false,
+          "expected_offsets": true,
+          "reference_on_off": true,
+          "tone_separation": true,
+          "retune_following": false
+        },
+        "failed_checks": [
+          "tone_prominence",
+          "retune_following"
+        ],
+        "tone_separation_hz": 199921.875,
+        "retune_shift_hz": 92812.5,
+        "tone150_vs_off_db": 35.53477987105906,
+        "sample_rate_from_two_tone_spacing_hz": null,
+        "evidence_scope": "one RF center plus100kHz retune only; no continuous interval or chip limit assertion"
+      }
+    },
+    "all_routes_reference_verified": false
+  },
+  "upper2800_interpretation": "Both routes show TX-correlated response and two-tone spacing; broad low-prominence peaks and92.8125kHz shift for100kHz RX retune. Degraded response, not proof of complete absence or chip physical cutoff.",
+  "completed_experiments_transport_and_drain_verified": true,
+  "completed_experiments_TX_exit_confirmed": true,
+  "interrupted_attempt": {
+    "center_hz": 2730000000,
+    "record": "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55-2730000000.json",
+    "original_exit_status_unknown": true,
+    "resumed_in_new_report": true,
+    "not_RF_failure": true
+  },
+  "nominal_sample_rate_hz": 1920000,
+  "rx_gain_index": 40,
+  "tx_gain_setting_db": 55,
+  "tx_wave_amplitude": 0.3,
+  "serial": "DEVICE_ID_REDACTED",
+  "tx_subdev": "A:A A:B",
+  "tx_channel": 0,
+  "tx_antenna": "TX/RX",
+  "antenna_conditions": "User reports2.4/5GHz dual-band Wi-Fi antennas on both devices; TRX1 wiring retained; spacing not measured in this run.",
+  "calibrated_RF_power": false,
+  "chip_physical_frequency_limits_known": false,
+  "physical_receive_interval_hz": null,
+  "scope": "Sampled reception/quality evidence under current antennas. A5MHz grid does not exclude narrow holes; strongest route not measured at every center.",
+  "supporting_analysis": [
+    "records/rf-coverage-v1/b40-grid-2435-dma-analysis.json",
+    "records/rf-coverage-v1/b40-grid-2540-2550-dma-analysis.json"
+  ],
+  "dependencies": {
+    "records/rf-coverage-v1/b40-grid-2400-2800-step5-g55.json": "f904c3e0b45add8df738ee548210917b862fba65de2fcf1ad4fe51509550e4c3",
+    "records/rf-coverage-v1/b40-grid-resume-2730-2800-step5-g55.json": "367d51f6ad7e87e85f311d74f049cd1a57f1f7fdb191bba7588523afe9efb5ac",
+    "records/rf/coverage-b40-grid-upper-2786-2789-step1-g55.json": "e4c2afd246179a602abaf8f0598f3dc5d8d63e84a83367cb862f42641f6ca7c0",
+    "records/rf/coverage-b40-b41-2800-g55-d8192.json": "4f8486d3a526b804b9b7fb095b6f11e8bd5fcfc8b17ce9c2f5ba226199c83fda"
+  }
+}

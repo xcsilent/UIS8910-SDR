@@ -1,0 +1,54 @@
+{
+  "status": "passed_with_disclosed_hardware_and_licensing_limits",
+  "device_accessed": false,
+  "flashed": false,
+  "uploaded": false,
+  "release_version": "0.1.0",
+  "release_pac": "outputs/firmware/v0.1/Air724UG_SDR_v0.1.pac",
+  "release_sha256": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b",
+  "release_byte_identical_to_recorded_deployment": true,
+  "historical_firmware_cleanup": {
+    "files": 7732,
+    "bytes": 1119972325,
+    "errors": []
+  },
+  "final_candidate": {
+    "pac": "work/build-v0.1/Air724UG_SDR_v0.1.pac",
+    "sha256": "cdbce34e12500ab057a2bf1b4ba06d2ab146668d76cfe683f58ea1a311d037a7",
+    "flashed": false,
+    "hardware_tested": false
+  },
+  "independent_copy_build": "records/maintenance/release-v0.1-independent-build-verification.json",
+  "arm_checks": {
+    "ap-usb-arm.json": "passed",
+    "ap-service-arm.json": "passed",
+    "cp-batch-arm.json": "passed"
+  },
+  "project_check": {
+    "status": "passed",
+    "links": 456,
+    "code_evidence_freshness": "stale",
+    "historical_freshness_counts": {
+      "unverifiable": 29,
+      "stale": 52,
+      "matches_recorded_inputs": 21
+    }
+  },
+  "documentation_and_derived_tables": "passed",
+  "publication_copy_checks": "passed",
+  "bundled_input_checks": "passed",
+  "git_diff_check": "passed",
+  "local_toolchains": "records/maintenance/release-v0.1-retained-toolchains.json",
+  "source_export": {
+    "directory": "work/github-source-review",
+    "files": 581,
+    "bytes": 31014648,
+    "license_cleared": false
+  },
+  "limits": [
+    "New firmware compile/ARM tests do not prove hardware acceptance.",
+    "Independent source copy used the existing Python/pyelftools, not a pristine Windows OS.",
+    "Optional Soapy and SDR++ bootstraps have separate prerequisites.",
+    "GitHub publication/CI not performed; original/vendor/compiler redistribution terms unresolved."
+  ]
+}

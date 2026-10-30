@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "host_test": "CP USB stream passed: explicit-stop mode survives210s and drains, preallocation/early stop, async AP mailbox/bridge/UDC, ordered release, fault STOP, late replies, metadata-only snapshots; payload never mapped",
+  "combined_exchange_test": "combined stream passed: one-round-trip release+claim, delayed ACK ownership, STOP ordering, malformed reply atomicity, USB-fault stop/cancel/drain",
+  "geometries": [
+    {
+      "output_slots": 7,
+      "slot_bytes": 8000,
+      "results": {
+        "separate": "CP USB stream passed: explicit-stop mode survives210s and drains, preallocation/early stop, async AP mailbox/bridge/UDC, ordered release, fault STOP, late replies, metadata-only snapshots; payload never mapped",
+        "combined": "combined stream passed: one-round-trip release+claim, delayed ACK ownership, STOP ordering, malformed reply atomicity, USB-fault stop/cancel/drain",
+        "supply": "supply event orders passed: slots=7 bytes=8000, 8 wraps/order, delayed release ACK pins CP ownership; post-release refill needs another claim exchange; stopped/drained"
+      }
+    },
+    {
+      "output_slots": 6,
+      "slot_bytes": 8192,
+      "results": {
+        "separate": "CP USB stream passed: explicit-stop mode survives210s and drains, preallocation/early stop, async AP mailbox/bridge/UDC, ordered release, fault STOP, late replies, metadata-only snapshots; payload never mapped",
+        "combined": "combined stream passed: one-round-trip release+claim, delayed ACK ownership, STOP ordering, malformed reply atomicity, USB-fault stop/cancel/drain",
+        "supply": "supply event orders passed: slots=6 bytes=8192, 8 wraps/order, delayed release ACK pins CP ownership; post-release refill needs another claim exchange; stopped/drained"
+      }
+    }
+  ],
+  "arm_objects": [
+    "work/cp-usb-stream/cp_stream_mailbox.o",
+    "work/cp-usb-stream/cp_usb_stream.o",
+    "work/cp-usb-stream/cp_usb_stream_snapshot.o"
+  ],
+  "payload_cpu_access": false,
+  "application_crc": false,
+  "scope": "Actual C components with fake CP scheduling/UDC, historical7x8000 and current6x8192 output geometry. Full-window refill event orders, not real-time throughput or prevalence. Scratch DMA, cache/MMU, RF lifecycle, linked AP integration and device CPU not modeled; ARM compile uses default geometry.",
+  "dependencies": {
+    "firmware/sdr_receiver/iq_usb_ring.c": "6cc40f56b2c46c5f2fa223eea104587d81bf552d8dc79c959c5a136d4c8cda97",
+    "firmware/sdr_receiver/iq_udc_adapter.c": "dc6835cc79617cd0a3b3876a2f48afd830154eb6ac932c651bd90c2994809dc1",
+    "firmware/sdr_receiver/cp_capture_bridge.c": "b6f5bd6e4540be32ed62125c8327ce3f13694980f159a1a70f68edd8737dc141",
+    "firmware/sdr_receiver/cp_stream_mailbox.c": "b0a50a412d6a4b1628957cce4323ad4c324b530786137ebc835245aa3541a319",
+    "firmware/sdr_receiver/cp_usb_stream.c": "a1f857fa4c4e069b08a4180b649173c976fe63abfd15604a57def4a9cdbbd0ef",
+    "firmware/sdr_receiver/cp_usb_stream_snapshot.c": "5251a97cfc9aa5f9d125bd1aa260eeb7990edd2a718432e0265f21a1aff43871",
+    "firmware/capture/rxcapt_stream_batch.c": "2d1ab08da9b430ec64505a55a853e2f0de137ef8ca79afe36e58382f6ee9e3bb",
+    "tools/verify/cp_usb_stream_harness.c": "4dd67b234adcc0cf7e4dd12120903ec617d26b8f2807447198fe1b0c58446567",
+    "tools/verify/cp_exchange_stream_harness.c": "424b43fca79d8d14221c4655d080316de85427e7238f105ee221d2766591013f",
+    "tools/verify/cp_supply_harness.c": "0ca057045578069b1dfe01d75aba1b3aebc350a60f0481d9a47a561d9f0b9273",
+    "firmware/capture/rxcapt_finite_abi.h": "a11f6c10f3a9905fb943df5c77f8ecb19a68e723394420a5b4e360d54cca7670",
+    "firmware/capture/rxcapt_stream_batch.h": "56f0ad45c64799fc9006823eb311846ed7e0305e45291ffc4a15ba17c936a821",
+    "firmware/sdr_receiver/usb_segment_profile.c": "a22fabf20edf40b808e690fce10c06e6639b2590a81942ac3639065584a6bb6a",
+    "firmware/sdr_receiver/usb_segment_profile.h": "173b5f0c78b57ea1297cccabeb7bd4e8e470b475845e7b0a493898f041f71e6a",
+    "firmware/sdr_receiver/cp_stream_mailbox.h": "148c4e3c577aad9c5c78f4d267543633ae2847d9c56abe36aba1751d810ece79",
+    "firmware/sdr_receiver/cp_usb_stream.h": "49734c90e8a4795dd4ba88b85453114c54583bf5175286d56c3711ddd2d06d2d",
+    "firmware/sdr_receiver/cp_capture_bridge.h": "fcc22deb7fb5e5132efe0171cff07fdbf2a8f279bc8ee8168ba4258c5dd48e6e",
+    "firmware/sdr_receiver/iq_usb_ring.h": "a9e78e3acfb1659e87abf4237de37f76c47f64422d44e4d6210d085366f17811",
+    "firmware/sdr_receiver/iq_udc_adapter.h": "78079fef45ac46b8c56770fbfa9a898f77a19deb4babc4bc24490b135b20c85e",
+    "firmware/sdr_receiver/udc_8910.h": "a969ba445e79a61afa17393672118ad3d8710b4130c84a556d8581f4731270a3",
+    "tools/verify/verify_cp_usb_stream.py": "b1523a755cd1645d6758ca078a016ab2a2027b256bf2d9a0522e8e5268412d4a"
+  }
+}

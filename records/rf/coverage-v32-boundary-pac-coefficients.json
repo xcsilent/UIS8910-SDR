@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "image_source": "current PAC decoded payload",
+  "image_sha256": "75318189d55ee76bc9d9478bcb8665cac36efe22e283db51d98c2a1f64122f04",
+  "frequency_witness_verified": true,
+  "scope": "Current PAC coefficient helper with working-raw witness vs compiled current C; SDK retune/correction addresses not reused. Synthetic contexts, no analog/lock proof",
+  "native_entries": {
+    "coefficients": "0x37f0"
+  },
+  "modeled_legacy_operations": [
+    "EXTHZ",
+    "BCLR",
+    "BNEM1"
+  ],
+  "coefficient_cases": [
+    {
+      "working_raw": 13507000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 13299,
+      "fraction": 1992174562,
+      "selected_factor": 7,
+      "effective_raw": 13507000
+    },
+    {
+      "working_raw": 13507000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 13299,
+      "fraction": 1992174562,
+      "selected_factor": 7,
+      "effective_raw": 13507000
+    },
+    {
+      "working_raw": 13507000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 13299,
+      "fraction": 1743152742,
+      "selected_factor": 8,
+      "effective_raw": 13507000
+    },
+    {
+      "working_raw": 13757000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 13545,
+      "fraction": 2029047564,
+      "selected_factor": 7,
+      "effective_raw": 13757000
+    },
+    {
+      "working_raw": 13757000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 13545,
+      "fraction": 2029047564,
+      "selected_factor": 7,
+      "effective_raw": 13757000
+    },
+    {
+      "working_raw": 13757000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 13545,
+      "fraction": 1775416619,
+      "selected_factor": 8,
+      "effective_raw": 13757000
+    },
+    {
+      "working_raw": 13500000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 13292,
+      "fraction": 1991142118,
+      "selected_factor": 7,
+      "effective_raw": 13500000
+    },
+    {
+      "working_raw": 13500000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 13292,
+      "fraction": 1991142118,
+      "selected_factor": 7,
+      "effective_raw": 13500000
+    },
+    {
+      "working_raw": 13500000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 13292,
+      "fraction": 1742249353,
+      "selected_factor": 8,
+      "effective_raw": 13500000
+    },
+    {
+      "working_raw": 13750000,
+      "factor_state": 0,
+      "table_factor": 8,
+      "q8": 13538,
+      "fraction": 2028015120,
+      "selected_factor": 7,
+      "effective_raw": 13750000
+    },
+    {
+      "working_raw": 13750000,
+      "factor_state": 1,
+      "table_factor": 7,
+      "q8": 13538,
+      "fraction": 2028015120,
+      "selected_factor": 7,
+      "effective_raw": 13750000
+    },
+    {
+      "working_raw": 13750000,
+      "factor_state": 1,
+      "table_factor": 8,
+      "q8": 13538,
+      "fraction": 1774513230,
+      "selected_factor": 8,
+      "effective_raw": 13750000
+    }
+  ],
+  "correction_cases": [],
+  "register_groups": [],
+  "conclusion": "Current PAC coefficient outputs agree with C for tested contexts and frequency witness stores input after coefficient calculation; not an execution counter or RF lock proof.",
+  "dependencies": {
+    "tools/verify/verify_rf_frequency_native.py": "8b37d660631ca6b599bdce543702ee6b0e2faf2b294ae8f23a0621ca99ed6971",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2",
+    "work/rf-cache/current-rf-decoded.bin": "75318189d55ee76bc9d9478bcb8665cac36efe22e283db51d98c2a1f64122f04",
+    "inputs/reference-source/riscv-pulp-legacy/riscv-opc.h": "a59863045368157ee3184c42ca990210267218c4ce706228849e1112aa64a30d",
+    "inputs/reference-source/riscv-pulp-legacy/source-manifest.json": "800681169766e38386979628cd083d2007733b4b39f989068b3b7fa9594d47fc",
+    "work/rf-frequency-native/replica.elf": "e5317d2f6d6df489d857550ffc045d595bf45c43dcf73e025feee0a25962859b",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_frequency.h": "dc0c15cc462a8a2322017a83f7f6f2db47583817e6d26631004e15ec54fb575e",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "f546e38732e83b7223274972a238a57f22ba888abcff4ddd5acb309d4f962f92",
+    "firmware/rf_rebuild/rf_core_tune_flow.h": "d850c5d0785a661ee2dbdf04d5482a50db8b15bfd22ce7237fe18d91a851ba25",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3",
+    "firmware/rf_rebuild/rf_core_tune_plan.h": "dedefd2b49823e2e84ee191a237db652bae0bfb05abc620f169afd79a7390eaf",
+    "tools/verify/rf_image.py": "34be385865e1836fec111ed47e1565e4e46a6ccd17f40ff302d61544bf5dad47",
+    "records/rf/reference-rf-pac-payload.json": "2c37e894cc9f918c0ff998e5f3092ddb5b7d140356ad3275d89aca32aaf4214e",
+    "outputs/firmware/current/manifest.json": "dcd6523afd494ecabea01e1b1af0d87956f4a46ae62e6ae4f309c02293b8a7d7",
+    "outputs/firmware/unrestricted-v32/Air724U_UIS8910_SDR_BW0_USB_v32.pac": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b",
+    "tools/verify/verify_rf_pac_payload.py": "018d8184190e9ff75ab5bc31d0065c7ad20d9e93da5ae4680bf7ea11bd08c6aa",
+    "tools/usb/pac.py": "c890401edb5063c0cc625001ae79aefcb98ec1cb20b12ca87032c46e67ffcdd2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/CSDK_RDA8910.elf": "a4e2e388549948b69a3059239656ee8daa171bc2b59f275bee79f00a32286886",
+    "inputs/repositories/rda8910-csdk-hotelec/tools/win32/lzmar.exe": "f2b46166f8de5dd5596da508c93e28e3b4a7ddf2ab77a5dbc089afb2ff0ebaad",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca"
+  }
+}

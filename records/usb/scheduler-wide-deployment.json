@@ -1,0 +1,101 @@
+{
+  "status": "passed_with_reported_loss",
+  "recorded_at": "2026-10-28T17:31:59.133601+08:00",
+  "user_confirmed_flashed": true,
+  "device_accessed": true,
+  "pac": "outputs/firmware/scheduler-wide-v27/Air724U_UIS8910_SDR_BW0_USB_v27.pac",
+  "generation": "0x526b0501",
+  "auto_wait_min_bw": 2,
+  "sessions": [
+    {
+      "record": "records/usb-raw-v1/scheduler-wide-auto-bw1-short.json",
+      "bandwidth": 1,
+      "duration_ms": 1500,
+      "epoch": 1,
+      "wait_us": 250,
+      "steady_Bps": null,
+      "host_cpu_s": 0.015625,
+      "byte_accounting": {
+        "device_completed_bytes": 23027712,
+        "host_consumed_bytes": 23003136,
+        "device_minus_host_bytes": 24576,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": true,
+        "shortfall_cause": "unknown"
+      }
+    },
+    {
+      "record": "records/usb-raw-v1/scheduler-wide-auto-bw2-short.json",
+      "bandwidth": 2,
+      "duration_ms": 3000,
+      "epoch": 2,
+      "wait_us": 100,
+      "steady_Bps": 30629415.385,
+      "host_cpu_s": 0.015625,
+      "byte_accounting": {
+        "device_completed_bytes": 91807744,
+        "host_consumed_bytes": 91750400,
+        "device_minus_host_bytes": 57344,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": true,
+        "shortfall_cause": "unknown"
+      }
+    },
+    {
+      "record": "records/usb-raw-v1/scheduler-wide-auto-bw3-short.json",
+      "bandwidth": 3,
+      "duration_ms": 3000,
+      "epoch": 3,
+      "wait_us": 100,
+      "steady_Bps": 31630706.383,
+      "host_cpu_s": 0.0625,
+      "byte_accounting": {
+        "device_completed_bytes": 95158272,
+        "host_consumed_bytes": 95158272,
+        "device_minus_host_bytes": 0,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": false,
+        "shortfall_cause": null
+      }
+    },
+    {
+      "record": "records/usb-raw-v1/scheduler-wide-auto-bw4-short.json",
+      "bandwidth": 4,
+      "duration_ms": 3000,
+      "epoch": 4,
+      "wait_us": 100,
+      "steady_Bps": 31652327.619,
+      "host_cpu_s": 0.09375,
+      "byte_accounting": {
+        "device_completed_bytes": 94724096,
+        "host_consumed_bytes": 94699520,
+        "device_minus_host_bytes": 24576,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": true,
+        "shortfall_cause": "unknown"
+      }
+    },
+    {
+      "record": "records/usb-raw-v1/scheduler-wide-auto-bw2-60s.json",
+      "bandwidth": 2,
+      "duration_ms": 60000,
+      "epoch": 5,
+      "wait_us": 100,
+      "steady_Bps": 30588506.333,
+      "host_cpu_s": 0.9375,
+      "byte_accounting": {
+        "device_completed_bytes": 1835286528,
+        "host_consumed_bytes": 1835270144,
+        "device_minus_host_bytes": 16384,
+        "lost_sample_positions_known": false,
+        "host_shortfall_observed": true,
+        "shortfall_cause": "unknown"
+      }
+    }
+  ],
+  "scratch_pairs_60s": 964,
+  "identity_evidence": "records/usb-raw-v1/scheduler-wide-identity-trace.json",
+  "device_cpu_measured": false,
+  "total_lost_samples_known": false,
+  "external_rf_tested": false
+}

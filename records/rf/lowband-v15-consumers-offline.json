@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "scope": "Soapy API capability contract without activateStream or serial/USB open",
+  "BW2_advertised": true,
+  "independent_bandwidth_rejected": true,
+  "recorded_at": "2026-10-27T13:09:56.063919+08:00",
+  "lowband_cases_hz": [
+    700000000,
+    800000000,
+    823999900
+  ],
+  "below_floor_rejected_hz": 699999900,
+  "sdrpp_candidate_scope": "build with real core FFT and shared route harness; no GUI or hardware test",
+  "dependencies": {
+    "outputs/host/soapy-lowband-v15/build.json": "1fb9a77c40db11a725441076ae7ad7ba6adb2c2428f99087a86d355962a1e37d",
+    "outputs/host/soapy-lowband-v15/soapy_receive_probe.exe": "d5a526cf09a0ea2b8d1d16ff1c199eab3e7919ed879ed83a32146182086194de",
+    "outputs/host/soapy-lowband-v15/uis8910Support.dll": "53a83c00e8a372b64c723d9790257c062974cae042f15a32f0f5535251a1142b",
+    "outputs/host/soapy-lowband-v15/sdr_usb.dll": "f5e5ad10fc176957f02582b9a2b6eb266bebbfcc6727cabd2800e6e0dd93f85b",
+    "tools/verify/soapy_hardware_probe.cpp": "aca1d3e5e76063943bbd60279c2dca69c4d735cf37317648b269a6e919a6ec61",
+    "work/soapy-lowband-v15/routes.hpp": "483db6dcbb6132fe2700bb6eecf9a37b520cf83bf5ecfb16114d7ec5cf72e71e",
+    "outputs/host/sdrpp-lowband-v15/build.json": "1ade53d2f25267aa124d33d1922346cd42a69f7731299ec418b05e2abc7492bf",
+    "work/sdrpp-lowband-v15/routes.hpp": "a7df88ba8af8e5cb3f172cc6ecd9d2f4893363016711672c98641ad9572c59dc"
+  }
+}

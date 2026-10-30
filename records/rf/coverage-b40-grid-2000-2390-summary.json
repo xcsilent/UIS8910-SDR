@@ -1,0 +1,21 @@
+{
+  "status": "measurement_completed",
+  "recorded_at": "2026-10-29T18:47:40.550693+08:00",
+  "route": 40,
+  "first_hz": 2000000000,
+  "last_hz": 2390000000,
+  "step_hz": 10000000,
+  "points": 40,
+  "verified_points": 40,
+  "rx_gain_index": 40,
+  "tx_gain_setting_db": 55,
+  "bandwidth_index": 0,
+  "dma_block_bytes": 8192,
+  "serial": "DEVICE_ID_REDACTED",
+  "tx_subdev": "A:A A:B",
+  "scope": "Complete TX-off/two-tone/100kHz retune reference at each grid point; grid gaps and chip limits remain unproven.",
+  "record": "records/rf-coverage-v1/b40-grid-2000-2390-step10-g55.json",
+  "dependencies": {
+    "records/rf-coverage-v1/b40-grid-2000-2390-step10-g55.json": "08c9c2a1bc825577403b6a31afc58956142cee020a1f6c28f868352bdd76560c"
+  }
+}

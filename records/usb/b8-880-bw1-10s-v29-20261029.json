@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-29T10:20:00+08:00",
+  "status": "passed_with_device_host_tail_difference",
+  "band": 8,
+  "frequency_hz": 880000000,
+  "bandwidth_index": 1,
+  "duration_ms": 10000,
+  "requests": 32,
+  "request_bytes": 65536,
+  "nominal_sample_rate_hz": 3840000,
+  "host_bytes": 153550848,
+  "device_completed_bytes": 153583616,
+  "device_minus_host_bytes": 32768,
+  "steady_device_bytes_per_second": 15359539.775,
+  "minimum_device_window_bytes_per_second": 15304145.455,
+  "maximum_device_window_bytes_per_second": 15400960.0,
+  "session_error": 0,
+  "control_error": 0,
+  "cleanup_error": 0,
+  "device_drained": true,
+  "lost_samples_known": false,
+  "scope": "Live BW1 sustained source/USB measurement; RF passband is not measured here."
+}

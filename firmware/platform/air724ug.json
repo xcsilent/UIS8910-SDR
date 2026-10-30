@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "version": "0.1.0",
+  "generation": "0x526f0501",
+  "identity": "uis8910-sdr-bw0-usb-v1",
+  "ap_mailbox": "0x80f24780",
+  "cp_agent_sha256": "072149a1cf5ed558e3ad2796ef42574b8c4bc8ec91fa922bb1acc02277d1e89a",
+  "base_pac": "outputs/firmware/v0.1/Air724UG_SDR_v0.1.pac",
+  "base_sha256": "a6a4930aca39ed38c524c09000cd12251fa3fe981eca63cb917461b42cb7527b",
+  "app_entry": "Air720U_V403028_CSDK_demo_debug_monitor.img",
+  "system_entry": "8915DM_cat1_CSDK.img",
+  "udc_functions": {
+    "prvDwcEpQueue": {
+      "address": "0x600c5681",
+      "prefix": "f8b50c46074616468df0beef237805465906f86d18d190f8"
+    },
+    "drvUsbEnable": {
+      "address": "0x600c0671",
+      "prefix": "38b5184b05461c6823784bbba06b39f051f865600125a369"
+    },
+    "copsGetCtrl": {
+      "address": "0x600c6807",
+      "prefix": "30b1d0f8483413b100f58960704718467047"
+    },
+    "copsAddFunction": {
+      "address": "0x600c6609",
+      "prefix": "70b50c46054648b141b390f83a300a2b06d1134a01211348"
+    },
+    "drvUsbDisable": {
+      "address": "0x600c06dd",
+      "prefix": "10b5094b1c68237863b1a06b39f01cf8002320462370fff7"
+    },
+    "copsAssignInterface": {
+      "address": "0x600c67b5",
+      "prefix": "10b5024698b1002300f14804184654f8043b4bb900f11203"
+    }
+  },
+  "usb_global": "0x809b6c70",
+  "api_sources": [
+    "api/src/iot_os.c",
+    "api/src/iot_debug.c",
+    "api/src/iot_gpio.c",
+    "api/src/iot_fs.c",
+    "api/src/iot_uart.c",
+    "api/src/iot_flash.c",
+    "api/src/iot_adc.c",
+    "api/src/iot_i2c.c",
+    "api/src/iot_pmd.c",
+    "api/src/iot_keypad.c",
+    "api/src/iot_network.c",
+    "api/src/iot_spi.c",
+    "api/src/iot_sys.c",
+    "api/src/iot_vat.c",
+    "api/src/iot_socket.c",
+    "api/src/iot_lcd.c",
+    "api/src/iot_zbar.c",
+    "api/src/iot_camera.c",
+    "api/src/iot_tts.c",
+    "api/src/iot_audio.c",
+    "api/src/iot_bluetooth.c",
+    "api/src/iot_pwm.c",
+    "components/ril/src/at_process.c",
+    "components/ril/src/at_tok.c",
+    "components/ril/src/ril_pal.c"
+  ],
+  "ril_sources": [
+    "components/ril/src/at_process.c",
+    "components/ril/src/at_tok.c",
+    "components/ril/src/ril_pal.c"
+  ],
+  "ap_sources": [
+    "firmware/debug_monitor/ap_monitor.c",
+    "firmware/debug_monitor/debug_hash.c",
+    "firmware/debug_monitor/ap_access.S",
+    "firmware/sdr_receiver/iq_usb_ring.c",
+    "firmware/sdr_receiver/iq_udc_adapter.c",
+    "firmware/sdr_receiver/raw_usb_function.c",
+    "firmware/sdr_receiver/cp_capture_bridge.c",
+    "firmware/sdr_receiver/cp_stream_mailbox.c",
+    "firmware/sdr_receiver/cp_usb_stream.c",
+    "firmware/sdr_receiver/cp_usb_stream_snapshot.c",
+    "firmware/sdr_receiver/cp_usb_8910.c",
+    "firmware/sdr_receiver/cp_usb_scheduler.c",
+    "firmware/sdr_receiver/usb_segment_profile.c",
+    "firmware/sdr_receiver/bw0_usb_service.c",
+    "firmware/capture/rxcapt_profile.c"
+  ]
+}

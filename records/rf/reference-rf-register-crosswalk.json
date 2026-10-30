@@ -1,0 +1,3665 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-29T13:42:09.505457+08:00",
+  "device_accessed": false,
+  "firmware_changed": false,
+  "upstream_commit": "d48d55e028c13b6f50c291cbb7ea29201c3c8432",
+  "scope": "Reference declarations, ARM C layout, source address mentions and existing trace coverage only; not MMIO access authorization, silicon compatibility or physical PLL proof.",
+  "counts": {
+    "crosswalk_entries": 129,
+    "named_reference_entries": 51,
+    "arm_bitfield_values_per_view": 172,
+    "address_views_compiled": 2
+  },
+  "reference_block_roles": {
+    "0x30000": "CTRL_1",
+    "0x31000": "CTRL_2",
+    "0x32000": "DFE",
+    "0x33000": "ET",
+    "0x34000": "RTC",
+    "0x35000": "SYS_CTRL",
+    "0x36000": "TIMER_1",
+    "0x37000": "TIMER_2",
+    "0x38000": "TIMER_3",
+    "0x39000": "UART",
+    "0x3a000": "WATCHDOG",
+    "0x3b000": "TSEN_ADC",
+    "0x3c000": "RFFE"
+  },
+  "registers": [
+    {
+      "rf_local": "0x10e8",
+      "cp_view": "0x500010e8",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x6118",
+      "cp_view": "0x50006118",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x611c",
+      "cp_view": "0x5000611c",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x7e18",
+      "cp_view": "0x50007e18",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x96e4",
+      "cp_view": "0x500096e4",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x96e6",
+      "cp_view": "0x500096e6",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x96e8",
+      "cp_view": "0x500096e8",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xa7fa",
+      "cp_view": "0x5000a7fa",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb464",
+      "cp_view": "0x5000b464",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb4e0",
+      "cp_view": "0x5000b4e0",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb526",
+      "cp_view": "0x5000b526",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb52a",
+      "cp_view": "0x5000b52a",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb534",
+      "cp_view": "0x5000b534",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb538",
+      "cp_view": "0x5000b538",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0xb53c",
+      "cp_view": "0x5000b53c",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_runtime_ram",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x30008",
+      "cp_view": "0x50030008",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_request.c",
+          "line": 58,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x30050",
+      "cp_view": "0x50030050",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_request.c",
+          "line": 57,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x30054",
+      "cp_view": "0x50030054",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_request.c",
+          "line": 57,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x30058",
+      "cp_view": "0x50030058",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_request.c",
+          "line": 58,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x302c0",
+      "cp_view": "0x500302c0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 72,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 73,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxsdm_reg1",
+      "fields": [
+        {
+          "name": "dll_mode_rxsdm",
+          "lsb": 0,
+          "width": 2,
+          "mask": "0x3"
+        },
+        {
+          "name": "clk_former_edge_rxsdm",
+          "lsb": 2,
+          "width": 1,
+          "mask": "0x4"
+        },
+        {
+          "name": "dither_bypass_rxsdm",
+          "lsb": 3,
+          "width": 1,
+          "mask": "0x8"
+        }
+      ],
+      "reference_gge_view": "0x50302c0",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x302c4",
+      "cp_view": "0x500302c4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 55,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 31,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxsdm_reg2",
+      "fields": [
+        {
+          "name": "freq_rxsdm0",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x50302c4",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x302c8",
+      "cp_view": "0x500302c8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 56,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 32,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxsdm_reg3",
+      "fields": [
+        {
+          "name": "freq_rxsdm1",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x50302c8",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x302cc",
+      "cp_view": "0x500302cc",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 35,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 30,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 27,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxsdm_reg4",
+      "fields": [
+        {
+          "name": "freq_former_bypass_rxsdm",
+          "lsb": 0,
+          "width": 1,
+          "mask": "0x1"
+        },
+        {
+          "name": "freq_former_shift_ct_rxsdm",
+          "lsb": 1,
+          "width": 3,
+          "mask": "0xe"
+        },
+        {
+          "name": "int_dec_sel_rxsdm",
+          "lsb": 4,
+          "width": 2,
+          "mask": "0x30"
+        },
+        {
+          "name": "resetn_rxsdm",
+          "lsb": 6,
+          "width": 1,
+          "mask": "0x40"
+        },
+        {
+          "name": "tx_rx_rxsdm",
+          "lsb": 7,
+          "width": 1,
+          "mask": "0x80"
+        }
+      ],
+      "reference_gge_view": "0x50302cc",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x302e0",
+      "cp_view": "0x500302e0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 15,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 16,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "txsdm_reg1",
+      "fields": [
+        {
+          "name": "dll_mode_txsdm",
+          "lsb": 0,
+          "width": 2,
+          "mask": "0x3"
+        },
+        {
+          "name": "clk_former_edge_txsdm",
+          "lsb": 2,
+          "width": 1,
+          "mask": "0x4"
+        },
+        {
+          "name": "dither_bypass_txsdm",
+          "lsb": 3,
+          "width": 1,
+          "mask": "0x8"
+        },
+        {
+          "name": "dll_update_txsdm",
+          "lsb": 4,
+          "width": 1,
+          "mask": "0x10"
+        }
+      ],
+      "reference_gge_view": "0x50302e0",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x302e4",
+      "cp_view": "0x500302e4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 77,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 35,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "txsdm_reg4",
+      "fields": [
+        {
+          "name": "freq_former_bypass_txsdm",
+          "lsb": 0,
+          "width": 1,
+          "mask": "0x1"
+        },
+        {
+          "name": "freq_former_shift_ct_txsdm",
+          "lsb": 1,
+          "width": 3,
+          "mask": "0xe"
+        },
+        {
+          "name": "int_dec_sel_txsdm",
+          "lsb": 4,
+          "width": 2,
+          "mask": "0x30"
+        },
+        {
+          "name": "resetn_txsdm",
+          "lsb": 6,
+          "width": 1,
+          "mask": "0x40"
+        },
+        {
+          "name": "tx_rx_txsdm",
+          "lsb": 7,
+          "width": 1,
+          "mask": "0x80"
+        }
+      ],
+      "reference_gge_view": "0x50302e4",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3030c",
+      "cp_view": "0x5003030c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 221,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 287,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll1_reg5",
+      "fields": [
+        {
+          "name": "pll_sdm_freq_rx1",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503030c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30310",
+      "cp_view": "0x50030310",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 222,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 288,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll1_reg6",
+      "fields": [
+        {
+          "name": "pll_sdm_freq_rx0",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030310",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30320",
+      "cp_view": "0x50030320",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 41,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll1_rega",
+      "fields": [
+        {
+          "name": "clk_gen_en_reg_rx",
+          "lsb": 0,
+          "width": 1,
+          "mask": "0x1"
+        },
+        {
+          "name": "pll_clkout_en_reg_rx",
+          "lsb": 1,
+          "width": 4,
+          "mask": "0x1e"
+        },
+        {
+          "name": "pll_clk_adc_dfe_en_reg_rx",
+          "lsb": 5,
+          "width": 1,
+          "mask": "0x20"
+        },
+        {
+          "name": "pll_clk_adc_en_reg_rx",
+          "lsb": 6,
+          "width": 1,
+          "mask": "0x40"
+        },
+        {
+          "name": "pll_clk_adc_sel_reg_rx",
+          "lsb": 7,
+          "width": 2,
+          "mask": "0x180"
+        },
+        {
+          "name": "sdmclk_sel_time_sel_rx",
+          "lsb": 12,
+          "width": 2,
+          "mask": "0x3000"
+        },
+        {
+          "name": "sdm_reset_time_sel_rx",
+          "lsb": 14,
+          "width": 2,
+          "mask": "0xc000"
+        }
+      ],
+      "reference_gge_view": "0x5030320",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30324",
+      "cp_view": "0x50030324",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll1_regb",
+      "fields": [
+        {
+          "name": "pll_lock_steady_rx",
+          "lsb": 10,
+          "width": 1,
+          "mask": "0x400"
+        },
+        {
+          "name": "pll_clk_ready_rx",
+          "lsb": 11,
+          "width": 1,
+          "mask": "0x800"
+        },
+        {
+          "name": "pll_sdm_clk_sel_rx",
+          "lsb": 12,
+          "width": 1,
+          "mask": "0x1000"
+        },
+        {
+          "name": "pll_sdm_resetn_rx",
+          "lsb": 13,
+          "width": 1,
+          "mask": "0x2000"
+        },
+        {
+          "name": "pll_lock_rx",
+          "lsb": 14,
+          "width": 1,
+          "mask": "0x4000"
+        },
+        {
+          "name": "pu_pll_rx",
+          "lsb": 15,
+          "width": 1,
+          "mask": "0x8000"
+        }
+      ],
+      "reference_gge_view": "0x5030324",
+      "reference_only_candidate": true
+    },
+    {
+      "rf_local": "0x3033c",
+      "cp_view": "0x5003033c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 219,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 285,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll2_reg5",
+      "fields": [
+        {
+          "name": "pll_sdm_freq_tx1",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503033c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30340",
+      "cp_view": "0x50030340",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 220,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 286,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll2_reg6",
+      "fields": [
+        {
+          "name": "pll_sdm_freq_tx0",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030340",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30350",
+      "cp_view": "0x50030350",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 12,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 13,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 17,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll2_rega",
+      "fields": [
+        {
+          "name": "clk_gen_en_reg_tx",
+          "lsb": 0,
+          "width": 1,
+          "mask": "0x1"
+        },
+        {
+          "name": "pll_clkout_en_reg_tx",
+          "lsb": 1,
+          "width": 4,
+          "mask": "0x1e"
+        },
+        {
+          "name": "pll_clk_adc_dfe_en_reg_tx",
+          "lsb": 5,
+          "width": 1,
+          "mask": "0x20"
+        },
+        {
+          "name": "pll_clk_adc_en_reg_tx",
+          "lsb": 6,
+          "width": 1,
+          "mask": "0x40"
+        },
+        {
+          "name": "pll_clk_adc_sel_reg_tx",
+          "lsb": 7,
+          "width": 2,
+          "mask": "0x180"
+        },
+        {
+          "name": "sdmclk_sel_time_sel_tx",
+          "lsb": 12,
+          "width": 2,
+          "mask": "0x3000"
+        },
+        {
+          "name": "sdm_reset_time_sel_tx",
+          "lsb": 14,
+          "width": 2,
+          "mask": "0xc000"
+        }
+      ],
+      "reference_gge_view": "0x5030350",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30354",
+      "cp_view": "0x50030354",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "bbpll2_regb",
+      "fields": [
+        {
+          "name": "pll_lock_steady_tx",
+          "lsb": 10,
+          "width": 1,
+          "mask": "0x400"
+        },
+        {
+          "name": "pll_clk_ready_tx",
+          "lsb": 11,
+          "width": 1,
+          "mask": "0x800"
+        },
+        {
+          "name": "pll_sdm_clk_sel_tx",
+          "lsb": 12,
+          "width": 1,
+          "mask": "0x1000"
+        },
+        {
+          "name": "pll_sdm_resetn_tx",
+          "lsb": 13,
+          "width": 1,
+          "mask": "0x2000"
+        },
+        {
+          "name": "pll_lock_tx",
+          "lsb": 14,
+          "width": 1,
+          "mask": "0x4000"
+        },
+        {
+          "name": "pu_pll_tx",
+          "lsb": 15,
+          "width": 1,
+          "mask": "0x8000"
+        }
+      ],
+      "reference_gge_view": "0x5030354",
+      "reference_only_candidate": true
+    },
+    {
+      "rf_local": "0x30360",
+      "cp_view": "0x50030360",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 54,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 30,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxpll_cal_reg1",
+      "fields": [
+        {
+          "name": "reg_90_bit0",
+          "lsb": 0,
+          "width": 8,
+          "mask": "0xff"
+        },
+        {
+          "name": "reg_90_bit1",
+          "lsb": 8,
+          "width": 8,
+          "mask": "0xff00"
+        }
+      ],
+      "reference_gge_view": "0x5030360",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30364",
+      "cp_view": "0x50030364",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 30,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 30,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 129,
+          "kind": "source_literal",
+          "space": "cp_view"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 26,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxpll_cal_reg2",
+      "fields": [
+        {
+          "name": "reg_91_bit6to0",
+          "lsb": 0,
+          "width": 7,
+          "mask": "0x7f"
+        },
+        {
+          "name": "reg_91_bit70",
+          "lsb": 7,
+          "width": 1,
+          "mask": "0x80"
+        },
+        {
+          "name": "reg_91_bit15to8",
+          "lsb": 8,
+          "width": 8,
+          "mask": "0xff00"
+        }
+      ],
+      "reference_gge_view": "0x5030364",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3036c",
+      "cp_view": "0x5003036c",
+      "uses": [],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "rxpll_cal_reg4",
+      "fields": [
+        {
+          "name": "rxpll_vco_bits",
+          "lsb": 0,
+          "width": 11,
+          "mask": "0x7ff"
+        },
+        {
+          "name": "rxpll_cal_ready",
+          "lsb": 11,
+          "width": 1,
+          "mask": "0x800"
+        },
+        {
+          "name": "rxpll_cnt_enable",
+          "lsb": 12,
+          "width": 1,
+          "mask": "0x1000"
+        },
+        {
+          "name": "rxpll_cal_enable",
+          "lsb": 13,
+          "width": 1,
+          "mask": "0x2000"
+        }
+      ],
+      "reference_gge_view": "0x503036c",
+      "reference_only_candidate": true
+    },
+    {
+      "rf_local": "0x30370",
+      "cp_view": "0x50030370",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 38,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "txpll_cal_reg1",
+      "fields": [
+        {
+          "name": "reg_98_bit0",
+          "lsb": 0,
+          "width": 8,
+          "mask": "0xff"
+        },
+        {
+          "name": "reg_98_bit1",
+          "lsb": 8,
+          "width": 8,
+          "mask": "0xff00"
+        }
+      ],
+      "reference_gge_view": "0x5030370",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30374",
+      "cp_view": "0x50030374",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 54,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 131,
+          "kind": "source_literal",
+          "space": "cp_view"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 34,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "txpll_cal_reg2",
+      "fields": [
+        {
+          "name": "reg_99_bit6to0",
+          "lsb": 0,
+          "width": 7,
+          "mask": "0x7f"
+        },
+        {
+          "name": "reg_99_bit70",
+          "lsb": 7,
+          "width": 1,
+          "mask": "0x80"
+        },
+        {
+          "name": "reg_99_bit15to8",
+          "lsb": 8,
+          "width": 8,
+          "mask": "0xff00"
+        }
+      ],
+      "reference_gge_view": "0x5030374",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3037c",
+      "cp_view": "0x5003037c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 48,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 274,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "txpll_cal_reg4",
+      "fields": [
+        {
+          "name": "txpll_vco_bits",
+          "lsb": 0,
+          "width": 11,
+          "mask": "0x7ff"
+        },
+        {
+          "name": "txpll_cal_ready",
+          "lsb": 11,
+          "width": 1,
+          "mask": "0x800"
+        },
+        {
+          "name": "txpll_cnt_enable",
+          "lsb": 12,
+          "width": 1,
+          "mask": "0x1000"
+        },
+        {
+          "name": "txpll_cal_enable",
+          "lsb": 13,
+          "width": 1,
+          "mask": "0x2000"
+        }
+      ],
+      "reference_gge_view": "0x503037c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30400",
+      "cp_view": "0x50030400",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 52,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 37,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 29,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg0",
+      "fields": [
+        {
+          "name": "reg_100_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030400",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30404",
+      "cp_view": "0x50030404",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 53,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 40,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 29,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg1",
+      "fields": [
+        {
+          "name": "reg_101_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030404",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30408",
+      "cp_view": "0x50030408",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 30,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 75,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg2",
+      "fields": [
+        {
+          "name": "reg_102_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030408",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3040c",
+      "cp_view": "0x5003040c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 17,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 79,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg3",
+      "fields": [
+        {
+          "name": "reg_103_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503040c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30410",
+      "cp_view": "0x50030410",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 13,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 14,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 70,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 71,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg4",
+      "fields": [
+        {
+          "name": "reg_104_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030410",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30414",
+      "cp_view": "0x50030414",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 34,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 37,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 76,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 79,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 29,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 84,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg5",
+      "fields": [
+        {
+          "name": "reg_105_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030414",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30418",
+      "cp_view": "0x50030418",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 77,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg6",
+      "fields": [
+        {
+          "name": "reg_106_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030418",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3041c",
+      "cp_view": "0x5003041c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 74,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg7",
+      "fields": [
+        {
+          "name": "reg_107_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503041c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30420",
+      "cp_view": "0x50030420",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 74,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg8",
+      "fields": [
+        {
+          "name": "reg_108_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030420",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30424",
+      "cp_view": "0x50030424",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 75,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg9",
+      "fields": [
+        {
+          "name": "reg_109_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030424",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3042c",
+      "cp_view": "0x5003042c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 18,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_regb",
+      "fields": [
+        {
+          "name": "reg_10b_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503042c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30430",
+      "cp_view": "0x50030430",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 27,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_regc",
+      "fields": [
+        {
+          "name": "reg_10c_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030430",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30434",
+      "cp_view": "0x50030434",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 19,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_regd",
+      "fields": [
+        {
+          "name": "reg_10d_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030434",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30438",
+      "cp_view": "0x50030438",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 19,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_rege",
+      "fields": [
+        {
+          "name": "reg_10e_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030438",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30448",
+      "cp_view": "0x50030448",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 13,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 292,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 43,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg12",
+      "fields": [
+        {
+          "name": "reg_112_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030448",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3044c",
+      "cp_view": "0x5003044c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 14,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 293,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg13",
+      "fields": [
+        {
+          "name": "reg_113_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503044c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30454",
+      "cp_view": "0x50030454",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 71,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 71,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 270,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 278,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg15",
+      "fields": [
+        {
+          "name": "reg_115_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030454",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30464",
+      "cp_view": "0x50030464",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 50,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 51,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg19",
+      "fields": [
+        {
+          "name": "reg_119_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030464",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30468",
+      "cp_view": "0x50030468",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 30,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 86,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg1a",
+      "fields": [
+        {
+          "name": "reg_11a_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030468",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3046c",
+      "cp_view": "0x5003046c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 33,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 35,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 12,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 14,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 18,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 21,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg1b",
+      "fields": [
+        {
+          "name": "reg_11b_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503046c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30474",
+      "cp_view": "0x50030474",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 18,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 298,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg1d",
+      "fields": [
+        {
+          "name": "reg_11d_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030474",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30478",
+      "cp_view": "0x50030478",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 33,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 36,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 12,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 14,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 19,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 22,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg1e",
+      "fields": [
+        {
+          "name": "reg_11e_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030478",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3047c",
+      "cp_view": "0x5003047c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 38,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 25,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg1f",
+      "fields": [
+        {
+          "name": "reg_11f_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503047c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30480",
+      "cp_view": "0x50030480",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 24,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 35,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 37,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 39,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        2
+      ],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg20",
+      "fields": [
+        {
+          "name": "reg_120_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030480",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x30498",
+      "cp_view": "0x50030498",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 32,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 74,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 52,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 38,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 33,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg26",
+      "fields": [
+        {
+          "name": "reg_126_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x5030498",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x3049c",
+      "cp_view": "0x5003049c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 20,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 20,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 80,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 82,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg27",
+      "fields": [
+        {
+          "name": "reg_127_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x503049c",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x304ac",
+      "cp_view": "0x500304ac",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 50,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg2b",
+      "fields": [
+        {
+          "name": "reg_12b_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x50304ac",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x304b4",
+      "cp_view": "0x500304b4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 31,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 34,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_b.c",
+          "line": 37,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 74,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 77,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 79,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 40,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 44,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 46,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 28,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 32,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 34,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg2d",
+      "fields": [
+        {
+          "name": "reg_12d_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x50304b4",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x304b8",
+      "cp_view": "0x500304b8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 40,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 44,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 46,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 28,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 32,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c",
+          "line": 34,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg2e",
+      "fields": [
+        {
+          "name": "reg_12e_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x50304b8",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x304c0",
+      "cp_view": "0x500304c0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 22,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c",
+          "line": 33,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_1",
+      "reference_name": "ana_ctrl_reg30",
+      "fields": [
+        {
+          "name": "reg_130_bit",
+          "lsb": 0,
+          "width": 16,
+          "mask": "0xffff"
+        }
+      ],
+      "reference_gge_view": "0x50304c0",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x31040",
+      "cp_view": "0x50031040",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 90,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 90,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 269,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 279,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 280,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "CTRL_2",
+      "reference_name": "dlpf_ctrl_reg",
+      "fields": [
+        {
+          "name": "dlpf_rstn",
+          "lsb": 0,
+          "width": 1,
+          "mask": "0x1"
+        },
+        {
+          "name": "dlpf_iir3_rstn",
+          "lsb": 1,
+          "width": 1,
+          "mask": "0x2"
+        },
+        {
+          "name": "dlpf_vco_band_bit_sel",
+          "lsb": 2,
+          "width": 1,
+          "mask": "0x4"
+        }
+      ],
+      "reference_gge_view": "0x5031040",
+      "reference_only_candidate": false
+    },
+    {
+      "rf_local": "0x32000",
+      "cp_view": "0x50032000",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "line": 67,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "line": 78,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "line": 92,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32004",
+      "cp_view": "0x50032004",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "line": 64,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "line": 68,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "line": 79,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 134,
+          "kind": "source_literal",
+          "space": "cp_view"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 200,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 223,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 291,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32008",
+      "cp_view": "0x50032008",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 16,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 296,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3200c",
+      "cp_view": "0x5003200c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 20,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 299,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32010",
+      "cp_view": "0x50032010",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 22,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 300,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3201c",
+      "cp_view": "0x5003201c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 16,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 297,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32020",
+      "cp_view": "0x50032020",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 15,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 294,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 44,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32038",
+      "cp_view": "0x50032038",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3203c",
+      "cp_view": "0x5003203c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32040",
+      "cp_view": "0x50032040",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32044",
+      "cp_view": "0x50032044",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32048",
+      "cp_view": "0x50032048",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3204c",
+      "cp_view": "0x5003204c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32050",
+      "cp_view": "0x50032050",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32054",
+      "cp_view": "0x50032054",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32058",
+      "cp_view": "0x50032058",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32070",
+      "cp_view": "0x50032070",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32084",
+      "cp_view": "0x50032084",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3209c",
+      "cp_view": "0x5003209c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320a0",
+      "cp_view": "0x500320a0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320a4",
+      "cp_view": "0x500320a4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320a8",
+      "cp_view": "0x500320a8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320ac",
+      "cp_view": "0x500320ac",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320b0",
+      "cp_view": "0x500320b0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320b4",
+      "cp_view": "0x500320b4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320b8",
+      "cp_view": "0x500320b8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320bc",
+      "cp_view": "0x500320bc",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320c0",
+      "cp_view": "0x500320c0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320c4",
+      "cp_view": "0x500320c4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320c8",
+      "cp_view": "0x500320c8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320cc",
+      "cp_view": "0x500320cc",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320d0",
+      "cp_view": "0x500320d0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320d4",
+      "cp_view": "0x500320d4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320d8",
+      "cp_view": "0x500320d8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320dc",
+      "cp_view": "0x500320dc",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320e0",
+      "cp_view": "0x500320e0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320e4",
+      "cp_view": "0x500320e4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320e8",
+      "cp_view": "0x500320e8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320ec",
+      "cp_view": "0x500320ec",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320f0",
+      "cp_view": "0x500320f0",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320f4",
+      "cp_view": "0x500320f4",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320f8",
+      "cp_view": "0x500320f8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x320fc",
+      "cp_view": "0x500320fc",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 51,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32100",
+      "cp_view": "0x50032100",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 52,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32104",
+      "cp_view": "0x50032104",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32128",
+      "cp_view": "0x50032128",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 16,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 295,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32190",
+      "cp_view": "0x50032190",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32194",
+      "cp_view": "0x50032194",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32198",
+      "cp_view": "0x50032198",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3219c",
+      "cp_view": "0x5003219c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32228",
+      "cp_view": "0x50032228",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 39,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3222c",
+      "cp_view": "0x5003222c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_plan.c",
+          "line": 40,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32238",
+      "cp_view": "0x50032238",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_prepare.c",
+          "line": 12,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x325d8",
+      "cp_view": "0x500325d8",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_mode.c",
+          "kind": "expanded_mode_offset_table",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x32a00",
+      "cp_view": "0x50032a00",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 92,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": true,
+      "trace_abis": [
+        1,
+        2
+      ],
+      "kind": "rf_register",
+      "block": "DFE",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x38000",
+      "cp_view": "0x50038000",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 53,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 53,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 57,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 64,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 65,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 69,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 70,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_tune_flow.c",
+          "line": 275,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "TIMER_3",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x38004",
+      "cp_view": "0x50038004",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 54,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "TIMER_3",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x38008",
+      "cp_view": "0x50038008",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 57,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "TIMER_3",
+      "reference_name": null
+    },
+    {
+      "rf_local": "0x3800c",
+      "cp_view": "0x5003800c",
+      "uses": [
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 57,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 59,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 64,
+          "kind": "source_literal",
+          "space": "rf_local"
+        },
+        {
+          "source": "firmware/rf_rebuild/rf_core_rxon_finish.c",
+          "line": 69,
+          "kind": "source_literal",
+          "space": "rf_local"
+        }
+      ],
+      "trace_read": false,
+      "trace_abis": [],
+      "kind": "rf_register",
+      "block": "TIMER_3",
+      "reference_name": null
+    }
+  ],
+  "capture_recipe_rf_sources": [
+    "firmware/rf_rebuild/rfad_frame_time.c",
+    "firmware/rf_rebuild/rfad_off_immediate.c",
+    "firmware/rf_rebuild/rfad_rx_request.c",
+    "firmware/rf_rebuild/rfad_spi.c",
+    "firmware/rf_rebuild/rfad_stop.c"
+  ],
+  "native_b_prepare_fragment": {
+    "entry": "0x500a",
+    "stop": "0x5040",
+    "initial_registers": {
+      "s0": "0x30000",
+      "s4": "0x5000"
+    },
+    "context_source": "Preceding original instructions at4f7e/4f86; bounded block only, not full initializer.",
+    "modeled_extensions": [],
+    "hardware_tested": false,
+    "writes": [
+      {
+        "rf_local": "0x3041c",
+        "value": "0x11c0",
+        "bytes": 2,
+        "reference_name": "ana_ctrl_reg7"
+      },
+      {
+        "rf_local": "0x30420",
+        "value": "0x5861",
+        "bytes": 2,
+        "reference_name": "ana_ctrl_reg8"
+      },
+      {
+        "rf_local": "0x30424",
+        "value": "0x7208",
+        "bytes": 2,
+        "reference_name": "ana_ctrl_reg9"
+      },
+      {
+        "rf_local": "0x30408",
+        "value": "0x4845",
+        "bytes": 2,
+        "reference_name": "ana_ctrl_reg2"
+      }
+    ],
+    "conclusion": "B analog writes are not a simple RX/TX PLL-address substitution of A prepare."
+  },
+  "trace_coverage": {
+    "reads_per_stage": 32,
+    "reads_per_stage_by_abi": {
+      "1": 10,
+      "2": 32
+    },
+    "tx_cal_status_in_trace": true,
+    "rx_cal_status_in_trace": true,
+    "bbpll_lock_in_trace": true,
+    "warning": "ABI1 deployedv16 observes A/TX status only; ABI2 candidate adds B/RX, route and BBPLL states. Reference names and observations do not independently prove RF LO lock."
+  },
+  "limitations": [
+    "Generic reg_XXX_bit fields are not decoded analog semantics.",
+    "DFE32000..32fff is identified by the APB enum; this RF header has no member definitions for it.",
+    "Header REG32 slots do not override native 16-bit accesses.",
+    "GGE base is a reference build option, not proof of active device configuration.",
+    "Source mentions are not an exhaustive dynamic access trace."
+  ],
+  "dependencies": {
+    "tools/verify/verify_rf_register_reference.py": "fe2d8478d0a99c6a57dc1e010bc3956469b32d888d1e4df7c10299f5a8721993",
+    "inputs/reference-source/zw217-uix8910/source-manifest.json": "5b679b4f1841f8e81fcf3cf6476442f67acd748f2d7369bea706b0501371a2f5",
+    "inputs/reference-source/zw217-uix8910/chip_drv/chip_plf/uix8910/rf_registers.h": "7f8edf0a854f45f9253a474ac2ba21333cc426df1be92b0f724915ea67d14939",
+    "inputs/reference-source/zw217-uix8910/chip_drv/chip_plf/uix8910/cp_sysreg.h": "39d88cf937126eeb5e030d6ee26cc435565cdfd287abfb0ed3a67ea5ac0b8195",
+    "inputs/reference-source/zw217-uix8910/chip_drv/chip_plf/uix8910/globals.h": "0aa7e166dc823bc4b3b3eacdf4193a84f57f0d9b53bbddcbacc14d7a066f0c53",
+    "firmware/rf_rebuild/rf_core_frequency.c": "77eabe6254fc8b57950dc74e09990d15f39f470bb32c3344a80ced2ae926b7df",
+    "firmware/rf_rebuild/rf_core_mode.c": "788c1efc32bc3f095bd8fc2fc660eecc862d9ced004c7a5baf8828e9d4098162",
+    "firmware/rf_rebuild/rf_core_rxon_b.c": "64cc19df7f1d29c97d54ed0625fc71f9ee73119691801583ea1586539f506505",
+    "firmware/rf_rebuild/rf_core_rxon_finish.c": "073f49fa6d80fd1efc2754d3177df63127c725e780a07a1c7c2f0da90e497f63",
+    "firmware/rf_rebuild/rf_core_rxon_prepare.c": "35ef326352960932ce94cf6b2e5a9b47e524afda45e5edc3615b3aa3766cf1d7",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_mode.c": "11fa7a54d92772930559880ad854ae4e8099de51659cb55df64b89dce3aef867",
+    "firmware/rf_rebuild/rf_core_rxon_prepare_b_prefix.c": "87b56a256755bac0aed7a6d7a0da9562180ba6c4dad3da5adda4a452070818df",
+    "firmware/rf_rebuild/rf_core_rxon_request.c": "66e524549f88b8ab0060687ffda9f09c16b68826d2b7449901c583c744c1cdc1",
+    "firmware/rf_rebuild/rf_core_tune_flow.c": "f546e38732e83b7223274972a238a57f22ba888abcff4ddd5acb309d4f962f92",
+    "firmware/rf_rebuild/rf_core_tune_plan.c": "66fca20ed7c710d9d7786b140070527acc8628e0d61e23a096e9cbfb6bc002d3",
+    "firmware/capture/rxcapt_rf_status_trace.h": "9ab495c3a91ffb80fabb20ad31f37cfa0e6da91728019c5e3656bbbe3c0095d5",
+    "firmware/capture/build-recipe.json": "5f79da5b28c4c24421a077ca8f4f2d43f6b5b48e2c94b594032bf3029beee069",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/riscV.bin": "c4015ec9f506e27e2878b85451fa1bd86bf35f0e9d7e8b5918a60b94861666ca",
+    "tools/verify/verify_rf_frequency_native.py": "8b37d660631ca6b599bdce543702ee6b0e2faf2b294ae8f23a0621ca99ed6971",
+    "tools/verify/verify_rf_mode_native.py": "04815b58c5987d09274fab68be9beecc1c3c6e2fe69ce4b351ffc4a549a0b7a2"
+  }
+}

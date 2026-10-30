@@ -1,0 +1,809 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "scope": "DWARF register fields and actual BIN update/DAGC setter/clamp instructions; synthetic memory and MMIO",
+  "dwarf_source": "/home/USER/projects/uis8910dm_cp_v1.3_20a/soft/platform/chip/regs/8910M/include/cp_txrx.h",
+  "register_address": "0x25000038",
+  "fields": {
+    "RX_BITSEL": {
+      "lsb": 0,
+      "width": 5
+    },
+    "RX_PRE_CFG_reserved_2": {
+      "lsb": 5,
+      "width": 1
+    },
+    "FIR_EN": {
+      "lsb": 6,
+      "width": 1
+    },
+    "FREQ_EN": {
+      "lsb": 7,
+      "width": 1
+    },
+    "RX_BW_SEL": {
+      "lsb": 8,
+      "width": 3
+    },
+    "RX_PRE_CFG_reserved_1": {
+      "lsb": 11,
+      "width": 1
+    },
+    "RX_FREQ_FACTOR": {
+      "lsb": 12,
+      "width": 11
+    },
+    "RX_PRE_CFG_reserved_0": {
+      "lsb": 23,
+      "width": 9
+    }
+  },
+  "native_entries": {
+    "update": "0x80a5a4",
+    "dagc_setter": "0x80c8cc",
+    "dagc_clamp_slice": "0x80c8a6"
+  },
+  "native_dagc_context": "0x804fff20",
+  "updater_cases": [
+    {
+      "bandwidth_index": 0,
+      "context_matches": false,
+      "rx_pre_cfg": "0xdeadbeef",
+      "mmio_writes": 0
+    },
+    {
+      "bandwidth_index": 0,
+      "context_matches": true,
+      "rx_pre_cfg": "0x8",
+      "mmio_writes": 6
+    },
+    {
+      "bandwidth_index": 1,
+      "context_matches": false,
+      "rx_pre_cfg": "0xdeadbeef",
+      "mmio_writes": 0
+    },
+    {
+      "bandwidth_index": 1,
+      "context_matches": true,
+      "rx_pre_cfg": "0x108",
+      "mmio_writes": 6
+    },
+    {
+      "bandwidth_index": 2,
+      "context_matches": false,
+      "rx_pre_cfg": "0xdeadbeef",
+      "mmio_writes": 0
+    },
+    {
+      "bandwidth_index": 2,
+      "context_matches": true,
+      "rx_pre_cfg": "0x208",
+      "mmio_writes": 6
+    },
+    {
+      "bandwidth_index": 3,
+      "context_matches": false,
+      "rx_pre_cfg": "0xdeadbeef",
+      "mmio_writes": 0
+    },
+    {
+      "bandwidth_index": 3,
+      "context_matches": true,
+      "rx_pre_cfg": "0x308",
+      "mmio_writes": 6
+    },
+    {
+      "bandwidth_index": 4,
+      "context_matches": false,
+      "rx_pre_cfg": "0xdeadbeef",
+      "mmio_writes": 0
+    },
+    {
+      "bandwidth_index": 4,
+      "context_matches": true,
+      "rx_pre_cfg": "0x408",
+      "mmio_writes": 6
+    },
+    {
+      "bandwidth_index": 5,
+      "context_matches": false,
+      "rx_pre_cfg": "0xdeadbeef",
+      "mmio_writes": 0
+    },
+    {
+      "bandwidth_index": 5,
+      "context_matches": true,
+      "rx_pre_cfg": "0x508",
+      "mmio_writes": 6
+    }
+  ],
+  "setter_cases": 912,
+  "clamp_cases": [
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": -1,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": 0,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": 1,
+      "result": 1
+    },
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 0,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": -1,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": 0,
+      "result": 1
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": 1,
+      "result": 2
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 1,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": -1,
+      "result": 1
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": 0,
+      "result": 2
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": 1,
+      "result": 3
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 2,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": -1,
+      "result": 2
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": 0,
+      "result": 3
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": 1,
+      "result": 4
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 3,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": -1,
+      "result": 3
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": 0,
+      "result": 4
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": 1,
+      "result": 5
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 4,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": -1,
+      "result": 4
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": 0,
+      "result": 5
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": 1,
+      "result": 6
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 5,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": -1,
+      "result": 5
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": 0,
+      "result": 6
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": 1,
+      "result": 7
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 6,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": -1,
+      "result": 6
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": 0,
+      "result": 7
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": 1,
+      "result": 8
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 7,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": -1,
+      "result": 7
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": 0,
+      "result": 8
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": 1,
+      "result": 9
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 8,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": -1,
+      "result": 8
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": 0,
+      "result": 9
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": 1,
+      "result": 10
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 9,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": -1,
+      "result": 9
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": 0,
+      "result": 10
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": 1,
+      "result": 11
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 10,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": -1,
+      "result": 10
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": 0,
+      "result": 11
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": 1,
+      "result": 12
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 11,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": -1,
+      "result": 11
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": 0,
+      "result": 12
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": 1,
+      "result": 13
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 12,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": -1,
+      "result": 12
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": 0,
+      "result": 13
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": 1,
+      "result": 14
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 13,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": -1,
+      "result": 13
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": 0,
+      "result": 14
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": 1,
+      "result": 15
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 14,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": -1,
+      "result": 14
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": 0,
+      "result": 15
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": 1,
+      "result": 16
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 15,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": -1,
+      "result": 15
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": 0,
+      "result": 16
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": 1,
+      "result": 17
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 16,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": -1,
+      "result": 16
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": 0,
+      "result": 17
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": 1,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 17,
+      "measurement_delta": 100,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": -100,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": -19,
+      "result": 0
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": -1,
+      "result": 17
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": 0,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": 1,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": 19,
+      "result": 18
+    },
+    {
+      "previous_bitsel": 18,
+      "measurement_delta": 100,
+      "result": 18
+    }
+  ],
+  "current_direct_profile": {
+    "rx_bitsel": 8,
+    "fir_en": 0,
+    "freq_en": 0,
+    "rx_bw_sel": "requested BW index"
+  },
+  "conclusions": [
+    "RX_BITSEL is a five-bit value adjusted by native DAGC arithmetic and clamped0..18, not a declaration of stored sample width.",
+    "Native DAGC setter modifies only bits4:0 and preserves BW/FIR/FREQ/factor and reserved bits.",
+    "Current direct RX_PRE_CFG write leaves this register FIR_EN/FREQ_EN clear. A coefficient copy does not demonstrate this stage is enabled.",
+    "Separate RF-core mode/filter programming is retained in vendor initialization; this test does not identify the physical decimation or sample clock.",
+    "No new sample-rate, passband, ENOB or compact8-bit transfer capability is established."
+  ],
+  "dependencies": {
+    "tools/verify/verify_rx_pre_native.py": "0af9d2e29e2ca6edb0d453c611d460e9e88a8595c31481b98940d9a3952b1005",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.bin": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf": "0ab9571c93d72ad6669e70a7872cf5998c312256ddbe450b55d1cc4a860d17c2",
+    "firmware/rf_rebuild/rfad_raw_capture.c": "8963899a1b49243bfec5e066a20eca0e55059cf36422b02b1a4973cbb1503ba7"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "tests": [
+    "scratch activity blocks resident idle, post-stop abort clears it (physical stop not emulated)",
+    "actual ARM paired arm: first/second failure preserves reservation; no physical stop emulated",
+    "CP activity watchdog expires at5000frame units, accepted cursor progress renews beyond old200000 limit, RF frame wrap handled",
+    "actual CP mailbox op11 claims three slots and publishes ownership",
+    "same command sequence retains response without repeating claim",
+    "actual CP mailbox op12 releases completed prefix while retaining last slot",
+    "out-of-range release rejects without mutating ownership or command cursor",
+    "corrected next command drains remaining batch",
+    "skipped AP command sequence rejected",
+    "CONFIG rejected while RF is not stopped/drained",
+    "REARM rejected before stopped/drained proof without state or cursor mutation",
+    "stopped CONFIG changes B5 anchor and gain without starting RF",
+    "drained native REARM clears old private/exported epoch before ACK and retains command cursor",
+    "B40 anchor remains 38950 while raw 2 GHz is accepted; unrepresentable Hz rejected",
+    "B3 and B8 drained CONFIG/REARM preserve native channel/gain and reject unrepresentable centers",
+    "compiled first-launch gate checks B5/B40 envelopes independently, including endpoints and invalid anchors",
+    "compiled B3/B8 first-launch validation checks legacy table points and independent 100-Hz raw centers",
+    "B1/B38/B39/B41 CONFIG/REARM and first-launch gates use fixed anchors with independent raw centers and unrestricted centers",
+    "B7/B18/B19/B26 stopped CONFIG/REARM and first-launch bounds preserve explicit anchor and independent raw center",
+    "B34 CONFIG/REARM and first-launch checks preserve36275 anchor,100Hz center and unrestricted centers; NV guard checked separately",
+    "compiled BW capability bounds reject without config/cursor mutation; each accepted BW rearm retains selected bandwidth",
+    "control first-launch gate accepts exactly the compiled bandwidth capability and rejects the next mode",
+    "op14 all-or-nothing release/claim, READY release refusal retains cursor/state, duplicate response replay, release-only and empty exchange"
+  ],
+  "lossy_polling_stop_faults": [
+    {
+      "fault": "head",
+      "mailbox_renewals": 31250,
+      "stop_calls": 2,
+      "phase": "pinned",
+      "error": "0x302",
+      "scratch_ownership_retained": true
+    },
+    {
+      "fault": "data",
+      "mailbox_renewals": 31250,
+      "stop_calls": 2,
+      "phase": "pinned",
+      "error": "0x301",
+      "scratch_ownership_retained": true
+    },
+    {
+      "fault": "response_error",
+      "mailbox_renewals": 1,
+      "stop_calls": 2,
+      "phase": "pinned",
+      "error": "0x306",
+      "scratch_ownership_retained": true
+    },
+    {
+      "fault": "head_stops",
+      "mailbox_renewals": 31250,
+      "stop_calls": 2,
+      "released_channels": [
+        7,
+        8
+      ],
+      "abort_cleanup": 1,
+      "final_phase": "failed",
+      "fresh_metadata_initialized": true
+    },
+    {
+      "fault": "data_stops",
+      "mailbox_renewals": 31250,
+      "stop_calls": 2,
+      "released_channels": [
+        7,
+        8
+      ],
+      "abort_cleanup": 1,
+      "final_phase": "failed",
+      "fresh_metadata_initialized": true
+    },
+    {
+      "fault": "complete",
+      "mailbox_renewals": 2,
+      "stop_calls": 2,
+      "released_channels": [
+        7,
+        8
+      ],
+      "abort_cleanup": 0,
+      "final_phase": "held",
+      "fresh_metadata_initialized": true
+    },
+    {
+      "case": "publish_both",
+      "publications": 1,
+      "rearms": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "reservation_published_before_arm": true,
+      "scope": "linked loop; publication and DMA rearm stubbed, no cache/hardware timing proof"
+    },
+    {
+      "case": "publish_data_first",
+      "publications": 2,
+      "rearms": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "reservation_published_before_arm": true,
+      "scope": "linked loop; publication and DMA rearm stubbed, no cache/hardware timing proof"
+    },
+    {
+      "case": "publish_head_first",
+      "publications": 2,
+      "rearms": [
+        [
+          7,
+          1
+        ],
+        [
+          8,
+          1
+        ]
+      ],
+      "reservation_published_before_arm": true,
+      "scope": "linked loop; publication and DMA rearm stubbed, no cache/hardware timing proof"
+    },
+    {
+      "case": "publish_scratch",
+      "publications": 1,
+      "rearms": [
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "reservation_published_before_arm": true,
+      "scope": "linked loop; publication and DMA rearm stubbed, no cache/hardware timing proof"
+    }
+  ],
+  "memory_layout": {
+    "data_start": "0x80960000",
+    "data_end_exclusive": "0x8096e000",
+    "next_live_state": "0x8096e300",
+    "data_to_state_gap_bytes": 768,
+    "slots": 7,
+    "slot_bytes": 8192,
+    "resident_free_bytes": 812,
+    "conditional_ring_budget_ms": {
+      "0": 7.466666666666667,
+      "1": 3.7333333333333334,
+      "2": 1.8666666666666667,
+      "3": 0.9333333333333333,
+      "4": 0.4666666666666667,
+      "5": 0.4666666666666667
+    }
+  },
+  "elf": "work/build-v0.1/cp/resident.elf",
+  "elf_sha256": "7df42419ad001291bc77e2ffc6ae888db73c7d2ae2105e0258d79f84a24208a4",
+  "resident_sha256": "1abdaf14d0066a261dd5d318dee78a523fa0fd69daf634606bb4f08c5495990c",
+  "control_sha256": "bbb810346deda40cdcac4e51cc2c7c7c5c68158e8184a52eed3ed6a5e7fd84a6",
+  "new_ap_mailbox": "0x80f24780",
+  "new_generation": "0x526f0501",
+  "dependencies": {
+    "tools/verify/verify_cp_batch_arm.py": "21bedbe75f1463d2642a8f3cc3b69f24ce6797f0bf5b2603866dd4fea79eb951",
+    "tools/build_capture_bridge.py": "54b64830b5b58c0cca3bd44995a4753ea96bb1f15d1d25c8a81cdd8c50cc3839",
+    "firmware/capture/build-recipe.json": "5f79da5b28c4c24421a077ca8f4f2d43f6b5b48e2c94b594032bf3029beee069",
+    "firmware/capture/rxcapt_finite_abi.h": "a11f6c10f3a9905fb943df5c77f8ecb19a68e723394420a5b4e360d54cca7670",
+    "firmware/capture/rf_terminal_rx.c": "9cc1bfcb6e58615c334651b4f1576d51f3652e8677fb71344a1a0b2172e01666",
+    "firmware/capture/rf_terminal_service.c": "9f6bd33fffdd818c50f0ee3f0e4a29aa0958a9726336c83a8382dfe1d31ce38d",
+    "firmware/capture/rf_terminal_control.c": "4e24b3b7a36298c2079070442633ce5cfd9f181ef084b2dd7671b7c5704c16a1",
+    "firmware/capture/rxcapt_profile.h": "c9f4986a9924d6ec796573895f549956b6c801bff579a6981b1f9cbeacc6faf2",
+    "firmware/capture/rxcapt_profile.c": "d0e3abf11162258d6b180cfc5c85e96f78307df8cea9f0570ec93bc0e365d3af",
+    "firmware/capture/rxcapt_profile_nv.h": "bc460fa2b585a07edd223fb7e099393a400493811e3a1309f3d755a2e5cb1033",
+    "firmware/capture/rxcapt_ring_resident.c": "60c1cb2ab5c30664e950ca9068fbe64913f7c8316e8765a76cad9b00490a13a0",
+    "firmware/capture/rxcapt_stream_batch.c": "2d1ab08da9b430ec64505a55a853e2f0de137ef8ca79afe36e58382f6ee9e3bb",
+    "firmware/capture/rxcapt_stream_publish.c": "ff3064ff9a407319b4c7dfbff86f1b5f8a817750c4b01e559726ddb11d0a22b5",
+    "firmware/capture/rxcapt_rf_core_snapshot.h": "ba09d07bb430339295f9ada04a00a86c06bff0c7a889fcf12cee14c8a4ae0488",
+    "firmware/capture/rxcapt_rf_phase_log.h": "7b7db86b87f7d3c8b69d84dc449cdb5ed4ec1c1c145793bd041c8062050cfb8b",
+    "firmware/capture/rxcapt_lossy_pair.c": "f628b29367ac5786439900d1f1b4a1829acefe669e2a93223520d77ad40575d2",
+    "firmware/capture/rxcapt_lossy_pair.h": "209afa53277d117345e88ad489f6fb26e680c2f8fa7625d5ce9c17b1bd884ee8",
+    "firmware/capture/rxcapt_stream_idle.h": "d37af5a7b478cfe272fd24dfb1b7d43e30a2ef3ebbfe7f0db73db3c53a50185a",
+    "firmware/capture/rxcapt_fem_override.h": "68071d13ba1cc85e501c6b414fc12687a77e04c0c91ff42596912f87280e8f5e",
+    "firmware/rf_rebuild/rf_frontend_override.c": "3768ec9e6d979e347504227842e5c513a98b7b259c0fa737caa8faab0e6a8384",
+    "firmware/rf_rebuild/rf_frontend_override.h": "8eacad1170a27ebf1e2982643fa9717d45600115c619500e0460354615c40397",
+    "work/build-v0.1/cp/build.json": "83c94c4804366db3b4ff6ad1c82969dcea7fd687f7ca6a4c241a2e2db01bbeca",
+    "work/build-v0.1/cp/control.elf": "2429f7adaacfa4af9630deaa9154d1837c02fb089e58ae8834b6967f26d343ed"
+  },
+  "scope": "compiled CP mailbox/ring/export functions exercised in ARM emulator; cache/MMU hardware and RF/DMA not validated"
+}

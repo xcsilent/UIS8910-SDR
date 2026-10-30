@@ -1,0 +1,2 @@
+# Only third-party package needed for the relocatable Windows firmware build.
+pyelftools==0.33

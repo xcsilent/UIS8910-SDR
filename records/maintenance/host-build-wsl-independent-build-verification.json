@@ -1,0 +1,168 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-30T18:08:35.968434+08:00",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "host_components_promoted": false,
+  "independent_copy": "work/wsl host source check",
+  "environment": {
+    "wsl_distro": "Ubuntu-26.04",
+    "python": "3.14.4",
+    "cmake": "4.2.3",
+    "ninja": "1.13.2",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "windows_runtime_platform": "Windows-11-10.0.26300-SP0"
+  },
+  "bootstrap_scope": "First build extracted seven cached Ubuntu26.04 MinGW packages into independent copy; final build reused that prefix explicitly. No fresh apt system installation or remote GitHub CI run was performed.",
+  "original_work_or_sdk_required": false,
+  "source_copy_has_original_inputs_or_archive": false,
+  "first_bootstrap_command": [
+    "python3",
+    "-B",
+    "tools/build_host_components.py",
+    "--package-dir",
+    "C:/Projects/UIS8910-SDR/work/windows-toolchain/packages"
+  ],
+  "final_build_command": [
+    "python3",
+    "-B",
+    "tools/build_host_components.py",
+    "--toolchain-root",
+    "<copy>/work/windows-toolchain/root/usr",
+    "--output-dir",
+    "<copy>/outputs/host/verified-v0.1",
+    "--build-dir",
+    "<copy>/work/wsl-host-verified"
+  ],
+  "build_commands": [
+    {
+      "stage": "Prepare MinGW C/C++ toolchain (existing local tools, system tools, or apt cache)",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/tools/usb/prepare_host_toolchain.py",
+        "--toolchain-root",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr"
+      ]
+    },
+    {
+      "stage": "Build Windows receive DLL and CLI",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/tools/build_host.py",
+        "--output-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/outputs/host/verified-v0.1/windows",
+        "--unrestricted-frequency",
+        "--toolchain-root",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr"
+      ]
+    },
+    {
+      "stage": "Build timing CLI",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/tools/build_tune_benchmark.py",
+        "--host-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/outputs/host/verified-v0.1/windows",
+        "--output-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/outputs/host/verified-v0.1/tune",
+        "--toolchain-root",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr"
+      ]
+    },
+    {
+      "stage": "Build bundled SoapySDR0.8.1 for Windows",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/tools/usb/prepare_soapy_sdk.py",
+        "--area",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/wsl-host-verified/soapysdr",
+        "--jobs",
+        "3",
+        "--toolchain-root",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr"
+      ]
+    },
+    {
+      "stage": "Build UIS8910 Soapy module and offline queue probe",
+      "command": [
+        "/usr/bin/python3",
+        "-B",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/tools/build_soapy.py",
+        "--host-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/outputs/host/verified-v0.1/windows",
+        "--output-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/outputs/host/verified-v0.1/soapy",
+        "--build-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/wsl-host-verified/soapy-module",
+        "--sdk-dir",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/wsl-host-verified/soapysdr",
+        "--toolchain-root",
+        "C:/Projects/UIS8910-SDR/work/wsl host source check/work/windows-toolchain/root/usr"
+      ]
+    }
+  ],
+  "artifact_count": 12,
+  "windows_x64_pe_files": 10,
+  "windows_queue_and_soapy_api_status": "passed",
+  "cli_startup": [
+    {
+      "executable": "outputs/host/verified-v0.1/windows/sdr_receive.exe",
+      "arguments": [
+        "--help"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: sdr_receive [--list] [--port COMn --band N --frequency-hz N --gain-index N] [--milliseconds N] [--request-bytes N] [--requests N] [--raw-io] [--stdout-raw] [--output FILE] [--sync-file] [--file-queue-blocks N] [--stop-event NAME]\n",
+      "device_accessed": false
+    },
+    {
+      "executable": "outputs/host/verified-v0.1/tune/sdr_tune_benchmark.exe",
+      "arguments": [
+        "--help"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "Usage: sdr_tune_benchmark COMn band1 hz1 band2 hz2 BW rounds(1..8) [request-bytes]\n",
+      "device_accessed": false
+    }
+  ],
+  "current_source_dependencies_checked": {
+    "tools/build_host_components.py": "8dc5b53fb37b95b81275ed4b5e4891161a0d069cde89ee91bef7249a136e91fe",
+    "tools/sdr/host_toolchain.py": "1ed24c382658dd35a8a90c8f851c8898af539d68652aa5dcba9dfd07fbbc638f",
+    "tools/build_host.py": "34841ab8abab9e87f04ca704bf989732b640adc2cbefdd723ade720f8bc03fa6",
+    "tools/build_soapy.py": "053bf5084642302fbd365fd7175c9a68dea75fb6e9c772460b1e2eb1f3334f80",
+    "tools/build_tune_benchmark.py": "e25d3804ea85b57f344ab78d311e9dbaf8b1da0e52b44e2ed622ced5201f8420",
+    "tools/usb/prepare_host_toolchain.py": "d3c1b45d2f1690bb76d056058ad094b3ad0c3f05cc14bf31b81148aa3baf4d5e",
+    "tools/usb/prepare_soapy_sdk.py": "2cc0dd9ec24a2f4028a32b54807a6f125d55f4452b2ac041c96d329470ce81b6",
+    "build-support/host-manifest.json": "97db4a65b3dffcd59872b7ff8ae7cfd987d314279c4e92a9a62c2f48b38690f0",
+    "firmware/capture/rxcapt_profile.c": "d0e3abf11162258d6b180cfc5c85e96f78307df8cea9f0570ec93bc0e365d3af",
+    "host/windows/file_sink.c": "7069119c2b399707143ecc7b93e33235cf6e6bea08915a2f271bca7cd3e0a0c0",
+    "host/windows/file_sink.h": "8c4d031394a8da973b8b3b4674999e7523ec853f5eca87cfffdd8aadef72f281",
+    "host/windows/sdr_bandwidth.h": "3f27d97de5cd4399d50564d2b06c45b1249edce8aa7315a902b5a17836e64627",
+    "host/windows/sdr_control.c": "d5fbfd4a65da5491ae6c4f3f76f4bc61d90f0420a3227d78d44bed088182b831",
+    "host/windows/sdr_control.h": "e7884fc58fa0a7538faa297a8ff25d3bf5ff7873cce83c5b4eccc80a7186226d",
+    "host/windows/sdr_info.c": "1d1a187e58b8ce682ecc68b21ae9d5597fe8645f979c18d42041c7f001cee662",
+    "host/windows/sdr_receive.c": "8ab0172ddfa82cdf439e1c115bf05d69c49e9c73b0e3b517364f020da5ae578e",
+    "host/windows/sdr_session.c": "9821d7273f5252e1fb4b8d46909baca0e395ab9a3fa4901bf8fd53b9a4db1b3f",
+    "host/windows/sdr_session.h": "8fbec18bb35c6485c217d500926d0caaea04e30a697835647c85b1450c1344cf",
+    "host/windows/sdr_usb.c": "3c7a3ee4239ce0bc376ffd7d61061615fe51d875ac7ebf459ab86745b70a40e9",
+    "host/windows/sdr_usb.h": "5d935dd98a421a462dd7b291b5155eb926a359678edd3ff608af827537fac7ca",
+    "host/windows/tune_benchmark.c": "c1c8c8c673430b64dc7442678cf658b9ad12644920da1fbe399aa56cda4dedc1",
+    "host/common/rf_auto.h": "a345b68b76528b38c331e75f9448ee763c978bcc0bd66f7b5e788c32facf9cc8",
+    "firmware/capture/rxcapt_profile.h": "c9f4986a9924d6ec796573895f549956b6c801bff579a6981b1f9cbeacc6faf2",
+    "firmware/sdr_receiver/sample_rate.h": "5c8d2e37b2c895f1174c5236c2e0447fdab0b95a59c4a7331f03652ed10505c7",
+    "host/soapy/UIS8910.cpp": "c96596357e796b9e21bb86cdc3f7890bebd7f6f822dc3bf1ea61858495bf1f8a",
+    "host/soapy/RxQueue.hpp": "0cb6ef2f84a49fc2d4facf4493070e0b79ed3e9118614a3b3271ebc959a37545",
+    "host/common/RfAuto.hpp": "f730b94caaaa6c689d12f799f9a21885e82ef5255f11b8197debed772566703c",
+    "tools/verify/soapy_queue_harness.cpp": "2a1a5951fc7e56580c39d9fed9d9e09210fc86e1e05ba6a0e9fb35fcb3349bd4",
+    "tools/verify/soapy_hardware_probe.cpp": "4d16fc339eb7139a9e815b88f00239dcf5435536a809318bc20258626926be3d",
+    "tools/sdr/rf_catalog.py": "1e8c4580497fbf218c7b9a5c8bf154195b256cec9e9e57d3d68d694e84c492f3"
+  },
+  "installed_host_manifest_same_as_export": true,
+  "native_sdrpp_built": false,
+  "remote_ci_executed": false
+}

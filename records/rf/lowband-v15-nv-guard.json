@@ -1,0 +1,1154 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "hardware_tested": false,
+  "scope": "CP BIN rf_get_freq native route selection at low/mid/high for all27 initial rows with SDK NV, plus optional retained runtime layout; unsigned division helper stubbed, no physical RF proof",
+  "entry": "0x802d043a",
+  "entry_bytes": 744,
+  "entry_sha256": "d8157970fb52be43640db7e4d36610693b60a2908d6a98088c358db111f01c50",
+  "info_address": "0x804ed5ac",
+  "integer_division_calls": 419,
+  "sdk_nv_bands": [
+    1,
+    0,
+    3,
+    0,
+    5,
+    7,
+    8,
+    0,
+    0,
+    0,
+    0,
+    38,
+    39,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    40,
+    41
+  ],
+  "rows": [
+    {
+      "table_row": 0,
+      "raw_band_id": 1,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 0,
+          "raw_band_id": 1,
+          "nv_row": 0,
+          "selector": 0,
+          "frequency_raw": 21100000,
+          "rx_port": 0
+        },
+        {
+          "channel": 299,
+          "raw_band_id": 1,
+          "nv_row": 0,
+          "selector": 0,
+          "frequency_raw": 21399000,
+          "rx_port": 0
+        },
+        {
+          "channel": 599,
+          "raw_band_id": 1,
+          "nv_row": 0,
+          "selector": 0,
+          "frequency_raw": 21699000,
+          "rx_port": 0
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 1,
+      "raw_band_id": 2,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 600,
+          "raw_band_id": 2,
+          "nv_row": null,
+          "selector": 1,
+          "frequency_raw": 19300000,
+          "rx_port": null
+        },
+        {
+          "channel": 899,
+          "raw_band_id": 2,
+          "nv_row": null,
+          "selector": 1,
+          "frequency_raw": 19599000,
+          "rx_port": null
+        },
+        {
+          "channel": 1199,
+          "raw_band_id": 2,
+          "nv_row": null,
+          "selector": 1,
+          "frequency_raw": 19899000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 2,
+      "raw_band_id": 3,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 1200,
+          "raw_band_id": 3,
+          "nv_row": 2,
+          "selector": 2,
+          "frequency_raw": 18050000,
+          "rx_port": 1
+        },
+        {
+          "channel": 1574,
+          "raw_band_id": 3,
+          "nv_row": 2,
+          "selector": 2,
+          "frequency_raw": 18424000,
+          "rx_port": 1
+        },
+        {
+          "channel": 1949,
+          "raw_band_id": 3,
+          "nv_row": 2,
+          "selector": 2,
+          "frequency_raw": 18799000,
+          "rx_port": 1
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 3,
+      "raw_band_id": 4,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 1950,
+          "raw_band_id": 4,
+          "nv_row": null,
+          "selector": 3,
+          "frequency_raw": 21100000,
+          "rx_port": null
+        },
+        {
+          "channel": 2174,
+          "raw_band_id": 4,
+          "nv_row": null,
+          "selector": 3,
+          "frequency_raw": 21324000,
+          "rx_port": null
+        },
+        {
+          "channel": 2399,
+          "raw_band_id": 4,
+          "nv_row": null,
+          "selector": 3,
+          "frequency_raw": 21549000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 4,
+      "raw_band_id": 5,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 2400,
+          "raw_band_id": 5,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8690000,
+          "rx_port": 2
+        },
+        {
+          "channel": 2524,
+          "raw_band_id": 5,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8814000,
+          "rx_port": 2
+        },
+        {
+          "channel": 2649,
+          "raw_band_id": 5,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8939000,
+          "rx_port": 2
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 5,
+      "raw_band_id": 7,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 2750,
+          "raw_band_id": 7,
+          "nv_row": 5,
+          "selector": 5,
+          "frequency_raw": 26200000,
+          "rx_port": 0
+        },
+        {
+          "channel": 3099,
+          "raw_band_id": 7,
+          "nv_row": 5,
+          "selector": 5,
+          "frequency_raw": 26549000,
+          "rx_port": 0
+        },
+        {
+          "channel": 3449,
+          "raw_band_id": 7,
+          "nv_row": 5,
+          "selector": 5,
+          "frequency_raw": 26899000,
+          "rx_port": 0
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 6,
+      "raw_band_id": 8,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 3450,
+          "raw_band_id": 8,
+          "nv_row": 6,
+          "selector": 6,
+          "frequency_raw": 9250000,
+          "rx_port": 3
+        },
+        {
+          "channel": 3624,
+          "raw_band_id": 8,
+          "nv_row": 6,
+          "selector": 6,
+          "frequency_raw": 9424000,
+          "rx_port": 3
+        },
+        {
+          "channel": 3799,
+          "raw_band_id": 8,
+          "nv_row": 6,
+          "selector": 6,
+          "frequency_raw": 9599000,
+          "rx_port": 3
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 7,
+      "raw_band_id": 12,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 5010,
+          "raw_band_id": 12,
+          "nv_row": null,
+          "selector": 7,
+          "frequency_raw": 7290000,
+          "rx_port": null
+        },
+        {
+          "channel": 5094,
+          "raw_band_id": 12,
+          "nv_row": null,
+          "selector": 7,
+          "frequency_raw": 7374000,
+          "rx_port": null
+        },
+        {
+          "channel": 5179,
+          "raw_band_id": 12,
+          "nv_row": null,
+          "selector": 7,
+          "frequency_raw": 7459000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 8,
+      "raw_band_id": 13,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 5180,
+          "raw_band_id": 13,
+          "nv_row": null,
+          "selector": 8,
+          "frequency_raw": 7460000,
+          "rx_port": null
+        },
+        {
+          "channel": 5229,
+          "raw_band_id": 13,
+          "nv_row": null,
+          "selector": 8,
+          "frequency_raw": 7509000,
+          "rx_port": null
+        },
+        {
+          "channel": 5279,
+          "raw_band_id": 13,
+          "nv_row": null,
+          "selector": 8,
+          "frequency_raw": 7559000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 9,
+      "raw_band_id": 17,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 5730,
+          "raw_band_id": 17,
+          "nv_row": null,
+          "selector": 9,
+          "frequency_raw": 7340000,
+          "rx_port": null
+        },
+        {
+          "channel": 5789,
+          "raw_band_id": 17,
+          "nv_row": null,
+          "selector": 9,
+          "frequency_raw": 7399000,
+          "rx_port": null
+        },
+        {
+          "channel": 5849,
+          "raw_band_id": 17,
+          "nv_row": null,
+          "selector": 9,
+          "frequency_raw": 7459000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 10,
+      "raw_band_id": 20,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 6150,
+          "raw_band_id": 20,
+          "nv_row": null,
+          "selector": 10,
+          "frequency_raw": 7910000,
+          "rx_port": null
+        },
+        {
+          "channel": 6299,
+          "raw_band_id": 20,
+          "nv_row": null,
+          "selector": 10,
+          "frequency_raw": 8059000,
+          "rx_port": null
+        },
+        {
+          "channel": 6449,
+          "raw_band_id": 20,
+          "nv_row": null,
+          "selector": 10,
+          "frequency_raw": 8209000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 11,
+      "raw_band_id": 650,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 9210,
+          "raw_band_id": 650,
+          "nv_row": null,
+          "selector": 11,
+          "frequency_raw": 7580000,
+          "rx_port": null
+        },
+        {
+          "channel": 9322,
+          "raw_band_id": 650,
+          "nv_row": null,
+          "selector": 11,
+          "frequency_raw": 7692000,
+          "rx_port": null
+        },
+        {
+          "channel": 9435,
+          "raw_band_id": 650,
+          "nv_row": null,
+          "selector": 11,
+          "frequency_raw": 7805000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 12,
+      "raw_band_id": 651,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 9436,
+          "raw_band_id": 651,
+          "nv_row": null,
+          "selector": 12,
+          "frequency_raw": 7806000,
+          "rx_port": null
+        },
+        {
+          "channel": 9547,
+          "raw_band_id": 651,
+          "nv_row": null,
+          "selector": 12,
+          "frequency_raw": 7917000,
+          "rx_port": null
+        },
+        {
+          "channel": 9659,
+          "raw_band_id": 651,
+          "nv_row": null,
+          "selector": 12,
+          "frequency_raw": 8029000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 13,
+      "raw_band_id": 38,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 37750,
+          "raw_band_id": 38,
+          "nv_row": 11,
+          "selector": 13,
+          "frequency_raw": 25700000,
+          "rx_port": 0
+        },
+        {
+          "channel": 37999,
+          "raw_band_id": 38,
+          "nv_row": 11,
+          "selector": 13,
+          "frequency_raw": 25949000,
+          "rx_port": 0
+        },
+        {
+          "channel": 38249,
+          "raw_band_id": 38,
+          "nv_row": 11,
+          "selector": 13,
+          "frequency_raw": 26199000,
+          "rx_port": 0
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 14,
+      "raw_band_id": 39,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 38250,
+          "raw_band_id": 39,
+          "nv_row": 12,
+          "selector": 14,
+          "frequency_raw": 18800000,
+          "rx_port": 1
+        },
+        {
+          "channel": 38449,
+          "raw_band_id": 39,
+          "nv_row": 12,
+          "selector": 14,
+          "frequency_raw": 18999000,
+          "rx_port": 1
+        },
+        {
+          "channel": 38649,
+          "raw_band_id": 39,
+          "nv_row": 12,
+          "selector": 14,
+          "frequency_raw": 19199000,
+          "rx_port": 1
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 15,
+      "raw_band_id": 18,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 5850,
+          "raw_band_id": 18,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8600000,
+          "rx_port": 2
+        },
+        {
+          "channel": 5924,
+          "raw_band_id": 18,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8674000,
+          "rx_port": 2
+        },
+        {
+          "channel": 5999,
+          "raw_band_id": 18,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8749000,
+          "rx_port": 2
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 16,
+      "raw_band_id": 45,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 46590,
+          "raw_band_id": 45,
+          "nv_row": null,
+          "selector": 18,
+          "frequency_raw": 14470000,
+          "rx_port": null
+        },
+        {
+          "channel": 46689,
+          "raw_band_id": 45,
+          "nv_row": null,
+          "selector": 18,
+          "frequency_raw": 14569000,
+          "rx_port": null
+        },
+        {
+          "channel": 46789,
+          "raw_band_id": 45,
+          "nv_row": null,
+          "selector": 18,
+          "frequency_raw": 14669000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 17,
+      "raw_band_id": 59,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 54200,
+          "raw_band_id": 59,
+          "nv_row": null,
+          "selector": 19,
+          "frequency_raw": 17850000,
+          "rx_port": null
+        },
+        {
+          "channel": 54299,
+          "raw_band_id": 59,
+          "nv_row": null,
+          "selector": 19,
+          "frequency_raw": 17949000,
+          "rx_port": null
+        },
+        {
+          "channel": 54399,
+          "raw_band_id": 59,
+          "nv_row": null,
+          "selector": 19,
+          "frequency_raw": 18049000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 18,
+      "raw_band_id": 61,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 64536,
+          "raw_band_id": 61,
+          "nv_row": null,
+          "selector": 18,
+          "frequency_raw": 14470000,
+          "rx_port": null
+        },
+        {
+          "channel": 64635,
+          "raw_band_id": 61,
+          "nv_row": null,
+          "selector": 18,
+          "frequency_raw": 14569000,
+          "rx_port": null
+        },
+        {
+          "channel": 64735,
+          "raw_band_id": 61,
+          "nv_row": null,
+          "selector": 18,
+          "frequency_raw": 14669000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 19,
+      "raw_band_id": 62,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 64736,
+          "raw_band_id": 62,
+          "nv_row": null,
+          "selector": 19,
+          "frequency_raw": 17850000,
+          "rx_port": null
+        },
+        {
+          "channel": 64835,
+          "raw_band_id": 62,
+          "nv_row": null,
+          "selector": 19,
+          "frequency_raw": 17949000,
+          "rx_port": null
+        },
+        {
+          "channel": 64935,
+          "raw_band_id": 62,
+          "nv_row": null,
+          "selector": 19,
+          "frequency_raw": 18049000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 20,
+      "raw_band_id": 34,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 36200,
+          "raw_band_id": 34,
+          "nv_row": null,
+          "selector": 20,
+          "frequency_raw": 20100000,
+          "rx_port": null
+        },
+        {
+          "channel": 36274,
+          "raw_band_id": 34,
+          "nv_row": null,
+          "selector": 20,
+          "frequency_raw": 20174000,
+          "rx_port": null
+        },
+        {
+          "channel": 36349,
+          "raw_band_id": 34,
+          "nv_row": null,
+          "selector": 20,
+          "frequency_raw": 20249000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 21,
+      "raw_band_id": 66,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 60436,
+          "raw_band_id": 66,
+          "nv_row": null,
+          "selector": 17,
+          "frequency_raw": 21100000,
+          "rx_port": null
+        },
+        {
+          "channel": 60785,
+          "raw_band_id": 66,
+          "nv_row": null,
+          "selector": 17,
+          "frequency_raw": 21449000,
+          "rx_port": null
+        },
+        {
+          "channel": 61135,
+          "raw_band_id": 66,
+          "nv_row": null,
+          "selector": 17,
+          "frequency_raw": 21799000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 22,
+      "raw_band_id": 40,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 38650,
+          "raw_band_id": 40,
+          "nv_row": 22,
+          "selector": 15,
+          "frequency_raw": 23000000,
+          "rx_port": 0
+        },
+        {
+          "channel": 39149,
+          "raw_band_id": 40,
+          "nv_row": 22,
+          "selector": 15,
+          "frequency_raw": 23499000,
+          "rx_port": 0
+        },
+        {
+          "channel": 39649,
+          "raw_band_id": 40,
+          "nv_row": 22,
+          "selector": 15,
+          "frequency_raw": 23999000,
+          "rx_port": 0
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 23,
+      "raw_band_id": 41,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 39650,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 24960000,
+          "rx_port": 0
+        },
+        {
+          "channel": 40619,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 25929000,
+          "rx_port": 0
+        },
+        {
+          "channel": 41589,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 26899000,
+          "rx_port": 0
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 24,
+      "raw_band_id": 19,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 6000,
+          "raw_band_id": 19,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8750000,
+          "rx_port": 2
+        },
+        {
+          "channel": 6074,
+          "raw_band_id": 19,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8824000,
+          "rx_port": 2
+        },
+        {
+          "channel": 6149,
+          "raw_band_id": 19,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8899000,
+          "rx_port": 2
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 25,
+      "raw_band_id": 25,
+      "sdk_nv_match": false,
+      "observations": [
+        {
+          "channel": 8040,
+          "raw_band_id": 25,
+          "nv_row": null,
+          "selector": 1,
+          "frequency_raw": 19300000,
+          "rx_port": null
+        },
+        {
+          "channel": 8364,
+          "raw_band_id": 25,
+          "nv_row": null,
+          "selector": 1,
+          "frequency_raw": 19624000,
+          "rx_port": null
+        },
+        {
+          "channel": 8689,
+          "raw_band_id": 25,
+          "nv_row": null,
+          "selector": 1,
+          "frequency_raw": 19949000,
+          "rx_port": null
+        }
+      ],
+      "proves_board_support": false
+    },
+    {
+      "table_row": 26,
+      "raw_band_id": 26,
+      "sdk_nv_match": true,
+      "observations": [
+        {
+          "channel": 8690,
+          "raw_band_id": 26,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8590000,
+          "rx_port": 2
+        },
+        {
+          "channel": 8864,
+          "raw_band_id": 26,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8764000,
+          "rx_port": 2
+        },
+        {
+          "channel": 9039,
+          "raw_band_id": 26,
+          "nv_row": 4,
+          "selector": 4,
+          "frequency_raw": 8939000,
+          "rx_port": 2
+        }
+      ],
+      "proves_board_support": false
+    }
+  ],
+  "b34_missing_nv_keeps_previous_row": [
+    {
+      "previous_nv_row": 4,
+      "raw_band_id": 34,
+      "nv_row": 4,
+      "selector": 20,
+      "frequency_raw": 20175000,
+      "rx_port": 2
+    },
+    {
+      "previous_nv_row": 22,
+      "raw_band_id": 34,
+      "nv_row": 22,
+      "selector": 20,
+      "frequency_raw": 20175000,
+      "rx_port": 0
+    }
+  ],
+  "compiled_anchors_match_native": [
+    {
+      "channel": 300,
+      "raw_band_id": 1,
+      "nv_row": 0,
+      "selector": 0,
+      "frequency_raw": 21400000,
+      "rx_port": 0
+    },
+    {
+      "channel": 38000,
+      "raw_band_id": 38,
+      "nv_row": 11,
+      "selector": 13,
+      "frequency_raw": 25950000,
+      "rx_port": 0
+    },
+    {
+      "channel": 38450,
+      "raw_band_id": 39,
+      "nv_row": 12,
+      "selector": 14,
+      "frequency_raw": 19000000,
+      "rx_port": 1
+    },
+    {
+      "channel": 38950,
+      "raw_band_id": 40,
+      "nv_row": 22,
+      "selector": 15,
+      "frequency_raw": 23300000,
+      "rx_port": 0
+    },
+    {
+      "channel": 40640,
+      "raw_band_id": 41,
+      "nv_row": 23,
+      "selector": 16,
+      "frequency_raw": 25950000,
+      "rx_port": 0
+    },
+    {
+      "channel": 3100,
+      "raw_band_id": 7,
+      "nv_row": 5,
+      "selector": 5,
+      "frequency_raw": 26550000,
+      "rx_port": 0
+    },
+    {
+      "channel": 5925,
+      "raw_band_id": 18,
+      "nv_row": 4,
+      "selector": 4,
+      "frequency_raw": 8675000,
+      "rx_port": 2
+    },
+    {
+      "channel": 6075,
+      "raw_band_id": 19,
+      "nv_row": 4,
+      "selector": 4,
+      "frequency_raw": 8825000,
+      "rx_port": 2
+    },
+    {
+      "channel": 8865,
+      "raw_band_id": 26,
+      "nv_row": 4,
+      "selector": 4,
+      "frequency_raw": 8765000,
+      "rx_port": 2
+    }
+  ],
+  "runtime_snapshot_checks": {
+    "snapshot": "records/rf-auto-v1/runtime-nv.json",
+    "b34": {
+      "raw_band_id": 34,
+      "nv_row": 13,
+      "selector": 20,
+      "frequency_raw": 20175000,
+      "rx_port": 1
+    },
+    "b34_compiled_anchor_available": true,
+    "b34_guard_returns_row_plus_one": 14,
+    "b7_guard_rejects": true,
+    "b7_native_retains_stale_row": {
+      "raw_band_id": 7,
+      "nv_row": 13,
+      "selector": 5,
+      "frequency_raw": 26550000,
+      "rx_port": 1
+    },
+    "physical_reception_verified": false
+  },
+  "compiled_guard": {
+    "resident": {
+      "path": "work/lowband-cp-v15/resident.bin",
+      "bytes": 14048,
+      "sha256": "50fbabd16f26977296ffc2940411f62331a239bfcac47ca38e61147bd7ae6126",
+      "crc32": "0x24d43851"
+    },
+    "elf": "work/lowband-cp-v15/resident.elf",
+    "entry": "0x8097b08d",
+    "all_initial_rows_match_native_nv_resolution": true,
+    "post_nv_b41_boundaries_checked": true,
+    "missing_and_moved_nv_checked": true
+  },
+  "band41_default_nv_flag": 120,
+  "band41_native_nv_table_updates": [
+    {
+      "flag": 100,
+      "channel_first": 40240,
+      "channel_last": 41240,
+      "first_center_hz": 2555000000,
+      "last_center_hz": 2655000000,
+      "observations": [
+        {
+          "channel": 40240,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 25550000,
+          "rx_port": 0
+        },
+        {
+          "channel": 40740,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 26050000,
+          "rx_port": 0
+        },
+        {
+          "channel": 41240,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 26550000,
+          "rx_port": 0
+        }
+      ]
+    },
+    {
+      "flag": 120,
+      "channel_first": 40040,
+      "channel_last": 41240,
+      "first_center_hz": 2535000000,
+      "last_center_hz": 2655000000,
+      "observations": [
+        {
+          "channel": 40040,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 25350000,
+          "rx_port": 0
+        },
+        {
+          "channel": 40640,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 25950000,
+          "rx_port": 0
+        },
+        {
+          "channel": 41240,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 26550000,
+          "rx_port": 0
+        }
+      ]
+    },
+    {
+      "flag": 140,
+      "channel_first": 40040,
+      "channel_last": 41440,
+      "first_center_hz": 2535000000,
+      "last_center_hz": 2675000000,
+      "observations": [
+        {
+          "channel": 40040,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 25350000,
+          "rx_port": 0
+        },
+        {
+          "channel": 40740,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 26050000,
+          "rx_port": 0
+        },
+        {
+          "channel": 41440,
+          "raw_band_id": 41,
+          "nv_row": 23,
+          "selector": 16,
+          "frequency_raw": 26750000,
+          "rx_port": 0
+        }
+      ]
+    }
+  ],
+  "table_update_interval": {
+    "start": "0x801d8ca6",
+    "end_exclusive": "0x801d8da2",
+    "sha256": "1c2d3039ec10562e771e7036d87b2ebddf034a437726ed8e2fc540188e796b5c"
+  },
+  "dependencies": {
+    "tools/verify/verify_rf_channel_routes.py": "a1758adf46ac4a3a7802d0288c74dbd8b79c3ea4da4d5ecb7ba1de99f395670c",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.bin": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/nvbin/rf_nv.bin": "20f303582a955d3a8549630ff01dee7629378ad55de9ca286108da13ee64dac2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf": "0ab9571c93d72ad6669e70a7872cf5998c312256ddbe450b55d1cc4a860d17c2",
+    "records/usb/rf-channel-inventory.json": "ea61352f6168a3945f30d6218aaa062156bd48aaa391f4d2d9d33b3f81a7f5f3",
+    "firmware/rf_rebuild/rfad_control.c": "98a2638144a90fff0688d1ad228585a05aa9adf246cd4de0744023cebe4bb772",
+    "firmware/capture/rxcapt_profile_nv.h": "bc460fa2b585a07edd223fb7e099393a400493811e3a1309f3d755a2e5cb1033",
+    "firmware/capture/rf_terminal_rx.c": "fde73517985f3d83d7620f6bef48b9714e3744d2945bdfe2031ff9c779d7f1ab",
+    "firmware/capture/rxcapt_profile.c": "b9b732cd6d36554db39ce3a8e50917d4ac7b58ccc65efd1737b7ddd6a230ed72",
+    "firmware/capture/rxcapt_profile.h": "3b20efd8d3b777eb92c77622e6904f4beb054aaef0c1ba0c5c7687fb709d8c7c",
+    "work/lowband-cp-v15/build.json": "a29102d8ef5064623afa3fd8d60ac1343c944ca4f60c2d878bed99e3995993c4",
+    "work/lowband-cp-v15/resident.bin": "50fbabd16f26977296ffc2940411f62331a239bfcac47ca38e61147bd7ae6126",
+    "work/lowband-cp-v15/resident.elf": "c913c10d9f4596bb6db2b1a4dd01e27f20b7d786cd10b9506309fee7c33a75ed",
+    "records/host/auto-runtime-nv.rfnv.bin": "dbde127f01ecacde4d86d733c5139365ba130d7df2d033e6110ce3b9a21abd6a",
+    "records/host/auto-runtime-nv.tables.bin": "fafd4741354129a594349972bf8891ae31fe44000e171df4acc707803ff154cc",
+    "records/rf-auto-v1/runtime-nv.json": "7dc87ef05d7433f9633b957d6a484d7fdc46faa5ae61693468bf403b8c62b566"
+  }
+}

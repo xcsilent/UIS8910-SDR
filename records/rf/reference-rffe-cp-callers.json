@@ -1,0 +1,705 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "sites": [
+    {
+      "caller": "rf_rxtx_stop",
+      "address": "0x801ed750",
+      "target": "0x802c3304",
+      "helper": "swoff"
+    },
+    {
+      "caller": "rf_rxtx_stop",
+      "address": "0x801ed7aa",
+      "target": "0x802c3304",
+      "helper": "swoff"
+    },
+    {
+      "caller": "rf_rxoff_tddcon",
+      "address": "0x801fa514",
+      "target": "0x802c3304",
+      "helper": "swoff"
+    },
+    {
+      "caller": "rf_rx_on_ltetdd",
+      "address": "0x80637e",
+      "target": "0x81b50c",
+      "helper": "swon"
+    },
+    {
+      "caller": "rf_rx_on_ltetdd",
+      "address": "0x80647a",
+      "target": "0x81b50c",
+      "helper": "swon"
+    },
+    {
+      "caller": "rf_rx_on_ltetdd",
+      "address": "0x806584",
+      "target": "0x81b50c",
+      "helper": "swon"
+    },
+    {
+      "caller": "rf_rx_on_ltefdd",
+      "address": "0x806824",
+      "target": "0x81b50c",
+      "helper": "swon"
+    },
+    {
+      "caller": "rf_rx_on_ltefdd",
+      "address": "0x806924",
+      "target": "0x81b50c",
+      "helper": "swon"
+    },
+    {
+      "caller": "rf_rx_off_ltetdd",
+      "address": "0x806afc",
+      "target": "0x81b4bc",
+      "helper": "swoff"
+    }
+  ],
+  "capture_dyload": {
+    "elf_entry": "0x801c8aa4",
+    "bin_entry": "0x801d8c70",
+    "elf_calls": [
+      {
+        "address": "0x801c8aa6",
+        "target": "0x801cb68c",
+        "symbol": "b_idle_init"
+      },
+      {
+        "address": "0x801c8aac",
+        "target": "0x802b3ec0",
+        "symbol": "rf_var_init"
+      },
+      {
+        "address": "0x801c8ab0",
+        "target": "0x802dfa6c",
+        "symbol": "b_rfad_init"
+      },
+      {
+        "address": "0x801c8ab8",
+        "target": "0x801cb714",
+        "symbol": "b_rfad_mem_init"
+      }
+    ],
+    "bin_targets": [
+      "#0x801db858",
+      "#0x802c3ec8",
+      "#0x802f0670",
+      "#0x801db8e0"
+    ],
+    "scope": "Static wrapper targets and ELF symbol correspondence only. Does not prove full callee effects, executable image reload, cache synchronization or runtime execution."
+  },
+  "scope": "Static calls and ARM-to-Thumb veneers only; no branch condition, runtime event delivery, RFFE transaction or hardware state proved.",
+  "event_entry_comparison": {
+    "elf_symbol": "rf_lte_event_req",
+    "elf_address": "0x802b0b6a",
+    "cp_bin_offset": "0x125720",
+    "assumed_linear_runtime_address": "0x802d0720",
+    "bytes": 632,
+    "equal_bytes": 587,
+    "changed_decoded_instructions": 31,
+    "changed_mnemonics": 0,
+    "examples": [
+      {
+        "offset": "0x14c",
+        "elf_target": "0x802b0882",
+        "elf_symbol": "rf_get_freq",
+        "cp_bin_target": "0x802d043a"
+      },
+      {
+        "offset": "0x196",
+        "elf_target": "0x802b07ea",
+        "elf_symbol": "rf_lte_get_semseg",
+        "cp_bin_target": "0x802d039a"
+      }
+    ],
+    "limitation": "High similarity is not byte identity or proof of deployed PAC contents/runtime mapping; differing instructions require separate analysis."
+  },
+  "bin_scatter": {
+    "record_offset": "0x2bc4dc",
+    "source": "0x804750bc",
+    "destination": "0x804000",
+    "length": "0x29724",
+    "mapped_calls": [
+      {
+        "elf_call": "0x80637e",
+        "caller": "rf_rx_on_ltetdd",
+        "helper": "swon",
+        "bin_runtime_call": "0x8063be",
+        "veneer": "0x81b598",
+        "helper_target": "0x8020306d"
+      },
+      {
+        "elf_call": "0x80647a",
+        "caller": "rf_rx_on_ltetdd",
+        "helper": "swon",
+        "bin_runtime_call": "0x8064ba",
+        "veneer": "0x81b598",
+        "helper_target": "0x8020306d"
+      },
+      {
+        "elf_call": "0x806584",
+        "caller": "rf_rx_on_ltetdd",
+        "helper": "swon",
+        "bin_runtime_call": "0x8065c4",
+        "veneer": "0x81b598",
+        "helper_target": "0x8020306d"
+      },
+      {
+        "elf_call": "0x806824",
+        "caller": "rf_rx_on_ltefdd",
+        "helper": "swon",
+        "bin_runtime_call": "0x806864",
+        "veneer": "0x81b598",
+        "helper_target": "0x8020306d"
+      },
+      {
+        "elf_call": "0x806924",
+        "caller": "rf_rx_on_ltefdd",
+        "helper": "swon",
+        "bin_runtime_call": "0x806964",
+        "veneer": "0x81b598",
+        "helper_target": "0x8020306d"
+      },
+      {
+        "elf_call": "0x806afc",
+        "caller": "rf_rx_off_ltetdd",
+        "helper": "swoff",
+        "bin_runtime_call": "0x806b3c",
+        "veneer": "0x81b548",
+        "helper_target": "0x802d3fcd"
+      }
+    ],
+    "scope": "CP BIN scatter and static instructions; runtime low-memory bytes and execution not checked."
+  },
+  "bin_helpers": {
+    "swon": "0x8020306c",
+    "swoff": "0x802d3fcc",
+    "selector_base": "0x804ed5ac",
+    "selector_offset": 6,
+    "command_pointer_offset": 44,
+    "open_base": "0x2c8000",
+    "close_base": "0x2c8001",
+    "scope": "Static BIN helper instructions; command-pointer validity, event execution and bus delivery not observed."
+  },
+  "native_helper_accesses": {
+    "cases": [
+      {
+        "selector": 0,
+        "operation": 0,
+        "command": "0x2c8000",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 0,
+        "operation": 1,
+        "command": "0x2c8001",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 4,
+        "operation": 0,
+        "command": "0x2c8040",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 4,
+        "operation": 1,
+        "command": "0x2c8041",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 6,
+        "operation": 0,
+        "command": "0x2c8060",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 6,
+        "operation": 1,
+        "command": "0x2c8061",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 15,
+        "operation": 0,
+        "command": "0x2c80f0",
+        "width": 4,
+        "slot_readback": false
+      },
+      {
+        "selector": 15,
+        "operation": 1,
+        "command": "0x2c80f1",
+        "width": 4,
+        "slot_readback": false
+      }
+    ],
+    "scope": "Native BIN helpers with synthetic RAM: exactly object pointer load, CP selector halfword load and command word store. No RAM2 readback; physical bus delivery/read semantics unproved."
+  },
+  "event_control": {
+    "native_cases": [
+      {
+        "entry": "0x80297604",
+        "enable": true,
+        "initial": "0x0",
+        "result": "0x40000000"
+      },
+      {
+        "entry": "0x80297604",
+        "enable": true,
+        "initial": "0x40000000",
+        "result": "0x40000000"
+      },
+      {
+        "entry": "0x80297604",
+        "enable": true,
+        "initial": "0x80001234",
+        "result": "0xc0001234"
+      },
+      {
+        "entry": "0x80297604",
+        "enable": true,
+        "initial": "0xffffffff",
+        "result": "0xffffffff"
+      },
+      {
+        "entry": "0x8029673a",
+        "enable": false,
+        "initial": "0x0",
+        "result": "0x0"
+      },
+      {
+        "entry": "0x8029673a",
+        "enable": false,
+        "initial": "0x40000000",
+        "result": "0x0"
+      },
+      {
+        "entry": "0x8029673a",
+        "enable": false,
+        "initial": "0x80001234",
+        "result": "0x80001234"
+      },
+      {
+        "entry": "0x8029673a",
+        "enable": false,
+        "initial": "0xffffffff",
+        "result": "0xbfffffff"
+      }
+    ],
+    "rxon_sequences": [
+      {
+        "entry": "0x806304",
+        "calls_in_address_order": [
+          {
+            "address": "0x8063aa",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x8063be",
+            "kind": "switch_command_store",
+            "target": "0x81b598"
+          },
+          {
+            "address": "0x806416",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x8064ae",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x8064ba",
+            "kind": "switch_command_store",
+            "target": "0x81b598"
+          },
+          {
+            "address": "0x806550",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x8065c4",
+            "kind": "switch_command_store",
+            "target": "0x81b598"
+          },
+          {
+            "address": "0x8065e4",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x80660e",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x806616",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x80661c",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          }
+        ],
+        "scope": "Address order across conditional branches; not a single executed path or a hardware timeline."
+      },
+      {
+        "entry": "0x8067ba",
+        "calls_in_address_order": [
+          {
+            "address": "0x806850",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x806864",
+            "kind": "switch_command_store",
+            "target": "0x81b598"
+          },
+          {
+            "address": "0x8068bc",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x806956",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x806964",
+            "kind": "switch_command_store",
+            "target": "0x81b598"
+          },
+          {
+            "address": "0x806a00",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x806a6c",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x806a8c",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          },
+          {
+            "address": "0x806aa4",
+            "kind": "event_bit30_clear",
+            "target": "0x81b620"
+          },
+          {
+            "address": "0x806ab2",
+            "kind": "event_bit30_set",
+            "target": "0x81b618"
+          }
+        ],
+        "scope": "Address order across conditional branches; not a single executed path or a hardware timeline."
+      }
+    ],
+    "first_normal_path": {
+      "event_index_enable_offset": "0x10",
+      "event_index_conditional_clear_offset": "0x0c",
+      "tdd_configuration": "0x804ee9fc",
+      "fdd_configuration": "0x804efd4c",
+      "tdd_event_bank_base": "0x25101000",
+      "switch_command_pointer_offset": "0x2c",
+      "scope": "Different configuration fields; their runtime index values could coincide. No common switch latch inferred."
+    },
+    "scope": "Native event helpers only toggle bit30 of synthetic event RAM. Static call order does not prove trigger timing, bank execution, or RFFE delivery."
+  },
+  "example_event_objects": {
+    "tdd": "0x804ee978",
+    "fdd": "0x804efcc8",
+    "scope": "Two conditional RXON branches only; not proof either was selected at runtime."
+  },
+  "additional_candidate_bases": {
+    "tdd_base": "0x804eda30",
+    "tdd_alternate": "0x804ee42c",
+    "fdd_alternate": "0x804ef2a8",
+    "scope": "Static literal pools, no claim that a candidate was selected or modified."
+  },
+  "rx_dispatch": {
+    "entry": "0x804c00",
+    "gate": "[sl+2] must be zero at 0x804ed8; earlier [r1+4] branch also applies",
+    "selector": "[r7+0x28] == 1 selects TDD 0x806304; otherwise FDD 0x8067ba",
+    "bin_literal_pool": "0x804ed5f8",
+    "bin_event_flag": "0x804ed566",
+    "bin_tddfdd_flag": "0x804ed5d4",
+    "prior_gate_address": "0x804ed738",
+    "prior_gate_required_value": 0,
+    "elf_event_flag": "g_lterx_event_flag",
+    "elf_tddfdd_field": "st_rf_lte_info.u16_tddfdd_flag",
+    "scope": "Static ELF symbol/DWARF and BIN literal correspondence; flag values at dispatch and runtime execution are not established."
+  },
+  "deferred_rx_dispatch": {
+    "agc_entry": "0x805250",
+    "pending_flag": "0x804ed73e",
+    "request_cases": [
+      {
+        "gate": 1,
+        "event_flag": 0,
+        "duplex": 0,
+        "target": "0x804e6c",
+        "pending": 1
+      },
+      {
+        "gate": 0,
+        "event_flag": 1,
+        "duplex": 0,
+        "target": "0x804e6c",
+        "pending": 0
+      },
+      {
+        "gate": 0,
+        "event_flag": 0,
+        "duplex": 0,
+        "target": "0x8067ba",
+        "pending": 0
+      },
+      {
+        "gate": 0,
+        "event_flag": 0,
+        "duplex": 1,
+        "target": "0x806304",
+        "pending": 0
+      }
+    ],
+    "agc_cases": [
+      {
+        "pending": 0,
+        "duplex": 0,
+        "target": "0x805376"
+      },
+      {
+        "pending": 1,
+        "duplex": 0,
+        "target": "0x8067ba"
+      },
+      {
+        "pending": 1,
+        "duplex": 1,
+        "target": "0x806304"
+      }
+    ],
+    "agc_prior_gate_cases": [
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 0,
+        "rxon_pending": 0,
+        "duplex": 0,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 0,
+        "rxon_pending": 0,
+        "duplex": 1,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 0,
+        "rxon_pending": 1,
+        "duplex": 0,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 0,
+        "rxon_pending": 1,
+        "duplex": 1,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 1,
+        "rxon_pending": 0,
+        "duplex": 0,
+        "target": "0x805376",
+        "mocked_rxoff_calls": [
+          "0x806c24"
+        ]
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 1,
+        "rxon_pending": 0,
+        "duplex": 1,
+        "target": "0x805376",
+        "mocked_rxoff_calls": [
+          "0x806ae8"
+        ]
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 1,
+        "rxon_pending": 1,
+        "duplex": 0,
+        "target": "0x8067ba",
+        "mocked_rxoff_calls": [
+          "0x806c24"
+        ]
+      },
+      {
+        "entry": "0x805382",
+        "rxoff_pending": 1,
+        "rxon_pending": 1,
+        "duplex": 1,
+        "target": "0x806304",
+        "mocked_rxoff_calls": [
+          "0x806ae8"
+        ]
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 0,
+        "rxon_pending": 0,
+        "duplex": 0,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 0,
+        "rxon_pending": 0,
+        "duplex": 1,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 0,
+        "rxon_pending": 1,
+        "duplex": 0,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 0,
+        "rxon_pending": 1,
+        "duplex": 1,
+        "target": "0x805376",
+        "mocked_rxoff_calls": []
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 1,
+        "rxon_pending": 0,
+        "duplex": 0,
+        "target": "0x805376",
+        "mocked_rxoff_calls": [
+          "0x806c24"
+        ]
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 1,
+        "rxon_pending": 0,
+        "duplex": 1,
+        "target": "0x805376",
+        "mocked_rxoff_calls": [
+          "0x806ae8"
+        ]
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 1,
+        "rxon_pending": 1,
+        "duplex": 0,
+        "target": "0x8067ba",
+        "mocked_rxoff_calls": [
+          "0x806c24"
+        ]
+      },
+      {
+        "entry": "0x8052a4",
+        "rxoff_pending": 1,
+        "rxon_pending": 1,
+        "duplex": 1,
+        "target": "0x806304",
+        "mocked_rxoff_calls": [
+          "0x806ae8"
+        ]
+      }
+    ],
+    "rxoff_pending_flag": "0x804ed73c",
+    "post_rxon_clear": [
+      "0x804ed73e",
+      "0x804ed566"
+    ],
+    "elf_rxon_calls": [
+      {
+        "caller": "rf_lte_rx_data_req",
+        "address": "0x804ee8",
+        "target": "0x80677a"
+      },
+      {
+        "caller": "rf_lte_rx_data_req",
+        "address": "0x804eee",
+        "target": "0x8062c4"
+      },
+      {
+        "caller": "rf_lte_agc_set",
+        "address": "0x8052d4",
+        "target": "0x8062c4"
+      },
+      {
+        "caller": "rf_lte_agc_set",
+        "address": "0x8052da",
+        "target": "0x80677a"
+      }
+    ],
+    "elf_agc_callers": [
+      {
+        "caller": "algo_lte_iddet_txrx_agc_cal",
+        "address": "0x8086b4"
+      },
+      {
+        "caller": "l1cc_lte_ncell_agc_cal",
+        "address": "0x80c514"
+      },
+      {
+        "caller": "l1cc_lte_datapro_ip_update",
+        "address": "0x811238"
+      },
+      {
+        "caller": "l1cc_lte_iddet_int_hisr",
+        "address": "0x81c950"
+      },
+      {
+        "caller": "l1cc_lte_txrx_int_hisr",
+        "address": "0x81ca60"
+      }
+    ],
+    "scope": "Actual BIN gate fragments executed with synthetic globals; stop before RXON. AGC caller and interrupt timing at runtime remain unproved. Zero immediate snapshots do not exclude later RXON."
+  },
+  "dependencies": {
+    "tools/verify/verify_rffe_cp_callers.py": "0cb8be1d644a9ee318be4fa9f6b37c9e433f4d08b8388dfbca5c363ff2cc8fbd",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.axf": "0ab9571c93d72ad6669e70a7872cf5998c312256ddbe450b55d1cc4a860d17c2",
+    "inputs/repositories/rda8910-csdk-hotelec/core/iot_SDK_720U_map/modemgen/cat1_UIS8915DM_BB_RF_SS_NoVolte_cus/cpbin/cp.bin": "bd25923aa2fd2cde32fafe59305b6655a79645ad7ff447b74f0ffd4286a020d1",
+    "inputs/repositories/rda8910-csdk-hotelec/prebuilts/win32/gcc-arm-none-eabi/bin/arm-none-eabi-objdump.exe": "d68c2d764dd2cca30d8c7de757049bb7ec3ba545342d03ebe1957511701e47d6"
+  }
+}

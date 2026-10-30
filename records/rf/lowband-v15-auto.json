@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "device_accessed": false,
+  "cases": 27,
+  "scope": "Actual Windows DLL resolver; identity/duplicate keys, advertised availability, gaps/grid, sticky overlaps, BW and continuous gates; runtime NV still checked by firmware CONFIG.",
+  "dependencies": {
+    "tools/verify/verify_rf_auto.py": "8999d4e4611a4f3d53093995338489c5965cec59fc3216aaf26af12218268bbc",
+    "outputs/host/lowband-v15/sdr_usb.dll": "f5e5ad10fc176957f02582b9a2b6eb266bebbfcc6727cabd2800e6e0dd93f85b",
+    "host/common/rf_auto.h": "35e969d155e56ce34690758cb681f3955413bbea80a23e9f3f67a964d4b33851",
+    "host/windows/sdr_info.c": "13b6acf5fd53fd633360468216e73be3cdfd007ae3fb9f17a76c36d2dcfb2e80",
+    "firmware/capture/rxcapt_profile.c": "b9b732cd6d36554db39ce3a8e50917d4ac7b58ccc65efd1737b7ddd6a230ed72",
+    "records/rf/mainline-resume-identity.json": "15e789e00b0c2486cd6e8c960656d0d28ea67345a0cccf57d5443c39f2514cdd"
+  }
+}

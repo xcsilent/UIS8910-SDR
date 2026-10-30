@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-30",
+  "raw_payloads_retained": false,
+  "decision": "User explicitly requested removal of original IQ and capture intermediates, retaining final conclusions only.",
+  "scope": "Capture .raw/.fc32/.cs16/.iq under work/ and records/. Frozen archives and firmware/build inputs are excluded.",
+  "audit": "records/maintenance/open-source-preparation-capture-cleanup.json",
+  "final_capabilities": "docs/data/sdr-capabilities.json",
+  "reanalysis": "Final tables can be regenerated from summaries. Original spectra and demodulation cannot be rerun without new acquisition.",
+  "historical_relocation_manifest": "records/retention/manifest.json",
+  "historical_manifest_is_live_inventory": false
+}
