@@ -12,6 +12,8 @@ This is a **receive-only research platform with measured limitations**. Parts of
 
 ![UIS8910-SDR demonstration](demo/uis8910-sdr-demo.gif)
 
+![UIS8910-SDR additional demonstration](demo/uis8910-sdr-demo-2.gif)
+
 ## What works
 
 - One RX channel; frequency, gain index and BW0–BW5 configuration.
