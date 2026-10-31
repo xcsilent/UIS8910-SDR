@@ -8,6 +8,10 @@ This research project exposes the pre-demodulation receive path of the UIS8910DM
 
 This is a **receive-only research platform with measured limitations**. Parts of the firmware depend on vendor binaries. The bundled Windows build inputs allow the AP/CP service and PAC to be rebuilt from a downloaded source copy; vendor CP/RF/boot/NV are preserved. Original code and documentation use **GPL-3.0-or-later**; third-party distribution conditions are tracked separately. See [build reproducibility](docs/building.md) and [license scope](LICENSE-STATUS.md).
 
+## Demo
+
+![UIS8910-SDR demonstration](demo/uis8910-sdr-demo.gif)
+
 ## What works
 
 - One RX channel; frequency, gain index and BW0–BW5 configuration.
